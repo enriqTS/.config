@@ -1,0 +1,247 @@
+[Info  - 13:48:05] AWS CloudFormation launched from /home/henrique/.cache/aws/toolkits/language-servers/cloudformation-languageserver/1.2.0/cloudformation-languageserver-1.2.0-linux-x64-node22
+[Info  - 13:48:05] AWS CloudFormation is now listening...
+[01:48:05 PM] INFO: [Init] AWS CloudFormation initializing...
+    ClientInfo: {
+      "name": "Cursor",
+      "version": "1.105.1"
+    }
+    NodeEnv: "production"
+    AwsEnv: "prod"
+    aws: {
+      "clientInfo": {
+        "extension": {
+          "name": "amazonwebservices.cloudformation",
+          "version": "1.0.0"
+        },
+        "clientId": "11111111-1111-1111-1111-111111111111"
+      },
+      "telemetryEnabled": false
+    }
+[01:48:05 PM] INFO: [Init] 
+    Machine: "Linux-linux-x64-x86_64-6.18.2-2-cachyos"
+    Process: "linux-x64"
+    Runtime: "node=22.19.0 v8=13.8.258.32-electron.0 uv=1.51.0 modules=136"
+[01:48:05 PM] INFO: [TelemetryService] Telemetry disabled
+[01:48:05 PM] INFO: [LMDB.Global] Initialized LMDB v5 with stores: ['public_schemas', 'sam_schemas'] and 11.9727 MB
+    path: "/home/henrique/.cache/aws/toolkits/language-servers/cloudformation-languageserver/1.2.0/cloudformation-languageserver-1.2.0-linux-x64-node22/.aws-cfn-storage/lmdb/v5"
+    maxDbs: 10
+    mapSize: 262144000
+    encoding: "msgpack"
+[01:48:05 PM] INFO: [AwsCredentials] AWS credentials encrypted
+[01:48:06 PM] INFO: [RuleConfiguration] Rule pack configuration updated
+[01:48:06 PM] INFO: [GuardService] Loading rules from 1 rule packs: cis-aws-benchmark-level-1
+[01:48:06 PM] INFO: [FeatureFlagProvider] Feature flags:
+DynamicFeatureFlag(StaticFeatureFlag(feature=Constants, enabled=false))
+DynamicTargetedFeatureFlag(StaticFeatureFlag(feature=EnhancedDryRun, enabled=true), LocalHostTargetedFeatureFlag(enabled=true, fleet=FleetTargetedFeatureFlag(feature=EnhancedDryRun, percentage=100)), StaticFeatureFlag(feature=EnhancedDryRun, enabled=true), RegionAllowlistFeatureFlag(feature=EnhancedDryRun, regions=[us-east-1, us-east-2, us-west-1, us-west-2, ca-central-1, ca-west-1, sa-east-1, eu-north-1, eu-west-1, eu-west-2, eu-west-3, eu-central-1, eu-central-2, eu-south-1, eu-south-2, ap-east-1, ap-south-1, ap-south-2, ap-northeast-1, ap-northeast-2, ap-northeast-3, ap-southeast-1, ap-southeast-2, ap-southeast-3, ap-southeast-4, me-south-1, me-central-1, af-south-1, il-central-1]))
+[01:48:06 PM] INFO: [CfnServer] Setting up LSP handlers...
+[01:48:06 PM] INFO: [GuardService] Loading rules from 1 rule packs: cis-aws-benchmark-level-1
+[01:48:06 PM] INFO: [Init] AWS CloudFormation initialized
+[01:48:06 PM] INFO: [GetPrivateSchemasTask] 0 private schemas retrieved
+[Info  - 13:48:06] Registered for configuration changes
+[Info  - 13:48:06] Registered for workspace changes
+[01:48:06 PM] INFO: [SettingsManager] Settings updated: {profile: {profile: 'rodosafra'}}
+[01:48:06 PM] INFO: [SettingsManager] Settings updated: {
+	diagnostics: {
+		cfnLint: {includeChecks: {'0': 'I'}},
+		cfnGuard: {
+			enabledRulePacks: {'0': 'wa-Security-Pillar'},
+			rulesFile: ''
+		}
+	},
+	editor: {tabSize: 4}
+}
+[01:48:06 PM] INFO: [RuleConfiguration] Rule pack configuration updated
+[01:48:06 PM] INFO: [GuardService] Loading rules from 1 rule packs: wa-Security-Pillar
+[01:48:06 PM] INFO: [PyodideWorkerManager] Loading worker from: /home/henrique/.cache/aws/toolkits/language-servers/cloudformation-languageserver/1.2.0/cloudformation-languageserver-1.2.0-linux-x64-node22/pyodide-worker.js
+[01:48:06 PM] INFO: [GetPrivateSchemasTask] 0 private schemas retrieved
+[01:48:06 PM] INFO: [GetPrivateSchemasTask] 0 private schemas retrieved
+[01:53:06 PM] INFO: [FeatureFlagProvider] Feature flags:
+DynamicFeatureFlag(StaticFeatureFlag(feature=Constants, enabled=false))
+DynamicTargetedFeatureFlag(StaticFeatureFlag(feature=EnhancedDryRun, enabled=true), LocalHostTargetedFeatureFlag(enabled=true, fleet=FleetTargetedFeatureFlag(feature=EnhancedDryRun, percentage=100)), StaticFeatureFlag(feature=EnhancedDryRun, enabled=true), RegionAllowlistFeatureFlag(feature=EnhancedDryRun, regions=[us-east-1, us-east-2, us-west-1, us-west-2, ca-central-1, ca-west-1, sa-east-1, eu-north-1, eu-west-1, eu-west-2, eu-west-3, eu-central-1, eu-central-2, eu-south-1, eu-south-2, ap-east-1, ap-south-1, ap-south-2, ap-northeast-1, ap-northeast-2, ap-northeast-3, ap-southeast-1, ap-southeast-2, ap-southeast-3, ap-southeast-4, me-south-1, me-central-1, af-south-1, il-central-1]))
+[01:58:06 PM] INFO: [FeatureFlagProvider] Feature flags:
+DynamicFeatureFlag(StaticFeatureFlag(feature=Constants, enabled=false))
+DynamicTargetedFeatureFlag(StaticFeatureFlag(feature=EnhancedDryRun, enabled=true), LocalHostTargetedFeatureFlag(enabled=true, fleet=FleetTargetedFeatureFlag(feature=EnhancedDryRun, percentage=100)), StaticFeatureFlag(feature=EnhancedDryRun, enabled=true), RegionAllowlistFeatureFlag(feature=EnhancedDryRun, regions=[us-east-1, us-east-2, us-west-1, us-west-2, ca-central-1, ca-west-1, sa-east-1, eu-north-1, eu-west-1, eu-west-2, eu-west-3, eu-central-1, eu-central-2, eu-south-1, eu-south-2, ap-east-1, ap-south-1, ap-south-2, ap-northeast-1, ap-northeast-2, ap-northeast-3, ap-southeast-1, ap-southeast-2, ap-southeast-3, ap-southeast-4, me-south-1, me-central-1, af-south-1, il-central-1]))
+[02:03:06 PM] INFO: [FeatureFlagProvider] Feature flags:
+DynamicFeatureFlag(StaticFeatureFlag(feature=Constants, enabled=false))
+DynamicTargetedFeatureFlag(StaticFeatureFlag(feature=EnhancedDryRun, enabled=true), LocalHostTargetedFeatureFlag(enabled=true, fleet=FleetTargetedFeatureFlag(feature=EnhancedDryRun, percentage=100)), StaticFeatureFlag(feature=EnhancedDryRun, enabled=true), RegionAllowlistFeatureFlag(feature=EnhancedDryRun, regions=[us-east-1, us-east-2, us-west-1, us-west-2, ca-central-1, ca-west-1, sa-east-1, eu-north-1, eu-west-1, eu-west-2, eu-west-3, eu-central-1, eu-central-2, eu-south-1, eu-south-2, ap-east-1, ap-south-1, ap-south-2, ap-northeast-1, ap-northeast-2, ap-northeast-3, ap-southeast-1, ap-southeast-2, ap-southeast-3, ap-southeast-4, me-south-1, me-central-1, af-south-1, il-central-1]))
+[02:08:06 PM] INFO: [FeatureFlagProvider] Feature flags:
+DynamicFeatureFlag(StaticFeatureFlag(feature=Constants, enabled=false))
+DynamicTargetedFeatureFlag(StaticFeatureFlag(feature=EnhancedDryRun, enabled=true), LocalHostTargetedFeatureFlag(enabled=true, fleet=FleetTargetedFeatureFlag(feature=EnhancedDryRun, percentage=100)), StaticFeatureFlag(feature=EnhancedDryRun, enabled=true), RegionAllowlistFeatureFlag(feature=EnhancedDryRun, regions=[us-east-1, us-east-2, us-west-1, us-west-2, ca-central-1, ca-west-1, sa-east-1, eu-north-1, eu-west-1, eu-west-2, eu-west-3, eu-central-1, eu-central-2, eu-south-1, eu-south-2, ap-east-1, ap-south-1, ap-south-2, ap-northeast-1, ap-northeast-2, ap-northeast-3, ap-southeast-1, ap-southeast-2, ap-southeast-3, ap-southeast-4, me-south-1, me-central-1, af-south-1, il-central-1]))
+[02:13:06 PM] INFO: [FeatureFlagProvider] Feature flags:
+DynamicFeatureFlag(StaticFeatureFlag(feature=Constants, enabled=false))
+DynamicTargetedFeatureFlag(StaticFeatureFlag(feature=EnhancedDryRun, enabled=true), LocalHostTargetedFeatureFlag(enabled=true, fleet=FleetTargetedFeatureFlag(feature=EnhancedDryRun, percentage=100)), StaticFeatureFlag(feature=EnhancedDryRun, enabled=true), RegionAllowlistFeatureFlag(feature=EnhancedDryRun, regions=[us-east-1, us-east-2, us-west-1, us-west-2, ca-central-1, ca-west-1, sa-east-1, eu-north-1, eu-west-1, eu-west-2, eu-west-3, eu-central-1, eu-central-2, eu-south-1, eu-south-2, ap-east-1, ap-south-1, ap-south-2, ap-northeast-1, ap-northeast-2, ap-northeast-3, ap-southeast-1, ap-southeast-2, ap-southeast-3, ap-southeast-4, me-south-1, me-central-1, af-south-1, il-central-1]))
+[02:18:06 PM] INFO: [FeatureFlagProvider] Feature flags:
+DynamicFeatureFlag(StaticFeatureFlag(feature=Constants, enabled=false))
+DynamicTargetedFeatureFlag(StaticFeatureFlag(feature=EnhancedDryRun, enabled=true), LocalHostTargetedFeatureFlag(enabled=true, fleet=FleetTargetedFeatureFlag(feature=EnhancedDryRun, percentage=100)), StaticFeatureFlag(feature=EnhancedDryRun, enabled=true), RegionAllowlistFeatureFlag(feature=EnhancedDryRun, regions=[us-east-1, us-east-2, us-west-1, us-west-2, ca-central-1, ca-west-1, sa-east-1, eu-north-1, eu-west-1, eu-west-2, eu-west-3, eu-central-1, eu-central-2, eu-south-1, eu-south-2, ap-east-1, ap-south-1, ap-south-2, ap-northeast-1, ap-northeast-2, ap-northeast-3, ap-southeast-1, ap-southeast-2, ap-southeast-3, ap-southeast-4, me-south-1, me-central-1, af-south-1, il-central-1]))
+[02:23:06 PM] INFO: [FeatureFlagProvider] Feature flags:
+DynamicFeatureFlag(StaticFeatureFlag(feature=Constants, enabled=false))
+DynamicTargetedFeatureFlag(StaticFeatureFlag(feature=EnhancedDryRun, enabled=true), LocalHostTargetedFeatureFlag(enabled=true, fleet=FleetTargetedFeatureFlag(feature=EnhancedDryRun, percentage=100)), StaticFeatureFlag(feature=EnhancedDryRun, enabled=true), RegionAllowlistFeatureFlag(feature=EnhancedDryRun, regions=[us-east-1, us-east-2, us-west-1, us-west-2, ca-central-1, ca-west-1, sa-east-1, eu-north-1, eu-west-1, eu-west-2, eu-west-3, eu-central-1, eu-central-2, eu-south-1, eu-south-2, ap-east-1, ap-south-1, ap-south-2, ap-northeast-1, ap-northeast-2, ap-northeast-3, ap-southeast-1, ap-southeast-2, ap-southeast-3, ap-southeast-4, me-south-1, me-central-1, af-south-1, il-central-1]))
+[02:28:06 PM] INFO: [FeatureFlagProvider] Feature flags:
+DynamicFeatureFlag(StaticFeatureFlag(feature=Constants, enabled=false))
+DynamicTargetedFeatureFlag(StaticFeatureFlag(feature=EnhancedDryRun, enabled=true), LocalHostTargetedFeatureFlag(enabled=true, fleet=FleetTargetedFeatureFlag(feature=EnhancedDryRun, percentage=100)), StaticFeatureFlag(feature=EnhancedDryRun, enabled=true), RegionAllowlistFeatureFlag(feature=EnhancedDryRun, regions=[us-east-1, us-east-2, us-west-1, us-west-2, ca-central-1, ca-west-1, sa-east-1, eu-north-1, eu-west-1, eu-west-2, eu-west-3, eu-central-1, eu-central-2, eu-south-1, eu-south-2, ap-east-1, ap-south-1, ap-south-2, ap-northeast-1, ap-northeast-2, ap-northeast-3, ap-southeast-1, ap-southeast-2, ap-southeast-3, ap-southeast-4, me-south-1, me-central-1, af-south-1, il-central-1]))
+[02:33:06 PM] INFO: [FeatureFlagProvider] Feature flags:
+DynamicFeatureFlag(StaticFeatureFlag(feature=Constants, enabled=false))
+DynamicTargetedFeatureFlag(StaticFeatureFlag(feature=EnhancedDryRun, enabled=true), LocalHostTargetedFeatureFlag(enabled=true, fleet=FleetTargetedFeatureFlag(feature=EnhancedDryRun, percentage=100)), StaticFeatureFlag(feature=EnhancedDryRun, enabled=true), RegionAllowlistFeatureFlag(feature=EnhancedDryRun, regions=[us-east-1, us-east-2, us-west-1, us-west-2, ca-central-1, ca-west-1, sa-east-1, eu-north-1, eu-west-1, eu-west-2, eu-west-3, eu-central-1, eu-central-2, eu-south-1, eu-south-2, ap-east-1, ap-south-1, ap-south-2, ap-northeast-1, ap-northeast-2, ap-northeast-3, ap-southeast-1, ap-southeast-2, ap-southeast-3, ap-southeast-4, me-south-1, me-central-1, af-south-1, il-central-1]))
+[02:38:06 PM] INFO: [FeatureFlagProvider] Feature flags:
+DynamicFeatureFlag(StaticFeatureFlag(feature=Constants, enabled=false))
+DynamicTargetedFeatureFlag(StaticFeatureFlag(feature=EnhancedDryRun, enabled=true), LocalHostTargetedFeatureFlag(enabled=true, fleet=FleetTargetedFeatureFlag(feature=EnhancedDryRun, percentage=100)), StaticFeatureFlag(feature=EnhancedDryRun, enabled=true), RegionAllowlistFeatureFlag(feature=EnhancedDryRun, regions=[us-east-1, us-east-2, us-west-1, us-west-2, ca-central-1, ca-west-1, sa-east-1, eu-north-1, eu-west-1, eu-west-2, eu-west-3, eu-central-1, eu-central-2, eu-south-1, eu-south-2, ap-east-1, ap-south-1, ap-south-2, ap-northeast-1, ap-northeast-2, ap-northeast-3, ap-southeast-1, ap-southeast-2, ap-southeast-3, ap-southeast-4, me-south-1, me-central-1, af-south-1, il-central-1]))
+[02:39:55 PM] INFO: [SyntaxTreeManager] Created tree file:///home/henrique/upd8/Docly/poc-docly-doc-analise/terraform/.terraform.lock.hcl
+    type: "YAML"
+    cfnFileType: "empty"
+[02:43:06 PM] INFO: [FeatureFlagProvider] Feature flags:
+DynamicFeatureFlag(StaticFeatureFlag(feature=Constants, enabled=false))
+DynamicTargetedFeatureFlag(StaticFeatureFlag(feature=EnhancedDryRun, enabled=true), LocalHostTargetedFeatureFlag(enabled=true, fleet=FleetTargetedFeatureFlag(feature=EnhancedDryRun, percentage=100)), StaticFeatureFlag(feature=EnhancedDryRun, enabled=true), RegionAllowlistFeatureFlag(feature=EnhancedDryRun, regions=[us-east-1, us-east-2, us-west-1, us-west-2, ca-central-1, ca-west-1, sa-east-1, eu-north-1, eu-west-1, eu-west-2, eu-west-3, eu-central-1, eu-central-2, eu-south-1, eu-south-2, ap-east-1, ap-south-1, ap-south-2, ap-northeast-1, ap-northeast-2, ap-northeast-3, ap-southeast-1, ap-southeast-2, ap-southeast-3, ap-southeast-4, me-south-1, me-central-1, af-south-1, il-central-1]))
+[02:48:06 PM] INFO: [FeatureFlagProvider] Feature flags:
+DynamicFeatureFlag(StaticFeatureFlag(feature=Constants, enabled=false))
+DynamicTargetedFeatureFlag(StaticFeatureFlag(feature=EnhancedDryRun, enabled=true), LocalHostTargetedFeatureFlag(enabled=true, fleet=FleetTargetedFeatureFlag(feature=EnhancedDryRun, percentage=100)), StaticFeatureFlag(feature=EnhancedDryRun, enabled=true), RegionAllowlistFeatureFlag(feature=EnhancedDryRun, regions=[us-east-1, us-east-2, us-west-1, us-west-2, ca-central-1, ca-west-1, sa-east-1, eu-north-1, eu-west-1, eu-west-2, eu-west-3, eu-central-1, eu-central-2, eu-south-1, eu-south-2, ap-east-1, ap-south-1, ap-south-2, ap-northeast-1, ap-northeast-2, ap-northeast-3, ap-southeast-1, ap-southeast-2, ap-southeast-3, ap-southeast-4, me-south-1, me-central-1, af-south-1, il-central-1]))
+[02:53:06 PM] INFO: [FeatureFlagProvider] Feature flags:
+DynamicFeatureFlag(StaticFeatureFlag(feature=Constants, enabled=false))
+DynamicTargetedFeatureFlag(StaticFeatureFlag(feature=EnhancedDryRun, enabled=true), LocalHostTargetedFeatureFlag(enabled=true, fleet=FleetTargetedFeatureFlag(feature=EnhancedDryRun, percentage=100)), StaticFeatureFlag(feature=EnhancedDryRun, enabled=true), RegionAllowlistFeatureFlag(feature=EnhancedDryRun, regions=[us-east-1, us-east-2, us-west-1, us-west-2, ca-central-1, ca-west-1, sa-east-1, eu-north-1, eu-west-1, eu-west-2, eu-west-3, eu-central-1, eu-central-2, eu-south-1, eu-south-2, ap-east-1, ap-south-1, ap-south-2, ap-northeast-1, ap-northeast-2, ap-northeast-3, ap-southeast-1, ap-southeast-2, ap-southeast-3, ap-southeast-4, me-south-1, me-central-1, af-south-1, il-central-1]))
+[02:58:06 PM] INFO: [FeatureFlagProvider] Feature flags:
+DynamicFeatureFlag(StaticFeatureFlag(feature=Constants, enabled=false))
+DynamicTargetedFeatureFlag(StaticFeatureFlag(feature=EnhancedDryRun, enabled=true), LocalHostTargetedFeatureFlag(enabled=true, fleet=FleetTargetedFeatureFlag(feature=EnhancedDryRun, percentage=100)), StaticFeatureFlag(feature=EnhancedDryRun, enabled=true), RegionAllowlistFeatureFlag(feature=EnhancedDryRun, regions=[us-east-1, us-east-2, us-west-1, us-west-2, ca-central-1, ca-west-1, sa-east-1, eu-north-1, eu-west-1, eu-west-2, eu-west-3, eu-central-1, eu-central-2, eu-south-1, eu-south-2, ap-east-1, ap-south-1, ap-south-2, ap-northeast-1, ap-northeast-2, ap-northeast-3, ap-southeast-1, ap-southeast-2, ap-southeast-3, ap-southeast-4, me-south-1, me-central-1, af-south-1, il-central-1]))
+[03:03:06 PM] INFO: [FeatureFlagProvider] Feature flags:
+DynamicFeatureFlag(StaticFeatureFlag(feature=Constants, enabled=false))
+DynamicTargetedFeatureFlag(StaticFeatureFlag(feature=EnhancedDryRun, enabled=true), LocalHostTargetedFeatureFlag(enabled=true, fleet=FleetTargetedFeatureFlag(feature=EnhancedDryRun, percentage=100)), StaticFeatureFlag(feature=EnhancedDryRun, enabled=true), RegionAllowlistFeatureFlag(feature=EnhancedDryRun, regions=[us-east-1, us-east-2, us-west-1, us-west-2, ca-central-1, ca-west-1, sa-east-1, eu-north-1, eu-west-1, eu-west-2, eu-west-3, eu-central-1, eu-central-2, eu-south-1, eu-south-2, ap-east-1, ap-south-1, ap-south-2, ap-northeast-1, ap-northeast-2, ap-northeast-3, ap-southeast-1, ap-southeast-2, ap-southeast-3, ap-southeast-4, me-south-1, me-central-1, af-south-1, il-central-1]))
+[03:08:06 PM] INFO: [FeatureFlagProvider] Feature flags:
+DynamicFeatureFlag(StaticFeatureFlag(feature=Constants, enabled=false))
+DynamicTargetedFeatureFlag(StaticFeatureFlag(feature=EnhancedDryRun, enabled=true), LocalHostTargetedFeatureFlag(enabled=true, fleet=FleetTargetedFeatureFlag(feature=EnhancedDryRun, percentage=100)), StaticFeatureFlag(feature=EnhancedDryRun, enabled=true), RegionAllowlistFeatureFlag(feature=EnhancedDryRun, regions=[us-east-1, us-east-2, us-west-1, us-west-2, ca-central-1, ca-west-1, sa-east-1, eu-north-1, eu-west-1, eu-west-2, eu-west-3, eu-central-1, eu-central-2, eu-south-1, eu-south-2, ap-east-1, ap-south-1, ap-south-2, ap-northeast-1, ap-northeast-2, ap-northeast-3, ap-southeast-1, ap-southeast-2, ap-southeast-3, ap-southeast-4, me-south-1, me-central-1, af-south-1, il-central-1]))
+[03:13:07 PM] ERROR: [FeatureFlagProvider] Failed to sync feature flags from remote
+    err: {
+      "message": ": ",
+      "name": "AggregateError",
+      "stack":
+          AggregateError
+              at AxiosError.exports.modules../node_modules/axios/dist/node/axios.cjs.AxiosError.from (webpack://aws/cloudformation-languageserver/node_modules/axios/dist/node/axios.cjs:899:1)
+              at RedirectableRequest.handleRequestError (webpack://aws/cloudformation-languageserver/node_modules/axios/dist/node/axios.cjs:3228:1)
+              at RedirectableRequest.emit (node:events:519:28)
+              at ClientRequest.eventHandlers.<computed> (webpack://aws/cloudformation-languageserver/node_modules/follow-redirects/index.js:49:1)
+              at ClientRequest.emit (node:events:519:28)
+              at emitErrorEvent (node:_http_client:105:11)
+              at TLSSocket.socketErrorListener (node:_http_client:518:5)
+              at TLSSocket.emit (node:events:519:28)
+              at emitErrorNT (node:internal/streams/destroy:170:8)
+              at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+              at Axios.request (webpack://aws/cloudformation-languageserver/node_modules/axios/dist/node/axios.cjs:4317:1)
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async downloadJson (webpack://aws/cloudformation-languageserver/src/utils/RemoteDownload.ts:14:22)
+              at async FeatureFlagProvider.getFeatureFlags (webpack://aws/cloudformation-languageserver/src/featureFlag/FeatureFlagProvider.ts:75:16)
+              at async ScopedTelemetry.executeWithMetricsAsync (webpack://aws/cloudformation-languageserver/src/telemetry/ScopedTelemetry.ts:139:20)
+              at async ScopedTelemetry.measureAsync (webpack://aws/cloudformation-languageserver/src/telemetry/ScopedTelemetry.ts:77:16)
+              at async FeatureFlagProvider.refresh (webpack://aws/cloudformation-languageserver/src/featureFlag/FeatureFlagProvider.ts:66:27)
+          caused by: AggregateError [ETIMEDOUT]: 
+              at internalConnectMultiple (node:net:1134:18)
+              at internalConnectMultiple (node:net:1210:5)
+              at Timeout.internalConnectMultipleTimeout (node:net:1742:5)
+              at listOnTimeout (node:internal/timers:590:11)
+              at process.processTimers (node:internal/timers:523:7)
+      "config": {
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        },
+        "adapter": [
+          "xhr",
+          "http",
+          "fetch"
+        ],
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "env": {},
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/1.11.0",
+          "Accept-Encoding": "gzip, compress, deflate, br"
+        },
+        "method": "get",
+        "url": "https://raw.githubusercontent.com/aws-cloudformation/cloudformation-languageserver/refs/heads/main/assets/featureFlag/prod.json",
+        "allowAbsoluteUrls": true
+      },
+      "code": "ETIMEDOUT"
+    }
+[03:18:07 PM] ERROR: [FeatureFlagProvider] Failed to sync feature flags from remote
+    err: {
+      "message": ": ",
+      "name": "AggregateError",
+      "stack":
+          AggregateError
+              at AxiosError.exports.modules../node_modules/axios/dist/node/axios.cjs.AxiosError.from (webpack://aws/cloudformation-languageserver/node_modules/axios/dist/node/axios.cjs:899:1)
+              at RedirectableRequest.handleRequestError (webpack://aws/cloudformation-languageserver/node_modules/axios/dist/node/axios.cjs:3228:1)
+              at RedirectableRequest.emit (node:events:519:28)
+              at ClientRequest.eventHandlers.<computed> (webpack://aws/cloudformation-languageserver/node_modules/follow-redirects/index.js:49:1)
+              at ClientRequest.emit (node:events:519:28)
+              at emitErrorEvent (node:_http_client:105:11)
+              at TLSSocket.socketErrorListener (node:_http_client:518:5)
+              at TLSSocket.emit (node:events:519:28)
+              at emitErrorNT (node:internal/streams/destroy:170:8)
+              at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+              at Axios.request (webpack://aws/cloudformation-languageserver/node_modules/axios/dist/node/axios.cjs:4317:1)
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async downloadJson (webpack://aws/cloudformation-languageserver/src/utils/RemoteDownload.ts:14:22)
+              at async FeatureFlagProvider.getFeatureFlags (webpack://aws/cloudformation-languageserver/src/featureFlag/FeatureFlagProvider.ts:75:16)
+              at async ScopedTelemetry.executeWithMetricsAsync (webpack://aws/cloudformation-languageserver/src/telemetry/ScopedTelemetry.ts:139:20)
+              at async ScopedTelemetry.measureAsync (webpack://aws/cloudformation-languageserver/src/telemetry/ScopedTelemetry.ts:77:16)
+              at async FeatureFlagProvider.refresh (webpack://aws/cloudformation-languageserver/src/featureFlag/FeatureFlagProvider.ts:66:27)
+          caused by: AggregateError [ETIMEDOUT]: 
+              at internalConnectMultiple (node:net:1134:18)
+              at internalConnectMultiple (node:net:1210:5)
+              at Timeout.internalConnectMultipleTimeout (node:net:1742:5)
+              at listOnTimeout (node:internal/timers:590:11)
+              at process.processTimers (node:internal/timers:523:7)
+      "config": {
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        },
+        "adapter": [
+          "xhr",
+          "http",
+          "fetch"
+        ],
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "env": {},
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/1.11.0",
+          "Accept-Encoding": "gzip, compress, deflate, br"
+        },
+        "method": "get",
+        "url": "https://raw.githubusercontent.com/aws-cloudformation/cloudformation-languageserver/refs/heads/main/assets/featureFlag/prod.json",
+        "allowAbsoluteUrls": true
+      },
+      "code": "ETIMEDOUT"
+    }
+[03:23:06 PM] INFO: [FeatureFlagProvider] Feature flags:
+DynamicFeatureFlag(StaticFeatureFlag(feature=Constants, enabled=false))
+DynamicTargetedFeatureFlag(StaticFeatureFlag(feature=EnhancedDryRun, enabled=true), LocalHostTargetedFeatureFlag(enabled=true, fleet=FleetTargetedFeatureFlag(feature=EnhancedDryRun, percentage=100)), StaticFeatureFlag(feature=EnhancedDryRun, enabled=true), RegionAllowlistFeatureFlag(feature=EnhancedDryRun, regions=[us-east-1, us-east-2, us-west-1, us-west-2, ca-central-1, ca-west-1, sa-east-1, eu-north-1, eu-west-1, eu-west-2, eu-west-3, eu-central-1, eu-central-2, eu-south-1, eu-south-2, ap-east-1, ap-south-1, ap-south-2, ap-northeast-1, ap-northeast-2, ap-northeast-3, ap-southeast-1, ap-southeast-2, ap-southeast-3, ap-southeast-4, me-south-1, me-central-1, af-south-1, il-central-1]))
+[03:28:06 PM] INFO: [FeatureFlagProvider] Feature flags:
+DynamicFeatureFlag(StaticFeatureFlag(feature=Constants, enabled=false))
+DynamicTargetedFeatureFlag(StaticFeatureFlag(feature=EnhancedDryRun, enabled=true), LocalHostTargetedFeatureFlag(enabled=true, fleet=FleetTargetedFeatureFlag(feature=EnhancedDryRun, percentage=100)), StaticFeatureFlag(feature=EnhancedDryRun, enabled=true), RegionAllowlistFeatureFlag(feature=EnhancedDryRun, regions=[us-east-1, us-east-2, us-west-1, us-west-2, ca-central-1, ca-west-1, sa-east-1, eu-north-1, eu-west-1, eu-west-2, eu-west-3, eu-central-1, eu-central-2, eu-south-1, eu-south-2, ap-east-1, ap-south-1, ap-south-2, ap-northeast-1, ap-northeast-2, ap-northeast-3, ap-southeast-1, ap-southeast-2, ap-southeast-3, ap-southeast-4, me-south-1, me-central-1, af-south-1, il-central-1]))
+[03:33:06 PM] INFO: [FeatureFlagProvider] Feature flags:
+DynamicFeatureFlag(StaticFeatureFlag(feature=Constants, enabled=false))
+DynamicTargetedFeatureFlag(StaticFeatureFlag(feature=EnhancedDryRun, enabled=true), LocalHostTargetedFeatureFlag(enabled=true, fleet=FleetTargetedFeatureFlag(feature=EnhancedDryRun, percentage=100)), StaticFeatureFlag(feature=EnhancedDryRun, enabled=true), RegionAllowlistFeatureFlag(feature=EnhancedDryRun, regions=[us-east-1, us-east-2, us-west-1, us-west-2, ca-central-1, ca-west-1, sa-east-1, eu-north-1, eu-west-1, eu-west-2, eu-west-3, eu-central-1, eu-central-2, eu-south-1, eu-south-2, ap-east-1, ap-south-1, ap-south-2, ap-northeast-1, ap-northeast-2, ap-northeast-3, ap-southeast-1, ap-southeast-2, ap-southeast-3, ap-southeast-4, me-south-1, me-central-1, af-south-1, il-central-1]))
+[03:38:06 PM] INFO: [FeatureFlagProvider] Feature flags:
+DynamicFeatureFlag(StaticFeatureFlag(feature=Constants, enabled=false))
+DynamicTargetedFeatureFlag(StaticFeatureFlag(feature=EnhancedDryRun, enabled=true), LocalHostTargetedFeatureFlag(enabled=true, fleet=FleetTargetedFeatureFlag(feature=EnhancedDryRun, percentage=100)), StaticFeatureFlag(feature=EnhancedDryRun, enabled=true), RegionAllowlistFeatureFlag(feature=EnhancedDryRun, regions=[us-east-1, us-east-2, us-west-1, us-west-2, ca-central-1, ca-west-1, sa-east-1, eu-north-1, eu-west-1, eu-west-2, eu-west-3, eu-central-1, eu-central-2, eu-south-1, eu-south-2, ap-east-1, ap-south-1, ap-south-2, ap-northeast-1, ap-northeast-2, ap-northeast-3, ap-southeast-1, ap-southeast-2, ap-southeast-3, ap-southeast-4, me-south-1, me-central-1, af-south-1, il-central-1]))
+AWS CloudFormation shutting down...

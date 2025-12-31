@@ -1,0 +1,8 @@
+{
+    "window.commandCenter": true,
+    "aws.cloudformation.telemetry.enabled": false,
+    "files.autoSave": "afterDelay"
+,
+  "material-code.primaryColor": "#4C3D50",
+  "aws.telemetry": false
+}

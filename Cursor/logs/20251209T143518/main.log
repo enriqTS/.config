@@ -1,0 +1,30 @@
+2025-12-09 14:35:18.994 [error] Error: Unable to retrieve mac address (unexpected format)
+    at YM (file:///usr/share/cursor/resources/app/out/main.js:45:31491)
+    at _E (file:///usr/share/cursor/resources/app/out/main.js:45:31984)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async cL (file:///usr/share/cursor/resources/app/out/main.js:67:84660)
+    at async hL (file:///usr/share/cursor/resources/app/out/main.js:67:85093)
+    at async Promise.all (index 1)
+    at async Dp.startup (file:///usr/share/cursor/resources/app/out/main.js:92:28410)
+    at async NC.startup (file:///usr/share/cursor/resources/app/out/main.js:127:52229)
+2025-12-09 14:35:19.000 [info] [CursorProclistService] Native module loaded successfully
+2025-12-09 14:35:19.125 [info] [storage] Running database optimization (VACUUM) - last run was 20431 days ago
+2025-12-09 14:35:19.257 [info] updateURL https://api2.cursor.sh/updates/api/update/linux-x64/cursor/2.1.50/ab794c19fedb1627b03a00ad16493031d91610ffd32bf0d51dbedd5a5feab6b8/stable
+2025-12-09 14:35:19.258 [info] update#setState idle
+2025-12-09 14:35:19.415 [info] [storage] Database optimization (VACUUM) completed successfully
+2025-12-09 14:35:23.051 [error] #1: https://api2.cursor.sh/updates/api/update/linux-x64/cursor/2.1.50/ab794c19fedb1627b03a00ad16493031d91610ffd32bf0d51dbedd5a5feab6b8/stable - error undefined net::ERR_NAME_NOT_RESOLVED
+2025-12-09 14:35:23.052 [error] update#isLatestVersion(): failed to check for updates
+2025-12-09 14:35:23.052 [error] Error: net::ERR_NAME_NOT_RESOLVED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:123921)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+2025-12-09 14:35:25.027 [warning] [BrowserViewMainService] Cannot execute JavaScript: browser view not created for window 1
+2025-12-09 14:35:49.259 [info] update#setState checking for updates
+2025-12-09 14:35:52.736 [error] #2: https://api2.cursor.sh/updates/api/update/linux-x64/cursor/2.1.50/ab794c19fedb1627b03a00ad16493031d91610ffd32bf0d51dbedd5a5feab6b8/stable - error undefined net::ERR_INTERNET_DISCONNECTED
+2025-12-09 14:35:52.737 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:123921)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+    at SimpleURLLoaderWrapper.callbackTrampoline (node:internal/async_hooks:130:17)
+2025-12-09 14:35:52.737 [info] update#setState idle
+2025-12-09 14:38:03.137 [warning] [BrowserViewMainService] Cannot flush storage data: browser view not created for window 1
+2025-12-09 14:38:03.140 [warning] [BrowserViewMainService] Cannot set visibility: browser view not created for window 1
+2025-12-09 14:38:03.191 [info] Extension host with pid 21399 exited with code: 0, signal: unknown.

@@ -1,0 +1,38 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+      {
+          "Sid": "BedrockAgentRuntimeAccess",
+          "Effect": "Allow",
+          "Action": [
+              "bedrock:InvokeAgent"
+          ],
+          "Resource": [
+              "arn:aws:bedrock:us-east-1:700308877414:agent/NWX9PJAPHT",
+              "arn:aws:bedrock:us-east-1:700308877414:agent-alias/NWX9PJAPHT/4GGFGMBABJ"
+          ]
+      },
+      {
+          "Sid": "DynamoDBNegociacaoTableAccess",
+          "Effect": "Allow",
+          "Action": [
+              "dynamodb:Query",
+              "dynamodb:PutItem",
+              "dynamodb:UpdateItem"
+          ],
+          "Resource": [
+              "arn:aws:dynamodb:us-east-1:700308877414:table/negociacao"
+          ]
+      },
+      {
+          "Sid": "CloudWatchLogsAccess",
+          "Effect": "Allow",
+          "Action": [
+              "logs:CreateLogGroup",
+              "logs:CreateLogStream",
+              "logs:PutLogEvents"
+          ],
+          "Resource": "arn:aws:logs:us-east-1:700308877414:log-group:/aws/lambda/chatbot:*"
+      }
+  ]
+}

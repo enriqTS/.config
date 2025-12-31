@@ -1,0 +1,5 @@
+[2025-12-27T14:20:11.337Z] [INFO] [general] Cursor Browser Automation extension activated
+[2025-12-27T14:20:11.337Z] [INFO] [general] Browser Automation MCP Provider initialized with direct execution
+[2025-12-27T14:20:11.337Z] [INFO] [general] injectBrowserUIScript called
+[2025-12-27T14:20:11.395Z] [INFO] [general] Browser UI script injected successfully
+[2025-12-27T19:55:06.799Z] [INFO] [general] Browser Automation MCP Provider disposed

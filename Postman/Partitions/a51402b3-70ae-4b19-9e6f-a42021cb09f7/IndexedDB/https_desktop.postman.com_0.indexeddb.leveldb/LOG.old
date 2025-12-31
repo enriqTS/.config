@@ -1,0 +1,32 @@
+2025/12/27-13:33:12.302 be26 Creating DB /home/henrique/.config/Postman/Partitions/a51402b3-70ae-4b19-9e6f-a42021cb09f7/IndexedDB/https_desktop.postman.com_0.indexeddb.leveldb since it was missing.
+2025/12/27-13:33:12.318 be26 Reusing MANIFEST /home/henrique/.config/Postman/Partitions/a51402b3-70ae-4b19-9e6f-a42021cb09f7/IndexedDB/https_desktop.postman.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/12/27-13:33:12.335 be26 Level-0 table #5: started
+2025/12/27-13:33:12.341 be26 Level-0 table #5: 526 bytes OK
+2025/12/27-13:33:12.356 be4a Current memtable full; waiting...
+2025/12/27-13:33:12.361 be26 Delete type=0 #3
+2025/12/27-13:33:12.361 be26 Level-0 table #7: started
+2025/12/27-13:33:12.367 be26 Level-0 table #7: 482 bytes OK
+2025/12/27-13:33:12.382 be26 Delete type=0 #4
+2025/12/27-13:33:12.383 be26 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/27-13:33:12.383 be26 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/27-13:33:16.332 be48 Level-0 table #9: started
+2025/12/27-13:33:16.342 be48 Level-0 table #9: 56756 bytes OK
+2025/12/27-13:33:16.357 be48 Delete type=0 #6
+2025/12/27-13:33:16.357 be48 Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at '\x00\x07\x00\x00\x05' @ 3905 : 1
+2025/12/27-13:33:16.357 be48 Compacting 1@0 + 1@1 files
+2025/12/27-13:33:16.366 be48 Generated table #10@0: 2029 keys, 23629 bytes
+2025/12/27-13:33:16.366 be48 Compacted 1@0 + 1@1 files => 23629 bytes
+2025/12/27-13:33:16.376 be48 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/12/27-13:33:16.376 be48 Delete type=2 #9
+2025/12/27-13:33:16.376 be48 Level-0 table #12: started
+2025/12/27-13:33:16.382 be48 Level-0 table #12: 1560 bytes OK
+2025/12/27-13:33:16.391 be48 Delete type=0 #8
+2025/12/27-13:33:16.392 be48 Manual compaction at level-0 from '\x00\x07\x00\x00\x05' @ 3905 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at '\x00\x08\x00\x00\x05' @ 4002 : 1
+2025/12/27-13:33:16.392 be48 Compacting 1@0 + 1@1 files
+2025/12/27-13:33:16.398 be48 Generated table #13@0: 2083 keys, 24249 bytes
+2025/12/27-13:33:16.398 be48 Compacted 1@0 + 1@1 files => 24249 bytes
+2025/12/27-13:33:16.407 be48 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/12/27-13:33:16.407 be48 Delete type=2 #10
+2025/12/27-13:33:16.407 be48 Delete type=2 #12
+2025/12/27-13:33:16.408 be48 Manual compaction at level-0 from '\x00\x08\x00\x00\x05' @ 4002 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/27-13:33:16.408 be48 Manual compaction at level-0 from '\x00\x08\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at (end)

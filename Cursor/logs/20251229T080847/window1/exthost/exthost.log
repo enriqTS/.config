@@ -1,0 +1,204 @@
+2025-12-29 08:08:50.589 [info] Extension host with pid 9499 started
+2025-12-29 08:08:50.589 [info] [ExtHostShellExec] Initializing terminal executor with userTerminalHint: /usr/bin/fish
+2025-12-29 08:08:50.589 [info] Skipping acquiring lock for /home/henrique/.config/Cursor/User/workspaceStorage/eb659251d1bc619caedb31ea12d09b2e.
+2025-12-29 08:08:50.589 [info] [ExtHostShellExec] Detecting sandbox support...
+2025-12-29 08:08:50.589 [info] [ExtHostShellExec] Platform: linux, Shell type: unknown
+2025-12-29 08:08:50.589 [info] [ExtHostShellExec] dirname: /usr/share/cursor/resources/app/out/vs/workbench/api/node
+2025-12-29 08:08:50.589 [info] [ExtHostShellExec] Sandbox helper path: /usr/share/cursor/resources/app/resources/helpers/cursor-sandbox
+2025-12-29 08:08:50.589 [info] [ExtHostShellExec] process.resourcesPath: /usr/lib/electron37/resources
+2025-12-29 08:08:50.589 [info] [ExtHostShellExec] process.execPath: /usr/lib/electron37/electron
+2025-12-29 08:08:50.589 [info] [ExtHostShellExec] ripgrep path for sandboxing: /usr/share/cursor/resources/app/node_modules/@vscode/ripgrep/bin/rg
+2025-12-29 08:08:50.589 [error] [shell-exec:sandbox] [isSandboxHelperSupported] Starting sandbox support check... undefined
+2025-12-29 08:08:50.589 [error] [shell-exec:sandbox] [checkBinaryAvailable] Resolved binary path: /usr/share/cursor/resources/app/resources/helpers/cursor-sandbox undefined
+2025-12-29 08:08:50.589 [error] [shell-exec:sandbox] [checkBinaryAvailable] Binary path exists: true undefined
+2025-12-29 08:08:50.589 [error] [shell-exec:sandbox] [isSandboxHelperSupported] Running preflight with binary: /usr/share/cursor/resources/app/resources/helpers/cursor-sandbox undefined
+2025-12-29 08:08:50.589 [error] [shell-exec:sandbox] [isSandboxHelperSupported] CWD: /home/henrique undefined
+2025-12-29 08:08:50.589 [error] [shell-exec:sandbox] [isSandboxHelperSupported] Preflight succeeded, sandbox supported! undefined
+2025-12-29 08:08:50.589 [info] [ExtHostShellExec] Sandbox support detected: true
+2025-12-29 08:08:50.589 [info] ExtHostSearch [cursorIgnore] internal fileSearch start reason=cursorIgnoreCheck roots=1 include=**/.cursorignore maxResults=0 numThreads=(default) folderQueries=[{"cwd":"/home/henrique/upd8/Rodosafra IA","disregardIgnoreFiles":false,"disregardParentIgnoreFiles":true,"disregardGlobalIgnoreFiles":true,"ignoreSymlinks":false,"rgNoIgnore":false,"rgNoIgnoreParent":true,"rgNoIgnoreGlobal":true,"rgFollow":true}]
+2025-12-29 08:08:50.598 [info] ExtHostSearch /usr/share/cursor/resources/app/node_modules/@vscode/ripgrep/bin/rg --files --hidden --case-sensitive --no-require-git -g '**/.cursorignore' -g '!**/.git' -g '!**/.svn' -g '!**/.hg' -g '!**/.DS_Store' -g '!**/Thumbs.db' -g '!**/node_modules' -g '!**/bower_components' -g '!**/*.code-search' --no-ignore-parent --follow --threads '14' --no-config --no-ignore-global
+ - cwd: /home/henrique/upd8/Rodosafra IA
+ - Sibling clauses: {}
+2025-12-29 08:08:50.598 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-12-29 08:08:50.612 [info] ExtensionService#_doActivateExtension amazonwebservices.aws-toolkit-vscode, startup: false, activationEvent: 'onLanguage:python'
+2025-12-29 08:08:51.818 [info] ExtensionService#_doActivateExtension anysphere.cursorpyright, startup: false, activationEvent: 'onLanguage:python'
+2025-12-29 08:08:51.850 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2025-12-29 08:08:51.953 [info] ExtHostSearch Search finished. Stats: {"cmdTime":1358,"fileWalkTime":1358,"directoriesWalked":0,"filesWalked":0,"cmdResultCount":0}
+2025-12-29 08:08:51.953 [info] ExtHostSearch [cursorIgnore] internal fileSearch done in 1367ms limitHit=false failed=false resultCount=0 cmdTime=1358 fileWalkTime=1358 providerTime=(unknown)
+2025-12-29 08:08:51.955 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2025-12-29 08:08:51.991 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: anysphere.cursor-agent-exec
+2025-12-29 08:08:52.165 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2025-12-29 08:08:52.167 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: anysphere.cursor-agent-exec
+2025-12-29 08:08:52.195 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-12-29 08:08:52.309 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2025-12-29 08:08:52.340 [info] ExtensionService#_doActivateExtension hashicorp.terraform, startup: true, activationEvent: 'workspaceContains:**/*.tf,**/*.tfvars'
+2025-12-29 08:08:52.462 [warning] registerMcpServerDefinitionProvider is not supported in Cursor
+2025-12-29 08:08:52.634 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: true, activationEvent: '*', root cause: anysphere.cursor-agent-exec
+2025-12-29 08:08:52.983 [info] ExtensionService#_doActivateExtension anysphere.cursor-agent-exec, startup: true, activationEvent: '*'
+2025-12-29 08:08:53.276 [warning] DiagnosticCollection with name 'basedpyright' does already exist.
+2025-12-29 08:08:53.347 [info] ExtensionService#_doActivateExtension anysphere.cursor-mcp, startup: false, activationEvent: 'api', root cause: anysphere.cursor-agent-exec
+2025-12-29 08:08:53.501 [info] Eager extensions activated
+2025-12-29 08:08:53.545 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2025-12-29 08:08:53.729 [info] ExtensionService#_doActivateExtension anysphere.cursor-android-emulator-connect, startup: false, activationEvent: 'onStartupFinished'
+2025-12-29 08:08:53.736 [info] ExtensionService#_doActivateExtension cursor.cursor-browser-automation, startup: false, activationEvent: 'onStartupFinished'
+2025-12-29 08:08:53.739 [info] ExtensionService#_doActivateExtension anysphere.cursor-browser-extension, startup: false, activationEvent: 'onStartupFinished'
+2025-12-29 08:08:53.903 [info] ExtensionService#_doActivateExtension anysphere.cursor-deeplink, startup: false, activationEvent: 'onStartupFinished'
+2025-12-29 08:08:53.943 [info] ExtensionService#_doActivateExtension anysphere.cursor-ios-simulator-connect, startup: false, activationEvent: 'onStartupFinished'
+2025-12-29 08:08:53.972 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-12-29 08:08:54.023 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-12-29 08:08:54.025 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-12-29 08:08:54.037 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-12-29 08:08:54.150 [warning] DiagnosticCollection with name 'basedpyright' does already exist.
+2025-12-29 08:09:05.338 [warning] DiagnosticCollection with name 'basedpyright' does already exist.
+2025-12-29 08:10:34.687 [error] Error: illegal state - object is disposed
+	at Qje._checkDisposed (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:166:2099113)
+	at Qje.delete (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:166:2098520)
+	at g.forgetDocument (/home/henrique/.cursor/extensions/anysphere.cursorpyright-1.0.10/dist/extension.js:1:64809)
+	at v.cleanUpDocument (/home/henrique/.cursor/extensions/anysphere.cursorpyright-1.0.10/dist/extension.js:1:75075)
+	at Bve.value (/home/henrique/.cursor/extensions/anysphere.cursorpyright-1.0.10/dist/extension.js:1:74372)
+	at x._deliver (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:2961)
+	at x._deliverQueue (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:3052)
+	at x.fire (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:3389)
+	at Bve.value (/home/henrique/.cursor/extensions/anysphere.cursorpyright-1.0.10/dist/extension.js:1:206659)
+	at x._deliver (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:2961)
+	at x.fire (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:3282)
+	at Cbe.$acceptTabOperation (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:149:27756)
+	at Rl._doInvokeHandler (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:125837)
+	at Rl._invokeHandler (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:125579)
+	at Rl._receiveRequest (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:124214)
+	at Rl._receiveOneMessage (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:123039)
+	at Bve.value (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:121072)
+	at x._deliver (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:2961)
+	at x.fire (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:3282)
+	at Xo.fire (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:10988)
+	at Bve.value (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:770:16178)
+	at x._deliver (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:2961)
+	at x.fire (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:3282)
+	at Xo.fire (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:10988)
+	at MessagePortMain.<anonymous> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:770:14380)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain.emit (node:domain:489:12)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+	at Object.topLevelDomainCallback (node:domain:161:15)
+	at Object.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-29 08:10:34.696 [error] Error: illegal state - object is disposed
+	at Qje._checkDisposed (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:166:2099113)
+	at Qje.delete (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:166:2098520)
+	at g.forgetDocument (/home/henrique/.cursor/extensions/anysphere.cursorpyright-1.0.10/dist/extension.js:1:64809)
+	at v.cleanUpDocument (/home/henrique/.cursor/extensions/anysphere.cursorpyright-1.0.10/dist/extension.js:1:75075)
+	at Bve.value (/home/henrique/.cursor/extensions/anysphere.cursorpyright-1.0.10/dist/extension.js:1:74372)
+	at x._deliver (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:2961)
+	at x._deliverQueue (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:3052)
+	at x.fire (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:3389)
+	at Bve.value (/home/henrique/.cursor/extensions/anysphere.cursorpyright-1.0.10/dist/extension.js:1:206659)
+	at x._deliver (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:2961)
+	at x.fire (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:3282)
+	at Cbe.$acceptTabOperation (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:149:27756)
+	at Rl._doInvokeHandler (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:125837)
+	at Rl._invokeHandler (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:125579)
+	at Rl._receiveRequest (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:124214)
+	at Rl._receiveOneMessage (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:123039)
+	at Bve.value (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:121072)
+	at x._deliver (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:2961)
+	at x.fire (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:3282)
+	at Xo.fire (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:10988)
+	at Bve.value (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:770:16178)
+	at x._deliver (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:2961)
+	at x.fire (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:3282)
+	at Xo.fire (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:10988)
+	at MessagePortMain.<anonymous> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:770:14380)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain.emit (node:domain:489:12)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+	at Object.topLevelDomainCallback (node:domain:161:15)
+	at Object.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-29 08:10:34.801 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2025-12-29 08:10:34.815 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2025-12-29 08:10:35.144 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2025-12-29 08:40:29.634 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-12-29 08:40:29.639 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2025-12-29 08:40:29.675 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2025-12-29 12:45:56.486 [info] Extension host terminating: renderer closed the MessagePort
+2025-12-29 12:45:56.537 [error] Canceled: Canceled
+	at new Tit (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:119231)
+	at Rl._remoteCall (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:125894)
+	at r.<computed>.a.charCodeAt.r.<computed> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:122518)
+	at qIe._doExecuteCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:49822)
+	at qIe.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:49261)
+	at t.registerCommand.description (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:48525)
+	at qIe._executeContributedCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:50392)
+	at qIe._doExecuteCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:49394)
+	at qIe.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:49261)
+	at Object.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:203:143746)
+	at Bve.N [as value] (/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:110885)
+	at x._deliver (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:2961)
+	at x._deliverQueue (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:3052)
+	at x.fire (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:3389)
+	at Object.v [as dispose] (/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:179405)
+	at /usr/share/cursor/resources/app/extensions/git/dist/main.js:2:185770
+	at Array.forEach (<anonymous>)
+	at R.dispose (/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:185757)
+	at URe.<anonymous> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:10091)
+	at URe.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:10187)
+	at URe.<anonymous> (/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:113362)
+	at URe.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:10187)
+	at gi (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:42:706)
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:19823
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:42:1019
+	at Object.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:1274)
+	at Las._deactivate (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:15323)
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:12594
+	at Array.map (<anonymous>)
+	at Las._deactivateAll (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:12582)
+	at Las.terminate (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:12936)
+	at Fje.terminate (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:146:1617)
+	at Rr (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:770:17989)
+	at MessagePortMain.<anonymous> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:770:14420)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain.emit (node:domain:489:12)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+	at Object.topLevelDomainCallback (node:domain:161:15)
+	at Object.callbackTrampoline (node:internal/async_hooks:128:24) setContext undefined
+2025-12-29 12:45:56.537 [error] Canceled: Canceled
+	at new Tit (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:119231)
+	at Rl._remoteCall (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:125894)
+	at r.<computed>.a.charCodeAt.r.<computed> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:122518)
+	at qIe._doExecuteCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:49822)
+	at qIe.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:49261)
+	at t.registerCommand.description (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:48525)
+	at qIe._executeContributedCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:50392)
+	at qIe._doExecuteCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:49394)
+	at qIe.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:49261)
+	at Object.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:203:143746)
+	at set hasGitHubRepositories (/usr/share/cursor/resources/app/extensions/github/dist/extension.js:2:270497)
+	at /usr/share/cursor/resources/app/extensions/github/dist/extension.js:2:271447
+	at Bve.value (/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:597935)
+	at x._deliver (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:2961)
+	at x._deliverQueue (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:3052)
+	at x.fire (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:3389)
+	at Object.v [as dispose] (/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:179405)
+	at /usr/share/cursor/resources/app/extensions/git/dist/main.js:2:185770
+	at Array.forEach (<anonymous>)
+	at R.dispose (/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:185757)
+	at URe.<anonymous> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:10091)
+	at URe.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:10187)
+	at URe.<anonymous> (/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:113362)
+	at URe.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:10187)
+	at gi (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:42:706)
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:19823
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:42:1019
+	at Object.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:1274)
+	at Las._deactivate (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:15323)
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:12594
+	at Array.map (<anonymous>)
+	at Las._deactivateAll (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:12582)
+	at Las.terminate (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:12936)
+	at Fje.terminate (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:146:1617)
+	at Rr (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:770:17989)
+	at MessagePortMain.<anonymous> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:770:14420)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain.emit (node:domain:489:12)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+	at Object.topLevelDomainCallback (node:domain:161:15)
+	at Object.callbackTrampoline (node:internal/async_hooks:128:24) setContext undefined
+2025-12-29 12:45:56.556 [info] Extension host with pid 9499 exiting with code 0

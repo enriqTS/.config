@@ -1,0 +1,82 @@
+2025-12-30 12:11:22.240 [info] Initializing GrepClient
+2025-12-30 12:11:22.240 [info] Watching filesystem...
+2025-12-30 12:11:22.240 [info] GrepClient initialized successfully
+2025-12-30 12:11:22.244 [info] initialized head tracking (current branch = 'main', current commit = 7fab1c4ba5235c0101ef6e91be52a7b070abf19f)
+2025-12-30 12:11:22.244 [info] bootstrapping repository index at '/home/henrique/upd8/Rodosafra IA' (cache_path=/home/henrique/upd8/Rodosafra IA/.git/cursor/crepe)
+2025-12-30 12:11:22.244 [info] looking for best possible index (current_sha=7fab1c4ba5235c0101ef6e91be52a7b070abf19f)
+2025-12-30 12:11:22.244 [info] candidate index /home/henrique/upd8/Rodosafra IA/.git/cursor/crepe/b0ed27253a733ebc2aeb6ac6cff86a20d477fc19 is 1 commits away
+2025-12-30 12:11:22.244 [info] loading index for commit b0ed27253a733ebc2aeb6ac6cff86a20d477fc19
+2025-12-30 12:11:22.273 [info] reset index to head in 8.732795ms: 2 documents in commit, 0 in worktree
+2025-12-30 12:11:22.273 [info] constructed repository layout in 368.932µs
+2025-12-30 12:11:22.273 [info] index OK in 30.618548ms
+2025-12-30 12:11:30.722 [info] Initializing GrepClient
+2025-12-30 12:11:30.722 [info] Watching filesystem...
+2025-12-30 12:11:30.722 [info] GrepClient initialized successfully
+2025-12-30 12:11:30.722 [info] initialized head tracking (current branch = 'main', current commit = a4557f20181131bb8ccfc1ec9ca7cdd906c8aa50)
+2025-12-30 12:11:30.722 [info] bootstrapping repository index at '/home/henrique/upd8/Docly/poc-docly-doc-analise' (cache_path=/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/cursor/crepe)
+2025-12-30 12:11:30.722 [info] looking for best possible index (current_sha=a4557f20181131bb8ccfc1ec9ca7cdd906c8aa50)
+2025-12-30 12:11:30.722 [info] candidate index /home/henrique/upd8/Docly/poc-docly-doc-analise/.git/cursor/crepe/543d8f7003bf3fec5df4799c67d4a757cae9e54b is 5 commits away
+2025-12-30 12:11:30.722 [info] loading index for commit 543d8f7003bf3fec5df4799c67d4a757cae9e54b
+2025-12-30 12:11:30.722 [error] failed to reset index: Failed(An object with id 543d8f7003bf3fec5df4799c67d4a757cae9e54b could not be found)
+2025-12-30 12:11:30.722 [error] index failed to bootstrap: failed to reset index
+
+Caused by:
+    An object with id 543d8f7003bf3fec5df4799c67d4a757cae9e54b could not be found
+2025-12-30 12:20:07.538 [info] Initializing GrepClient
+2025-12-30 12:20:07.538 [info] Watching filesystem...
+2025-12-30 12:20:07.538 [info] GrepClient initialized successfully
+2025-12-30 12:20:07.538 [info] initialized head tracking (current branch = 'main', current commit = 7fab1c4ba5235c0101ef6e91be52a7b070abf19f)
+2025-12-30 12:20:07.538 [info] bootstrapping repository index at '/home/henrique/upd8/Rodosafra IA' (cache_path=/home/henrique/upd8/Rodosafra IA/.git/cursor/crepe)
+2025-12-30 12:20:07.538 [info] looking for best possible index (current_sha=7fab1c4ba5235c0101ef6e91be52a7b070abf19f)
+2025-12-30 12:20:07.538 [info] candidate index /home/henrique/upd8/Rodosafra IA/.git/cursor/crepe/b0ed27253a733ebc2aeb6ac6cff86a20d477fc19 is 1 commits away
+2025-12-30 12:20:07.538 [info] loading index for commit b0ed27253a733ebc2aeb6ac6cff86a20d477fc19
+2025-12-30 12:20:07.538 [info] reset index to head in 13.82468ms: 2 documents in commit, 0 in worktree
+2025-12-30 12:20:07.538 [info] constructed repository layout in 270.783µs
+2025-12-30 12:20:07.538 [info] index OK in 15.832607ms
+2025-12-30 14:57:06.212 [info] dropped 0 file events from ignored files in 288.556µs (61 -> 61)
+2025-12-30 14:57:06.212 [info] refreshing index (61 stale documents detected)
+2025-12-30 14:57:06.224 [info] refreshed 59 new documents in 12.484846ms
+2025-12-30 15:09:11.671 [info] dropped 0 file events from ignored files in 459.434µs (53 -> 53)
+2025-12-30 15:09:11.671 [info] refreshing index (53 stale documents detected)
+2025-12-30 15:09:11.672 [info] refreshed 52 new documents in 1.551459ms
+2025-12-30 15:55:31.584 [info] dropped 0 file events from ignored files in 338.76µs (52 -> 52)
+2025-12-30 15:55:31.584 [info] refreshing index (52 stale documents detected)
+2025-12-30 15:55:31.585 [info] refreshed 52 new documents in 1.752395ms
+2025-12-30 16:29:35.931 [info] Initializing GrepClient
+2025-12-30 16:29:35.931 [info] Watching filesystem...
+2025-12-30 16:29:36.141 [info] GrepClient initialized successfully
+2025-12-30 16:29:36.193 [info] initialized head tracking (current branch = 'main', current commit = 7fab1c4ba5235c0101ef6e91be52a7b070abf19f)
+2025-12-30 16:29:36.193 [info] bootstrapping repository index at '/home/henrique/upd8/Rodosafra IA' (cache_path=/home/henrique/upd8/Rodosafra IA/.git/cursor/crepe)
+2025-12-30 16:29:36.193 [info] looking for best possible index (current_sha=7fab1c4ba5235c0101ef6e91be52a7b070abf19f)
+2025-12-30 16:29:36.193 [info] candidate index /home/henrique/upd8/Rodosafra IA/.git/cursor/crepe/b0ed27253a733ebc2aeb6ac6cff86a20d477fc19 is 1 commits away
+2025-12-30 16:29:36.193 [info] loading index for commit b0ed27253a733ebc2aeb6ac6cff86a20d477fc19
+2025-12-30 16:29:36.193 [info] reset index to head in 10.219764ms: 2 documents in commit, 3 in worktree
+2025-12-30 16:29:36.193 [info] constructed repository layout in 231.189µs
+2025-12-30 16:29:36.193 [info] index OK in 24.063556ms
+2025-12-30 16:29:44.087 [info] Initializing GrepClient
+2025-12-30 16:29:44.087 [info] Watching filesystem...
+2025-12-30 16:29:44.087 [info] GrepClient initialized successfully
+2025-12-30 16:29:44.087 [info] initialized head tracking (current branch = 'main', current commit = 7fab1c4ba5235c0101ef6e91be52a7b070abf19f)
+2025-12-30 16:29:44.087 [info] bootstrapping repository index at '/home/henrique/upd8/Rodosafra IA' (cache_path=/home/henrique/upd8/Rodosafra IA/.git/cursor/crepe)
+2025-12-30 16:29:44.087 [info] looking for best possible index (current_sha=7fab1c4ba5235c0101ef6e91be52a7b070abf19f)
+2025-12-30 16:29:44.087 [info] candidate index /home/henrique/upd8/Rodosafra IA/.git/cursor/crepe/b0ed27253a733ebc2aeb6ac6cff86a20d477fc19 is 1 commits away
+2025-12-30 16:29:44.087 [info] loading index for commit b0ed27253a733ebc2aeb6ac6cff86a20d477fc19
+2025-12-30 16:29:44.087 [info] reset index to head in 7.455762ms: 2 documents in commit, 3 in worktree
+2025-12-30 16:29:44.087 [info] constructed repository layout in 475.195µs
+2025-12-30 16:29:44.087 [info] index OK in 10.696197ms
+2025-12-30 18:30:11.633 [info] dropped 2 file events from ignored files in 186.294µs (38 -> 36)
+2025-12-30 18:30:11.641 [info] refreshing index (36 stale documents detected)
+2025-12-30 18:30:11.646 [info] refreshed 34 new documents in 13.38694ms
+2025-12-30 19:07:41.212 [info] git head changed: main (e39aeda9733b51ea68622d1ea89e1d35dfd8c748)
+2025-12-30 19:10:52.873 [info] git head changed: <detached HEAD> (ef10a935589683083dd77a1a4980af23ddab267d)
+2025-12-30 19:10:58.923 [info] dropped 0 file events from ignored files in 1.01584ms (81 -> 81)
+2025-12-30 19:10:58.923 [info] refreshing index (81 stale documents detected)
+2025-12-30 19:10:58.936 [info] refreshed 66 new documents in 13.413622ms
+2025-12-30 19:13:07.616 [info] git head changed: <detached HEAD> (9fe2f50dd8f1c6dc0c7405cebe6db4455fff476e)
+2025-12-30 19:16:28.634 [info] git head changed: <detached HEAD> (ef10a935589683083dd77a1a4980af23ddab267d)
+2025-12-30 19:16:39.086 [info] git head changed: <detached HEAD> (4b3b87be8ac1a42d38126691566bc28054be8255)
+2025-12-30 19:16:57.665 [info] git head changed: <detached HEAD> (ef10a935589683083dd77a1a4980af23ddab267d)
+2025-12-30 19:18:24.362 [info] git head changed: <detached HEAD> (e23a3700aa04dc66d58d9b73841a950844f50e8b)
+2025-12-30 19:19:59.512 [info] git head changed: main (e23a3700aa04dc66d58d9b73841a950844f50e8b)
+2025-12-30 20:35:32.392 [info] git head changed: main (252e448a16ec3e2d24387a85b665e8b27c7ed2cb)
+2025-12-30 22:33:42.592 [info] git head changed: main (ceca860e3579996c523c2f9cd2192e4c5e09abca)

@@ -1,0 +1,106 @@
+2025-12-09 14:35:23.595 [info] Extension host with pid 21399 started
+2025-12-09 14:35:23.595 [info] [ExtHostShellExec] Initializing terminal executor with userTerminalHint: /usr/bin/fish
+2025-12-09 14:35:23.606 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-12-09 14:35:23.620 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-12-09 14:35:23.625 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-12-09 14:35:23.664 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-12-09 14:35:23.868 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: anysphere.cursor-agent-exec
+2025-12-09 14:35:23.870 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: anysphere.cursor-agent-exec
+2025-12-09 14:35:23.901 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-12-09 14:35:23.965 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: true, activationEvent: '*', root cause: anysphere.cursor-agent-exec
+2025-12-09 14:35:24.126 [info] ExtensionService#_doActivateExtension anysphere.cursor-agent-exec, startup: true, activationEvent: '*'
+2025-12-09 14:35:24.322 [info] ExtensionService#_doActivateExtension anysphere.cursor-mcp, startup: false, activationEvent: 'api', root cause: anysphere.cursor-agent-exec
+2025-12-09 14:35:24.490 [info] Eager extensions activated
+2025-12-09 14:35:24.510 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2025-12-09 14:35:24.708 [info] ExtensionService#_doActivateExtension cursor.cursor-browser-automation, startup: false, activationEvent: 'onStartupFinished'
+2025-12-09 14:35:24.711 [info] ExtensionService#_doActivateExtension anysphere.cursor-browser-connect, startup: false, activationEvent: 'onStartupFinished'
+2025-12-09 14:35:24.738 [info] ExtensionService#_doActivateExtension anysphere.cursor-browser-extension, startup: false, activationEvent: 'onStartupFinished'
+2025-12-09 14:35:24.903 [info] ExtensionService#_doActivateExtension anysphere.cursor-deeplink, startup: false, activationEvent: 'onStartupFinished'
+2025-12-09 14:35:24.952 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-12-09 14:35:25.006 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-12-09 14:35:25.007 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-12-09 14:35:26.057 [error] TypeError: Cannot read properties of undefined (reading 'length')
+	at GetAddrInfoReqWrap.callback (/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:3007865)
+	at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:17)
+2025-12-09 14:35:26.483 [error] ConnectError: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+	at o.from (/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:811157)
+	at B (/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:3174269)
+	at ClientHttp2Session.a (/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:3183201)
+	at ClientHttp2Session.emit (node:events:519:28)
+	at emitClose (node:internal/http2/core:1164:10)
+	at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+2025-12-09 14:35:26.508 [error] ConnectError: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+	at o.from (/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:811157)
+	at B (/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:3174269)
+	at ClientHttp2Session.a (/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:3183201)
+	at ClientHttp2Session.emit (node:events:519:28)
+	at emitClose (node:internal/http2/core:1164:10)
+	at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+2025-12-09 14:35:26.574 [error] ConnectError: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+	at o.from (/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:811157)
+	at B (/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:3174269)
+	at ClientHttp2Session.a (/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:3183201)
+	at ClientHttp2Session.emit (node:events:519:28)
+	at emitClose (node:internal/http2/core:1164:10)
+	at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+2025-12-09 14:35:26.603 [error] ConnectError: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+	at o.from (/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:811157)
+	at B (/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:3174269)
+	at ClientHttp2Session.a (/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:3183201)
+	at ClientHttp2Session.emit (node:events:519:28)
+	at emitClose (node:internal/http2/core:1164:10)
+	at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+2025-12-09 14:35:26.609 [error] ConnectError: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+	at o.from (/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:811157)
+	at B (/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:3174269)
+	at ClientHttp2Session.a (/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:3183201)
+	at ClientHttp2Session.emit (node:events:519:28)
+	at emitClose (node:internal/http2/core:1164:10)
+	at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+2025-12-09 14:35:27.608 [error] ConnectError: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+	at o.from (/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:811157)
+	at B (/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:3174269)
+	at ClientHttp2Session.a (/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:3183201)
+	at ClientHttp2Session.emit (node:events:519:28)
+	at emitClose (node:internal/http2/core:1164:10)
+	at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+2025-12-09 14:35:32.040 [error] ConnectError: [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh
+	at o.from (/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:811157)
+	at B (/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:3174269)
+	at ClientHttp2Session.a (/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:3183201)
+	at ClientHttp2Session.emit (node:events:519:28)
+	at emitClose (node:internal/http2/core:1164:10)
+	at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+2025-12-09 14:35:35.038 [error] ConnectError: [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh
+	at o.from (/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:811157)
+	at B (/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:3174269)
+	at ClientHttp2Session.a (/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:3183201)
+	at ClientHttp2Session.emit (node:events:519:28)
+	at emitClose (node:internal/http2/core:1164:10)
+	at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+2025-12-09 14:36:26.081 [error] ConnectError: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+	at o.from (/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:811157)
+	at B (/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:3174269)
+	at ClientHttp2Session.a (/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:3183201)
+	at ClientHttp2Session.emit (node:events:519:28)
+	at emitClose (node:internal/http2/core:1164:10)
+	at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+2025-12-09 14:37:26.139 [error] ConnectError: [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh
+	at o.from (/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:811157)
+	at B (/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:3174269)
+	at ClientHttp2Session.a (/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:3183201)
+	at ClientHttp2Session.emit (node:events:519:28)
+	at emitClose (node:internal/http2/core:1164:10)
+	at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+2025-12-09 14:38:03.128 [info] Extension host terminating: renderer closed the MessagePort
+2025-12-09 14:38:03.188 [error] Error: Channel has been closed
+	at r (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:3270)
+	at Object.appendLine (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:3409)
+	at m (/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:244518)
+	at t.deactivate (/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:244377)
+	at /usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:3158351
+	at t.deactivate (/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:3158409)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async Promise.all (index 2)
+	at async vjt._deactivateAll (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:12476)
+2025-12-09 14:38:03.190 [info] Extension host with pid 21399 exiting with code 0

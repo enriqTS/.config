@@ -1,0 +1,14 @@
+2025-12-29 08:08:52.482 [warning] Dir "/home/henrique/upd8/Rodosafra IA/.pixi/envs" is not watchable (directory does not exist)
+2025-12-29 08:08:52.482 [info] > conda info --json
+2025-12-29 08:08:52.482 [info] Python interpreter path: /bin/python
+2025-12-29 08:08:52.487 [info] > pyenv which python
+2025-12-29 08:08:52.487 [info] cwd: ~/upd8/Rodosafra IA
+2025-12-29 08:08:52.552 [info] Editor support is inactive since language server is set to None.
+2025-12-29 08:31:39.242 [info] Discover tests for workspace name: Rodosafra IA - uri: /home/henrique/upd8/Rodosafra IA/chat/websocket/envia-template/lambda_function.py
+2025-12-29 08:31:48.227 [info] Discover tests for workspace name: Rodosafra IA - uri: /home/henrique/upd8/Rodosafra IA/chat/websocket/envia-template/lambda_function.py
+2025-12-29 08:31:51.929 [info] Discover tests for workspace name: Rodosafra IA - uri: /home/henrique/upd8/Rodosafra IA/chat/websocket/envia-template/lambda_function.py
+2025-12-29 08:31:56.757 [info] Discover tests for workspace name: Rodosafra IA - uri: /home/henrique/upd8/Rodosafra IA/chat/websocket/envia-template/lambda_function.py
+2025-12-29 08:32:03.168 [info] Discover tests for workspace name: Rodosafra IA - uri: /home/henrique/upd8/Rodosafra IA/chat/websocket/envia-template/lambda_function.py
+2025-12-29 08:32:04.839 [info] Discover tests for workspace name: Rodosafra IA - uri: /home/henrique/upd8/Rodosafra IA/chat/websocket/envia-template/lambda_function.py
+2025-12-29 08:32:08.241 [info] Discover tests for workspace name: Rodosafra IA - uri: /home/henrique/upd8/Rodosafra IA/chat/websocket/envia-template/lambda_function.py
+2025-12-29 08:32:40.171 [info] Discover tests for workspace name: Rodosafra IA - uri: /home/henrique/upd8/Rodosafra IA/chat/websocket/envia-template/lambda_function.py

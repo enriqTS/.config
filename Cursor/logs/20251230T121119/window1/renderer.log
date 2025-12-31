@@ -1,0 +1,597 @@
+2025-12-30 12:11:19.832 [warning] Missing property "rpcFileLoggerFolder" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-30 12:11:19.836 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-30 12:11:19.837 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-copilot-data-analysis' wants API proposal 'chatVariableResolver' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-30 12:11:19.837 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-30 12:11:19.837 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-python-envs' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-30 12:11:19.837 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatReadonlyPromptReference' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-30 12:11:19.838 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-30 12:11:19.838 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-30 12:11:19.838 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-30 12:11:19.838 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-30 12:11:20.253 [info] Started local extension host with pid 24290.
+2025-12-30 12:11:20.557 [error] Extension 'ms-toolsai.jupyter' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): notebookDeprecated, notebookMessaging, notebookMime, contribNotebookStaticPreloads, portsAttributes, quickPickSortByLabel, notebookKernelSource, interactiveWindow, quickPickItemTooltip, notebookExecution, notebookCellExecution, notebookVariableProvider, notebookReplDocument
+product.json (WINS): notebookDeprecated, notebookMessaging, notebookMime, notebookCellExecutionState, quickPickSortByLabel, notebookKernelSource, interactiveWindow, notebookControllerAffinityHidden, contribNotebookStaticPreloads, quickPickItemTooltip, notebookExecution, notebookCellExecution, notebookVariableProvider, notebookReplDocument
+2025-12-30 12:11:20.609 [warning] [ms-python.python]: Cannot register 'python.venvPath'. This property is already registered.
+2025-12-30 12:11:21.133 [info] [WorktreeCleanupCron] Registering cleanup task with interval of 6 hours
+2025-12-30 12:11:21.133 [info] [WorktreeCleanupCron] Cleanup task registered with interval of 6 hours (21600000ms)
+2025-12-30 12:11:21.148 [info] [LocalProcessExtensionHost] getDefaultShell result: /usr/bin/fish
+2025-12-30 12:11:21.162 [info] [LocalProcessExtensionHost] Final userTerminalHint: /usr/bin/fish
+2025-12-30 12:11:21.284 [warning] No search provider registered for scheme: file, waiting
+2025-12-30 12:11:21.747 [warning] Authentication provider HashiCorpTerraformCloud was not declared in the Extension Manifest.
+2025-12-30 12:11:21.757 [info] [ShellExec] Created session 9adc356d-49fe-4137-b697-5cf0e48410f3 on LocalProcess host
+2025-12-30 12:11:21.966 [error] [Extension Host] (node:24290) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-12-30 12:11:22.777 [info] [Debug] Registered command palette action: debug.classifyRecentConversations
+2025-12-30 12:11:22.777 [info] [Debug] Registered command palette action: debug.getApplicationProperty
+2025-12-30 12:11:22.778 [info] [Debug] Registered command palette action: debug.logComposer
+2025-12-30 12:11:22.778 [info] [Debug] Registered command palette action: debug.getContextKeyValue
+2025-12-30 12:11:22.778 [info] [Debug] Registered command palette action: debug.testLinearIssues
+2025-12-30 12:11:22.813 [info] [RepositoryTracker] Stored repository path: dev.azure.com/upd8/rodosafra%20ia/_git/rodosafra%20ia -> file:///home/henrique/upd8/Rodosafra%20IA
+2025-12-30 12:11:22.821 [info] OpenInBrowserWatcher: Initializing terminal log watcher
+2025-12-30 12:11:22.909 [info] [Cursor Proclist Polling] Config applied to Main process
+2025-12-30 12:11:22.909 [info] [Cursor Proclist Polling] Started polling (every 5 min)
+2025-12-30 12:11:23.216 [info] [perf] Render performance baseline is 15ms
+2025-12-30 12:11:23.286 [warning] [aws-toolkit-vscode]: Couldn't find message for key AWS.command.apig.copyUrl.
+2025-12-30 12:11:28.563 [warning] [backup tracker] suspended, ignoring unregister event file:///home/henrique/upd8/Rodosafra%20IA/chat/server/package.json 
+2025-12-30 12:11:28.586 [info] [Cursor Proclist Polling] Stopped polling
+2025-12-30 12:11:29.132 [warning] Missing property "rpcFileLoggerFolder" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-30 12:11:29.135 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-30 12:11:29.135 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-copilot-data-analysis' wants API proposal 'chatVariableResolver' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-30 12:11:29.135 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-30 12:11:29.136 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-python-envs' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-30 12:11:29.136 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatReadonlyPromptReference' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-30 12:11:29.136 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-30 12:11:29.136 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-30 12:11:29.136 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-30 12:11:29.136 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-30 12:11:29.282 [info] Started local extension host with pid 24921.
+2025-12-30 12:11:29.449 [error] Extension 'ms-toolsai.jupyter' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): notebookDeprecated, notebookMessaging, notebookMime, contribNotebookStaticPreloads, portsAttributes, quickPickSortByLabel, notebookKernelSource, interactiveWindow, quickPickItemTooltip, notebookExecution, notebookCellExecution, notebookVariableProvider, notebookReplDocument
+product.json (WINS): notebookDeprecated, notebookMessaging, notebookMime, notebookCellExecutionState, quickPickSortByLabel, notebookKernelSource, interactiveWindow, notebookControllerAffinityHidden, contribNotebookStaticPreloads, quickPickItemTooltip, notebookExecution, notebookCellExecution, notebookVariableProvider, notebookReplDocument
+2025-12-30 12:11:29.464 [warning] [ms-python.python]: Cannot register 'python.venvPath'. This property is already registered.
+2025-12-30 12:11:29.658 [warning] No search provider registered for scheme: file, waiting
+2025-12-30 12:11:29.748 [info] [WorktreeCleanupCron] Registering cleanup task with interval of 6 hours
+2025-12-30 12:11:29.748 [info] [WorktreeCleanupCron] Cleanup task registered with interval of 6 hours (21600000ms)
+2025-12-30 12:11:29.913 [info] [LocalProcessExtensionHost] getDefaultShell result: /usr/bin/fish
+2025-12-30 12:11:29.914 [info] [LocalProcessExtensionHost] Final userTerminalHint: /usr/bin/fish
+2025-12-30 12:11:30.209 [warning] Authentication provider HashiCorpTerraformCloud was not declared in the Extension Manifest.
+2025-12-30 12:11:30.269 [info] [ShellExec] Created session 950bfadc-fe67-4e34-9465-7f54fa3b3a8b on LocalProcess host
+2025-12-30 12:11:30.405 [error] [Extension Host] (node:24921) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-12-30 12:11:31.842 [info] [Debug] Registered command palette action: debug.classifyRecentConversations
+2025-12-30 12:11:31.842 [info] [Debug] Registered command palette action: debug.getApplicationProperty
+2025-12-30 12:11:31.842 [info] [Debug] Registered command palette action: debug.logComposer
+2025-12-30 12:11:31.842 [info] [Debug] Registered command palette action: debug.getContextKeyValue
+2025-12-30 12:11:31.842 [info] [Debug] Registered command palette action: debug.testLinearIssues
+2025-12-30 12:11:31.846 [info] OpenInBrowserWatcher: Initializing terminal log watcher
+2025-12-30 12:11:31.871 [info] [RepositoryTracker] Stored repository path: github.com/enriqts/poc-docly-doc-analise -> file:///home/henrique/upd8/Docly/poc-docly-doc-analise
+2025-12-30 12:11:31.876 [info] [Cursor Proclist Polling] Config applied to Main process
+2025-12-30 12:11:31.876 [info] [Cursor Proclist Polling] Started polling (every 5 min)
+2025-12-30 12:11:31.985 [info] [perf] Render performance baseline is 12ms
+2025-12-30 12:11:32.311 [warning] [aws-toolkit-vscode]: Couldn't find message for key AWS.command.apig.copyUrl.
+2025-12-30 12:11:40.747 [error] main.tf (37,30): position outside of any attribute name, value or block: Error: main.tf (37,30): position outside of any attribute name, value or block
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24) main.tf (37,30): position outside of any attribute name, value or block
+2025-12-30 12:11:58.145 [info] [Extensions]: Checking for updates. Reason: Product update
+2025-12-30 12:13:04.709 [error] [Extension Host] [otel.error] {"stack":"OTLPExporterError: Bad Request\n\tat IncomingMessage.<anonymous> (/usr/share/cursor/resources/app/node_modules/@opentelemetry/otlp-exporter-base/build/src/transport/http-transport-utils.js:52:31)\n\tat IncomingMessage.emit (node:events:531:35)\n\tat IncomingMessage.emit (node:domain:489:12)\n\tat endReadableNT (node:internal/streams/readable:1698:12)\n\tat process.processTicksAndRejections (node:internal/process/task_queues:90:21)","message":"Bad Request","code":"400","name":"OTLPExporterError","data":"{\"error\":\"Trace spans collection is not enabled for this user\"}"}
+2025-12-30 12:16:31.884 [info] [Cursor Proclist] Samples written: 17 local processes, 0 remote processes
+2025-12-30 12:20:04.537 [info] [Cursor Proclist Polling] Stopped polling
+2025-12-30 12:20:05.432 [warning] Missing property "rpcFileLoggerFolder" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-30 12:20:05.435 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-30 12:20:05.435 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-copilot-data-analysis' wants API proposal 'chatVariableResolver' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-30 12:20:05.436 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-30 12:20:05.436 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-python-envs' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-30 12:20:05.436 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatReadonlyPromptReference' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-30 12:20:05.436 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-30 12:20:05.436 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-30 12:20:05.436 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-30 12:20:05.437 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-30 12:20:05.705 [info] Started local extension host with pid 26549.
+2025-12-30 12:20:05.957 [error] Extension 'ms-toolsai.jupyter' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): notebookDeprecated, notebookMessaging, notebookMime, contribNotebookStaticPreloads, portsAttributes, quickPickSortByLabel, notebookKernelSource, interactiveWindow, quickPickItemTooltip, notebookExecution, notebookCellExecution, notebookVariableProvider, notebookReplDocument
+product.json (WINS): notebookDeprecated, notebookMessaging, notebookMime, notebookCellExecutionState, quickPickSortByLabel, notebookKernelSource, interactiveWindow, notebookControllerAffinityHidden, contribNotebookStaticPreloads, quickPickItemTooltip, notebookExecution, notebookCellExecution, notebookVariableProvider, notebookReplDocument
+2025-12-30 12:20:05.985 [warning] [ms-python.python]: Cannot register 'python.venvPath'. This property is already registered.
+2025-12-30 12:20:06.452 [info] [LocalProcessExtensionHost] getDefaultShell result: /usr/bin/fish
+2025-12-30 12:20:06.456 [info] [LocalProcessExtensionHost] Final userTerminalHint: /usr/bin/fish
+2025-12-30 12:20:06.517 [warning] No search provider registered for scheme: file, waiting
+2025-12-30 12:20:06.639 [info] [WorktreeCleanupCron] Registering cleanup task with interval of 6 hours
+2025-12-30 12:20:06.639 [info] [WorktreeCleanupCron] Cleanup task registered with interval of 6 hours (21600000ms)
+2025-12-30 12:20:07.053 [warning] Authentication provider HashiCorpTerraformCloud was not declared in the Extension Manifest.
+2025-12-30 12:20:07.234 [error] [Extension Host] (node:26549) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-12-30 12:20:07.244 [info] [ShellExec] Created session e53e5849-a4de-4838-a223-1a723784a417 on LocalProcess host
+2025-12-30 12:20:08.215 [info] [Debug] Registered command palette action: debug.classifyRecentConversations
+2025-12-30 12:20:08.215 [info] [Debug] Registered command palette action: debug.getApplicationProperty
+2025-12-30 12:20:08.215 [info] [Debug] Registered command palette action: debug.logComposer
+2025-12-30 12:20:08.215 [info] [Debug] Registered command palette action: debug.getContextKeyValue
+2025-12-30 12:20:08.216 [info] [Debug] Registered command palette action: debug.testLinearIssues
+2025-12-30 12:20:08.222 [info] [RepositoryTracker] Stored repository path: dev.azure.com/upd8/rodosafra%20ia/_git/rodosafra%20ia -> file:///home/henrique/upd8/Rodosafra%20IA
+2025-12-30 12:20:08.264 [info] OpenInBrowserWatcher: Initializing terminal log watcher
+2025-12-30 12:20:08.303 [info] [Cursor Proclist Polling] Config applied to Main process
+2025-12-30 12:20:08.303 [info] [Cursor Proclist Polling] Started polling (every 5 min)
+2025-12-30 12:20:08.728 [warning] [aws-toolkit-vscode]: Couldn't find message for key AWS.command.apig.copyUrl.
+2025-12-30 12:20:08.816 [info] [perf] Render performance baseline is 13ms
+2025-12-30 12:20:12.908 [error] [Extension Host] [otel.error] {"stack":"OTLPExporterError: Bad Request\n\tat IncomingMessage.<anonymous> (/usr/share/cursor/resources/app/node_modules/@opentelemetry/otlp-exporter-base/build/src/transport/http-transport-utils.js:52:31)\n\tat IncomingMessage.emit (node:events:531:35)\n\tat IncomingMessage.emit (node:domain:489:12)\n\tat endReadableNT (node:internal/streams/readable:1698:12)\n\tat process.processTicksAndRejections (node:internal/process/task_queues:90:21)","message":"Bad Request","code":"400","name":"OTLPExporterError","data":"{\"error\":\"Trace spans collection is not enabled for this user\"}"}
+2025-12-30 12:25:08.310 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-30 12:30:08.314 [info] [Cursor Proclist] Samples written: 15 local processes, 0 remote processes
+2025-12-30 12:35:08.308 [info] [Cursor Proclist] Samples written: 15 local processes, 0 remote processes
+2025-12-30 12:40:08.320 [info] [Cursor Proclist] Samples written: 16 local processes, 0 remote processes
+2025-12-30 12:45:08.309 [info] [Cursor Proclist] Samples written: 15 local processes, 0 remote processes
+2025-12-30 12:50:08.309 [info] [Cursor Proclist] Samples written: 17 local processes, 0 remote processes
+2025-12-30 12:55:08.311 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-30 12:59:13.227 [error] lambda.tf (41,18): position outside of any attribute name, value or block: Error: lambda.tf (41,18): position outside of any attribute name, value or block
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24) lambda.tf (41,18): position outside of any attribute name, value or block
+2025-12-30 12:59:51.905 [error] no reference origin found: Error: no reference origin found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24) no reference origin found
+2025-12-30 12:59:52.170 [error] lambda.tf (23,47): position outside of any attribute name, value or block: Error: lambda.tf (23,47): position outside of any attribute name, value or block
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24) lambda.tf (23,47): position outside of any attribute name, value or block
+2025-12-30 12:59:52.304 [error] no reference origin found: Error: no reference origin found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24) no reference origin found
+2025-12-30 13:00:08.317 [info] [Cursor Proclist] Samples written: 17 local processes, 0 remote processes
+2025-12-30 13:05:08.309 [info] [Cursor Proclist] Samples written: 16 local processes, 0 remote processes
+2025-12-30 13:05:23.865 [error] lambda.tf (21,45): position outside of any attribute name, value or block: Error: lambda.tf (21,45): position outside of any attribute name, value or block
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24) lambda.tf (21,45): position outside of any attribute name, value or block
+2025-12-30 13:10:08.318 [info] [Cursor Proclist] Samples written: 16 local processes, 0 remote processes
+2025-12-30 13:15:08.309 [info] [Cursor Proclist] Samples written: 16 local processes, 0 remote processes
+2025-12-30 13:20:08.309 [info] [Cursor Proclist] Samples written: 17 local processes, 0 remote processes
+2025-12-30 13:25:08.309 [info] [Cursor Proclist] Samples written: 16 local processes, 0 remote processes
+2025-12-30 13:30:08.312 [info] [Cursor Proclist] Samples written: 16 local processes, 0 remote processes
+2025-12-30 13:35:08.309 [info] [Cursor Proclist] Samples written: 16 local processes, 0 remote processes
+2025-12-30 13:40:08.309 [info] [Cursor Proclist] Samples written: 17 local processes, 0 remote processes
+2025-12-30 13:45:08.308 [info] [Cursor Proclist] Samples written: 16 local processes, 0 remote processes
+2025-12-30 13:50:08.309 [info] [Cursor Proclist] Samples written: 16 local processes, 0 remote processes
+2025-12-30 13:55:08.321 [info] [Cursor Proclist] Samples written: 16 local processes, 0 remote processes
+2025-12-30 14:00:08.310 [info] [Cursor Proclist] Samples written: 17 local processes, 0 remote processes
+2025-12-30 14:05:08.318 [info] [Cursor Proclist] Samples written: 16 local processes, 0 remote processes
+2025-12-30 14:10:08.320 [info] [Cursor Proclist] Samples written: 16 local processes, 0 remote processes
+2025-12-30 14:15:08.319 [info] [Cursor Proclist] Samples written: 16 local processes, 0 remote processes
+2025-12-30 14:20:08.318 [info] [Cursor Proclist] Samples written: 17 local processes, 0 remote processes
+2025-12-30 14:25:08.310 [info] [Cursor Proclist] Samples written: 16 local processes, 0 remote processes
+2025-12-30 14:30:08.310 [info] [Cursor Proclist] Samples written: 16 local processes, 0 remote processes
+2025-12-30 14:35:08.309 [info] [Cursor Proclist] Samples written: 16 local processes, 0 remote processes
+2025-12-30 14:40:08.308 [info] [Cursor Proclist] Samples written: 17 local processes, 0 remote processes
+2025-12-30 14:45:08.309 [info] [Cursor Proclist] Samples written: 17 local processes, 0 remote processes
+2025-12-30 14:48:16.161 [error] lambda-imports.tf: file not found: Error: lambda-imports.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24) lambda-imports.tf: file not found
+2025-12-30 14:48:20.878 [error] lambda-imports.tf: file not found: Error: lambda-imports.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24) lambda-imports.tf: file not found
+2025-12-30 14:48:26.748 [error] lambda-imports.tf: file not found: Error: lambda-imports.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24) lambda-imports.tf: file not found
+2025-12-30 14:48:28.698 [error] lambda-imports.tf: file not found: Error: lambda-imports.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24) lambda-imports.tf: file not found
+2025-12-30 14:48:45.883 [error] lambda-imports.tf: file not found: Error: lambda-imports.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24) lambda-imports.tf: file not found
+2025-12-30 14:50:08.309 [info] [Cursor Proclist] Samples written: 16 local processes, 0 remote processes
+2025-12-30 14:55:08.309 [info] [Cursor Proclist] Samples written: 16 local processes, 0 remote processes
+2025-12-30 15:00:08.309 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-30 15:05:08.318 [info] [Cursor Proclist] Samples written: 17 local processes, 0 remote processes
+2025-12-30 15:10:08.308 [info] [Cursor Proclist] Samples written: 16 local processes, 0 remote processes
+2025-12-30 15:15:08.308 [info] [Cursor Proclist] Samples written: 16 local processes, 0 remote processes
+2025-12-30 15:20:08.313 [info] [Cursor Proclist] Samples written: 17 local processes, 0 remote processes
+2025-12-30 15:25:08.309 [info] [Cursor Proclist] Samples written: 17 local processes, 0 remote processes
+2025-12-30 15:30:08.310 [info] [Cursor Proclist] Samples written: 16 local processes, 0 remote processes
+2025-12-30 15:35:08.312 [info] [Cursor Proclist] Samples written: 16 local processes, 0 remote processes
+2025-12-30 15:40:08.311 [info] [Cursor Proclist] Samples written: 17 local processes, 0 remote processes
+2025-12-30 15:45:08.309 [info] [Cursor Proclist] Samples written: 16 local processes, 0 remote processes
+2025-12-30 15:50:08.311 [info] [Cursor Proclist] Samples written: 16 local processes, 0 remote processes
+2025-12-30 15:55:08.310 [info] [Cursor Proclist] Samples written: 16 local processes, 0 remote processes
+2025-12-30 15:55:24.994 [error] lambda-imports.tf: file not found: Error: lambda-imports.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24) lambda-imports.tf: file not found
+2025-12-30 15:58:55.956 [error] lambda.tf (14,53): position outside of any attribute name, value or block: Error: lambda.tf (14,53): position outside of any attribute name, value or block
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24) lambda.tf (14,53): position outside of any attribute name, value or block
+2025-12-30 16:00:08.321 [info] [Cursor Proclist] Samples written: 16 local processes, 0 remote processes
+2025-12-30 16:01:39.257 [error] lambda-imports.tf: file not found: Error: lambda-imports.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24) lambda-imports.tf: file not found
+2025-12-30 16:05:08.309 [info] [Cursor Proclist] Samples written: 16 local processes, 0 remote processes
+2025-12-30 16:10:08.310 [info] [Cursor Proclist] Samples written: 16 local processes, 0 remote processes
+2025-12-30 16:10:49.107 [error] main.tf: file not found: Error: main.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24) main.tf: file not found
+2025-12-30 16:10:53.366 [error] lambda-imports.tf: file not found: Error: lambda-imports.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24) lambda-imports.tf: file not found
+2025-12-30 16:11:03.627 [error] lambda-imports.tf: file not found: Error: lambda-imports.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24) lambda-imports.tf: file not found
+2025-12-30 16:13:40.407 [error] lambda-imports.tf: file not found: Error: lambda-imports.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24) lambda-imports.tf: file not found
+2025-12-30 16:13:56.081 [error] import.tf (20,1): position outside of any attribute name, value or block: Error: import.tf (20,1): position outside of any attribute name, value or block
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24) import.tf (20,1): position outside of any attribute name, value or block
+2025-12-30 16:13:56.715 [error] lambda-imports.tf: file not found: Error: lambda-imports.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24) lambda-imports.tf: file not found
+2025-12-30 16:14:08.052 [error] lambda-imports.tf (9,79): position outside of any attribute name, value or block: Error: lambda-imports.tf (9,79): position outside of any attribute name, value or block
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24) lambda-imports.tf (9,79): position outside of any attribute name, value or block
+2025-12-30 16:14:29.147 [error] import.tf (26,45): position outside of any attribute name, value or block: Error: import.tf (26,45): position outside of any attribute name, value or block
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24) import.tf (26,45): position outside of any attribute name, value or block
+2025-12-30 16:15:08.320 [info] [Cursor Proclist] Samples written: 16 local processes, 0 remote processes
+2025-12-30 16:17:15.782 [error] import.tf (66,16): position outside of any attribute name, value or block: Error: import.tf (66,16): position outside of any attribute name, value or block
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24) import.tf (66,16): position outside of any attribute name, value or block
+2025-12-30 16:17:16.577 [error] import.tf (36,21): position outside of any attribute name, value or block: Error: import.tf (36,21): position outside of any attribute name, value or block
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24) import.tf (36,21): position outside of any attribute name, value or block
+2025-12-30 16:17:22.110 [error] no reference origin found: Error: no reference origin found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24) no reference origin found
+2025-12-30 16:17:27.574 [error] lambda-imports.tf (316,46): position outside of any attribute name, value or block: Error: lambda-imports.tf (316,46): position outside of any attribute name, value or block
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24) lambda-imports.tf (316,46): position outside of any attribute name, value or block
+2025-12-30 16:17:53.647 [error] dynamo-imports.tf: file not found: Error: dynamo-imports.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24) dynamo-imports.tf: file not found
+2025-12-30 16:18:35.634 [error] lambda.tf (13,86): position outside of any attribute name, value or block: Error: lambda.tf (13,86): position outside of any attribute name, value or block
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24) lambda.tf (13,86): position outside of any attribute name, value or block
+2025-12-30 16:20:08.313 [info] [Cursor Proclist] Samples written: 16 local processes, 0 remote processes
+2025-12-30 16:22:39.299 [error] lambda.tf (13,86): position outside of any attribute name, value or block: Error: lambda.tf (13,86): position outside of any attribute name, value or block
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24) lambda.tf (13,86): position outside of any attribute name, value or block
+2025-12-30 16:22:43.322 [error] lambda.tf (17,13): position outside of any attribute name, value or block: Error: lambda.tf (17,13): position outside of any attribute name, value or block
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24) lambda.tf (17,13): position outside of any attribute name, value or block
+2025-12-30 16:22:58.881 [error] lambda.tf (13,26): position outside of any attribute name, value or block: Error: lambda.tf (13,26): position outside of any attribute name, value or block
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24) lambda.tf (13,26): position outside of any attribute name, value or block
+2025-12-30 16:23:09.722 [error] lambda.tf (16,6): position outside of any attribute name, value or block: Error: lambda.tf (16,6): position outside of any attribute name, value or block
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24) lambda.tf (16,6): position outside of any attribute name, value or block
+2025-12-30 16:25:08.318 [info] [Cursor Proclist] Samples written: 16 local processes, 0 remote processes
+2025-12-30 16:29:23.179 [error] lambda.tf (4,11): unknown attribute "source_dir": Error: lambda.tf (4,11): unknown attribute "source_dir"
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24) lambda.tf (4,11): unknown attribute "source_dir"
+2025-12-30 16:29:33.213 [info] [Cursor Proclist Polling] Stopped polling
+2025-12-30 16:29:34.299 [warning] Missing property "rpcFileLoggerFolder" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-30 16:29:34.302 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-30 16:29:34.303 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-copilot-data-analysis' wants API proposal 'chatVariableResolver' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-30 16:29:34.303 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-30 16:29:34.303 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-python-envs' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-30 16:29:34.303 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatReadonlyPromptReference' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-30 16:29:34.303 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-30 16:29:34.303 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-30 16:29:34.303 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-30 16:29:34.303 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-30 16:29:34.562 [info] Started local extension host with pid 75146.
+2025-12-30 16:29:34.780 [error] Extension 'ms-toolsai.jupyter' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): notebookDeprecated, notebookMessaging, notebookMime, contribNotebookStaticPreloads, portsAttributes, quickPickSortByLabel, notebookKernelSource, interactiveWindow, quickPickItemTooltip, notebookExecution, notebookCellExecution, notebookVariableProvider, notebookReplDocument
+product.json (WINS): notebookDeprecated, notebookMessaging, notebookMime, notebookCellExecutionState, quickPickSortByLabel, notebookKernelSource, interactiveWindow, notebookControllerAffinityHidden, contribNotebookStaticPreloads, quickPickItemTooltip, notebookExecution, notebookCellExecution, notebookVariableProvider, notebookReplDocument
+2025-12-30 16:29:34.809 [warning] [ms-python.python]: Cannot register 'python.venvPath'. This property is already registered.
+2025-12-30 16:29:35.322 [info] [WorktreeCleanupCron] Registering cleanup task with interval of 6 hours
+2025-12-30 16:29:35.322 [info] [WorktreeCleanupCron] Cleanup task registered with interval of 6 hours (21600000ms)
+2025-12-30 16:29:35.339 [info] [LocalProcessExtensionHost] getDefaultShell result: /usr/bin/fish
+2025-12-30 16:29:35.341 [info] [LocalProcessExtensionHost] Final userTerminalHint: /usr/bin/fish
+2025-12-30 16:29:35.428 [warning] No search provider registered for scheme: file, waiting
+2025-12-30 16:29:35.615 [warning] Authentication provider HashiCorpTerraformCloud was not declared in the Extension Manifest.
+2025-12-30 16:29:35.886 [error] [Extension Host] (node:75146) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-12-30 16:29:36.175 [info] [ShellExec] Created session 339c85a5-1298-439f-84bb-0b95354e3159 on LocalProcess host
+2025-12-30 16:29:37.082 [info] [Debug] Registered command palette action: debug.classifyRecentConversations
+2025-12-30 16:29:37.082 [info] [Debug] Registered command palette action: debug.getApplicationProperty
+2025-12-30 16:29:37.082 [info] [Debug] Registered command palette action: debug.logComposer
+2025-12-30 16:29:37.082 [info] [Debug] Registered command palette action: debug.getContextKeyValue
+2025-12-30 16:29:37.082 [info] [Debug] Registered command palette action: debug.testLinearIssues
+2025-12-30 16:29:37.096 [info] OpenInBrowserWatcher: Initializing terminal log watcher
+2025-12-30 16:29:37.119 [info] [RepositoryTracker] Stored repository path: dev.azure.com/upd8/rodosafra%20ia/_git/rodosafra%20ia -> file:///home/henrique/upd8/Rodosafra%20IA
+2025-12-30 16:29:37.186 [info] [Cursor Proclist Polling] Config applied to Main process
+2025-12-30 16:29:37.186 [info] [Cursor Proclist Polling] Started polling (every 5 min)
+2025-12-30 16:29:37.594 [warning] [aws-toolkit-vscode]: Couldn't find message for key AWS.command.apig.copyUrl.
+2025-12-30 16:29:37.785 [info] [perf] Render performance baseline is 12ms
+2025-12-30 16:29:41.557 [info] [Cursor Proclist Polling] Stopped polling
+2025-12-30 16:29:42.250 [warning] Missing property "rpcFileLoggerFolder" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-30 16:29:42.253 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-30 16:29:42.253 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-copilot-data-analysis' wants API proposal 'chatVariableResolver' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-30 16:29:42.253 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-30 16:29:42.253 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-python-envs' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-30 16:29:42.253 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatReadonlyPromptReference' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-30 16:29:42.253 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-30 16:29:42.253 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-30 16:29:42.253 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-30 16:29:42.253 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-30 16:29:42.468 [info] Started local extension host with pid 75523.
+2025-12-30 16:29:42.717 [error] Extension 'ms-toolsai.jupyter' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): notebookDeprecated, notebookMessaging, notebookMime, contribNotebookStaticPreloads, portsAttributes, quickPickSortByLabel, notebookKernelSource, interactiveWindow, quickPickItemTooltip, notebookExecution, notebookCellExecution, notebookVariableProvider, notebookReplDocument
+product.json (WINS): notebookDeprecated, notebookMessaging, notebookMime, notebookCellExecutionState, quickPickSortByLabel, notebookKernelSource, interactiveWindow, notebookControllerAffinityHidden, contribNotebookStaticPreloads, quickPickItemTooltip, notebookExecution, notebookCellExecution, notebookVariableProvider, notebookReplDocument
+2025-12-30 16:29:42.743 [warning] [ms-python.python]: Cannot register 'python.venvPath'. This property is already registered.
+2025-12-30 16:29:43.118 [info] [LocalProcessExtensionHost] getDefaultShell result: /usr/bin/fish
+2025-12-30 16:29:43.124 [info] [LocalProcessExtensionHost] Final userTerminalHint: /usr/bin/fish
+2025-12-30 16:29:43.219 [warning] No search provider registered for scheme: file, waiting
+2025-12-30 16:29:43.299 [info] [WorktreeCleanupCron] Registering cleanup task with interval of 6 hours
+2025-12-30 16:29:43.299 [info] [WorktreeCleanupCron] Cleanup task registered with interval of 6 hours (21600000ms)
+2025-12-30 16:29:43.357 [warning] Authentication provider HashiCorpTerraformCloud was not declared in the Extension Manifest.
+2025-12-30 16:29:43.702 [error] [Extension Host] (node:75523) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-12-30 16:29:43.973 [info] [ShellExec] Created session a249123e-3325-4e97-a00a-0003f7c84c17 on LocalProcess host
+2025-12-30 16:29:45.009 [info] [Debug] Registered command palette action: debug.classifyRecentConversations
+2025-12-30 16:29:45.009 [info] [Debug] Registered command palette action: debug.getApplicationProperty
+2025-12-30 16:29:45.010 [info] [Debug] Registered command palette action: debug.logComposer
+2025-12-30 16:29:45.010 [info] [Debug] Registered command palette action: debug.getContextKeyValue
+2025-12-30 16:29:45.010 [info] [Debug] Registered command palette action: debug.testLinearIssues
+2025-12-30 16:29:45.016 [info] OpenInBrowserWatcher: Initializing terminal log watcher
+2025-12-30 16:29:45.021 [info] [RepositoryTracker] Stored repository path: dev.azure.com/upd8/rodosafra%20ia/_git/rodosafra%20ia -> file:///home/henrique/upd8/Rodosafra%20IA
+2025-12-30 16:29:45.090 [info] [Cursor Proclist Polling] Config applied to Main process
+2025-12-30 16:29:45.090 [info] [Cursor Proclist Polling] Started polling (every 5 min)
+2025-12-30 16:29:45.257 [info] [perf] Render performance baseline is 16ms
+2025-12-30 16:29:45.493 [warning] [aws-toolkit-vscode]: Couldn't find message for key AWS.command.apig.copyUrl.
+2025-12-30 16:29:51.859 [error] [Extension Host] [otel.error] {"stack":"OTLPExporterError: Bad Request\n\tat IncomingMessage.<anonymous> (/usr/share/cursor/resources/app/node_modules/@opentelemetry/otlp-exporter-base/build/src/transport/http-transport-utils.js:52:31)\n\tat IncomingMessage.emit (node:events:531:35)\n\tat IncomingMessage.emit (node:domain:489:12)\n\tat endReadableNT (node:internal/streams/readable:1698:12)\n\tat process.processTicksAndRejections (node:internal/process/task_queues:90:21)","message":"Bad Request","code":"400","name":"OTLPExporterError","data":"{\"error\":\"Trace spans collection is not enabled for this user\"}"}
+2025-12-30 16:34:45.113 [info] [Cursor Proclist] Samples written: 14 local processes, 0 remote processes
+2025-12-30 16:39:45.104 [info] [Cursor Proclist] Samples written: 14 local processes, 0 remote processes
+2025-12-30 16:44:45.105 [info] [Cursor Proclist] Samples written: 13 local processes, 0 remote processes
+2025-12-30 16:49:45.103 [info] [Cursor Proclist] Samples written: 13 local processes, 0 remote processes
+2025-12-30 16:54:45.096 [info] [Cursor Proclist] Samples written: 13 local processes, 0 remote processes
+2025-12-30 16:59:45.099 [info] [Cursor Proclist] Samples written: 13 local processes, 0 remote processes
+2025-12-30 17:04:45.104 [info] [Cursor Proclist] Samples written: 14 local processes, 0 remote processes
+2025-12-30 17:09:45.098 [info] [Cursor Proclist] Samples written: 13 local processes, 0 remote processes
+2025-12-30 17:14:45.095 [info] [Cursor Proclist] Samples written: 13 local processes, 0 remote processes
+2025-12-30 17:19:45.095 [info] [Cursor Proclist] Samples written: 13 local processes, 0 remote processes
+2025-12-30 17:24:45.095 [info] [Cursor Proclist] Samples written: 13 local processes, 0 remote processes
+2025-12-30 17:29:45.103 [info] [Cursor Proclist] Samples written: 13 local processes, 0 remote processes
+2025-12-30 17:34:45.095 [info] [Cursor Proclist] Samples written: 13 local processes, 0 remote processes
+2025-12-30 17:39:45.095 [info] [Cursor Proclist] Samples written: 13 local processes, 0 remote processes
+2025-12-30 17:44:45.095 [info] [Cursor Proclist] Samples written: 14 local processes, 0 remote processes
+2025-12-30 17:49:45.096 [info] [Cursor Proclist] Samples written: 13 local processes, 0 remote processes
+2025-12-30 17:54:45.097 [info] [Cursor Proclist] Samples written: 13 local processes, 0 remote processes
+2025-12-30 17:59:45.095 [info] [Cursor Proclist] Samples written: 13 local processes, 0 remote processes
+2025-12-30 18:04:45.095 [info] [Cursor Proclist] Samples written: 13 local processes, 0 remote processes
+2025-12-30 18:09:45.107 [info] [Cursor Proclist] Samples written: 13 local processes, 0 remote processes
+2025-12-30 18:14:45.104 [info] [Cursor Proclist] Samples written: 13 local processes, 0 remote processes
+2025-12-30 18:19:45.103 [info] [Cursor Proclist] Samples written: 13 local processes, 0 remote processes
+2025-12-30 18:24:45.103 [info] [Cursor Proclist] Samples written: 13 local processes, 0 remote processes
+2025-12-30 18:29:45.104 [info] [Cursor Proclist] Samples written: 13 local processes, 0 remote processes
+2025-12-30 18:34:45.104 [info] [Cursor Proclist] Samples written: 14 local processes, 0 remote processes
+2025-12-30 18:39:45.106 [info] [Cursor Proclist] Samples written: 14 local processes, 0 remote processes
+2025-12-30 18:44:45.104 [info] [Cursor Proclist] Samples written: 14 local processes, 0 remote processes
+2025-12-30 18:49:45.103 [info] [Cursor Proclist] Samples written: 14 local processes, 0 remote processes
+2025-12-30 18:51:18.423 [error] main.tf: file not found: Error: main.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24) main.tf: file not found
+2025-12-30 18:54:45.105 [info] [Cursor Proclist] Samples written: 15 local processes, 0 remote processes
+2025-12-30 18:59:45.103 [info] [Cursor Proclist] Samples written: 15 local processes, 0 remote processes
+2025-12-30 19:04:45.104 [info] [Cursor Proclist] Samples written: 15 local processes, 0 remote processes
+2025-12-30 19:09:45.097 [info] [Cursor Proclist] Samples written: 15 local processes, 0 remote processes
+2025-12-30 19:14:45.104 [info] [Cursor Proclist] Samples written: 15 local processes, 0 remote processes
+2025-12-30 19:17:19.818 [error] main.tf (81,46): position outside of any attribute name, value or block: Error: main.tf (81,46): position outside of any attribute name, value or block
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24) main.tf (81,46): position outside of any attribute name, value or block
+2025-12-30 19:17:25.307 [error] main.tf (229,39): position outside of any attribute name, value or block: Error: main.tf (229,39): position outside of any attribute name, value or block
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24) main.tf (229,39): position outside of any attribute name, value or block
+2025-12-30 19:19:45.096 [info] [Cursor Proclist] Samples written: 15 local processes, 0 remote processes
+2025-12-30 19:24:45.104 [info] [Cursor Proclist] Samples written: 16 local processes, 0 remote processes
+2025-12-30 19:29:45.097 [info] [Cursor Proclist] Samples written: 15 local processes, 0 remote processes
+2025-12-30 19:34:45.096 [info] [Cursor Proclist] Samples written: 16 local processes, 0 remote processes
+2025-12-30 19:39:45.096 [info] [Cursor Proclist] Samples written: 15 local processes, 0 remote processes
+2025-12-30 19:44:45.096 [info] [Cursor Proclist] Samples written: 16 local processes, 0 remote processes
+2025-12-30 19:49:45.095 [info] [Cursor Proclist] Samples written: 15 local processes, 0 remote processes
+2025-12-30 19:54:45.096 [info] [Cursor Proclist] Samples written: 16 local processes, 0 remote processes
+2025-12-30 19:59:45.096 [info] [Cursor Proclist] Samples written: 15 local processes, 0 remote processes
+2025-12-30 20:04:45.104 [info] [Cursor Proclist] Samples written: 16 local processes, 0 remote processes
+2025-12-30 20:09:45.104 [info] [Cursor Proclist] Samples written: 15 local processes, 0 remote processes
+2025-12-30 20:14:45.101 [info] [Cursor Proclist] Samples written: 16 local processes, 0 remote processes
+2025-12-30 20:19:45.105 [info] [Cursor Proclist] Samples written: 15 local processes, 0 remote processes
+2025-12-30 20:24:45.096 [info] [Cursor Proclist] Samples written: 16 local processes, 0 remote processes
+2025-12-30 20:29:45.098 [info] [Cursor Proclist] Samples written: 15 local processes, 0 remote processes
+2025-12-30 20:34:45.105 [info] [Cursor Proclist] Samples written: 16 local processes, 0 remote processes
+2025-12-30 20:39:45.105 [info] [Cursor Proclist] Samples written: 15 local processes, 0 remote processes
+2025-12-30 20:44:45.096 [info] [Cursor Proclist] Samples written: 16 local processes, 0 remote processes
+2025-12-30 20:49:45.107 [info] [Cursor Proclist] Samples written: 15 local processes, 0 remote processes
+2025-12-30 20:54:45.104 [info] [Cursor Proclist] Samples written: 16 local processes, 0 remote processes
+2025-12-30 20:59:45.096 [info] [Cursor Proclist] Samples written: 15 local processes, 0 remote processes
+2025-12-30 21:04:45.111 [info] [Cursor Proclist] Samples written: 16 local processes, 0 remote processes
+2025-12-30 21:09:45.095 [info] [Cursor Proclist] Samples written: 15 local processes, 0 remote processes
+2025-12-30 21:14:45.108 [info] [Cursor Proclist] Samples written: 16 local processes, 0 remote processes
+2025-12-30 21:19:45.095 [info] [Cursor Proclist] Samples written: 15 local processes, 0 remote processes
+2025-12-30 21:24:45.098 [info] [Cursor Proclist] Samples written: 16 local processes, 0 remote processes
+2025-12-30 21:29:45.110 [info] [Cursor Proclist] Samples written: 15 local processes, 0 remote processes
+2025-12-30 21:34:45.107 [info] [Cursor Proclist] Samples written: 16 local processes, 0 remote processes
+2025-12-30 21:39:45.106 [info] [Cursor Proclist] Samples written: 15 local processes, 0 remote processes
+2025-12-30 21:44:45.102 [info] [Cursor Proclist] Samples written: 16 local processes, 0 remote processes
+2025-12-30 21:49:45.101 [info] [Cursor Proclist] Samples written: 15 local processes, 0 remote processes
+2025-12-30 21:54:45.108 [info] [Cursor Proclist] Samples written: 16 local processes, 0 remote processes
+2025-12-30 21:59:45.109 [info] [Cursor Proclist] Samples written: 15 local processes, 0 remote processes
+2025-12-30 22:04:45.104 [info] [Cursor Proclist] Samples written: 16 local processes, 0 remote processes
+2025-12-30 22:09:45.122 [info] [Cursor Proclist] Samples written: 15 local processes, 0 remote processes
+2025-12-30 22:14:45.105 [info] [Cursor Proclist] Samples written: 16 local processes, 0 remote processes
+2025-12-30 22:19:45.103 [info] [Cursor Proclist] Samples written: 15 local processes, 0 remote processes
+2025-12-30 22:24:45.100 [info] [Cursor Proclist] Samples written: 16 local processes, 0 remote processes
+2025-12-30 22:29:43.299 [info] [WorktreeCleanupCron] Running scheduled worktree cleanup (interval: 6h)
+2025-12-30 22:29:43.307 [info] [WorktreeManager] Using worktrees root /home/henrique/.cursor/worktrees
+2025-12-30 22:29:45.096 [info] [Cursor Proclist] Samples written: 15 local processes, 0 remote processes
+2025-12-30 22:34:45.104 [info] [Cursor Proclist] Samples written: 16 local processes, 0 remote processes

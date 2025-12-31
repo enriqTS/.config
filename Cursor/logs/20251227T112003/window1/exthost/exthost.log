@@ -1,0 +1,213 @@
+2025-12-27 11:20:07.029 [info] Extension host with pid 11036 started
+2025-12-27 11:20:07.029 [info] [ExtHostShellExec] Initializing terminal executor with userTerminalHint: /usr/bin/fish
+2025-12-27 11:20:07.029 [info] Skipping acquiring lock for /home/henrique/.config/Cursor/User/workspaceStorage/eb659251d1bc619caedb31ea12d09b2e.
+2025-12-27 11:20:07.029 [info] [ExtHostShellExec] Detecting sandbox support...
+2025-12-27 11:20:07.029 [info] [ExtHostShellExec] Platform: linux, Shell type: unknown
+2025-12-27 11:20:07.029 [info] [ExtHostShellExec] dirname: /usr/share/cursor/resources/app/out/vs/workbench/api/node
+2025-12-27 11:20:07.029 [info] [ExtHostShellExec] Linux sandbox helper path: not found
+2025-12-27 11:20:07.029 [info] [ExtHostShellExec] process.resourcesPath: /usr/lib/electron37/resources
+2025-12-27 11:20:07.029 [info] [ExtHostShellExec] process.execPath: /usr/lib/electron37/electron
+2025-12-27 11:20:07.029 [info] [ExtHostShellExec] ripgrep path for sandboxing: /usr/share/cursor/resources/app/node_modules/@vscode/ripgrep/bin/rg
+2025-12-27 11:20:07.029 [error] [shell-exec:sandbox] [isLinuxSandboxSupported] Starting sandbox support check... undefined
+2025-12-27 11:20:07.029 [error] [shell-exec:sandbox] [checkBinaryAvailable] Resolved binary path: undefined undefined
+2025-12-27 11:20:07.029 [error] [shell-exec:sandbox] [checkBinaryAvailable] Binary path not set, returning false undefined
+2025-12-27 11:20:07.029 [error] [shell-exec:sandbox] [isLinuxSandboxSupported] Binary not available, returning false undefined
+2025-12-27 11:20:07.029 [info] [ExtHostShellExec] Sandbox support detected: false
+2025-12-27 11:20:07.141 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-12-27 11:20:07.158 [info] ExtensionService#_doActivateExtension amazonwebservices.aws-toolkit-vscode, startup: false, activationEvent: 'onLanguage:python'
+2025-12-27 11:20:08.711 [info] ExtensionService#_doActivateExtension anysphere.cursorpyright, startup: false, activationEvent: 'onLanguage:python'
+2025-12-27 11:20:08.750 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2025-12-27 11:20:08.880 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2025-12-27 11:20:08.881 [info] ExtensionService#_doActivateExtension anysphere.cursor-browser-extension, startup: false, activationEvent: 'onCommand:cursor-browser-extension.status'
+2025-12-27 11:20:09.072 [info] ExtensionService#_doActivateExtension anysphere.cursor-agent-exec, startup: false, activationEvent: '*'
+2025-12-27 11:20:09.272 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2025-12-27 11:20:09.602 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2025-12-27 11:20:09.604 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2025-12-27 11:20:09.637 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2025-12-27 11:20:09.745 [info] ExtensionService#_doActivateExtension hashicorp.terraform, startup: true, activationEvent: 'workspaceContains:**/*.tf,**/*.tfvars'
+2025-12-27 11:20:09.911 [warning] registerMcpServerDefinitionProvider is not supported in Cursor
+2025-12-27 11:20:09.948 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2025-12-27 11:20:10.134 [info] ExtensionService#_doActivateExtension anysphere.cursor-mcp, startup: false, activationEvent: 'api', root cause: anysphere.cursor-agent-exec
+2025-12-27 11:20:10.318 [info] Eager extensions activated
+2025-12-27 11:20:10.359 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2025-12-27 11:20:10.582 [info] ExtensionService#_doActivateExtension cursor.cursor-browser-automation, startup: false, activationEvent: 'onStartupFinished'
+2025-12-27 11:20:10.592 [info] ExtensionService#_doActivateExtension anysphere.cursor-browser-connect, startup: false, activationEvent: 'onStartupFinished'
+2025-12-27 11:20:10.620 [info] ExtensionService#_doActivateExtension anysphere.cursor-deeplink, startup: false, activationEvent: 'onStartupFinished'
+2025-12-27 11:20:10.672 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2025-12-27 11:20:11.171 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-12-27 11:20:11.232 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-12-27 11:20:11.233 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-12-27 11:20:11.247 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-12-27 11:20:11.471 [warning] DiagnosticCollection with name 'basedpyright' does already exist.
+2025-12-27 11:20:11.614 [warning] DiagnosticCollection with name 'basedpyright' does already exist.
+2025-12-27 11:28:44.389 [error] Error: illegal state - object is disposed
+	at QVe._checkDisposed (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:162:2029856)
+	at QVe.delete (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:162:2029263)
+	at g.forgetDocument (/home/henrique/.cursor/extensions/anysphere.cursorpyright-1.0.10/dist/extension.js:1:64809)
+	at v.cleanUpDocument (/home/henrique/.cursor/extensions/anysphere.cursorpyright-1.0.10/dist/extension.js:1:75075)
+	at Wpe.value (/home/henrique/.cursor/extensions/anysphere.cursorpyright-1.0.10/dist/extension.js:1:74372)
+	at x._deliver (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:2961)
+	at x._deliverQueue (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:3052)
+	at x.fire (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:3389)
+	at Wpe.value (/home/henrique/.cursor/extensions/anysphere.cursorpyright-1.0.10/dist/extension.js:1:206659)
+	at x._deliver (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:2961)
+	at x.fire (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:3282)
+	at JPe.$acceptTabOperation (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:145:27753)
+	at M0e._doInvokeHandler (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:125492)
+	at M0e._invokeHandler (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:125234)
+	at M0e._receiveRequest (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:123999)
+	at M0e._receiveOneMessage (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:122824)
+	at Wpe.value (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:120920)
+	at x._deliver (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:2961)
+	at x.fire (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:3282)
+	at Ko.fire (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:10988)
+	at Wpe.value (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:751:16134)
+	at x._deliver (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:2961)
+	at x.fire (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:3282)
+	at Ko.fire (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:10988)
+	at MessagePortMain.<anonymous> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:751:14336)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain.emit (node:domain:489:12)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+	at Object.topLevelDomainCallback (node:domain:161:15)
+	at Object.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-27 11:28:44.520 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2025-12-27 11:28:44.536 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2025-12-27 11:28:44.851 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2025-12-27 11:34:14.995 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-12-27 11:34:15.013 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2025-12-27 11:34:15.073 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2025-12-27 13:15:01.336 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2025-12-27 13:53:01.964 [error] Error: Unhandled method workspace/willRenameFiles
+	at ae (/home/henrique/.cursor/extensions/anysphere.cursorpyright-1.0.10/dist/extension.js:1:263879)
+	at re (/home/henrique/.cursor/extensions/anysphere.cursorpyright-1.0.10/dist/extension.js:1:261839)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/anysphere.cursorpyright-1.0.10/dist/extension.js:1:258133)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-27 15:10:17.563 [error] Error: Unhandled method workspace/willRenameFiles
+	at ae (/home/henrique/.cursor/extensions/anysphere.cursorpyright-1.0.10/dist/extension.js:1:263879)
+	at re (/home/henrique/.cursor/extensions/anysphere.cursorpyright-1.0.10/dist/extension.js:1:261839)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/anysphere.cursorpyright-1.0.10/dist/extension.js:1:258133)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-27 15:10:23.762 [error] Error: Unhandled method workspace/willRenameFiles
+	at ae (/home/henrique/.cursor/extensions/anysphere.cursorpyright-1.0.10/dist/extension.js:1:263879)
+	at re (/home/henrique/.cursor/extensions/anysphere.cursorpyright-1.0.10/dist/extension.js:1:261839)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/anysphere.cursorpyright-1.0.10/dist/extension.js:1:258133)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-27 15:10:31.227 [error] Error: Unhandled method workspace/willRenameFiles
+	at ae (/home/henrique/.cursor/extensions/anysphere.cursorpyright-1.0.10/dist/extension.js:1:263879)
+	at re (/home/henrique/.cursor/extensions/anysphere.cursorpyright-1.0.10/dist/extension.js:1:261839)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/anysphere.cursorpyright-1.0.10/dist/extension.js:1:258133)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-27 15:10:44.888 [error] Error: Unhandled method workspace/willRenameFiles
+	at ae (/home/henrique/.cursor/extensions/anysphere.cursorpyright-1.0.10/dist/extension.js:1:263879)
+	at re (/home/henrique/.cursor/extensions/anysphere.cursorpyright-1.0.10/dist/extension.js:1:261839)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/anysphere.cursorpyright-1.0.10/dist/extension.js:1:258133)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-27 15:10:50.940 [error] Error: Unhandled method workspace/willRenameFiles
+	at ae (/home/henrique/.cursor/extensions/anysphere.cursorpyright-1.0.10/dist/extension.js:1:263879)
+	at re (/home/henrique/.cursor/extensions/anysphere.cursorpyright-1.0.10/dist/extension.js:1:261839)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/anysphere.cursorpyright-1.0.10/dist/extension.js:1:258133)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-27 16:01:02.324 [error] Error: Unhandled method workspace/willRenameFiles
+	at ae (/home/henrique/.cursor/extensions/anysphere.cursorpyright-1.0.10/dist/extension.js:1:263879)
+	at re (/home/henrique/.cursor/extensions/anysphere.cursorpyright-1.0.10/dist/extension.js:1:261839)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/anysphere.cursorpyright-1.0.10/dist/extension.js:1:258133)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-27 16:55:06.782 [info] Extension host terminating: renderer closed the MessagePort
+2025-12-27 16:55:06.864 [error] Canceled: Canceled
+	at new yst (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:119218)
+	at M0e._remoteCall (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:125549)
+	at r.<computed>.a.charCodeAt.r.<computed> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:122303)
+	at MCe._doExecuteCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:49821)
+	at MCe.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:49260)
+	at t.registerCommand.description (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:48524)
+	at MCe._executeContributedCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:50391)
+	at MCe._doExecuteCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:49393)
+	at MCe.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:49260)
+	at Object.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:199:142714)
+	at Wpe.N [as value] (/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:109007)
+	at x._deliver (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:2961)
+	at x._deliverQueue (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:3052)
+	at x.fire (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:3389)
+	at Object.v [as dispose] (/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:177471)
+	at /usr/share/cursor/resources/app/extensions/git/dist/main.js:2:183836
+	at Array.forEach (<anonymous>)
+	at R.dispose (/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:183823)
+	at W_e.<anonymous> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:10091)
+	at W_e.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:10187)
+	at W_e.<anonymous> (/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:111484)
+	at W_e.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:10187)
+	at pi (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:42:706)
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:19820
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:42:1019
+	at Object.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:1274)
+	at ins._deactivate (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:15320)
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:12592
+	at Array.map (<anonymous>)
+	at ins._deactivateAll (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:12580)
+	at ins.terminate (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:12934)
+	at AVe.terminate (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:1617)
+	at Er (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:751:17945)
+	at MessagePortMain.<anonymous> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:751:14376)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain.emit (node:domain:489:12)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+	at Object.topLevelDomainCallback (node:domain:161:15)
+	at Object.callbackTrampoline (node:internal/async_hooks:128:24) setContext undefined
+2025-12-27 16:55:06.865 [error] Canceled: Canceled
+	at new yst (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:119218)
+	at M0e._remoteCall (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:125549)
+	at r.<computed>.a.charCodeAt.r.<computed> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:122303)
+	at MCe._doExecuteCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:49821)
+	at MCe.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:49260)
+	at t.registerCommand.description (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:48524)
+	at MCe._executeContributedCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:50391)
+	at MCe._doExecuteCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:49393)
+	at MCe.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:49260)
+	at Object.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:199:142714)
+	at set hasGitHubRepositories (/usr/share/cursor/resources/app/extensions/github/dist/extension.js:2:270497)
+	at /usr/share/cursor/resources/app/extensions/github/dist/extension.js:2:271447
+	at Wpe.value (/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:592259)
+	at x._deliver (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:2961)
+	at x._deliverQueue (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:3052)
+	at x.fire (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:3389)
+	at Object.v [as dispose] (/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:177471)
+	at /usr/share/cursor/resources/app/extensions/git/dist/main.js:2:183836
+	at Array.forEach (<anonymous>)
+	at R.dispose (/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:183823)
+	at W_e.<anonymous> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:10091)
+	at W_e.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:10187)
+	at W_e.<anonymous> (/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:111484)
+	at W_e.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:131:10187)
+	at pi (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:42:706)
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:19820
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:42:1019
+	at Object.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:1274)
+	at ins._deactivate (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:15320)
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:12592
+	at Array.map (<anonymous>)
+	at ins._deactivateAll (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:12580)
+	at ins.terminate (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:12934)
+	at AVe.terminate (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:1617)
+	at Er (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:751:17945)
+	at MessagePortMain.<anonymous> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:751:14376)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain.emit (node:domain:489:12)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+	at Object.topLevelDomainCallback (node:domain:161:15)
+	at Object.callbackTrampoline (node:internal/async_hooks:128:24) setContext undefined
+2025-12-27 16:55:06.881 [info] Extension host with pid 11036 exiting with code 0

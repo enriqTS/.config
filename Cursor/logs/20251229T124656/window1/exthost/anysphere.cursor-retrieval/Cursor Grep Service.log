@@ -1,0 +1,72 @@
+2025-12-29 12:46:59.677 [info] Initializing GrepClient
+2025-12-29 12:46:59.677 [info] Watching filesystem...
+2025-12-29 12:46:59.677 [info] GrepClient initialized successfully
+2025-12-29 12:46:59.677 [info] initialized head tracking (current branch = 'main', current commit = 543d8f7003bf3fec5df4799c67d4a757cae9e54b)
+2025-12-29 12:46:59.677 [info] bootstrapping repository index at '/home/henrique/upd8/Docly/poc-docly-doc-analise' (cache_path=/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/cursor/crepe)
+2025-12-29 12:46:59.677 [info] looking for best possible index (current_sha=543d8f7003bf3fec5df4799c67d4a757cae9e54b)
+2025-12-29 12:46:59.677 [info] no candidate indexes found; building for main branch (commit=543d8f7003bf3fec5df4799c67d4a757cae9e54b)
+2025-12-29 12:46:59.677 [info] starting index build (root=/home/henrique/upd8/Docly/poc-docly-doc-analise, cache_path=/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/cursor/crepe, commit_sha=543d8f7003bf3fec5df4799c67d4a757cae9e54b)
+2025-12-29 12:46:59.677 [info] index constructed in 1.057145ms: /home/henrique/upd8/Docly/poc-docly-doc-analise/.git/cursor/crepe/543d8f7003bf3fec5df4799c67d4a757cae9e54b (1 documents indexed)
+2025-12-29 12:46:59.677 [info] constructed new index in path: /home/henrique/upd8/Docly/poc-docly-doc-analise/.git/cursor/crepe/543d8f7003bf3fec5df4799c67d4a757cae9e54b
+2025-12-29 12:46:59.677 [info] reset index to head in 1.974053ms: 0 documents in commit, 16 in worktree
+2025-12-29 12:46:59.677 [info] constructed repository layout in 35.853µs
+2025-12-29 12:46:59.677 [info] index OK in 3.739014ms
+2025-12-29 13:38:51.389 [info] dropped 0 file events from ignored files in 338.645µs (45 -> 45)
+2025-12-29 13:38:51.390 [info] refreshing index (45 stale documents detected)
+2025-12-29 13:38:51.391 [info] refreshed 24 new documents in 1.168036ms
+2025-12-29 13:38:51.466 [info] getTrackedState in 0.4434779998846352ms
+2025-12-29 13:38:51.466 [info] 	/home/henrique/upd8/Docly/poc-docly-doc-analise: git_status: true, git_branch_name: true, repo_layout: true
+2025-12-29 13:39:01.665 [info] queryContent for 'aws_region' in 0.729605000000447ms
+2025-12-29 13:39:05.015 [info] queryContent for 'aws_region' in 0.4213789999485016ms
+2025-12-29 13:39:09.707 [info] queryContent for 'aws_region' in 0.6050960002467036ms
+2025-12-29 13:39:26.255 [info] queryContent for 'aws_region' in 0.35347600001841784ms
+2025-12-29 13:39:35.372 [info] queryContent for 'aws_region' in 0.9964350000955164ms
+2025-12-29 13:39:51.594 [info] queryContent for 'data\.aws_region|aws_region' in 0.7254269998520613ms
+2025-12-29 13:39:59.910 [info] queryContent for 'data "aws_region"' in 0.9470080002211034ms
+2025-12-29 13:40:00.295 [info] queryContent for 'aws_region' in 0.48724500043317676ms
+2025-12-29 13:40:09.957 [info] queryContent for 'data "aws' in 0.804362999740988ms
+2025-12-29 13:40:19.238 [info] queryContent for 'aws_region|data.*region' in 2.252646000124514ms
+2025-12-29 13:47:46.032 [info] Initializing GrepClient
+2025-12-29 13:47:46.032 [info] Watching filesystem...
+2025-12-29 13:47:46.032 [info] GrepClient initialized successfully
+2025-12-29 13:47:46.032 [info] initialized head tracking (current branch = 'main', current commit = 543d8f7003bf3fec5df4799c67d4a757cae9e54b)
+2025-12-29 13:47:46.032 [info] bootstrapping repository index at '/home/henrique/upd8/Docly/poc-docly-doc-analise' (cache_path=/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/cursor/crepe)
+2025-12-29 13:47:46.032 [info] looking for best possible index (current_sha=543d8f7003bf3fec5df4799c67d4a757cae9e54b)
+2025-12-29 13:47:46.032 [info] candidate index /home/henrique/upd8/Docly/poc-docly-doc-analise/.git/cursor/crepe/543d8f7003bf3fec5df4799c67d4a757cae9e54b is 0 commits away
+2025-12-29 13:47:46.032 [info] loading index for commit 543d8f7003bf3fec5df4799c67d4a757cae9e54b
+2025-12-29 13:47:46.032 [info] reset index to head in 4.015026ms: 0 documents in commit, 38 in worktree
+2025-12-29 13:47:46.032 [info] constructed repository layout in 39.247µs
+2025-12-29 13:47:46.032 [info] index OK in 4.700697ms
+2025-12-29 13:47:59.355 [info] Initializing GrepClient
+2025-12-29 13:47:59.355 [info] Watching filesystem...
+2025-12-29 13:47:59.355 [info] GrepClient initialized successfully
+2025-12-29 13:47:59.360 [info] initialized head tracking (current branch = 'main', current commit = 543d8f7003bf3fec5df4799c67d4a757cae9e54b)
+2025-12-29 13:47:59.360 [info] bootstrapping repository index at '/home/henrique/upd8/Docly/poc-docly-doc-analise' (cache_path=/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/cursor/crepe)
+2025-12-29 13:47:59.360 [info] looking for best possible index (current_sha=543d8f7003bf3fec5df4799c67d4a757cae9e54b)
+2025-12-29 13:47:59.360 [info] candidate index /home/henrique/upd8/Docly/poc-docly-doc-analise/.git/cursor/crepe/543d8f7003bf3fec5df4799c67d4a757cae9e54b is 0 commits away
+2025-12-29 13:47:59.360 [info] loading index for commit 543d8f7003bf3fec5df4799c67d4a757cae9e54b
+2025-12-29 13:47:59.360 [info] reset index to head in 8.534904ms: 0 documents in commit, 38 in worktree
+2025-12-29 13:47:59.360 [info] constructed repository layout in 52.472µs
+2025-12-29 13:47:59.360 [info] index OK in 9.118293ms
+2025-12-29 14:39:11.671 [info] git head changed: main (f8b1fc190a85cab9472a6940db933ce6786a0044)
+2025-12-29 14:41:43.072 [info] git head changed: main (07e91c0a8c26f8cab2832fef7de6a1da66f25c7e)
+2025-12-29 14:42:24.240 [info] git head changed: main (07e91c0a8c26f8cab2832fef7de6a1da66f25c7e)
+2025-12-29 14:42:35.099 [info] git head changed: main (07e91c0a8c26f8cab2832fef7de6a1da66f25c7e)
+2025-12-29 14:45:12.395 [info] git head changed: main (d71afed5890684331398e01447d6f1777f078359)
+2025-12-29 14:47:15.897 [info] git head changed: main (395ced29b5fddd7fece035933611bc5ea600341f)
+2025-12-29 14:48:04.914 [info] git head changed: main (395ced29b5fddd7fece035933611bc5ea600341f)
+2025-12-29 14:55:14.387 [info] git head changed: main (81a3dae6c2d3e7f1ad73f6f5eac3977306afb8cb)
+2025-12-29 15:41:56.552 [info] Initializing GrepClient
+2025-12-29 15:41:56.552 [info] Watching filesystem...
+2025-12-29 15:41:56.552 [info] GrepClient initialized successfully
+2025-12-29 15:41:56.552 [info] initialized head tracking (current branch = 'main', current commit = b0ed27253a733ebc2aeb6ac6cff86a20d477fc19)
+2025-12-29 15:41:56.552 [info] bootstrapping repository index at '/home/henrique/upd8/Rodosafra IA' (cache_path=/home/henrique/upd8/Rodosafra IA/.git/cursor/crepe)
+2025-12-29 15:41:56.552 [info] looking for best possible index (current_sha=b0ed27253a733ebc2aeb6ac6cff86a20d477fc19)
+2025-12-29 15:41:56.552 [info] no candidate indexes found; building for main branch (commit=b0ed27253a733ebc2aeb6ac6cff86a20d477fc19)
+2025-12-29 15:41:56.552 [info] starting index build (root=/home/henrique/upd8/Rodosafra IA, cache_path=/home/henrique/upd8/Rodosafra IA/.git/cursor/crepe, commit_sha=b0ed27253a733ebc2aeb6ac6cff86a20d477fc19)
+2025-12-29 15:41:56.676 [info] index constructed in 284.370872ms: /home/henrique/upd8/Rodosafra IA/.git/cursor/crepe/b0ed27253a733ebc2aeb6ac6cff86a20d477fc19 (358 documents indexed)
+2025-12-29 15:41:56.676 [info] constructed new index in path: /home/henrique/upd8/Rodosafra IA/.git/cursor/crepe/b0ed27253a733ebc2aeb6ac6cff86a20d477fc19
+2025-12-29 15:41:56.677 [info] reset index to head in 2.321848ms: 0 documents in commit, 0 in worktree
+2025-12-29 15:41:56.679 [info] constructed repository layout in 379.122µs
+2025-12-29 15:41:56.679 [info] index OK in 294.819652ms
+2025-12-29 18:01:24.378 [info] git head changed: main (7fab1c4ba5235c0101ef6e91be52a7b070abf19f)

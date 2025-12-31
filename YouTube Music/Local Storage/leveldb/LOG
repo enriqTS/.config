@@ -1,0 +1,6 @@
+2025/12/31-08:22:55.182 13981 Reusing MANIFEST /home/henrique/.config/YouTube Music/Local Storage/leveldb/MANIFEST-000001
+2025/12/31-08:22:55.186 13981 Recovering log #16
+2025/12/31-08:22:55.187 13981 Reusing old log /home/henrique/.config/YouTube Music/Local Storage/leveldb/000016.log 
+2025/12/31-08:25:55.506 1396a Level-0 table #21: started
+2025/12/31-08:25:55.520 1396a Level-0 table #21: 12754 bytes OK
+2025/12/31-08:25:55.529 1396a Delete type=0 #16

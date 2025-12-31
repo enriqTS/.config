@@ -1,0 +1,25 @@
+[2025-12-30T15:11:24.377Z] [INFO] [general] Cursor Browser Automation extension activated
+[2025-12-30T15:11:24.377Z] [INFO] [general] Browser Automation MCP Provider initialized with direct execution
+[2025-12-30T15:11:24.378Z] [INFO] [general] injectBrowserUIScript called
+[2025-12-30T15:11:24.419Z] [ERROR] [general] Failed to inject browser UI script:: No browser view available
+[2025-12-30T15:11:24.419Z] [ERROR] [general] Error: No browser view available
+    at Qbt (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:13893:54979)
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:13893:55132
+    at IHo.invokeFunction (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:14077:960)
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:13615:3145
+    at xSr (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:52:44708)
+    at QU (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:52:44669)
+    at ySo._tryExecuteCommand (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:13615:2998)
+    at ySo.executeCommandImpl (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:13615:2243)
+    at ySo.executeCommand (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:13615:1896)
+    at uZc.$executeCommand (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:12669:637)
+    at HXe._doInvokeHandler (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:13634:23170)
+    at HXe._invokeHandler (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:13634:22912)
+    at HXe._receiveRequest (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:13634:21544)
+    at HXe._receiveOneMessage (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:13634:20361)
+    at uMt.value (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:13634:18388)
+    at ke._deliver (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:2962)
+    at ke.fire (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:3283)
+    at Vyt.fire (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:12692:12156)
+    at MessagePort.<anonymous> (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:15680:18406)
+[2025-12-30T15:11:28.551Z] [INFO] [general] Browser Automation MCP Provider disposed

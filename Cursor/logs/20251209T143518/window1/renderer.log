@@ -1,0 +1,539 @@
+2025-12-09 14:35:22.288 [warning] Missing property "alwaysKeepComposerInBound" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.288 [warning] Missing property "location2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.288 [warning] Missing property "hasMigratedChatLocation" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.288 [warning] Missing property "hasMigratedComposerGlobalConfigsToModeSpecificConfigs" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.289 [warning] Missing property "hasMigratedToAgentIsCmdI" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.289 [warning] Missing property "hasMigratedToBgIsCmdE2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.289 [warning] Missing property "hasMigratedToDefaultAutoRun" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.289 [warning] Missing property "defaultCapabilities" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.289 [warning] Missing property "autoApplyFilesOutsideContext" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.289 [warning] Missing property "defaultMode2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.289 [warning] Missing property "useCliAgentBackendDev" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.289 [warning] Missing property "useYoloMode" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.289 [warning] Missing property "yoloPrompt" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.289 [warning] Missing property "yoloCommandAllowlist" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.289 [warning] Missing property "yoloCommandDenylist" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.290 [warning] Missing property "yoloMcpToolsDisabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.290 [warning] Missing property "doNotShowYoloModeWarningAgain" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.290 [warning] Missing property "doNotShowFullYoloModeWarningAgain" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.290 [warning] Missing property "selectedFakeStreamerId" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.290 [warning] Missing property "yoloDeleteFileDisabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.290 [warning] Missing property "yoloDotFilesDisabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.290 [warning] Missing property "yoloOutsideWorkspaceDisabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.290 [warning] Missing property "yoloEnableRunEverything" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.290 [warning] Missing property "isWebSearchToolEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.290 [warning] Missing property "isWebSearchToolEnabled2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.290 [warning] Missing property "isWebSearchToolEnabled3" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.291 [warning] Missing property "autoAcceptWebSearchTool" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.291 [warning] Missing property "autoApprovedModeTransitions" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.291 [warning] Missing property "autoRejectedModeTransitions" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.291 [warning] Missing property "backgroundComposerEnv" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.291 [warning] Missing property "useLegacyTerminalTool" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.291 [warning] Missing property "modes4" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.291 [warning] Missing property "codeBlockDisplayPreference" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.291 [warning] Missing property "thinkingLevel" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.291 [warning] Missing property "composerMigrationVersion" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.291 [warning] Missing property "mcpServers" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.291 [warning] Missing property "mcpDisabledTools" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.291 [warning] Missing property "availableDefaultModels2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.291 [warning] Missing property "featureModelConfigs" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.291 [warning] Missing property "backgroundComposerState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.291 [warning] Missing property "dialogDontAskAgainPreferences" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.292 [warning] Missing property "cursorIgnore" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.292 [warning] Missing property "teamAdminSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.292 [warning] Missing property "shouldShowViewZoneWhenPreviewBoxIsClipped6" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.292 [warning] Missing property "cppModelsState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.292 [warning] Missing property "aiSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.292 [warning] Missing property "authenticationSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.292 [warning] Missing property "websiteUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.292 [warning] Missing property "backendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.292 [warning] Missing property "authClientId" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.292 [warning] Missing property "authDomain" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.292 [warning] Missing property "repoBackendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.292 [warning] Missing property "telemBackendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.292 [warning] Missing property "cmdkBackendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.292 [warning] Missing property "geoCppBackendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.293 [warning] Missing property "cppConfigBackendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.293 [warning] Missing property "bcProxyUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.293 [warning] Missing property "agentBackendUrlPrivacy" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.293 [warning] Missing property "agentBackendUrlNonPrivacy" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.293 [warning] Missing property "credentialsDisplayName" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.293 [warning] Missing property "cmdLineHookState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.293 [warning] Missing property "shouldOnlyImportOnAccept" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.293 [warning] Missing property "cppAutoImportDecorationStyle" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.293 [warning] Missing property "newUserData" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.293 [warning] Missing property "azureState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.293 [warning] Missing property "personalDocs" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.293 [warning] Missing property "cppInCmdF" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.293 [warning] Missing property "cppTriggerInComments" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.293 [warning] Missing property "cppShowWhitespaceOnlyChanges" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.293 [warning] Missing property "cppConfig" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.294 [warning] Missing property "indexRepository" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.294 [warning] Missing property "haveNotImportedFromVSC" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.294 [warning] Missing property "shouldAutoParseCmdKLinks" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.294 [warning] Missing property "autoCreateNewChatAfterTimeout" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.294 [warning] Missing property "isFileSyncClientEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.294 [warning] Missing property "membershipType" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.294 [warning] Missing property "fastApplyModelType" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.294 [warning] Missing property "explicitlyEnableSemanticSearch" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.294 [warning] Missing property "backgroundComposerEnv" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.294 [warning] Missing property "preferredEmbeddingModel" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.294 [warning] Missing property "oneTimeSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.294 [warning] Missing property "eligibleForSnippetLearning" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.294 [warning] Missing property "goneThroughCodeSnippetOnboarding" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.294 [warning] Missing property "goneThroughCodeSnippetChangeManagement" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.295 [warning] Missing property "isRcpServerEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.295 [warning] Missing property "hasResetModelOnce" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.295 [warning] Missing property "rpcFileLoggerEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.295 [warning] Missing property "rpcFileLoggerFolder" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-09 14:35:22.295 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-09 14:35:22.296 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-copilot-data-analysis' wants API proposal 'chatVariableResolver' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-09 14:35:22.296 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-09 14:35:22.296 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-python-envs' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-09 14:35:22.296 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatReadonlyPromptReference' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-09 14:35:22.296 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-09 14:35:22.296 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-09 14:35:22.296 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-09 14:35:22.296 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-09 14:35:22.709 [info] Started local extension host with pid 21399.
+2025-12-09 14:35:22.732 [info] Started initializing default profile extensions in extensions installation folder. file:///home/henrique/.cursor/extensions
+2025-12-09 14:35:22.877 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/henrique/.cursor/extensions
+2025-12-09 14:35:23.254 [info] [WorktreeCleanupCron] Registering cleanup task with interval of 6 hours
+2025-12-09 14:35:23.255 [info] [WorktreeCleanupCron] Cleanup task registered with interval of 6 hours (21600000ms)
+2025-12-09 14:35:23.542 [info] [LocalProcessExtensionHost] getDefaultShell result: /usr/bin/fish
+2025-12-09 14:35:23.543 [info] [LocalProcessExtensionHost] Final userTerminalHint: /usr/bin/fish
+2025-12-09 14:35:24.118 [error] [Extension Host] (node:21399) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-12-09 14:35:25.109 [info] [Debug] Registered command palette action: debug.getApplicationProperty
+2025-12-09 14:35:25.109 [info] [Debug] Registered command palette action: debug.logComposer
+2025-12-09 14:35:25.109 [info] [Debug] Registered command palette action: debug.getContextKeyValue
+2025-12-09 14:35:25.109 [info] [Debug] Registered command palette action: debug.testLinearIssues
+2025-12-09 14:35:25.119 [info] OpenInBrowserWatcher: Initializing terminal log watcher
+2025-12-09 14:35:25.200 [info] [Cursor Proclist Polling] Local collection disabled by config
+2025-12-09 14:35:25.471 [error] Error fetching user privacy mode: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2025-12-09 14:35:25.473 [error] [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh: ConnectError: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+    at t (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:6409:410319)
+    at async Object.getUserPrivacyMode (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:565:79961)
+    at async ELs.fetchUserPrivacyMode (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:11797)
+    at async ELs.refreshPrivacyMode (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:11454) [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2025-12-09 14:35:25.473 [error] [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh: ConnectError: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+    at t (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:6409:410319)
+    at async Object.getEmail (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:565:79961)
+    at async ELs.getEmailAndSignUpType (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8900:836) [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2025-12-09 14:35:25.569 [error] [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh: ConnectError: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+    at t (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:6409:410319)
+    at async Object.availableModels (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:565:79961)
+    at async PDo.keepCppModelStateUpdated (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:9015:16111)
+    at async PDo.loadCppConfigIncludingHandlingProAccess (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:9025:1259) [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2025-12-09 14:35:25.571 [error] [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh: ConnectError: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+    at t (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:6409:410319)
+    at async Object.availableDocs (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:565:79961)
+    at async Mlo.availableDocs (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:7074:3800)
+    at async Object.fn (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:6050:18520) [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2025-12-09 14:35:25.571 [error] [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh: ConnectError: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+    at t (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:6409:410319)
+    at async Object.getDefaultModelNudgeData (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:565:79961)
+    at async Mlo.performDefaultModelRequest (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:7074:7787) [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2025-12-09 14:35:25.571 [error] [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh: ConnectError: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+    at t (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:6409:410319)
+    at async Object.availableDocs (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:565:79961)
+    at async Mlo.availableDocs (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:7074:3800)
+    at async vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:9047:90595 [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2025-12-09 14:35:26.058 [error] An unknown error occurred. Please consult the log for more details. {}
+2025-12-09 14:35:26.288 [info] [perf] Render performance baseline is 27ms
+2025-12-09 14:35:27.611 [error] An unknown error occurred. Please consult the log for more details. {"name":"ConnectError","rawMessage":"getaddrinfo EAI_AGAIN api2.cursor.sh","code":14,"metadata":{},"details":[],"cause":{"errno":-3001,"code":"EAI_AGAIN","syscall":"getaddrinfo","hostname":"api2.cursor.sh"}}
+2025-12-09 14:35:32.043 [error] An unknown error occurred. Please consult the log for more details. {"name":"ConnectError","rawMessage":"getaddrinfo ENOTFOUND api2.cursor.sh","code":14,"metadata":{},"details":[],"cause":{"errno":-3008,"code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"api2.cursor.sh"}}
+2025-12-09 14:35:35.041 [error] An unknown error occurred. Please consult the log for more details. {"name":"ConnectError","rawMessage":"getaddrinfo ENOTFOUND api2.cursor.sh","code":14,"metadata":{},"details":[],"cause":{"errno":-3008,"code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"api2.cursor.sh"}}
+2025-12-09 14:35:46.704 [info] Starting polling for manual login link
+2025-12-09 14:35:47.204 [info] Manual login polling iteration
+2025-12-09 14:35:47.704 [info] Manual login polling iteration
+2025-12-09 14:35:48.204 [info] Manual login polling iteration
+2025-12-09 14:35:48.705 [info] Manual login polling iteration
+2025-12-09 14:35:49.205 [info] Manual login polling iteration
+2025-12-09 14:35:49.705 [info] Manual login polling iteration
+2025-12-09 14:35:50.204 [info] Manual login polling iteration
+2025-12-09 14:35:50.705 [info] Manual login polling iteration
+2025-12-09 14:35:51.205 [info] Manual login polling iteration
+2025-12-09 14:35:51.705 [info] Manual login polling iteration
+2025-12-09 14:35:52.205 [info] Manual login polling iteration
+2025-12-09 14:35:52.705 [info] Manual login polling iteration
+2025-12-09 14:35:52.744 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:35:53.205 [info] Manual login polling iteration
+2025-12-09 14:35:53.706 [info] Manual login polling iteration
+2025-12-09 14:35:54.206 [info] Manual login polling iteration
+2025-12-09 14:35:54.213 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:35:54.705 [info] Manual login polling iteration
+2025-12-09 14:35:55.205 [info] Manual login polling iteration
+2025-12-09 14:35:55.705 [info] Manual login polling iteration
+2025-12-09 14:35:55.714 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:35:56.206 [info] Manual login polling iteration
+2025-12-09 14:35:56.706 [info] Manual login polling iteration
+2025-12-09 14:35:56.714 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:35:57.206 [info] Manual login polling iteration
+2025-12-09 14:35:57.705 [info] Manual login polling iteration
+2025-12-09 14:35:58.205 [info] Manual login polling iteration
+2025-12-09 14:35:58.212 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:35:58.705 [info] Manual login polling iteration
+2025-12-09 14:35:59.206 [info] Manual login polling iteration
+2025-12-09 14:35:59.705 [info] Manual login polling iteration
+2025-12-09 14:36:00.205 [info] Manual login polling iteration
+2025-12-09 14:36:00.706 [info] Manual login polling iteration
+2025-12-09 14:36:01.206 [info] Manual login polling iteration
+2025-12-09 14:36:01.706 [info] Manual login polling iteration
+2025-12-09 14:36:01.833 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:36:02.206 [info] Manual login polling iteration
+2025-12-09 14:36:02.705 [info] Manual login polling iteration
+2025-12-09 14:36:03.205 [info] Manual login polling iteration
+2025-12-09 14:36:03.706 [info] Manual login polling iteration
+2025-12-09 14:36:04.205 [info] Manual login polling iteration
+2025-12-09 14:36:04.705 [info] Manual login polling iteration
+2025-12-09 14:36:05.205 [info] Manual login polling iteration
+2025-12-09 14:36:05.705 [info] Manual login polling iteration
+2025-12-09 14:36:06.205 [info] Manual login polling iteration
+2025-12-09 14:36:06.706 [info] Manual login polling iteration
+2025-12-09 14:36:07.205 [info] Manual login polling iteration
+2025-12-09 14:36:07.705 [info] Manual login polling iteration
+2025-12-09 14:36:08.205 [info] Manual login polling iteration
+2025-12-09 14:36:08.705 [info] Manual login polling iteration
+2025-12-09 14:36:09.206 [info] Manual login polling iteration
+2025-12-09 14:36:09.706 [info] Manual login polling iteration
+2025-12-09 14:36:10.205 [info] Manual login polling iteration
+2025-12-09 14:36:10.706 [info] Manual login polling iteration
+2025-12-09 14:36:11.206 [info] Manual login polling iteration
+2025-12-09 14:36:11.705 [info] Manual login polling iteration
+2025-12-09 14:36:12.204 [info] Manual login polling iteration
+2025-12-09 14:36:12.704 [info] Manual login polling iteration
+2025-12-09 14:36:13.204 [info] Manual login polling iteration
+2025-12-09 14:36:13.705 [info] Manual login polling iteration
+2025-12-09 14:36:14.206 [info] Manual login polling iteration
+2025-12-09 14:36:14.705 [info] Manual login polling iteration
+2025-12-09 14:36:15.206 [info] Manual login polling iteration
+2025-12-09 14:36:15.705 [info] Manual login polling iteration
+2025-12-09 14:36:16.206 [info] Manual login polling iteration
+2025-12-09 14:36:16.706 [info] Manual login polling iteration
+2025-12-09 14:36:17.206 [info] Manual login polling iteration
+2025-12-09 14:36:17.705 [info] Manual login polling iteration
+2025-12-09 14:36:18.206 [info] Manual login polling iteration
+2025-12-09 14:36:18.706 [info] Manual login polling iteration
+2025-12-09 14:36:19.206 [info] Manual login polling iteration
+2025-12-09 14:36:19.706 [info] Manual login polling iteration
+2025-12-09 14:36:20.205 [info] Manual login polling iteration
+2025-12-09 14:36:20.705 [info] Manual login polling iteration
+2025-12-09 14:36:21.205 [info] Manual login polling iteration
+2025-12-09 14:36:21.706 [info] Manual login polling iteration
+2025-12-09 14:36:22.206 [info] Manual login polling iteration
+2025-12-09 14:36:22.706 [info] Manual login polling iteration
+2025-12-09 14:36:23.205 [info] Manual login polling iteration
+2025-12-09 14:36:23.706 [info] Manual login polling iteration
+2025-12-09 14:36:24.205 [info] Manual login polling iteration
+2025-12-09 14:36:24.706 [info] Manual login polling iteration
+2025-12-09 14:36:25.204 [info] Manual login polling iteration
+2025-12-09 14:36:25.706 [info] Manual login polling iteration
+2025-12-09 14:36:26.084 [error] An unknown error occurred. Please consult the log for more details. {"name":"ConnectError","rawMessage":"getaddrinfo EAI_AGAIN api2.cursor.sh","code":14,"metadata":{},"details":[],"cause":{"errno":-3001,"code":"EAI_AGAIN","syscall":"getaddrinfo","hostname":"api2.cursor.sh"}}
+2025-12-09 14:36:26.206 [info] Manual login polling iteration
+2025-12-09 14:36:26.706 [info] Manual login polling iteration
+2025-12-09 14:36:27.206 [info] Manual login polling iteration
+2025-12-09 14:36:27.706 [info] Manual login polling iteration
+2025-12-09 14:36:27.802 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:36:28.206 [info] Manual login polling iteration
+2025-12-09 14:36:28.706 [info] Manual login polling iteration
+2025-12-09 14:36:29.206 [info] Manual login polling iteration
+2025-12-09 14:36:29.213 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:36:29.705 [info] Manual login polling iteration
+2025-12-09 14:36:30.206 [info] Manual login polling iteration
+2025-12-09 14:36:30.705 [info] Manual login polling iteration
+2025-12-09 14:36:30.713 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:36:31.205 [info] Manual login polling iteration
+2025-12-09 14:36:31.706 [info] Manual login polling iteration
+2025-12-09 14:36:31.713 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:36:32.206 [info] Manual login polling iteration
+2025-12-09 14:36:32.705 [info] Manual login polling iteration
+2025-12-09 14:36:33.205 [info] Manual login polling iteration
+2025-12-09 14:36:33.212 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:36:33.704 [info] Manual login polling iteration
+2025-12-09 14:36:34.206 [info] Manual login polling iteration
+2025-12-09 14:36:34.214 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:36:34.706 [info] Manual login polling iteration
+2025-12-09 14:36:35.206 [info] Manual login polling iteration
+2025-12-09 14:36:35.706 [info] Manual login polling iteration
+2025-12-09 14:36:35.713 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:36:36.206 [info] Manual login polling iteration
+2025-12-09 14:36:36.706 [info] Manual login polling iteration
+2025-12-09 14:36:36.714 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:36:37.205 [info] Manual login polling iteration
+2025-12-09 14:36:37.706 [info] Manual login polling iteration
+2025-12-09 14:36:38.206 [info] Manual login polling iteration
+2025-12-09 14:36:38.213 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:36:38.705 [info] Manual login polling iteration
+2025-12-09 14:36:39.206 [info] Manual login polling iteration
+2025-12-09 14:36:39.706 [info] Manual login polling iteration
+2025-12-09 14:36:39.713 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:36:40.206 [info] Manual login polling iteration
+2025-12-09 14:36:40.706 [info] Manual login polling iteration
+2025-12-09 14:36:41.206 [info] Manual login polling iteration
+2025-12-09 14:36:41.213 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:36:41.706 [info] Manual login polling iteration
+2025-12-09 14:36:42.205 [info] Manual login polling iteration
+2025-12-09 14:36:42.706 [info] Manual login polling iteration
+2025-12-09 14:36:42.713 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:36:43.205 [info] Manual login polling iteration
+2025-12-09 14:36:43.706 [info] Manual login polling iteration
+2025-12-09 14:36:44.206 [info] Manual login polling iteration
+2025-12-09 14:36:44.213 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:36:44.705 [info] Manual login polling iteration
+2025-12-09 14:36:45.206 [info] Manual login polling iteration
+2025-12-09 14:36:45.214 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:36:45.706 [info] Manual login polling iteration
+2025-12-09 14:36:46.205 [info] Manual login polling iteration
+2025-12-09 14:36:46.706 [info] Manual login polling iteration
+2025-12-09 14:36:46.713 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:36:47.206 [info] Manual login polling iteration
+2025-12-09 14:36:47.706 [info] Manual login polling iteration
+2025-12-09 14:36:48.206 [info] Manual login polling iteration
+2025-12-09 14:36:48.213 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:36:48.706 [info] Manual login polling iteration
+2025-12-09 14:36:49.205 [info] Manual login polling iteration
+2025-12-09 14:36:49.705 [info] Manual login polling iteration
+2025-12-09 14:36:49.713 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:36:50.205 [info] Manual login polling iteration
+2025-12-09 14:36:50.705 [info] Manual login polling iteration
+2025-12-09 14:36:51.206 [info] Manual login polling iteration
+2025-12-09 14:36:51.213 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:36:51.706 [info] Manual login polling iteration
+2025-12-09 14:36:52.205 [info] Manual login polling iteration
+2025-12-09 14:36:52.706 [info] Manual login polling iteration
+2025-12-09 14:36:52.714 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:36:53.206 [info] Manual login polling iteration
+2025-12-09 14:36:53.705 [info] Manual login polling iteration
+2025-12-09 14:36:54.205 [info] Manual login polling iteration
+2025-12-09 14:36:54.212 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:36:54.705 [info] Manual login polling iteration
+2025-12-09 14:36:55.205 [info] Manual login polling iteration
+2025-12-09 14:36:55.706 [info] Manual login polling iteration
+2025-12-09 14:36:55.713 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:36:56.206 [info] Manual login polling iteration
+2025-12-09 14:36:56.706 [info] Manual login polling iteration
+2025-12-09 14:36:56.714 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:36:57.206 [info] Manual login polling iteration
+2025-12-09 14:36:57.706 [info] Manual login polling iteration
+2025-12-09 14:36:58.205 [info] Manual login polling iteration
+2025-12-09 14:36:58.212 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:36:58.706 [info] Manual login polling iteration
+2025-12-09 14:36:59.206 [info] Manual login polling iteration
+2025-12-09 14:36:59.212 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:36:59.705 [info] Manual login polling iteration
+2025-12-09 14:37:00.205 [info] Manual login polling iteration
+2025-12-09 14:37:00.706 [info] Manual login polling iteration
+2025-12-09 14:37:00.714 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:37:01.206 [info] Manual login polling iteration
+2025-12-09 14:37:01.706 [info] Manual login polling iteration
+2025-12-09 14:37:02.206 [info] Manual login polling iteration
+2025-12-09 14:37:02.213 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:37:02.706 [info] Manual login polling iteration
+2025-12-09 14:37:03.206 [info] Manual login polling iteration
+2025-12-09 14:37:03.706 [info] Manual login polling iteration
+2025-12-09 14:37:03.713 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:37:04.205 [info] Manual login polling iteration
+2025-12-09 14:37:04.706 [info] Manual login polling iteration
+2025-12-09 14:37:05.206 [info] Manual login polling iteration
+2025-12-09 14:37:05.213 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:37:05.705 [info] Manual login polling iteration
+2025-12-09 14:37:06.206 [info] Manual login polling iteration
+2025-12-09 14:37:06.706 [info] Manual login polling iteration
+2025-12-09 14:37:06.712 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:37:07.206 [info] Manual login polling iteration
+2025-12-09 14:37:07.706 [info] Manual login polling iteration
+2025-12-09 14:37:08.206 [info] Manual login polling iteration
+2025-12-09 14:37:08.213 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:37:08.705 [info] Manual login polling iteration
+2025-12-09 14:37:09.205 [info] Manual login polling iteration
+2025-12-09 14:37:09.213 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:37:09.706 [info] Manual login polling iteration
+2025-12-09 14:37:10.205 [info] Manual login polling iteration
+2025-12-09 14:37:10.706 [info] Manual login polling iteration
+2025-12-09 14:37:10.713 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:37:11.206 [info] Manual login polling iteration
+2025-12-09 14:37:11.706 [info] Manual login polling iteration
+2025-12-09 14:37:11.713 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:37:12.206 [info] Manual login polling iteration
+2025-12-09 14:37:12.706 [info] Manual login polling iteration
+2025-12-09 14:37:13.206 [info] Manual login polling iteration
+2025-12-09 14:37:13.214 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:37:13.706 [info] Manual login polling iteration
+2025-12-09 14:37:14.206 [info] Manual login polling iteration
+2025-12-09 14:37:14.705 [info] Manual login polling iteration
+2025-12-09 14:37:14.712 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:37:15.206 [info] Manual login polling iteration
+2025-12-09 14:37:15.706 [info] Manual login polling iteration
+2025-12-09 14:37:15.713 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:37:16.205 [info] Manual login polling iteration
+2025-12-09 14:37:16.705 [info] Manual login polling iteration
+2025-12-09 14:37:17.206 [info] Manual login polling iteration
+2025-12-09 14:37:17.214 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:37:17.705 [info] Manual login polling iteration
+2025-12-09 14:37:18.206 [info] Manual login polling iteration
+2025-12-09 14:37:18.706 [info] Manual login polling iteration
+2025-12-09 14:37:18.713 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:37:19.205 [info] Manual login polling iteration
+2025-12-09 14:37:19.706 [info] Manual login polling iteration
+2025-12-09 14:37:20.205 [info] Manual login polling iteration
+2025-12-09 14:37:20.211 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:37:20.706 [info] Manual login polling iteration
+2025-12-09 14:37:21.206 [info] Manual login polling iteration
+2025-12-09 14:37:21.213 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:37:21.705 [info] Manual login polling iteration
+2025-12-09 14:37:22.205 [info] Manual login polling iteration
+2025-12-09 14:37:22.705 [info] Manual login polling iteration
+2025-12-09 14:37:22.715 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:37:23.206 [info] Manual login polling iteration
+2025-12-09 14:37:23.706 [info] Manual login polling iteration
+2025-12-09 14:37:23.720 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:37:24.206 [info] Manual login polling iteration
+2025-12-09 14:37:24.706 [info] Manual login polling iteration
+2025-12-09 14:37:25.204 [info] Manual login polling iteration
+2025-12-09 14:37:25.214 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:37:25.706 [info] Manual login polling iteration
+2025-12-09 14:37:26.142 [error] An unknown error occurred. Please consult the log for more details. {"name":"ConnectError","rawMessage":"getaddrinfo ENOTFOUND api2.cursor.sh","code":14,"metadata":{},"details":[],"cause":{"errno":-3008,"code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"api2.cursor.sh"}}
+2025-12-09 14:37:26.205 [info] Manual login polling iteration
+2025-12-09 14:37:26.225 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:37:26.706 [info] Manual login polling iteration
+2025-12-09 14:37:27.206 [info] Manual login polling iteration
+2025-12-09 14:37:27.706 [info] Manual login polling iteration
+2025-12-09 14:37:28.205 [info] Manual login polling iteration
+2025-12-09 14:37:28.550 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:37:28.706 [info] Manual login polling iteration
+2025-12-09 14:37:29.205 [info] Manual login polling iteration
+2025-12-09 14:37:29.705 [info] Manual login polling iteration
+2025-12-09 14:37:30.206 [info] Manual login polling iteration
+2025-12-09 14:37:30.706 [info] Manual login polling iteration
+2025-12-09 14:37:31.206 [info] Manual login polling iteration
+2025-12-09 14:37:31.706 [info] Manual login polling iteration
+2025-12-09 14:37:32.206 [info] Manual login polling iteration
+2025-12-09 14:37:32.706 [info] Manual login polling iteration
+2025-12-09 14:37:32.831 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:37:33.206 [info] Manual login polling iteration
+2025-12-09 14:37:33.706 [info] Manual login polling iteration
+2025-12-09 14:37:34.205 [info] Manual login polling iteration
+2025-12-09 14:37:34.212 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:37:34.706 [info] Manual login polling iteration
+2025-12-09 14:37:35.205 [info] Manual login polling iteration
+2025-12-09 14:37:35.705 [info] Manual login polling iteration
+2025-12-09 14:37:36.206 [info] Manual login polling iteration
+2025-12-09 14:37:36.705 [info] Manual login polling iteration
+2025-12-09 14:37:37.205 [info] Manual login polling iteration
+2025-12-09 14:37:37.705 [info] Manual login polling iteration
+2025-12-09 14:37:38.206 [info] Manual login polling iteration
+2025-12-09 14:37:38.705 [info] Manual login polling iteration
+2025-12-09 14:37:39.206 [info] Manual login polling iteration
+2025-12-09 14:37:39.706 [info] Manual login polling iteration
+2025-12-09 14:37:40.206 [info] Manual login polling iteration
+2025-12-09 14:37:40.704 [info] Manual login polling iteration
+2025-12-09 14:37:41.204 [info] Manual login polling iteration
+2025-12-09 14:37:41.706 [info] Manual login polling iteration
+2025-12-09 14:37:42.206 [info] Manual login polling iteration
+2025-12-09 14:37:42.706 [info] Manual login polling iteration
+2025-12-09 14:37:43.206 [info] Manual login polling iteration
+2025-12-09 14:37:43.706 [info] Manual login polling iteration
+2025-12-09 14:37:44.206 [info] Manual login polling iteration
+2025-12-09 14:37:44.704 [info] Manual login polling iteration
+2025-12-09 14:37:45.206 [info] Manual login polling iteration
+2025-12-09 14:37:45.705 [info] Manual login polling iteration
+2025-12-09 14:37:46.206 [info] Manual login polling iteration
+2025-12-09 14:37:46.705 [info] Manual login polling iteration
+2025-12-09 14:37:47.206 [info] Manual login polling iteration
+2025-12-09 14:37:47.705 [info] Manual login polling iteration
+2025-12-09 14:37:48.205 [info] Manual login polling iteration
+2025-12-09 14:37:48.705 [info] Manual login polling iteration
+2025-12-09 14:37:49.206 [info] Manual login polling iteration
+2025-12-09 14:37:49.706 [info] Manual login polling iteration
+2025-12-09 14:37:50.206 [info] Manual login polling iteration
+2025-12-09 14:37:50.706 [info] Manual login polling iteration
+2025-12-09 14:37:51.206 [info] Manual login polling iteration
+2025-12-09 14:37:51.706 [info] Manual login polling iteration
+2025-12-09 14:37:52.206 [info] Manual login polling iteration
+2025-12-09 14:37:52.706 [info] Manual login polling iteration
+2025-12-09 14:37:53.206 [info] Manual login polling iteration
+2025-12-09 14:37:53.706 [info] Manual login polling iteration
+2025-12-09 14:37:54.206 [info] Manual login polling iteration
+2025-12-09 14:37:54.706 [info] Manual login polling iteration
+2025-12-09 14:37:55.206 [info] Manual login polling iteration
+2025-12-09 14:37:55.706 [info] Manual login polling iteration
+2025-12-09 14:37:55.800 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:37:56.206 [info] Manual login polling iteration
+2025-12-09 14:37:56.706 [info] Manual login polling iteration
+2025-12-09 14:37:57.205 [info] Manual login polling iteration
+2025-12-09 14:37:57.213 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:37:57.706 [info] Manual login polling iteration
+2025-12-09 14:37:58.205 [info] Manual login polling iteration
+2025-12-09 14:37:58.706 [info] Manual login polling iteration
+2025-12-09 14:37:58.713 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:37:59.206 [info] Manual login polling iteration
+2025-12-09 14:37:59.706 [info] Manual login polling iteration
+2025-12-09 14:38:00.206 [info] Manual login polling iteration
+2025-12-09 14:38:00.213 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:38:00.706 [info] Manual login polling iteration
+2025-12-09 14:38:01.206 [info] Manual login polling iteration
+2025-12-09 14:38:01.214 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch
+2025-12-09 14:38:01.704 [info] Manual login polling iteration
+2025-12-09 14:38:02.206 [info] Manual login polling iteration
+2025-12-09 14:38:02.704 [info] Manual login polling iteration
+2025-12-09 14:38:02.708 [error] Failed to fetch: TypeError: Failed to fetch
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:28518 Failed to fetch

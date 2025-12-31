@@ -1,0 +1,16 @@
+[Info  - 14:05:35] basedpyright language server 1.32.1 starting
+[Info  - 14:05:35] Server root directory: file:///home/henrique/.cursor/extensions/anysphere.cursorpyright-1.0.10/dist
+[Info  - 14:05:35] Starting service instance "poc-docly-doc-analise"
+Received pythonPath from Python extension: /bin/python
+[Info  - 14:05:35] Setting pythonPath for service "poc-docly-doc-analise": "/bin/python"
+[Info  - 14:05:35] No include entries specified; assuming /home/henrique/upd8/Docly/poc-docly-doc-analise
+[Info  - 14:05:35] Auto-excluding **/node_modules
+[Info  - 14:05:35] Auto-excluding **/__pycache__
+[Info  - 14:05:35] Auto-excluding **/.*
+[Info  - 14:05:35] Assuming Python version 3.13.11.final.0
+[Info  - 14:05:35] Found 1 source file
+[Info  - 14:05:35] BG: Background analysis(1) root directory: file:///home/henrique/.cursor/extensions/anysphere.cursorpyright-1.0.10/dist
+[Info  - 14:05:35] BG: Background analysis(1) started
+[Info  - 14:07:38] Found 1 source file
+[Info  - 14:12:31] Found 1 source file
+[Info  - 14:12:52] Found 2 source files

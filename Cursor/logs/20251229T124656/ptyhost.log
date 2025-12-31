@@ -1,0 +1,7 @@
+2025-12-29 12:47:03.001 [error] Failed to set sticky bit on /tmp/henrique-cursor-zsh: Error: ENOENT: no such file or directory, chmod '/tmp/henrique-cursor-zsh'
+2025-12-29 15:41:55.067 [info] Revived process, old id eb659251d1bc619caedb31ea12d09b2e-1 -> new id 7
+2025-12-29 15:41:55.067 [info] Revived process, old id eb659251d1bc619caedb31ea12d09b2e-3 -> new id 8
+2025-12-29 15:41:55.203 [info] Expanding terminal instance, old id eb659251d1bc619caedb31ea12d09b2e-1 -> new id 7
+2025-12-29 15:41:55.344 [warning] Persistent process "7": Process had no disconnect runners but was an orphan
+2025-12-29 15:41:55.344 [info] Persistent process reconnection "7"
+2025-12-29 15:41:55.353 [info] Persistent process "7": Replaying 2469 chars and 1 size events

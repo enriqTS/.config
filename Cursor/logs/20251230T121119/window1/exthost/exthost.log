@@ -1,0 +1,1280 @@
+2025-12-30 12:11:21.317 [info] Extension host with pid 24290 started
+2025-12-30 12:11:21.317 [info] [ExtHostShellExec] Initializing terminal executor with userTerminalHint: /usr/bin/fish
+2025-12-30 12:11:21.317 [info] Skipping acquiring lock for /home/henrique/.config/Cursor/User/workspaceStorage/eb659251d1bc619caedb31ea12d09b2e.
+2025-12-30 12:11:21.317 [info] [ExtHostShellExec] Detecting sandbox support...
+2025-12-30 12:11:21.317 [info] [ExtHostShellExec] Platform: linux, Shell type: unknown
+2025-12-30 12:11:21.317 [info] [ExtHostShellExec] dirname: /usr/share/cursor/resources/app/out/vs/workbench/api/node
+2025-12-30 12:11:21.317 [info] [ExtHostShellExec] Sandbox helper path: /usr/share/cursor/resources/app/resources/helpers/cursor-sandbox
+2025-12-30 12:11:21.317 [info] [ExtHostShellExec] process.resourcesPath: /usr/lib/electron37/resources
+2025-12-30 12:11:21.317 [info] [ExtHostShellExec] process.execPath: /usr/lib/electron37/electron
+2025-12-30 12:11:21.317 [info] [ExtHostShellExec] ripgrep path for sandboxing: /usr/share/cursor/resources/app/node_modules/@vscode/ripgrep/bin/rg
+2025-12-30 12:11:21.317 [error] [shell-exec:sandbox] [isSandboxHelperSupported] Starting sandbox support check... undefined
+2025-12-30 12:11:21.317 [error] [shell-exec:sandbox] [checkBinaryAvailable] Resolved binary path: /usr/share/cursor/resources/app/resources/helpers/cursor-sandbox undefined
+2025-12-30 12:11:21.317 [error] [shell-exec:sandbox] [checkBinaryAvailable] Binary path exists: true undefined
+2025-12-30 12:11:21.317 [error] [shell-exec:sandbox] [isSandboxHelperSupported] Running preflight with binary: /usr/share/cursor/resources/app/resources/helpers/cursor-sandbox undefined
+2025-12-30 12:11:21.317 [error] [shell-exec:sandbox] [isSandboxHelperSupported] CWD: /home/henrique undefined
+2025-12-30 12:11:21.317 [error] [shell-exec:sandbox] [isSandboxHelperSupported] Preflight succeeded, sandbox supported! undefined
+2025-12-30 12:11:21.317 [info] [ExtHostShellExec] Sandbox support detected: true
+2025-12-30 12:11:21.317 [info] ExtHostSearch [cursorIgnore] internal fileSearch start reason=cursorIgnoreCheck roots=1 include=**/.cursorignore maxResults=0 numThreads=(default) folderQueries=[{"cwd":"/home/henrique/upd8/Rodosafra IA","disregardIgnoreFiles":false,"disregardParentIgnoreFiles":true,"disregardGlobalIgnoreFiles":true,"ignoreSymlinks":false,"rgNoIgnore":false,"rgNoIgnoreParent":true,"rgNoIgnoreGlobal":true,"rgFollow":true}]
+2025-12-30 12:11:21.322 [info] ExtHostSearch /usr/share/cursor/resources/app/node_modules/@vscode/ripgrep/bin/rg --files --hidden --case-sensitive --no-require-git -g '**/.cursorignore' -g '!**/.git' -g '!**/.svn' -g '!**/.hg' -g '!**/.DS_Store' -g '!**/Thumbs.db' -g '!**/node_modules' -g '!**/bower_components' -g '!**/*.code-search' --no-ignore-parent --follow --threads '14' --no-config --no-ignore-global
+ - cwd: /home/henrique/upd8/Rodosafra IA
+ - Sibling clauses: {}
+2025-12-30 12:11:21.331 [info] ExtHostSearch Search finished. Stats: {"cmdTime":12,"fileWalkTime":12,"directoriesWalked":0,"filesWalked":0,"cmdResultCount":0}
+2025-12-30 12:11:21.332 [info] ExtHostSearch [cursorIgnore] internal fileSearch done in 19ms limitHit=false failed=false resultCount=0 cmdTime=12 fileWalkTime=12 providerTime=(unknown)
+2025-12-30 12:11:21.337 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-12-30 12:11:21.351 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-12-30 12:11:21.356 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-12-30 12:11:21.365 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2025-12-30 12:11:21.403 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2025-12-30 12:11:21.595 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: anysphere.cursor-agent-exec
+2025-12-30 12:11:21.603 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: anysphere.cursor-agent-exec
+2025-12-30 12:11:21.634 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-12-30 12:11:21.676 [info] ExtensionService#_doActivateExtension hashicorp.terraform, startup: true, activationEvent: 'workspaceContains:**/*.tf,**/*.tfvars'
+2025-12-30 12:11:21.748 [warning] registerMcpServerDefinitionProvider is not supported in Cursor
+2025-12-30 12:11:21.815 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: true, activationEvent: '*', root cause: anysphere.cursor-agent-exec
+2025-12-30 12:11:22.009 [info] ExtensionService#_doActivateExtension anysphere.cursor-agent-exec, startup: true, activationEvent: '*'
+2025-12-30 12:11:22.411 [info] ExtensionService#_doActivateExtension anysphere.cursor-mcp, startup: false, activationEvent: 'api', root cause: anysphere.cursor-agent-exec
+2025-12-30 12:11:22.556 [info] Eager extensions activated
+2025-12-30 12:11:22.574 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2025-12-30 12:11:22.763 [info] ExtensionService#_doActivateExtension anysphere.cursor-android-emulator-connect, startup: false, activationEvent: 'onStartupFinished'
+2025-12-30 12:11:22.778 [info] ExtensionService#_doActivateExtension cursor.cursor-browser-automation, startup: false, activationEvent: 'onStartupFinished'
+2025-12-30 12:11:22.782 [info] ExtensionService#_doActivateExtension anysphere.cursor-browser-extension, startup: false, activationEvent: 'onStartupFinished'
+2025-12-30 12:11:22.944 [info] ExtensionService#_doActivateExtension anysphere.cursor-deeplink, startup: false, activationEvent: 'onStartupFinished'
+2025-12-30 12:11:22.983 [info] ExtensionService#_doActivateExtension anysphere.cursor-ios-simulator-connect, startup: false, activationEvent: 'onStartupFinished'
+2025-12-30 12:11:23.012 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-12-30 12:11:23.062 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-12-30 12:11:23.070 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-12-30 12:11:23.081 [info] ExtensionService#_doActivateExtension amazonwebservices.aws-toolkit-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-12-30 12:11:24.302 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-12-30 12:11:28.549 [info] Extension host terminating: renderer closed the MessagePort
+2025-12-30 12:11:28.574 [error] Canceled: Canceled
+	at new Tit (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:119231)
+	at Rl._remoteCall (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:125894)
+	at r.<computed>.a.charCodeAt.r.<computed> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:122518)
+	at qIe._doExecuteCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:49822)
+	at qIe.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:49261)
+	at t.registerCommand.description (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:48525)
+	at qIe._executeContributedCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:50392)
+	at qIe._doExecuteCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:49394)
+	at qIe.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:49261)
+	at Object.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:203:143746)
+	at Bve.N [as value] (/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:110885)
+	at x._deliver (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:2961)
+	at x._deliverQueue (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:3052)
+	at x.fire (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:3389)
+	at Object.v [as dispose] (/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:179405)
+	at /usr/share/cursor/resources/app/extensions/git/dist/main.js:2:185770
+	at Array.forEach (<anonymous>)
+	at R.dispose (/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:185757)
+	at URe.<anonymous> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:10091)
+	at URe.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:10187)
+	at URe.<anonymous> (/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:113362)
+	at URe.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:10187)
+	at gi (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:42:706)
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:19823
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:42:1019
+	at Object.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:1274)
+	at Las._deactivate (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:15323)
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:12594
+	at Array.map (<anonymous>)
+	at Las._deactivateAll (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:12582)
+	at Las.terminate (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:12936)
+	at Fje.terminate (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:146:1617)
+	at Rr (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:770:17989)
+	at MessagePortMain.<anonymous> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:770:14420)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain.emit (node:domain:489:12)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+	at Object.topLevelDomainCallback (node:domain:161:15)
+	at Object.callbackTrampoline (node:internal/async_hooks:128:24) setContext undefined
+2025-12-30 12:11:28.574 [error] Canceled: Canceled
+	at new Tit (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:119231)
+	at Rl._remoteCall (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:125894)
+	at r.<computed>.a.charCodeAt.r.<computed> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:122518)
+	at qIe._doExecuteCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:49822)
+	at qIe.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:49261)
+	at t.registerCommand.description (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:48525)
+	at qIe._executeContributedCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:50392)
+	at qIe._doExecuteCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:49394)
+	at qIe.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:49261)
+	at Object.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:203:143746)
+	at set hasGitHubRepositories (/usr/share/cursor/resources/app/extensions/github/dist/extension.js:2:270497)
+	at /usr/share/cursor/resources/app/extensions/github/dist/extension.js:2:271447
+	at Bve.value (/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:597935)
+	at x._deliver (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:2961)
+	at x._deliverQueue (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:3052)
+	at x.fire (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:3389)
+	at Object.v [as dispose] (/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:179405)
+	at /usr/share/cursor/resources/app/extensions/git/dist/main.js:2:185770
+	at Array.forEach (<anonymous>)
+	at R.dispose (/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:185757)
+	at URe.<anonymous> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:10091)
+	at URe.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:10187)
+	at URe.<anonymous> (/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:113362)
+	at URe.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:10187)
+	at gi (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:42:706)
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:19823
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:42:1019
+	at Object.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:1274)
+	at Las._deactivate (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:15323)
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:12594
+	at Array.map (<anonymous>)
+	at Las._deactivateAll (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:12582)
+	at Las.terminate (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:12936)
+	at Fje.terminate (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:146:1617)
+	at Rr (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:770:17989)
+	at MessagePortMain.<anonymous> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:770:14420)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain.emit (node:domain:489:12)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+	at Object.topLevelDomainCallback (node:domain:161:15)
+	at Object.callbackTrampoline (node:internal/async_hooks:128:24) setContext undefined
+2025-12-30 12:11:28.575 [error] ProxyResolver#resolveProxy DIRECT Canceled: Canceled
+	at new Tit (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:119231)
+	at Rl._remoteCall (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:125894)
+	at r.<computed>.a.charCodeAt.r.<computed> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:122518)
+	at go.resolveProxy (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:137:433892)
+	at Object.resolveProxy (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:205:22726)
+	at useProxySettings (/usr/share/cursor/resources/app/node_modules/@vscode/proxy-agent/out/index.js:182:16)
+	at /usr/share/cursor/resources/app/node_modules/@vscode/proxy-agent/out/index.js:119:13
+	at /usr/share/cursor/resources/app/node_modules/@vscode/proxy-agent/out/index.js:707:13
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5) 
+2025-12-30 12:11:28.584 [error] ProxyResolver#resolveProxy DIRECT Canceled: Canceled
+	at new Tit (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:119231)
+	at Rl._remoteCall (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:125894)
+	at r.<computed>.a.charCodeAt.r.<computed> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:122518)
+	at go.resolveProxy (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:137:433892)
+	at Object.resolveProxy (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:205:22726)
+	at useProxySettings (/usr/share/cursor/resources/app/node_modules/@vscode/proxy-agent/out/index.js:182:16)
+	at /usr/share/cursor/resources/app/node_modules/@vscode/proxy-agent/out/index.js:119:13
+	at addCertificatesToOptionsV1 (/usr/share/cursor/resources/app/node_modules/@vscode/proxy-agent/out/index.js:714:9)
+	at resolveProxyWithRequest (/usr/share/cursor/resources/app/node_modules/@vscode/proxy-agent/out/index.js:114:9)
+	at /usr/share/cursor/resources/app/node_modules/@vscode/proxy-agent/out/index.js:346:77
+	at new Promise (<anonymous>)
+	at PacProxyAgent.resolveP [as resolver] (/usr/share/cursor/resources/app/node_modules/@vscode/proxy-agent/out/index.js:346:54)
+	at PacProxyAgent.<anonymous> (/usr/share/cursor/resources/app/node_modules/@vscode/proxy-agent/out/agent.js:74:37)
+	at Generator.next (<anonymous>)
+	at /usr/share/cursor/resources/app/node_modules/@vscode/proxy-agent/out/agent.js:8:71
+	at new Promise (<anonymous>)
+	at __awaiter (/usr/share/cursor/resources/app/node_modules/@vscode/proxy-agent/out/agent.js:4:12)
+	at PacProxyAgent.connect (/usr/share/cursor/resources/app/node_modules/@vscode/proxy-agent/out/agent.js:56:16)
+	at /usr/share/cursor/resources/app/node_modules/agent-base/dist/index.js:73:30 
+2025-12-30 12:11:28.585 [error] Error: Channel has been closed
+	at r (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:3270)
+	at Object.appendLine (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:3409)
+	at R.logOutputMessage (/usr/share/cursor/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:44947)
+	at R.info (/usr/share/cursor/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:44680)
+	at ChildProcess.<anonymous> (/usr/share/cursor/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:593746)
+	at ChildProcess.emit (node:events:519:28)
+	at ChildProcess.emit (node:domain:489:12)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+	at Process.callbackTrampoline (node:internal/async_hooks:130:17)
+2025-12-30 12:11:28.586 [info] Extension host with pid 24290 exiting with code 0
+2025-12-30 12:11:30.017 [info] Extension host with pid 24921 started
+2025-12-30 12:11:30.017 [info] [ExtHostShellExec] Initializing terminal executor with userTerminalHint: /usr/bin/fish
+2025-12-30 12:11:30.017 [info] Skipping acquiring lock for /home/henrique/.config/Cursor/User/workspaceStorage/5b44e7b4a0fe7f86f938cc478a352804.
+2025-12-30 12:11:30.017 [info] [ExtHostShellExec] Detecting sandbox support...
+2025-12-30 12:11:30.017 [info] [ExtHostShellExec] Platform: linux, Shell type: unknown
+2025-12-30 12:11:30.017 [info] [ExtHostShellExec] dirname: /usr/share/cursor/resources/app/out/vs/workbench/api/node
+2025-12-30 12:11:30.017 [info] [ExtHostShellExec] Sandbox helper path: /usr/share/cursor/resources/app/resources/helpers/cursor-sandbox
+2025-12-30 12:11:30.017 [info] [ExtHostShellExec] process.resourcesPath: /usr/lib/electron37/resources
+2025-12-30 12:11:30.017 [info] [ExtHostShellExec] process.execPath: /usr/lib/electron37/electron
+2025-12-30 12:11:30.017 [info] [ExtHostShellExec] ripgrep path for sandboxing: /usr/share/cursor/resources/app/node_modules/@vscode/ripgrep/bin/rg
+2025-12-30 12:11:30.017 [error] [shell-exec:sandbox] [isSandboxHelperSupported] Starting sandbox support check... undefined
+2025-12-30 12:11:30.017 [error] [shell-exec:sandbox] [checkBinaryAvailable] Resolved binary path: /usr/share/cursor/resources/app/resources/helpers/cursor-sandbox undefined
+2025-12-30 12:11:30.017 [error] [shell-exec:sandbox] [checkBinaryAvailable] Binary path exists: true undefined
+2025-12-30 12:11:30.017 [error] [shell-exec:sandbox] [isSandboxHelperSupported] Running preflight with binary: /usr/share/cursor/resources/app/resources/helpers/cursor-sandbox undefined
+2025-12-30 12:11:30.017 [error] [shell-exec:sandbox] [isSandboxHelperSupported] CWD: /home/henrique undefined
+2025-12-30 12:11:30.017 [error] [shell-exec:sandbox] [isSandboxHelperSupported] Preflight succeeded, sandbox supported! undefined
+2025-12-30 12:11:30.017 [info] [ExtHostShellExec] Sandbox support detected: true
+2025-12-30 12:11:30.017 [info] ExtHostSearch [cursorIgnore] internal fileSearch start reason=cursorIgnoreCheck roots=1 include=**/.cursorignore maxResults=0 numThreads=(default) folderQueries=[{"cwd":"/home/henrique/upd8/Docly/poc-docly-doc-analise","disregardIgnoreFiles":false,"disregardParentIgnoreFiles":true,"disregardGlobalIgnoreFiles":true,"ignoreSymlinks":false,"rgNoIgnore":false,"rgNoIgnoreParent":true,"rgNoIgnoreGlobal":true,"rgFollow":true}]
+2025-12-30 12:11:30.017 [info] ExtHostSearch /usr/share/cursor/resources/app/node_modules/@vscode/ripgrep/bin/rg --files --hidden --case-sensitive --no-require-git -g '**/.cursorignore' -g '!**/.git' -g '!**/.svn' -g '!**/.hg' -g '!**/.DS_Store' -g '!**/Thumbs.db' -g '!**/node_modules' -g '!**/bower_components' -g '!**/*.code-search' --no-ignore-parent --follow --threads '14' --no-config --no-ignore-global
+ - cwd: /home/henrique/upd8/Docly/poc-docly-doc-analise
+ - Sibling clauses: {}
+2025-12-30 12:11:30.023 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: anysphere.cursor-agent-exec
+2025-12-30 12:11:30.031 [info] ExtHostSearch Search finished. Stats: {"cmdTime":19,"fileWalkTime":19,"directoriesWalked":0,"filesWalked":0,"cmdResultCount":0}
+2025-12-30 12:11:30.031 [info] ExtHostSearch [cursorIgnore] internal fileSearch done in 24ms limitHit=false failed=false resultCount=0 cmdTime=19 fileWalkTime=19 providerTime=(unknown)
+2025-12-30 12:11:30.031 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: anysphere.cursor-agent-exec
+2025-12-30 12:11:30.061 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-12-30 12:11:30.127 [info] ExtensionService#_doActivateExtension hashicorp.terraform, startup: true, activationEvent: 'workspaceContains:**/*.tf,**/*.tfvars'
+2025-12-30 12:11:30.210 [warning] registerMcpServerDefinitionProvider is not supported in Cursor
+2025-12-30 12:11:30.269 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: true, activationEvent: '*', root cause: anysphere.cursor-agent-exec
+2025-12-30 12:11:30.440 [info] ExtensionService#_doActivateExtension anysphere.cursor-agent-exec, startup: true, activationEvent: '*'
+2025-12-30 12:11:30.667 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-12-30 12:11:30.778 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-12-30 12:11:30.887 [info] ExtensionService#_doActivateExtension anysphere.cursor-mcp, startup: false, activationEvent: 'api', root cause: anysphere.cursor-agent-exec
+2025-12-30 12:11:31.035 [info] Eager extensions activated
+2025-12-30 12:11:31.059 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2025-12-30 12:11:31.234 [info] ExtensionService#_doActivateExtension anysphere.cursor-android-emulator-connect, startup: false, activationEvent: 'onStartupFinished'
+2025-12-30 12:11:31.240 [info] ExtensionService#_doActivateExtension cursor.cursor-browser-automation, startup: false, activationEvent: 'onStartupFinished'
+2025-12-30 12:11:31.242 [info] ExtensionService#_doActivateExtension anysphere.cursor-browser-extension, startup: false, activationEvent: 'onStartupFinished'
+2025-12-30 12:11:31.381 [info] ExtensionService#_doActivateExtension anysphere.cursor-deeplink, startup: false, activationEvent: 'onStartupFinished'
+2025-12-30 12:11:31.419 [info] ExtensionService#_doActivateExtension anysphere.cursor-ios-simulator-connect, startup: false, activationEvent: 'onStartupFinished'
+2025-12-30 12:11:31.446 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-12-30 12:11:31.494 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-12-30 12:11:31.495 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-12-30 12:11:31.506 [info] ExtensionService#_doActivateExtension amazonwebservices.aws-toolkit-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-12-30 12:11:32.766 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-12-30 12:11:40.745 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 12:11:40.745 [error] Error: main.tf (37,30): position outside of any attribute name, value or block
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 12:20:04.410 [info] Extension host terminating: renderer closed the MessagePort
+2025-12-30 12:20:04.445 [error] Canceled: Canceled
+	at new Tit (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:119231)
+	at Rl._remoteCall (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:125894)
+	at r.<computed>.a.charCodeAt.r.<computed> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:122518)
+	at qIe._doExecuteCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:49822)
+	at qIe.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:49261)
+	at t.registerCommand.description (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:48525)
+	at qIe._executeContributedCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:50392)
+	at qIe._doExecuteCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:49394)
+	at qIe.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:49261)
+	at Object.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:203:143746)
+	at Bve.N [as value] (/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:110885)
+	at x._deliver (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:2961)
+	at x._deliverQueue (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:3052)
+	at x.fire (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:3389)
+	at Object.v [as dispose] (/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:179405)
+	at /usr/share/cursor/resources/app/extensions/git/dist/main.js:2:185770
+	at Array.forEach (<anonymous>)
+	at R.dispose (/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:185757)
+	at URe.<anonymous> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:10091)
+	at URe.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:10187)
+	at URe.<anonymous> (/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:113362)
+	at URe.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:10187)
+	at gi (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:42:706)
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:19823
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:42:1019
+	at Object.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:1274)
+	at Las._deactivate (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:15323)
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:12594
+	at Array.map (<anonymous>)
+	at Las._deactivateAll (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:12582)
+	at Las.terminate (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:12936)
+	at Fje.terminate (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:146:1617)
+	at Rr (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:770:17989)
+	at MessagePortMain.<anonymous> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:770:14420)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain.emit (node:domain:489:12)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+	at Object.topLevelDomainCallback (node:domain:161:15)
+	at Object.callbackTrampoline (node:internal/async_hooks:128:24) setContext undefined
+2025-12-30 12:20:04.446 [error] Canceled: Canceled
+	at new Tit (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:119231)
+	at Rl._remoteCall (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:125894)
+	at r.<computed>.a.charCodeAt.r.<computed> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:122518)
+	at qIe._doExecuteCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:49822)
+	at qIe.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:49261)
+	at t.registerCommand.description (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:48525)
+	at qIe._executeContributedCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:50392)
+	at qIe._doExecuteCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:49394)
+	at qIe.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:49261)
+	at Object.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:203:143746)
+	at set hasGitHubRepositories (/usr/share/cursor/resources/app/extensions/github/dist/extension.js:2:270497)
+	at /usr/share/cursor/resources/app/extensions/github/dist/extension.js:2:271447
+	at Bve.value (/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:597935)
+	at x._deliver (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:2961)
+	at x._deliverQueue (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:3052)
+	at x.fire (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:3389)
+	at Object.v [as dispose] (/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:179405)
+	at /usr/share/cursor/resources/app/extensions/git/dist/main.js:2:185770
+	at Array.forEach (<anonymous>)
+	at R.dispose (/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:185757)
+	at URe.<anonymous> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:10091)
+	at URe.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:10187)
+	at URe.<anonymous> (/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:113362)
+	at URe.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:10187)
+	at gi (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:42:706)
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:19823
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:42:1019
+	at Object.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:1274)
+	at Las._deactivate (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:15323)
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:12594
+	at Array.map (<anonymous>)
+	at Las._deactivateAll (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:12582)
+	at Las.terminate (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:12936)
+	at Fje.terminate (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:146:1617)
+	at Rr (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:770:17989)
+	at MessagePortMain.<anonymous> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:770:14420)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain.emit (node:domain:489:12)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+	at Object.topLevelDomainCallback (node:domain:161:15)
+	at Object.callbackTrampoline (node:internal/async_hooks:128:24) setContext undefined
+2025-12-30 12:20:04.458 [info] Extension host with pid 24921 exiting with code 0
+2025-12-30 12:20:06.551 [info] Extension host with pid 26549 started
+2025-12-30 12:20:06.551 [info] [ExtHostShellExec] Initializing terminal executor with userTerminalHint: /usr/bin/fish
+2025-12-30 12:20:06.551 [info] Skipping acquiring lock for /home/henrique/.config/Cursor/User/workspaceStorage/eb659251d1bc619caedb31ea12d09b2e.
+2025-12-30 12:20:06.551 [info] [ExtHostShellExec] Detecting sandbox support...
+2025-12-30 12:20:06.551 [info] [ExtHostShellExec] Platform: linux, Shell type: unknown
+2025-12-30 12:20:06.551 [info] [ExtHostShellExec] dirname: /usr/share/cursor/resources/app/out/vs/workbench/api/node
+2025-12-30 12:20:06.551 [info] [ExtHostShellExec] Sandbox helper path: /usr/share/cursor/resources/app/resources/helpers/cursor-sandbox
+2025-12-30 12:20:06.551 [info] [ExtHostShellExec] process.resourcesPath: /usr/lib/electron37/resources
+2025-12-30 12:20:06.551 [info] [ExtHostShellExec] process.execPath: /usr/lib/electron37/electron
+2025-12-30 12:20:06.551 [info] [ExtHostShellExec] ripgrep path for sandboxing: /usr/share/cursor/resources/app/node_modules/@vscode/ripgrep/bin/rg
+2025-12-30 12:20:06.551 [error] [shell-exec:sandbox] [isSandboxHelperSupported] Starting sandbox support check... undefined
+2025-12-30 12:20:06.551 [error] [shell-exec:sandbox] [checkBinaryAvailable] Resolved binary path: /usr/share/cursor/resources/app/resources/helpers/cursor-sandbox undefined
+2025-12-30 12:20:06.551 [error] [shell-exec:sandbox] [checkBinaryAvailable] Binary path exists: true undefined
+2025-12-30 12:20:06.551 [error] [shell-exec:sandbox] [isSandboxHelperSupported] Running preflight with binary: /usr/share/cursor/resources/app/resources/helpers/cursor-sandbox undefined
+2025-12-30 12:20:06.551 [error] [shell-exec:sandbox] [isSandboxHelperSupported] CWD: /home/henrique undefined
+2025-12-30 12:20:06.551 [error] [shell-exec:sandbox] [isSandboxHelperSupported] Preflight succeeded, sandbox supported! undefined
+2025-12-30 12:20:06.551 [info] [ExtHostShellExec] Sandbox support detected: true
+2025-12-30 12:20:06.551 [info] ExtHostSearch [cursorIgnore] internal fileSearch start reason=cursorIgnoreCheck roots=1 include=**/.cursorignore maxResults=0 numThreads=(default) folderQueries=[{"cwd":"/home/henrique/upd8/Rodosafra IA","disregardIgnoreFiles":false,"disregardParentIgnoreFiles":true,"disregardGlobalIgnoreFiles":true,"ignoreSymlinks":false,"rgNoIgnore":false,"rgNoIgnoreParent":true,"rgNoIgnoreGlobal":true,"rgFollow":true}]
+2025-12-30 12:20:06.564 [info] ExtHostSearch /usr/share/cursor/resources/app/node_modules/@vscode/ripgrep/bin/rg --files --hidden --case-sensitive --no-require-git -g '**/.cursorignore' -g '!**/.git' -g '!**/.svn' -g '!**/.hg' -g '!**/.DS_Store' -g '!**/Thumbs.db' -g '!**/node_modules' -g '!**/bower_components' -g '!**/*.code-search' --no-ignore-parent --follow --threads '14' --no-config --no-ignore-global
+ - cwd: /home/henrique/upd8/Rodosafra IA
+ - Sibling clauses: {}
+2025-12-30 12:20:06.566 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-12-30 12:20:06.581 [info] ExtHostSearch Search finished. Stats: {"cmdTime":20,"fileWalkTime":20,"directoriesWalked":0,"filesWalked":0,"cmdResultCount":0}
+2025-12-30 12:20:06.581 [info] ExtHostSearch [cursorIgnore] internal fileSearch done in 34ms limitHit=false failed=false resultCount=0 cmdTime=20 fileWalkTime=20 providerTime=(unknown)
+2025-12-30 12:20:06.581 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-12-30 12:20:06.587 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-12-30 12:20:06.595 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2025-12-30 12:20:06.632 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2025-12-30 12:20:06.880 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: anysphere.cursor-agent-exec
+2025-12-30 12:20:06.898 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: anysphere.cursor-agent-exec
+2025-12-30 12:20:06.927 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-12-30 12:20:06.967 [info] ExtensionService#_doActivateExtension hashicorp.terraform, startup: true, activationEvent: 'workspaceContains:**/*.tf,**/*.tfvars'
+2025-12-30 12:20:07.042 [warning] registerMcpServerDefinitionProvider is not supported in Cursor
+2025-12-30 12:20:07.092 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: true, activationEvent: '*', root cause: anysphere.cursor-agent-exec
+2025-12-30 12:20:07.251 [info] ExtensionService#_doActivateExtension anysphere.cursor-agent-exec, startup: true, activationEvent: '*'
+2025-12-30 12:20:07.715 [info] ExtensionService#_doActivateExtension anysphere.cursor-mcp, startup: false, activationEvent: 'api', root cause: anysphere.cursor-agent-exec
+2025-12-30 12:20:07.881 [info] Eager extensions activated
+2025-12-30 12:20:07.891 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2025-12-30 12:20:08.078 [info] ExtensionService#_doActivateExtension anysphere.cursor-android-emulator-connect, startup: false, activationEvent: 'onStartupFinished'
+2025-12-30 12:20:08.093 [info] ExtensionService#_doActivateExtension cursor.cursor-browser-automation, startup: false, activationEvent: 'onStartupFinished'
+2025-12-30 12:20:08.095 [info] ExtensionService#_doActivateExtension anysphere.cursor-browser-extension, startup: false, activationEvent: 'onStartupFinished'
+2025-12-30 12:20:08.243 [info] ExtensionService#_doActivateExtension anysphere.cursor-deeplink, startup: false, activationEvent: 'onStartupFinished'
+2025-12-30 12:20:08.285 [info] ExtensionService#_doActivateExtension anysphere.cursor-ios-simulator-connect, startup: false, activationEvent: 'onStartupFinished'
+2025-12-30 12:20:08.315 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-12-30 12:20:08.371 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-12-30 12:20:08.372 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-12-30 12:20:08.383 [info] ExtensionService#_doActivateExtension amazonwebservices.aws-toolkit-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-12-30 12:20:09.589 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-12-30 12:20:22.798 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 12:20:22.798 [error] Error: import.tf (147,42): position outside of any attribute name, value or block
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 12:49:48.277 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2025-12-30 12:49:48.552 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2025-12-30 12:59:13.224 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 12:59:13.224 [error] Error: lambda.tf (41,18): position outside of any attribute name, value or block
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 12:59:51.904 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 12:59:51.904 [error] Error: no reference origin found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 12:59:52.169 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 12:59:52.169 [error] Error: lambda.tf (23,47): position outside of any attribute name, value or block
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 12:59:52.303 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 12:59:52.303 [error] Error: no reference origin found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 13:05:23.864 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 13:05:23.864 [error] Error: lambda.tf (21,45): position outside of any attribute name, value or block
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 14:48:16.127 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 14:48:16.136 [error] Error: lambda-imports.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 14:48:16.143 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 14:48:16.143 [error] Error: lambda-imports.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 14:48:16.145 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 14:48:16.145 [error] Error: lambda-imports.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 14:48:16.420 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 14:48:16.420 [error] Error: lambda-imports.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 14:48:20.877 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 14:48:20.877 [error] Error: lambda-imports.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 14:48:26.747 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 14:48:26.747 [error] Error: lambda-imports.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 14:48:28.697 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 14:48:28.697 [error] Error: lambda-imports.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 14:48:29.036 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 14:48:29.036 [error] Error: lambda-imports.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 14:48:45.881 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 14:48:45.881 [error] Error: lambda-imports.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 14:48:46.249 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 14:48:46.249 [error] Error: lambda-imports.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 15:55:24.945 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 15:55:24.953 [error] Error: lambda-imports.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 15:55:24.968 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 15:55:24.968 [error] Error: lambda-imports.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 15:55:24.993 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 15:55:24.993 [error] Error: lambda-imports.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 15:55:25.238 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 15:55:25.238 [error] Error: lambda-imports.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 15:58:55.954 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 15:58:55.955 [error] Error: lambda.tf (14,53): position outside of any attribute name, value or block
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 15:58:56.638 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 15:58:56.638 [error] Error: lambda.tf (14,53): position outside of any attribute name, value or block
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 16:01:39.217 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 16:01:39.225 [error] Error: lambda-imports.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 16:01:39.233 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 16:01:39.233 [error] Error: lambda-imports.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 16:01:39.235 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 16:01:39.235 [error] Error: lambda-imports.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 16:01:39.513 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 16:01:39.513 [error] Error: lambda-imports.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 16:10:49.078 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 16:10:49.078 [error] Error: main.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 16:10:49.096 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 16:10:49.096 [error] Error: main.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 16:10:49.097 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 16:10:49.097 [error] Error: main.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 16:10:49.373 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 16:10:49.373 [error] Error: main.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 16:10:53.332 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 16:10:53.332 [error] Error: lambda-imports.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 16:10:53.340 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 16:10:53.340 [error] Error: lambda-imports.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 16:10:53.341 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 16:10:53.341 [error] Error: lambda-imports.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 16:10:53.626 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 16:10:53.627 [error] Error: lambda-imports.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 16:11:03.595 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 16:11:03.595 [error] Error: lambda-imports.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 16:11:03.603 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 16:11:03.603 [error] Error: lambda-imports.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 16:11:03.606 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 16:11:03.606 [error] Error: lambda-imports.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 16:11:03.889 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 16:11:03.889 [error] Error: lambda-imports.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 16:13:40.377 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 16:13:40.378 [error] Error: lambda-imports.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 16:13:40.385 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 16:13:40.385 [error] Error: lambda-imports.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 16:13:40.387 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 16:13:40.387 [error] Error: lambda-imports.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 16:13:40.670 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 16:13:40.670 [error] Error: lambda-imports.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 16:13:41.031 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 16:13:41.031 [error] Error: lambda-imports.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 16:13:56.080 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 16:13:56.080 [error] Error: import.tf (20,1): position outside of any attribute name, value or block
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 16:13:56.684 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 16:13:56.685 [error] Error: lambda-imports.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 16:13:56.689 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 16:13:56.689 [error] Error: lambda-imports.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 16:13:56.709 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 16:13:56.709 [error] Error: lambda-imports.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 16:13:56.975 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 16:13:56.975 [error] Error: lambda-imports.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 16:14:08.051 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 16:14:08.051 [error] Error: lambda-imports.tf (9,79): position outside of any attribute name, value or block
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 16:14:29.146 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 16:14:29.146 [error] Error: import.tf (26,45): position outside of any attribute name, value or block
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 16:17:15.779 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 16:17:15.779 [error] Error: import.tf (66,16): position outside of any attribute name, value or block
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 16:17:16.576 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 16:17:16.576 [error] Error: import.tf (36,21): position outside of any attribute name, value or block
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 16:17:22.097 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 16:17:22.097 [error] Error: no reference origin found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 16:17:27.573 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 16:17:27.573 [error] Error: lambda-imports.tf (316,46): position outside of any attribute name, value or block
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 16:17:53.599 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 16:17:53.599 [error] Error: dynamo-imports.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 16:17:53.644 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 16:17:53.644 [error] Error: dynamo-imports.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 16:17:53.648 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 16:17:53.648 [error] Error: dynamo-imports.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 16:18:35.634 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 16:18:35.634 [error] Error: lambda.tf (13,86): position outside of any attribute name, value or block
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 16:22:39.289 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 16:22:39.297 [error] Error: lambda.tf (13,86): position outside of any attribute name, value or block
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 16:22:43.321 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 16:22:43.321 [error] Error: lambda.tf (17,13): position outside of any attribute name, value or block
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 16:22:58.880 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 16:22:58.880 [error] Error: lambda.tf (13,26): position outside of any attribute name, value or block
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 16:23:09.721 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 16:23:09.721 [error] Error: lambda.tf (16,6): position outside of any attribute name, value or block
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 16:29:23.170 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 16:29:23.178 [error] Error: lambda.tf (4,11): unknown attribute "source_dir"
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 16:29:30.899 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-12-30 16:29:33.164 [info] Extension host terminating: renderer closed the MessagePort
+2025-12-30 16:29:33.225 [error] Canceled: Canceled
+	at new Tit (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:119231)
+	at Rl._remoteCall (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:125894)
+	at r.<computed>.a.charCodeAt.r.<computed> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:122518)
+	at qIe._doExecuteCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:49822)
+	at qIe.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:49261)
+	at t.registerCommand.description (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:48525)
+	at qIe._executeContributedCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:50392)
+	at qIe._doExecuteCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:49394)
+	at qIe.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:49261)
+	at Object.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:203:143746)
+	at Bve.N [as value] (/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:110885)
+	at x._deliver (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:2961)
+	at x._deliverQueue (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:3052)
+	at x.fire (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:3389)
+	at Object.v [as dispose] (/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:179405)
+	at /usr/share/cursor/resources/app/extensions/git/dist/main.js:2:185770
+	at Array.forEach (<anonymous>)
+	at R.dispose (/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:185757)
+	at URe.<anonymous> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:10091)
+	at URe.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:10187)
+	at URe.<anonymous> (/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:113362)
+	at URe.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:10187)
+	at gi (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:42:706)
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:19823
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:42:1019
+	at Object.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:1274)
+	at Las._deactivate (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:15323)
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:12594
+	at Array.map (<anonymous>)
+	at Las._deactivateAll (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:12582)
+	at Las.terminate (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:12936)
+	at Fje.terminate (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:146:1617)
+	at Rr (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:770:17989)
+	at MessagePortMain.<anonymous> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:770:14420)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain.emit (node:domain:489:12)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+	at Object.topLevelDomainCallback (node:domain:161:15)
+	at Object.callbackTrampoline (node:internal/async_hooks:128:24) setContext undefined
+2025-12-30 16:29:33.226 [error] Canceled: Canceled
+	at new Tit (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:119231)
+	at Rl._remoteCall (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:125894)
+	at r.<computed>.a.charCodeAt.r.<computed> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:122518)
+	at qIe._doExecuteCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:49822)
+	at qIe.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:49261)
+	at t.registerCommand.description (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:48525)
+	at qIe._executeContributedCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:50392)
+	at qIe._doExecuteCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:49394)
+	at qIe.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:49261)
+	at Object.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:203:143746)
+	at set hasGitHubRepositories (/usr/share/cursor/resources/app/extensions/github/dist/extension.js:2:270497)
+	at /usr/share/cursor/resources/app/extensions/github/dist/extension.js:2:271447
+	at Bve.value (/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:597935)
+	at x._deliver (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:2961)
+	at x._deliverQueue (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:3052)
+	at x.fire (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:3389)
+	at Object.v [as dispose] (/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:179405)
+	at /usr/share/cursor/resources/app/extensions/git/dist/main.js:2:185770
+	at Array.forEach (<anonymous>)
+	at R.dispose (/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:185757)
+	at URe.<anonymous> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:10091)
+	at URe.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:10187)
+	at URe.<anonymous> (/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:113362)
+	at URe.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:10187)
+	at gi (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:42:706)
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:19823
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:42:1019
+	at Object.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:1274)
+	at Las._deactivate (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:15323)
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:12594
+	at Array.map (<anonymous>)
+	at Las._deactivateAll (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:12582)
+	at Las.terminate (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:12936)
+	at Fje.terminate (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:146:1617)
+	at Rr (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:770:17989)
+	at MessagePortMain.<anonymous> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:770:14420)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain.emit (node:domain:489:12)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+	at Object.topLevelDomainCallback (node:domain:161:15)
+	at Object.callbackTrampoline (node:internal/async_hooks:128:24) setContext undefined
+2025-12-30 16:29:33.241 [info] Extension host with pid 26549 exiting with code 0
+2025-12-30 16:29:35.497 [info] Extension host with pid 75146 started
+2025-12-30 16:29:35.497 [info] [ExtHostShellExec] Initializing terminal executor with userTerminalHint: /usr/bin/fish
+2025-12-30 16:29:35.497 [info] Skipping acquiring lock for /home/henrique/.config/Cursor/User/workspaceStorage/eb659251d1bc619caedb31ea12d09b2e.
+2025-12-30 16:29:35.497 [info] [ExtHostShellExec] Detecting sandbox support...
+2025-12-30 16:29:35.497 [info] [ExtHostShellExec] Platform: linux, Shell type: unknown
+2025-12-30 16:29:35.497 [info] [ExtHostShellExec] dirname: /usr/share/cursor/resources/app/out/vs/workbench/api/node
+2025-12-30 16:29:35.497 [info] [ExtHostShellExec] Sandbox helper path: /usr/share/cursor/resources/app/resources/helpers/cursor-sandbox
+2025-12-30 16:29:35.497 [info] [ExtHostShellExec] process.resourcesPath: /usr/lib/electron37/resources
+2025-12-30 16:29:35.497 [info] [ExtHostShellExec] process.execPath: /usr/lib/electron37/electron
+2025-12-30 16:29:35.497 [info] [ExtHostShellExec] ripgrep path for sandboxing: /usr/share/cursor/resources/app/node_modules/@vscode/ripgrep/bin/rg
+2025-12-30 16:29:35.497 [error] [shell-exec:sandbox] [isSandboxHelperSupported] Starting sandbox support check... undefined
+2025-12-30 16:29:35.497 [error] [shell-exec:sandbox] [checkBinaryAvailable] Resolved binary path: /usr/share/cursor/resources/app/resources/helpers/cursor-sandbox undefined
+2025-12-30 16:29:35.497 [error] [shell-exec:sandbox] [checkBinaryAvailable] Binary path exists: true undefined
+2025-12-30 16:29:35.497 [error] [shell-exec:sandbox] [isSandboxHelperSupported] Running preflight with binary: /usr/share/cursor/resources/app/resources/helpers/cursor-sandbox undefined
+2025-12-30 16:29:35.497 [error] [shell-exec:sandbox] [isSandboxHelperSupported] CWD: /home/henrique undefined
+2025-12-30 16:29:35.497 [error] [shell-exec:sandbox] [isSandboxHelperSupported] Preflight succeeded, sandbox supported! undefined
+2025-12-30 16:29:35.497 [info] [ExtHostShellExec] Sandbox support detected: true
+2025-12-30 16:29:35.504 [info] ExtHostSearch [cursorIgnore] internal fileSearch start reason=cursorIgnoreCheck roots=1 include=**/.cursorignore maxResults=0 numThreads=(default) folderQueries=[{"cwd":"/home/henrique/upd8/Rodosafra IA","disregardIgnoreFiles":false,"disregardParentIgnoreFiles":true,"disregardGlobalIgnoreFiles":true,"ignoreSymlinks":false,"rgNoIgnore":false,"rgNoIgnoreParent":true,"rgNoIgnoreGlobal":true,"rgFollow":true}]
+2025-12-30 16:29:35.509 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-12-30 16:29:35.523 [info] ExtensionService#_doActivateExtension hashicorp.terraform, startup: false, activationEvent: 'onLanguage:terraform'
+2025-12-30 16:29:35.602 [info] ExtHostSearch /usr/share/cursor/resources/app/node_modules/@vscode/ripgrep/bin/rg --files --hidden --case-sensitive --no-require-git -g '**/.cursorignore' -g '!**/.git' -g '!**/.svn' -g '!**/.hg' -g '!**/.DS_Store' -g '!**/Thumbs.db' -g '!**/node_modules' -g '!**/bower_components' -g '!**/*.code-search' --no-ignore-parent --follow --threads '14' --no-config --no-ignore-global
+ - cwd: /home/henrique/upd8/Rodosafra IA
+ - Sibling clauses: {}
+2025-12-30 16:29:35.614 [warning] registerMcpServerDefinitionProvider is not supported in Cursor
+2025-12-30 16:29:35.630 [info] ExtHostSearch Search finished. Stats: {"cmdTime":30,"fileWalkTime":31,"directoriesWalked":0,"filesWalked":0,"cmdResultCount":0}
+2025-12-30 16:29:35.630 [info] ExtHostSearch [cursorIgnore] internal fileSearch done in 126ms limitHit=false failed=false resultCount=0 cmdTime=30 fileWalkTime=31 providerTime=(unknown)
+2025-12-30 16:29:35.631 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: anysphere.cursor-agent-exec
+2025-12-30 16:29:35.635 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: anysphere.cursor-agent-exec
+2025-12-30 16:29:35.665 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-12-30 16:29:35.741 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: true, activationEvent: '*', root cause: anysphere.cursor-agent-exec
+2025-12-30 16:29:35.931 [info] ExtensionService#_doActivateExtension anysphere.cursor-agent-exec, startup: true, activationEvent: '*'
+2025-12-30 16:29:36.365 [info] ExtensionService#_doActivateExtension anysphere.cursor-mcp, startup: false, activationEvent: 'api', root cause: anysphere.cursor-agent-exec
+2025-12-30 16:29:36.533 [info] Eager extensions activated
+2025-12-30 16:29:36.548 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2025-12-30 16:29:36.738 [info] ExtensionService#_doActivateExtension anysphere.cursor-android-emulator-connect, startup: false, activationEvent: 'onStartupFinished'
+2025-12-30 16:29:36.753 [info] ExtensionService#_doActivateExtension cursor.cursor-browser-automation, startup: false, activationEvent: 'onStartupFinished'
+2025-12-30 16:29:36.755 [info] ExtensionService#_doActivateExtension anysphere.cursor-browser-extension, startup: false, activationEvent: 'onStartupFinished'
+2025-12-30 16:29:36.900 [info] ExtensionService#_doActivateExtension anysphere.cursor-deeplink, startup: false, activationEvent: 'onStartupFinished'
+2025-12-30 16:29:36.948 [info] ExtensionService#_doActivateExtension anysphere.cursor-ios-simulator-connect, startup: false, activationEvent: 'onStartupFinished'
+2025-12-30 16:29:36.977 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-12-30 16:29:37.026 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-12-30 16:29:37.027 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-12-30 16:29:37.039 [info] ExtensionService#_doActivateExtension amazonwebservices.aws-toolkit-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-12-30 16:29:38.352 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-12-30 16:29:39.497 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-12-30 16:29:39.501 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-12-30 16:29:39.535 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-12-30 16:29:42.663 [info] Extension host terminating: renderer closed the MessagePort
+2025-12-30 16:29:42.686 [error] Canceled: Canceled
+	at new Tit (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:119231)
+	at Rl._remoteCall (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:125894)
+	at r.<computed>.a.charCodeAt.r.<computed> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:122518)
+	at qIe._doExecuteCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:49822)
+	at qIe.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:49261)
+	at t.registerCommand.description (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:48525)
+	at qIe._executeContributedCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:50392)
+	at qIe._doExecuteCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:49394)
+	at qIe.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:49261)
+	at Object.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:203:143746)
+	at Bve.N [as value] (/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:110885)
+	at x._deliver (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:2961)
+	at x._deliverQueue (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:3052)
+	at x.fire (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:3389)
+	at Object.v [as dispose] (/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:179405)
+	at /usr/share/cursor/resources/app/extensions/git/dist/main.js:2:185770
+	at Array.forEach (<anonymous>)
+	at R.dispose (/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:185757)
+	at URe.<anonymous> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:10091)
+	at URe.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:10187)
+	at URe.<anonymous> (/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:113362)
+	at URe.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:10187)
+	at gi (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:42:706)
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:19823
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:42:1019
+	at Object.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:1274)
+	at Las._deactivate (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:15323)
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:12594
+	at Array.map (<anonymous>)
+	at Las._deactivateAll (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:12582)
+	at Las.terminate (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:12936)
+	at Fje.terminate (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:146:1617)
+	at Rr (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:770:17989)
+	at MessagePortMain.<anonymous> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:770:14420)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain.emit (node:domain:489:12)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+	at Object.topLevelDomainCallback (node:domain:161:15)
+	at Object.callbackTrampoline (node:internal/async_hooks:128:24) setContext undefined
+2025-12-30 16:29:42.687 [error] Canceled: Canceled
+	at new Tit (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:119231)
+	at Rl._remoteCall (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:125894)
+	at r.<computed>.a.charCodeAt.r.<computed> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:122518)
+	at qIe._doExecuteCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:49822)
+	at qIe.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:49261)
+	at t.registerCommand.description (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:48525)
+	at qIe._executeContributedCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:50392)
+	at qIe._doExecuteCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:49394)
+	at qIe.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:49261)
+	at Object.executeCommand (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:203:143746)
+	at set hasGitHubRepositories (/usr/share/cursor/resources/app/extensions/github/dist/extension.js:2:270497)
+	at /usr/share/cursor/resources/app/extensions/github/dist/extension.js:2:271447
+	at Bve.value (/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:597935)
+	at x._deliver (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:2961)
+	at x._deliverQueue (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:3052)
+	at x.fire (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:3389)
+	at Object.v [as dispose] (/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:179405)
+	at /usr/share/cursor/resources/app/extensions/git/dist/main.js:2:185770
+	at Array.forEach (<anonymous>)
+	at R.dispose (/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:185757)
+	at URe.<anonymous> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:10091)
+	at URe.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:10187)
+	at URe.<anonymous> (/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:113362)
+	at URe.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:10187)
+	at gi (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:42:706)
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:19823
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:42:1019
+	at Object.dispose (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:1274)
+	at Las._deactivate (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:15323)
+	at file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:12594
+	at Array.map (<anonymous>)
+	at Las._deactivateAll (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:12582)
+	at Las.terminate (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:12936)
+	at Fje.terminate (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:146:1617)
+	at Rr (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:770:17989)
+	at MessagePortMain.<anonymous> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:770:14420)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain.emit (node:domain:489:12)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+	at Object.topLevelDomainCallback (node:domain:161:15)
+	at Object.callbackTrampoline (node:internal/async_hooks:128:24) setContext undefined
+2025-12-30 16:29:42.687 [error] ProxyResolver#resolveProxy DIRECT Canceled: Canceled
+	at new Tit (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:119231)
+	at Rl._remoteCall (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:125894)
+	at r.<computed>.a.charCodeAt.r.<computed> (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:46:122518)
+	at go.resolveProxy (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:137:433892)
+	at Object.resolveProxy (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:205:22726)
+	at useProxySettings (/usr/share/cursor/resources/app/node_modules/@vscode/proxy-agent/out/index.js:182:16)
+	at /usr/share/cursor/resources/app/node_modules/@vscode/proxy-agent/out/index.js:119:13
+	at /usr/share/cursor/resources/app/node_modules/@vscode/proxy-agent/out/index.js:707:13
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5) 
+2025-12-30 16:29:42.710 [error] Activating extension amazonwebservices.aws-toolkit-vscode failed due to an error:
+2025-12-30 16:29:42.710 [error] Canceled (FileSystemError): Canceled
+	at Fi._handleError (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:23641)
+	at Object.readFile (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:21096)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async ee.readFileText (/home/henrique/.cursor/extensions/amazonwebservices.aws-toolkit-vscode-3.91.0-universal/dist/src/extensionNode.js:4059:28652)
+	at async U (/home/henrique/.cursor/extensions/amazonwebservices.aws-toolkit-vscode-3.91.0-universal/dist/src/extensionNode.js:2846:67785)
+	at async Promise.all (index 0)
+	at async B (/home/henrique/.cursor/extensions/amazonwebservices.aws-toolkit-vscode-3.91.0-universal/dist/src/extensionNode.js:2846:67615)
+	at async M (/home/henrique/.cursor/extensions/amazonwebservices.aws-toolkit-vscode-3.91.0-universal/dist/src/extensionNode.js:2846:66461)
+	at async h.loadSharedCredentialsProviders (/home/henrique/.cursor/extensions/amazonwebservices.aws-toolkit-vscode-3.91.0-universal/dist/src/extensionNode.js:2846:110376)
+	at async h.refresh (/home/henrique/.cursor/extensions/amazonwebservices.aws-toolkit-vscode-3.91.0-universal/dist/src/extensionNode.js:2846:110192)
+	at async c.getAllCredentialsProviders (/home/henrique/.cursor/extensions/amazonwebservices.aws-toolkit-vscode-3.91.0-universal/dist/src/extensionNode.js:2846:91839)
+	at async c.getCredentialProviderNames (/home/henrique/.cursor/extensions/amazonwebservices.aws-toolkit-vscode-3.91.0-universal/dist/src/extensionNode.js:2846:92098)
+	at async V (/home/henrique/.cursor/extensions/amazonwebservices.aws-toolkit-vscode-3.91.0-universal/dist/src/extensionNode.js:2846:61180)
+	at async et.listConnections (/home/henrique/.cursor/extensions/amazonwebservices.aws-toolkit-vscode-3.91.0-universal/dist/src/extensionNode.js:2846:32390)
+	at async Ot (/home/henrique/.cursor/extensions/amazonwebservices.aws-toolkit-vscode-3.91.0-universal/dist/src/extensionNode.js:3881:1678)
+	at async bn (/home/henrique/.cursor/extensions/amazonwebservices.aws-toolkit-vscode-3.91.0-universal/dist/src/extensionNode.js:3878:59442)
+	at async _ (/home/henrique/.cursor/extensions/amazonwebservices.aws-toolkit-vscode-3.91.0-universal/dist/src/extensionNode.js:4241:12046503)
+	at async PIe._activate (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:17183)
+	at async PIe._waitForDepsThenActivate (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:17078)
+	at async PIe._initialize (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:16440)
+2025-12-30 16:29:42.711 [info] Extension host with pid 75146 exiting with code 0
+2025-12-30 16:29:43.225 [info] Extension host with pid 75523 started
+2025-12-30 16:29:43.225 [info] [ExtHostShellExec] Initializing terminal executor with userTerminalHint: /usr/bin/fish
+2025-12-30 16:29:43.225 [info] Skipping acquiring lock for /home/henrique/.config/Cursor/User/workspaceStorage/eb659251d1bc619caedb31ea12d09b2e.
+2025-12-30 16:29:43.225 [info] [ExtHostShellExec] Detecting sandbox support...
+2025-12-30 16:29:43.225 [info] [ExtHostShellExec] Platform: linux, Shell type: unknown
+2025-12-30 16:29:43.225 [info] [ExtHostShellExec] dirname: /usr/share/cursor/resources/app/out/vs/workbench/api/node
+2025-12-30 16:29:43.225 [info] [ExtHostShellExec] Sandbox helper path: /usr/share/cursor/resources/app/resources/helpers/cursor-sandbox
+2025-12-30 16:29:43.225 [info] [ExtHostShellExec] process.resourcesPath: /usr/lib/electron37/resources
+2025-12-30 16:29:43.225 [info] [ExtHostShellExec] process.execPath: /usr/lib/electron37/electron
+2025-12-30 16:29:43.225 [info] [ExtHostShellExec] ripgrep path for sandboxing: /usr/share/cursor/resources/app/node_modules/@vscode/ripgrep/bin/rg
+2025-12-30 16:29:43.225 [error] [shell-exec:sandbox] [isSandboxHelperSupported] Starting sandbox support check... undefined
+2025-12-30 16:29:43.225 [error] [shell-exec:sandbox] [checkBinaryAvailable] Resolved binary path: /usr/share/cursor/resources/app/resources/helpers/cursor-sandbox undefined
+2025-12-30 16:29:43.225 [error] [shell-exec:sandbox] [checkBinaryAvailable] Binary path exists: true undefined
+2025-12-30 16:29:43.225 [error] [shell-exec:sandbox] [isSandboxHelperSupported] Running preflight with binary: /usr/share/cursor/resources/app/resources/helpers/cursor-sandbox undefined
+2025-12-30 16:29:43.225 [error] [shell-exec:sandbox] [isSandboxHelperSupported] CWD: /home/henrique undefined
+2025-12-30 16:29:43.225 [error] [shell-exec:sandbox] [isSandboxHelperSupported] Preflight succeeded, sandbox supported! undefined
+2025-12-30 16:29:43.225 [info] [ExtHostShellExec] Sandbox support detected: true
+2025-12-30 16:29:43.238 [info] ExtHostSearch [cursorIgnore] internal fileSearch start reason=cursorIgnoreCheck roots=1 include=**/.cursorignore maxResults=0 numThreads=(default) folderQueries=[{"cwd":"/home/henrique/upd8/Rodosafra IA","disregardIgnoreFiles":false,"disregardParentIgnoreFiles":true,"disregardGlobalIgnoreFiles":true,"ignoreSymlinks":false,"rgNoIgnore":false,"rgNoIgnoreParent":true,"rgNoIgnoreGlobal":true,"rgFollow":true}]
+2025-12-30 16:29:43.241 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-12-30 16:29:43.254 [info] ExtensionService#_doActivateExtension hashicorp.terraform, startup: false, activationEvent: 'onLanguage:terraform'
+2025-12-30 16:29:43.338 [info] ExtHostSearch /usr/share/cursor/resources/app/node_modules/@vscode/ripgrep/bin/rg --files --hidden --case-sensitive --no-require-git -g '**/.cursorignore' -g '!**/.git' -g '!**/.svn' -g '!**/.hg' -g '!**/.DS_Store' -g '!**/Thumbs.db' -g '!**/node_modules' -g '!**/bower_components' -g '!**/*.code-search' --no-ignore-parent --follow --threads '14' --no-config --no-ignore-global
+ - cwd: /home/henrique/upd8/Rodosafra IA
+ - Sibling clauses: {}
+2025-12-30 16:29:43.350 [warning] registerMcpServerDefinitionProvider is not supported in Cursor
+2025-12-30 16:29:43.367 [info] ExtHostSearch Search finished. Stats: {"cmdTime":32,"fileWalkTime":32,"directoriesWalked":0,"filesWalked":0,"cmdResultCount":0}
+2025-12-30 16:29:43.367 [info] ExtHostSearch [cursorIgnore] internal fileSearch done in 129ms limitHit=false failed=false resultCount=0 cmdTime=32 fileWalkTime=32 providerTime=(unknown)
+2025-12-30 16:29:43.402 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: anysphere.cursor-agent-exec
+2025-12-30 16:29:43.430 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: anysphere.cursor-agent-exec
+2025-12-30 16:29:43.460 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-12-30 16:29:43.548 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: true, activationEvent: '*', root cause: anysphere.cursor-agent-exec
+2025-12-30 16:29:43.722 [info] ExtensionService#_doActivateExtension anysphere.cursor-agent-exec, startup: true, activationEvent: '*'
+2025-12-30 16:29:44.255 [info] ExtensionService#_doActivateExtension anysphere.cursor-mcp, startup: false, activationEvent: 'api', root cause: anysphere.cursor-agent-exec
+2025-12-30 16:29:44.416 [info] Eager extensions activated
+2025-12-30 16:29:44.433 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2025-12-30 16:29:44.620 [info] ExtensionService#_doActivateExtension anysphere.cursor-android-emulator-connect, startup: false, activationEvent: 'onStartupFinished'
+2025-12-30 16:29:44.627 [info] ExtensionService#_doActivateExtension cursor.cursor-browser-automation, startup: false, activationEvent: 'onStartupFinished'
+2025-12-30 16:29:44.629 [info] ExtensionService#_doActivateExtension anysphere.cursor-browser-extension, startup: false, activationEvent: 'onStartupFinished'
+2025-12-30 16:29:44.805 [info] ExtensionService#_doActivateExtension anysphere.cursor-deeplink, startup: false, activationEvent: 'onStartupFinished'
+2025-12-30 16:29:44.845 [info] ExtensionService#_doActivateExtension anysphere.cursor-ios-simulator-connect, startup: false, activationEvent: 'onStartupFinished'
+2025-12-30 16:29:44.873 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-12-30 16:29:44.923 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-12-30 16:29:44.924 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-12-30 16:29:44.935 [info] ExtensionService#_doActivateExtension amazonwebservices.aws-toolkit-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-12-30 16:29:46.214 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-12-30 18:33:09.962 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-12-30 18:33:09.970 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-12-30 18:33:09.980 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2025-12-30 18:33:10.024 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2025-12-30 18:51:18.395 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 18:51:18.396 [error] Error: main.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 18:51:18.406 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 18:51:18.406 [error] Error: main.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 18:51:18.407 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 18:51:18.407 [error] Error: main.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 18:51:18.688 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 18:51:18.688 [error] Error: main.tf: file not found
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 18:51:31.636 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2025-12-30 18:51:31.981 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2025-12-30 19:17:19.817 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 19:17:19.817 [error] Error: main.tf (81,46): position outside of any attribute name, value or block
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 19:17:25.306 [error] [hashicorp.terraform] provider FAILED
+2025-12-30 19:17:25.306 [error] Error: main.tf (229,39): position outside of any attribute name, value or block
+	at en (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:25:241)
+	at yt (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6288)
+	at gr (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6418)
+	at Immediate.<anonymous> (/home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/dist/extension.js:24:6169)
+	at process.processImmediate (node:internal/timers:485:21)
+	at process.topLevelDomainCallback (node:domain:161:15)
+	at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2025-12-30 22:36:10.908 [info] Extension host terminating: renderer closed the MessagePort

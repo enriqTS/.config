@@ -1,0 +1,113 @@
+2025-12-29 12:47:01.875 [info] Log level: info, beta=false
+2025-12-29 12:47:01.875 [info] endpoints: retrieving AWS endpoints data
+2025-12-29 12:47:01.875 [info] Telemetry product: AWS Toolkit For VS Code
+2025-12-29 12:47:01.923 [info] Telemetry clientId: 86f0e350-896e-494a-8918-9a4a2e81a9d7
+2025-12-29 12:47:01.923 [info] Telemetry sessionId: a8de6c5b-4093-4c19-878d-4261eef1684a
+2025-12-29 12:47:01.959 [info] OS: Linux x64 6.18.2-2-cachyos
+2025-12-29 12:47:01.959 [info] Visual Studio Code extension host:  1.105.1
+2025-12-29 12:47:01.959 [info] AWS Toolkit:  3.91.0
+2025-12-29 12:47:01.959 [info] node: 22.19.0
+2025-12-29 12:47:01.959 [info] electron: 37.5.1
+2025-12-29 12:47:01.960 [info] initialized 'submitFeedback' command with default feedback id: AWS Toolkit
+2025-12-29 12:47:01.977 [info] auth: Updating connection state of profile:rodosafra to authenticating
+2025-12-29 12:47:02.137 [warning] AwsContext: no default region in credentials profile, falling back to us-east-1:
+2025-12-29 12:47:03.099 [info] auth: Updating connection state of profile:rodosafra to valid
+2025-12-29 12:47:04.121 [warning] Ec2MetadataClient failed to fetch token. If this is an EC2 environment, then Toolkit will fall back to IMDSv1: ProviderError: TimeoutError from instance metadata service
+2025-12-29 12:47:04.628 [info] CloudFormation telemetry: choice=false, hasResponded=true, lastPromptDate=undefined
+2025-12-29 12:47:04.628 [info] using cloudformationLsp service configuration: default
+2025-12-29 12:47:04.628 [info] awsCfnLsp: Found CloudFormation LSP provider: RemoteLspServerProvider
+2025-12-29 12:47:04.638 [info] Remote debugging is initiated
+2025-12-29 12:47:04.638 [info] smus: SMUS Connection: Clearing all cached clients
+2025-12-29 12:47:04.638 [info] smus: Not in SageMaker Unified Studio remote environment, skipping user activity monitoring
+2025-12-29 12:47:04.840 [info] awsCfnLsp: Candidate versions: 1.2.0[darwin-arm64-22,darwin-x64-22,linux-arm64-22,linux-x64-22,linuxglib2.28-arm64-18,linuxglib2.28-x64-18,win32-arm64-22,windows-arm64-22,win32-x64-22,windows-x64-22], 1.1.0[darwin-arm64-22,darwin-x64-22,linux-arm64-22,linux-x64-22,win32-arm64-22,windows-arm64-22,win32-x64-22,windows-x64-22]
+2025-12-29 12:47:04.840 [info] awsCfnLsp: Found GLIBCXX {"maxFound":"3.4.34","allAvailable":["3.4","3.4.1","3.4.2","3.4.3","3.4.4","3.4.5","3.4.6","3.4.7","3.4.8","3.4.9","3.4.10","3.4.11","3.4.12","3.4.13","3.4.14","3.4.15","3.4.16","3.4.17","3.4.18","3.4.19","3.4.20","3.4.21","3.4.22","3.4.23","3.4.24","3.4.25","3.4.26","3.4.27","3.4.28","3.4.29","3.4.30","3.4.31","3.4.32","3.4.33","3.4.34"]}
+2025-12-29 12:47:04.840 [info] awsCfnLsp: Creating CloudFormation LSP manifest for prod
+2025-12-29 12:47:05.774 [info] lsp: Finished preparing "cloudformation-languageserver" LSP server: '/home/henrique/.cache/aws/toolkits/language-servers/cloudformation-languageserver/1.2.0'
+2025-12-29 12:47:05.797 [info] awsCfnLsp: Found CloudFormation LSP executable: /home/henrique/.cache/aws/toolkits/language-servers/cloudformation-languageserver/1.2.0/cloudformation-languageserver-1.2.0-linux-x64-node22/cfn-lsp-server-standalone.js
+2025-12-29 12:47:06.217 [warning] command failed (not registered?): "aws.amazonq.refreshConnectionCallback"
+2025-12-29 12:47:06.645 [warning] AwsContext: no default region in credentials profile, falling back to us-east-1: profile:rodosafra
+2025-12-29 12:47:08.446 [info] telemetry: sent batch (size=16)
+2025-12-29 13:47:48.281 [info] Log level: info, beta=false
+2025-12-29 13:47:48.281 [info] endpoints: retrieving AWS endpoints data
+2025-12-29 13:47:48.281 [info] Telemetry product: AWS Toolkit For VS Code
+2025-12-29 13:47:48.363 [info] OS: Linux x64 6.18.2-2-cachyos
+2025-12-29 13:47:48.364 [info] Visual Studio Code extension host:  1.105.1
+2025-12-29 13:47:48.364 [info] AWS Toolkit:  3.91.0
+2025-12-29 13:47:48.364 [info] node: 22.19.0
+2025-12-29 13:47:48.364 [info] electron: 37.5.1
+2025-12-29 13:47:48.365 [info] initialized 'submitFeedback' command with default feedback id: AWS Toolkit
+2025-12-29 13:47:48.377 [info] auth: Updating connection state of profile:rodosafra to authenticating
+2025-12-29 13:47:48.405 [warning] AwsContext: no default region in credentials profile, falling back to us-east-1:
+2025-12-29 13:47:49.466 [info] auth: Updating connection state of profile:rodosafra to valid
+2025-12-29 13:47:50.490 [warning] Ec2MetadataClient failed to fetch token. If this is an EC2 environment, then Toolkit will fall back to IMDSv1: ProviderError: TimeoutError from instance metadata service
+2025-12-29 13:47:50.994 [info] CloudFormation telemetry: choice=false, hasResponded=true, lastPromptDate=undefined
+2025-12-29 13:47:50.994 [info] using cloudformationLsp service configuration: default
+2025-12-29 13:47:50.994 [info] awsCfnLsp: Found CloudFormation LSP provider: RemoteLspServerProvider
+2025-12-29 13:47:51.006 [info] Remote debugging is initiated
+2025-12-29 13:47:51.006 [info] smus: SMUS Connection: Clearing all cached clients
+2025-12-29 13:47:51.006 [info] smus: Not in SageMaker Unified Studio remote environment, skipping user activity monitoring
+2025-12-29 13:47:51.074 [warning] command failed (not registered?): "aws.amazonq.refreshConnectionCallback"
+2025-12-29 13:47:51.207 [info] awsCfnLsp: Candidate versions: 1.2.0[darwin-arm64-22,darwin-x64-22,linux-arm64-22,linux-x64-22,linuxglib2.28-arm64-18,linuxglib2.28-x64-18,win32-arm64-22,windows-arm64-22,win32-x64-22,windows-x64-22], 1.1.0[darwin-arm64-22,darwin-x64-22,linux-arm64-22,linux-x64-22,win32-arm64-22,windows-arm64-22,win32-x64-22,windows-x64-22]
+2025-12-29 13:47:51.208 [info] awsCfnLsp: Found GLIBCXX {"maxFound":"3.4.34","allAvailable":["3.4","3.4.1","3.4.2","3.4.3","3.4.4","3.4.5","3.4.6","3.4.7","3.4.8","3.4.9","3.4.10","3.4.11","3.4.12","3.4.13","3.4.14","3.4.15","3.4.16","3.4.17","3.4.18","3.4.19","3.4.20","3.4.21","3.4.22","3.4.23","3.4.24","3.4.25","3.4.26","3.4.27","3.4.28","3.4.29","3.4.30","3.4.31","3.4.32","3.4.33","3.4.34"]}
+2025-12-29 13:47:51.208 [info] awsCfnLsp: Creating CloudFormation LSP manifest for prod
+2025-12-29 13:47:52.162 [info] lsp: Finished preparing "cloudformation-languageserver" LSP server: '/home/henrique/.cache/aws/toolkits/language-servers/cloudformation-languageserver/1.2.0'
+2025-12-29 13:47:52.171 [info] awsCfnLsp: Found CloudFormation LSP executable: /home/henrique/.cache/aws/toolkits/language-servers/cloudformation-languageserver/1.2.0/cloudformation-languageserver-1.2.0-linux-x64-node22/cfn-lsp-server-standalone.js
+2025-12-29 13:47:52.992 [warning] AwsContext: no default region in credentials profile, falling back to us-east-1: profile:rodosafra
+2025-12-29 13:48:01.882 [info] Log level: info, beta=false
+2025-12-29 13:48:01.882 [info] endpoints: retrieving AWS endpoints data
+2025-12-29 13:48:01.882 [info] Telemetry product: AWS Toolkit For VS Code
+2025-12-29 13:48:01.988 [info] OS: Linux x64 6.18.2-2-cachyos
+2025-12-29 13:48:01.988 [info] Visual Studio Code extension host:  1.105.1
+2025-12-29 13:48:01.988 [info] AWS Toolkit:  3.91.0
+2025-12-29 13:48:01.988 [info] node: 22.19.0
+2025-12-29 13:48:01.988 [info] electron: 37.5.1
+2025-12-29 13:48:01.989 [info] initialized 'submitFeedback' command with default feedback id: AWS Toolkit
+2025-12-29 13:48:02.001 [info] auth: Updating connection state of profile:rodosafra to authenticating
+2025-12-29 13:48:02.015 [warning] AwsContext: no default region in credentials profile, falling back to us-east-1:
+2025-12-29 13:48:02.587 [info] auth: Updating connection state of profile:rodosafra to valid
+2025-12-29 13:48:03.599 [warning] Ec2MetadataClient failed to fetch token. If this is an EC2 environment, then Toolkit will fall back to IMDSv1: ProviderError: TimeoutError from instance metadata service
+2025-12-29 13:48:04.105 [info] CloudFormation telemetry: choice=false, hasResponded=true, lastPromptDate=undefined
+2025-12-29 13:48:04.105 [info] using cloudformationLsp service configuration: default
+2025-12-29 13:48:04.105 [info] awsCfnLsp: Found CloudFormation LSP provider: RemoteLspServerProvider
+2025-12-29 13:48:04.118 [info] Remote debugging is initiated
+2025-12-29 13:48:04.118 [info] smus: SMUS Connection: Clearing all cached clients
+2025-12-29 13:48:04.118 [info] smus: Not in SageMaker Unified Studio remote environment, skipping user activity monitoring
+2025-12-29 13:48:04.185 [warning] command failed (not registered?): "aws.amazonq.refreshConnectionCallback"
+2025-12-29 13:48:04.315 [info] awsCfnLsp: Candidate versions: 1.2.0[darwin-arm64-22,darwin-x64-22,linux-arm64-22,linux-x64-22,linuxglib2.28-arm64-18,linuxglib2.28-x64-18,win32-arm64-22,windows-arm64-22,win32-x64-22,windows-x64-22], 1.1.0[darwin-arm64-22,darwin-x64-22,linux-arm64-22,linux-x64-22,win32-arm64-22,windows-arm64-22,win32-x64-22,windows-x64-22]
+2025-12-29 13:48:04.315 [info] awsCfnLsp: Found GLIBCXX {"maxFound":"3.4.34","allAvailable":["3.4","3.4.1","3.4.2","3.4.3","3.4.4","3.4.5","3.4.6","3.4.7","3.4.8","3.4.9","3.4.10","3.4.11","3.4.12","3.4.13","3.4.14","3.4.15","3.4.16","3.4.17","3.4.18","3.4.19","3.4.20","3.4.21","3.4.22","3.4.23","3.4.24","3.4.25","3.4.26","3.4.27","3.4.28","3.4.29","3.4.30","3.4.31","3.4.32","3.4.33","3.4.34"]}
+2025-12-29 13:48:04.315 [info] awsCfnLsp: Creating CloudFormation LSP manifest for prod
+2025-12-29 13:48:05.307 [info] lsp: Finished preparing "cloudformation-languageserver" LSP server: '/home/henrique/.cache/aws/toolkits/language-servers/cloudformation-languageserver/1.2.0'
+2025-12-29 13:48:05.318 [info] awsCfnLsp: Found CloudFormation LSP executable: /home/henrique/.cache/aws/toolkits/language-servers/cloudformation-languageserver/1.2.0/cloudformation-languageserver-1.2.0-linux-x64-node22/cfn-lsp-server-standalone.js
+2025-12-29 13:48:06.080 [warning] AwsContext: no default region in credentials profile, falling back to us-east-1: profile:rodosafra
+2025-12-29 15:18:08.371 [error] notifications: Failed to fetch at endpoint: https://idetoolkits-hostedfiles.amazonaws.com/Notifications/VSCode/emergency/1.x.json, err: TypeError: Cannot read properties of undefined (reading 'headers')
+2025-12-29 15:18:41.372 [error] notifications: Failed to fetch at endpoint: https://idetoolkits-hostedfiles.amazonaws.com/Notifications/VSCode/emergency/1.x.json, err: TypeError: Cannot read properties of undefined (reading 'headers')
+2025-12-29 15:19:14.373 [error] notifications: Failed to fetch at endpoint: https://idetoolkits-hostedfiles.amazonaws.com/Notifications/VSCode/emergency/1.x.json, err: TypeError: Cannot read properties of undefined (reading 'headers')
+2025-12-29 15:19:47.374 [error] notifications: Failed to fetch at endpoint: https://idetoolkits-hostedfiles.amazonaws.com/Notifications/VSCode/emergency/1.x.json, err: TypeError: Cannot read properties of undefined (reading 'headers')
+2025-12-29 15:20:20.375 [error] notifications: Failed to fetch at endpoint: https://idetoolkits-hostedfiles.amazonaws.com/Notifications/VSCode/emergency/1.x.json, err: TypeError: Cannot read properties of undefined (reading 'headers')
+2025-12-29 15:20:20.375 [error] notifications: Unable to fetch emergency notifications: TypeError: Cannot read properties of undefined (reading 'headers')
+2025-12-29 15:41:58.873 [info] Log level: info, beta=false
+2025-12-29 15:41:58.873 [info] endpoints: retrieving AWS endpoints data
+2025-12-29 15:41:58.873 [info] Telemetry product: AWS Toolkit For VS Code
+2025-12-29 15:41:58.960 [info] OS: Linux x64 6.18.2-2-cachyos
+2025-12-29 15:41:58.960 [info] Visual Studio Code extension host:  1.105.1
+2025-12-29 15:41:58.960 [info] AWS Toolkit:  3.91.0
+2025-12-29 15:41:58.960 [info] node: 22.19.0
+2025-12-29 15:41:58.960 [info] electron: 37.5.1
+2025-12-29 15:41:58.960 [info] initialized 'submitFeedback' command with default feedback id: AWS Toolkit
+2025-12-29 15:41:58.973 [info] auth: Updating connection state of profile:rodosafra to authenticating
+2025-12-29 15:41:59.011 [warning] AwsContext: no default region in credentials profile, falling back to us-east-1:
+2025-12-29 15:42:00.086 [info] auth: Updating connection state of profile:rodosafra to valid
+2025-12-29 15:42:01.099 [warning] Ec2MetadataClient failed to fetch token. If this is an EC2 environment, then Toolkit will fall back to IMDSv1: ProviderError: TimeoutError from instance metadata service
+2025-12-29 15:42:01.605 [info] CloudFormation telemetry: choice=false, hasResponded=true, lastPromptDate=undefined
+2025-12-29 15:42:01.605 [info] using cloudformationLsp service configuration: default
+2025-12-29 15:42:01.605 [info] awsCfnLsp: Found CloudFormation LSP provider: RemoteLspServerProvider
+2025-12-29 15:42:01.616 [info] Remote debugging is initiated
+2025-12-29 15:42:01.616 [info] smus: SMUS Connection: Clearing all cached clients
+2025-12-29 15:42:01.616 [info] smus: Not in SageMaker Unified Studio remote environment, skipping user activity monitoring
+2025-12-29 15:42:01.821 [info] awsCfnLsp: Candidate versions: 1.2.0[darwin-arm64-22,darwin-x64-22,linux-arm64-22,linux-x64-22,linuxglib2.28-arm64-18,linuxglib2.28-x64-18,win32-arm64-22,windows-arm64-22,win32-x64-22,windows-x64-22], 1.1.0[darwin-arm64-22,darwin-x64-22,linux-arm64-22,linux-x64-22,win32-arm64-22,windows-arm64-22,win32-x64-22,windows-x64-22]
+2025-12-29 15:42:01.821 [info] awsCfnLsp: Found GLIBCXX {"maxFound":"3.4.34","allAvailable":["3.4","3.4.1","3.4.2","3.4.3","3.4.4","3.4.5","3.4.6","3.4.7","3.4.8","3.4.9","3.4.10","3.4.11","3.4.12","3.4.13","3.4.14","3.4.15","3.4.16","3.4.17","3.4.18","3.4.19","3.4.20","3.4.21","3.4.22","3.4.23","3.4.24","3.4.25","3.4.26","3.4.27","3.4.28","3.4.29","3.4.30","3.4.31","3.4.32","3.4.33","3.4.34"]}
+2025-12-29 15:42:01.821 [info] awsCfnLsp: Creating CloudFormation LSP manifest for prod
+2025-12-29 15:42:02.886 [info] lsp: Finished preparing "cloudformation-languageserver" LSP server: '/home/henrique/.cache/aws/toolkits/language-servers/cloudformation-languageserver/1.2.0'
+2025-12-29 15:42:02.896 [info] awsCfnLsp: Found CloudFormation LSP executable: /home/henrique/.cache/aws/toolkits/language-servers/cloudformation-languageserver/1.2.0/cloudformation-languageserver-1.2.0-linux-x64-node22/cfn-lsp-server-standalone.js
+2025-12-29 15:42:02.924 [warning] command failed (not registered?): "aws.amazonq.refreshConnectionCallback"
+2025-12-29 15:42:03.769 [warning] AwsContext: no default region in credentials profile, falling back to us-east-1: profile:rodosafra

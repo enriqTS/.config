@@ -1,0 +1,4 @@
+2025/12/30-09:30:54.925 3966 Reusing MANIFEST /home/henrique/.config/discord/Session Storage/MANIFEST-000001
+2025/12/30-09:30:54.926 3966 Recovering log #3
+2025/12/30-09:30:54.926 3966 (ignoring error) /home/henrique/.config/discord/Session Storage/000003.log: dropping 250 bytes; Corruption: checksum mismatch
+2025/12/30-09:30:54.926 3966 Reusing old log /home/henrique/.config/discord/Session Storage/000003.log 

@@ -1,0 +1,364 @@
+Launching language server: /home/henrique/.cursor/extensions/hashicorp.terraform-2.37.6-linux-x64/bin/terraform-ls serve
+Client: Stopped --> Starting
+2025/12/27 11:20:10 serve_command.go:108: Starting terraform-ls 0.38.3
+2025/12/27 11:20:10 service.go:120: Preparing new session ...
+2025/12/27 11:20:10 langserver.go:102: Starting server (pid 11444; concurrency: 8) ...
+2025/12/27 11:20:10 opts.go:215: Received request batch of size 1 (qlen=0)
+2025/12/27 11:20:10 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2025/12/27 11:20:10 rpc_logger.go:32: Incoming request for "initialize" (ID 0): {"processId":11036,"clientInfo":{"name":"Cursor","version":"1.105.1"},"locale":"en","rootPath":"/home/henrique/upd8/Rodosafra IA","rootUri":"file:///home/henrique/upd8/Rodosafra%20IA","capabilities":{"workspace":{"applyEdit":true,"workspaceEdit":{"documentChanges":true,"resourceOperations":["create","rename","delete"],"failureHandling":"textOnlyTransactional","normalizesLineEndings":true,"changeAnnotationSupport":{"groupsOnLabel":true}},"configuration":true,"didChangeWatchedFiles":{"dynamicRegistration":true,"relativePatternSupport":true},"symbol":{"dynamicRegistration":true,"symbolKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]},"tagSupport":{"valueSet":[1]},"resolveSupport":{"properties":["location.range"]}},"codeLens":{"refreshSupport":true},"executeCommand":{"dynamicRegistration":true},"didChangeConfiguration":{"dynamicRegistration":true},"workspaceFolders":true,"foldingRange":{"refreshSupport":true},"semanticTokens":{"refreshSupport":true},"fileOperations":{"dynamicRegistration":true,"didCreate":true,"didRename":true,"didDelete":true,"willCreate":true,"willRename":true,"willDelete":true},"inlineValue":{"refreshSupport":true},"inlayHint":{"refreshSupport":true},"diagnostics":{"refreshSupport":true}},"textDocument":{"publishDiagnostics":{"relatedInformation":true,"versionSupport":false,"tagSupport":{"valueSet":[1,2]},"codeDescriptionSupport":true,"dataSupport":true},"synchronization":{"dynamicRegistration":true,"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"dynamicRegistration":true,"contextSupport":true,"completionItem":{"snippetSupport":true,"commitCharactersSupport":true,"documentationFormat":["markdown","plaintext"],"deprecatedSupport":true,"preselectSupport":true,"tagSupport":{"valueSet":[1]},"insertReplaceSupport":true,"resolveSupport":{"properties":["documentation","detail","additionalTextEdits"]},"insertTextModeSupport":{"valueSet":[1,2]},"labelDetailsSupport":true},"insertTextMode":2,"completionItemKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25]},"completionList":{"itemDefaults":["commitCharacters","editRange","insertTextFormat","insertTextMode","data"]}},"hover":{"dynamicRegistration":true,"contentFormat":["markdown","plaintext"]},"signatureHelp":{"dynamicRegistration":true,"signatureInformation":{"documentationFormat":["markdown","plaintext"],"parameterInformation":{"labelOffsetSupport":true},"activeParameterSupport":true},"contextSupport":true},"definition":{"dynamicRegistration":true,"linkSupport":true},"references":{"dynamicRegistration":true},"documentHighlight":{"dynamicRegistration":true},"documentSymbol":{"dynamicRegistration":true,"symbolKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]},"hierarchicalDocumentSymbolSupport":true,"tagSupport":{"valueSet":[1]},"labelSupport":true},"codeAction":{"dynamicRegistration":true,"isPreferredSupport":true,"disabledSupport":true,"dataSupport":true,"resolveSupport":{"properties":["edit"]},"codeActionLiteralSupport":{"codeActionKind":{"valueSet":["","quickfix","refactor","refactor.extract","refactor.inline","refactor.rewrite","source","source.organizeImports"]}},"honorsChangeAnnotations":true},"codeLens":{"dynamicRegistration":true},"formatting":{"dynamicRegistration":true},"rangeFormatting":{"dynamicRegistration":true,"rangesSupport":true},"onTypeFormatting":{"dynamicRegistration":true},"rename":{"dynamicRegistration":true,"prepareSupport":true,"prepareSupportDefaultBehavior":1,"honorsChangeAnnotations":true},"documentLink":{"dynamicRegistration":true,"tooltipSupport":true},"typeDefinition":{"dynamicRegistration":true,"linkSupport":true},"implementation":{"dynamicRegistration":true,"linkSupport":true},"colorProvider":{"dynamicRegistration":true},"foldingRange":{"dynamicRegistration":true,"rangeLimit":5000,"lineFoldingOnly":true,"foldingRangeKind":{"valueSet":["comment","imports","region"]},"foldingRange":{"collapsedText":false}},"declaration":{"dynamicRegistration":true,"linkSupport":true},"selectionRange":{"dynamicRegistration":true},"callHierarchy":{"dynamicRegistration":true},"semanticTokens":{"dynamicRegistration":true,"tokenTypes":["namespace","type","class","enum","interface","struct","typeParameter","parameter","variable","property","enumMember","event","function","method","macro","keyword","modifier","comment","string","number","regexp","operator","decorator","hcl-attrName","hcl-blockType","hcl-blockLabel","hcl-bool","hcl-string","hcl-number","hcl-objectKey","hcl-mapKey","hcl-keyword","hcl-referenceStep","hcl-typeComplex","hcl-typePrimitive","hcl-functionName"],"tokenModifiers":["declaration","definition","readonly","static","deprecated","abstract","async","modification","documentation","defaultLibrary","hcl-dependent","terraform-data","terraform-locals","terraform-module","terraform-output","terraform-provider","terraform-resource","terraform-provisioner","terraform-connection","terraform-variable","terraform-terraform","terraform-backend","terraform-name","terraform-type","terraform-requiredProviders"],"formats":["relative"],"requests":{"range":true,"full":{"delta":true}},"multilineTokenSupport":false,"overlappingTokenSupport":false,"serverCancelSupport":true,"augmentsSyntaxTokens":true},"linkedEditingRange":{"dynamicRegistration":true},"typeHierarchy":{"dynamicRegistration":true},"inlineValue":{"dynamicRegistration":true},"inlayHint":{"dynamicRegistration":true,"resolveSupport":{"properties":["tooltip","textEdits","label.tooltip","label.location","label.command"]}},"diagnostic":{"dynamicRegistration":true,"relatedDocumentSupport":false}},"window":{"showMessage":{"messageActionItem":{"additionalPropertiesSupport":true}},"showDocument":{"support":true},"workDoneProgress":true},"general":{"staleRequestSupport":{"cancel":true,"retryOnContentModified":["textDocument/semanticTokens/full","textDocument/semanticTokens/range","textDocument/semanticTokens/full/delta"]},"regularExpressions":{"engine":"ECMAScript","version":"ES2020"},"markdown":{"parser":"marked","version":"1.1.0"},"positionEncodings":["utf-16"]},"notebookDocument":{"synchronization":{"dynamicRegistration":true,"executionSummarySupport":true}},"experimental":{"refreshModuleProvidersCommandId":"client.refreshModuleProviders","refreshModuleCallsCommandId":"client.refreshModuleCalls","telemetryVersion":1,"refreshTerraformVersionCommandId":"client.refreshTerraformVersion"}},"initializationOptions":{"validation":{"enableEnhancedValidation":true},"experimentalFeatures":{"validateOnSave":false,"prefillRequiredFields":false},"ignoreSingleFileWarning":false,"terraform":{"path":"","timeout":"","logFilePath":""},"indexing":{"ignorePaths":[],"ignoreDirectoryNames":[]}},"trace":"off","workspaceFolders":[{"uri":"file:///home/henrique/upd8/Rodosafra%20IA","name":"Rodosafra IA"}],"workDoneToken":"d6ef62cd-eb66-412b-b1e4-169ef8dd4d90"}
+2025/12/27 11:20:10 initialize.go:185: enabling telemetry (version: 1)
+2025/12/27 11:20:10 initialize.go:190: telemetry enabled (version: 1)
+2025/12/27 11:20:10 scheduler.go:56: launching eval loop 0
+2025/12/27 11:20:10 service.go:491: started low priority scheduler
+2025/12/27 11:20:10 scheduler.go:56: launching eval loop 0
+2025/12/27 11:20:10 service.go:496: started high priority scheduler
+2025/12/27 11:20:10 discover.go:21: bus: "feature.rootmodules" subscribed to OnDiscover
+2025/12/27 11:20:10 did_open.go:28: bus: "feature.rootmodules" subscribed to OnDidOpen
+2025/12/27 11:20:10 manifest_change.go:23: bus: "feature.rootmodules" subscribed to OnManifestChange
+2025/12/27 11:20:10 lockfile_change.go:23: bus: "feature.rootmodules" subscribed to OnPluginLockChange
+2025/12/27 11:20:10 discover.go:21: bus: "feature.modules" subscribed to OnDiscover
+2025/12/27 11:20:10 did_open.go:28: bus: "feature.modules" subscribed to OnDidOpen
+2025/12/27 11:20:10 did_change.go:24: bus: "feature.modules" subscribed to OnDidChange
+2025/12/27 11:20:10 did_change_watched.go:27: bus: "feature.modules" subscribed to OnDidChangeWatched
+2025/12/27 11:20:10 discover.go:21: bus: "feature.variables" subscribed to OnDiscover
+2025/12/27 11:20:10 did_open.go:28: bus: "feature.variables" subscribed to OnDidOpen
+2025/12/27 11:20:10 did_change.go:24: bus: "feature.variables" subscribed to OnDidChange
+2025/12/27 11:20:10 did_change_watched.go:27: bus: "feature.variables" subscribed to OnDidChangeWatched
+2025/12/27 11:20:10 discover.go:21: bus: "feature.stacks" subscribed to OnDiscover
+2025/12/27 11:20:10 did_open.go:28: bus: "feature.stacks" subscribed to OnDidOpen
+2025/12/27 11:20:10 did_change.go:24: bus: "feature.stacks" subscribed to OnDidChange
+2025/12/27 11:20:10 did_change_watched.go:27: bus: "feature.stacks" subscribed to OnDidChangeWatched
+2025/12/27 11:20:10 discover.go:21: bus: "feature.tests" subscribed to OnDiscover
+2025/12/27 11:20:10 did_open.go:28: bus: "feature.tests" subscribed to OnDidOpen
+2025/12/27 11:20:10 did_change.go:24: bus: "feature.tests" subscribed to OnDidChange
+2025/12/27 11:20:10 did_change_watched.go:27: bus: "feature.tests" subscribed to OnDidChangeWatched
+2025/12/27 11:20:10 discover.go:21: bus: "feature.search" subscribed to OnDiscover
+2025/12/27 11:20:10 did_open.go:28: bus: "feature.search" subscribed to OnDidOpen
+2025/12/27 11:20:10 did_change.go:24: bus: "feature.search" subscribed to OnDidChange
+2025/12/27 11:20:10 did_change_watched.go:27: bus: "feature.search" subscribed to OnDidChangeWatched
+2025/12/27 11:20:10 opts.go:215: Posting server notification "telemetry/event" {"v":1,"name":"initialize","properties":{"experimentalCapabilities.referenceCountCodeLens":false,"experimentalCapabilities.refreshModuleCalls":true,"experimentalCapabilities.refreshModuleProviders":true,"experimentalCapabilities.refreshTerraformVersion":true,"lsVersion":"0.38.3","options.commandPrefix":false,"options.excludeModulePaths":false,"options.experimentalFeatures.prefillRequiredFields":false,"options.experimentalFeatures.validateOnSave":false,"options.ignoreSingleFileWarning":false,"options.indexing.ignoreDirectoryNames":false,"options.indexing.ignorePaths":false,"options.rootModulePaths":false,"options.terraform.logFilePath":false,"options.terraform.path":false,"options.terraform.timeout":"","options.validation.earlyValidation":true,"root_uri":"dir"}}
+2025/12/27 11:20:10 walker_paths.go:255: walking next dir: {"file:///home/henrique/upd8/Rodosafra%20IA"}
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA
+2025/12/27 11:20:10 walker.go:204: skipping ignored dir name: .git
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/api-specs
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/api-specs} finished
+2025/12/27 11:20:10 rpc_logger.go:53: Response to "initialize" (ID 0): {"capabilities":{"textDocumentSync":{"openClose":true,"change":2,"save":{}},"completionProvider":{"triggerCharacters":[".","["],"resolveProvider":true},"hoverProvider":true,"signatureHelpProvider":{"triggerCharacters":["(",","]},"declarationProvider":true,"definitionProvider":true,"referencesProvider":true,"documentSymbolProvider":true,"codeActionProvider":{"codeActionKinds":["source.formatAll.terraform"]},"codeLensProvider":{},"documentLinkProvider":{},"workspaceSymbolProvider":true,"documentFormattingProvider":true,"executeCommandProvider":{"commands":["terraform-ls.module.callers","terraform-ls.module.calls","terraform-ls.module.providers","terraform-ls.module.terraform","terraform-ls.rootmodules","terraform-ls.terraform.init","terraform-ls.terraform.validate"],"workDoneProgress":true},"semanticTokensProvider":{"legend":{"tokenTypes":["enumMember","function","keyword","number","parameter","property","string","type","variable","hcl-attrName","hcl-blockType","hcl-blockLabel","hcl-bool","hcl-string","hcl-number","hcl-objectKey","hcl-mapKey","hcl-keyword","hcl-referenceStep","hcl-typeComplex","hcl-typePrimitive","hcl-functionName"],"tokenModifiers":["defaultLibrary","hcl-dependent","terraform-backend","terraform-connection","terraform-data","terraform-locals","terraform-module","terraform-name","terraform-output","terraform-provider","terraform-provisioner","terraform-requiredProviders","terraform-resource","terraform-terraform","terraform-type","terraform-variable"]},"full":true},"workspace":{"workspaceFolders":{"supported":true,"changeNotifications":"workspace/didChangeWorkspaceFolders"},"fileOperations":{}},"experimental":{"referenceCountCodeLens":false,"refreshModuleProviders":true,"refreshModuleCalls":true,"refreshTerraformVersion":true}},"serverInfo":{"name":"terraform-ls","version":"0.38.3"}}
+2025/12/27 11:20:10 opts.go:215: Completed 1 requests [1.88936ms elapsed]
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/arquitetura
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/arquitetura} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/auxiliares
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/auxiliares} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/cadastros
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/cadastros/verifica-cadastro-motorista
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/cadastros/verifica-cadastro-motorista} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/cadastros/verifica-cadastro-veiculo
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/cadastros/verifica-cadastro-veiculo} finished
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/cadastros} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/chat
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/chat/server
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/chat/server} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/chat/websocket
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/chat/websocket/busca-conversas
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/chat/websocket/busca-conversas} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/chat/websocket/envia-template
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/chat/websocket/envia-template} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/chat/websocket/responder-mensagem
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/chat/websocket/responder-mensagem} finished
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/chat/websocket} finished
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/chat} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/chatbot
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/chatbot/action-groups
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/chatbot/action-groups/cadastra-motorista-action-group
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/chatbot/action-groups/cadastra-motorista-action-group} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/chatbot/action-groups/cadastra-veiculo-action-group
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/chatbot/action-groups/cadastra-veiculo-action-group} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/chatbot/action-groups/consultar-ofertas-action-group
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/chatbot/action-groups/consultar-ofertas-action-group} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/chatbot/action-groups/criar-embarque-action-group
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/chatbot/action-groups/criar-embarque-action-group} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/chatbot/action-groups/flag-audio-action-group
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/chatbot/action-groups/flag-audio-action-group} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/chatbot/action-groups/flag-duvida-embarque-action-group
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/chatbot/action-groups/flag-duvida-embarque-action-group} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/chatbot/action-groups/transbordo-action-group
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/chatbot/action-groups/transbordo-action-group} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/chatbot/action-groups/verificar-motorista-action-group
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/chatbot/action-groups/verificar-motorista-action-group} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/chatbot/action-groups/verificar-veiculo-action-group
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/chatbot/action-groups/verificar-veiculo-action-group} finished
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/chatbot/action-groups} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/chatbot/chatbot
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/chatbot/chatbot} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/chatbot/instrucoes
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/chatbot/instrucoes} finished
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/chatbot} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/docs
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/docs} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/exemplos-json
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/exemplos-json/popula-tabelas-referencia
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/exemplos-json/popula-tabelas-referencia} finished
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/exemplos-json} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/iam-policies
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/iam-policies} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/orquestracao
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/orquestracao/atualiza-auth-token
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/orquestracao/atualiza-auth-token} finished
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/orquestracao} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/requests
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/requests/examples
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/requests/examples} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/requests/handler
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/requests/handler/embarque-aceito-handler
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/requests/handler/embarque-aceito-handler} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/requests/handler/embarque-cancelado-handler
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/requests/handler/embarque-cancelado-handler} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/requests/handler/oferta-indisponivel-handler
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/requests/handler/oferta-indisponivel-handler} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/requests/handler/ofertas-disponiveis-handler
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/requests/handler/ofertas-disponiveis-handler} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/requests/handler/recebe-info-oferta-handler
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/requests/handler/recebe-info-oferta-handler} finished
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/requests/handler} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/requests/validation
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/requests/validation/embarque-aceito-validate
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/requests/validation/embarque-aceito-validate} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/requests/validation/embarque-cancelado-validate
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/requests/validation/embarque-cancelado-validate} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/requests/validation/oferta-indisponivel-validate
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/requests/validation/oferta-indisponivel-validate} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/requests/validation/ofertas-disponiveis-validate
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/requests/validation/ofertas-disponiveis-validate} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/requests/validation/recebe-info-oferta-validate
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/requests/validation/recebe-info-oferta-validate} finished
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/requests/validation} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/requests/webhook
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/requests/webhook/webhook-cadastro-motorista
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/requests/webhook/webhook-cadastro-motorista} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/requests/webhook/webhook-cadastro-veiculo
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/requests/webhook/webhook-cadastro-veiculo} finished
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/requests/webhook} finished
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/requests} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/requests-layer
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/requests-layer/python
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/requests-layer/python/certifi
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/requests-layer/python/certifi} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/requests-layer/python/certifi-2025.10.5.dist-info
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/requests-layer/python/certifi-2025.10.5.dist-info/licenses
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/requests-layer/python/certifi-2025.10.5.dist-info/licenses} finished
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/requests-layer/python/certifi-2025.10.5.dist-info} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/requests-layer/python/charset_normalizer
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/requests-layer/python/charset_normalizer/cli
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/requests-layer/python/charset_normalizer/cli} finished
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/requests-layer/python/charset_normalizer} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/requests-layer/python/charset_normalizer-3.4.3.dist-info
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/requests-layer/python/charset_normalizer-3.4.3.dist-info/licenses
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/requests-layer/python/charset_normalizer-3.4.3.dist-info/licenses} finished
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/requests-layer/python/charset_normalizer-3.4.3.dist-info} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/requests-layer/python/idna
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/requests-layer/python/idna} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/requests-layer/python/idna-3.10.dist-info
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/requests-layer/python/idna-3.10.dist-info} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/requests-layer/python/requests
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/requests-layer/python/requests} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/requests-layer/python/requests-2.32.5.dist-info
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/requests-layer/python/requests-2.32.5.dist-info/licenses
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/requests-layer/python/requests-2.32.5.dist-info/licenses} finished
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/requests-layer/python/requests-2.32.5.dist-info} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/requests-layer/python/urllib3
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/requests-layer/python/urllib3/contrib
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/requests-layer/python/urllib3/contrib/emscripten
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/requests-layer/python/urllib3/contrib/emscripten} finished
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/requests-layer/python/urllib3/contrib} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/requests-layer/python/urllib3/http2
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/requests-layer/python/urllib3/http2} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/requests-layer/python/urllib3/util
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/requests-layer/python/urllib3/util} finished
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/requests-layer/python/urllib3} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/requests-layer/python/urllib3-2.5.0.dist-info
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/requests-layer/python/urllib3-2.5.0.dist-info/licenses
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/requests-layer/python/urllib3-2.5.0.dist-info/licenses} finished
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/requests-layer/python/urllib3-2.5.0.dist-info} finished
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/requests-layer/python} finished
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/requests-layer} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/terraform
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/terraform/environment
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/terraform/environment/dev
+2025/12/27 11:20:10 events.go:36: discovered root module file in /home/henrique/upd8/Rodosafra IA/terraform/environment/dev
+2025/12/27 11:20:10 events.go:30: discovered module file in /home/henrique/upd8/Rodosafra IA/terraform/environment/dev
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/terraform/environment/dev/.terraform
+2025/12/27 11:20:10 events.go:24: discovered root module in file:///home/henrique/upd8/Rodosafra%20IA/terraform/environment/dev
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/terraform/environment/dev/.terraform/modules
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/terraform/environment/dev/.terraform/modules} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/terraform/environment/dev/.terraform/providers
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/terraform/environment/dev/.terraform/providers/registry.terraform.io
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/terraform/environment/dev/.terraform/providers/registry.terraform.io/hashicorp
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/terraform/environment/dev/.terraform/providers/registry.terraform.io/hashicorp/archive
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/terraform/environment/dev/.terraform/providers/registry.terraform.io/hashicorp/archive/2.7.1
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/terraform/environment/dev/.terraform/providers/registry.terraform.io/hashicorp/archive/2.7.1/linux_amd64
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/terraform/environment/dev/.terraform/providers/registry.terraform.io/hashicorp/archive/2.7.1/linux_amd64} finished
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/terraform/environment/dev/.terraform/providers/registry.terraform.io/hashicorp/archive/2.7.1} finished
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/terraform/environment/dev/.terraform/providers/registry.terraform.io/hashicorp/archive} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/terraform/environment/dev/.terraform/providers/registry.terraform.io/hashicorp/aws
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/terraform/environment/dev/.terraform/providers/registry.terraform.io/hashicorp/aws/6.27.0
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/terraform/environment/dev/.terraform/providers/registry.terraform.io/hashicorp/aws/6.27.0/linux_amd64
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/terraform/environment/dev/.terraform/providers/registry.terraform.io/hashicorp/aws/6.27.0/linux_amd64} finished
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/terraform/environment/dev/.terraform/providers/registry.terraform.io/hashicorp/aws/6.27.0} finished
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/terraform/environment/dev/.terraform/providers/registry.terraform.io/hashicorp/aws} finished
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/terraform/environment/dev/.terraform/providers/registry.terraform.io/hashicorp} finished
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/terraform/environment/dev/.terraform/providers/registry.terraform.io} finished
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/terraform/environment/dev/.terraform/providers} finished
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/terraform/environment/dev/.terraform} finished
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/terraform/environment/dev} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/terraform/environment/prod
+2025/12/27 11:20:10 events.go:30: discovered module file in /home/henrique/upd8/Rodosafra IA/terraform/environment/prod
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/terraform/environment/prod} finished
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/terraform/environment} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/terraform/modules
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/terraform/modules/compute
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/terraform/modules/compute/lambda
+2025/12/27 11:20:10 events.go:30: discovered module file in /home/henrique/upd8/Rodosafra IA/terraform/modules/compute/lambda
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/terraform/modules/compute/lambda/atualiza-auth-token
+2025/12/27 11:20:10 events.go:30: discovered module file in /home/henrique/upd8/Rodosafra IA/terraform/modules/compute/lambda/atualiza-auth-token
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/terraform/modules/compute/lambda/atualiza-auth-token} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/terraform/modules/compute/lambda/busca-conversas
+2025/12/27 11:20:10 events.go:30: discovered module file in /home/henrique/upd8/Rodosafra IA/terraform/modules/compute/lambda/busca-conversas
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/terraform/modules/compute/lambda/busca-conversas} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/terraform/modules/compute/lambda/cadastra-motorista-action-group
+2025/12/27 11:20:10 events.go:30: discovered module file in /home/henrique/upd8/Rodosafra IA/terraform/modules/compute/lambda/cadastra-motorista-action-group
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/terraform/modules/compute/lambda/cadastra-motorista-action-group} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/terraform/modules/compute/lambda/cadastra-veiculo-action-group
+2025/12/27 11:20:10 events.go:30: discovered module file in /home/henrique/upd8/Rodosafra IA/terraform/modules/compute/lambda/cadastra-veiculo-action-group
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/terraform/modules/compute/lambda/cadastra-veiculo-action-group} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/terraform/modules/compute/lambda/consultar-ofertas-action-group
+2025/12/27 11:20:10 events.go:30: discovered module file in /home/henrique/upd8/Rodosafra IA/terraform/modules/compute/lambda/consultar-ofertas-action-group
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/terraform/modules/compute/lambda/consultar-ofertas-action-group} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/terraform/modules/compute/lambda/criar-embarque-action-group
+2025/12/27 11:20:10 events.go:30: discovered module file in /home/henrique/upd8/Rodosafra IA/terraform/modules/compute/lambda/criar-embarque-action-group
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/terraform/modules/compute/lambda/criar-embarque-action-group} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/terraform/modules/compute/lambda/embarque-aceito-handler
+2025/12/27 11:20:10 events.go:30: discovered module file in /home/henrique/upd8/Rodosafra IA/terraform/modules/compute/lambda/embarque-aceito-handler
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/terraform/modules/compute/lambda/embarque-aceito-handler} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/terraform/modules/compute/lambda/embarque-aceito-validate
+2025/12/27 11:20:10 events.go:30: discovered module file in /home/henrique/upd8/Rodosafra IA/terraform/modules/compute/lambda/embarque-aceito-validate
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/terraform/modules/compute/lambda/embarque-aceito-validate} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/terraform/modules/compute/lambda/embarque-cancelado-handler
+2025/12/27 11:20:10 events.go:30: discovered module file in /home/henrique/upd8/Rodosafra IA/terraform/modules/compute/lambda/embarque-cancelado-handler
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/terraform/modules/compute/lambda/embarque-cancelado-handler} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/terraform/modules/compute/lambda/embarque-cancelado-validate
+2025/12/27 11:20:10 events.go:30: discovered module file in /home/henrique/upd8/Rodosafra IA/terraform/modules/compute/lambda/embarque-cancelado-validate
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/terraform/modules/compute/lambda/embarque-cancelado-validate} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/terraform/modules/compute/lambda/envia-template
+2025/12/27 11:20:10 events.go:30: discovered module file in /home/henrique/upd8/Rodosafra IA/terraform/modules/compute/lambda/envia-template
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/terraform/modules/compute/lambda/envia-template} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/terraform/modules/compute/lambda/flag-audio-action-group
+2025/12/27 11:20:10 events.go:30: discovered module file in /home/henrique/upd8/Rodosafra IA/terraform/modules/compute/lambda/flag-audio-action-group
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/terraform/modules/compute/lambda/flag-audio-action-group} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/terraform/modules/compute/lambda/flag-duvida-embarque-action-group
+2025/12/27 11:20:10 events.go:30: discovered module file in /home/henrique/upd8/Rodosafra IA/terraform/modules/compute/lambda/flag-duvida-embarque-action-group
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/terraform/modules/compute/lambda/flag-duvida-embarque-action-group} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/terraform/modules/compute/lambda/oferta-indisponivel-handler
+2025/12/27 11:20:10 events.go:30: discovered module file in /home/henrique/upd8/Rodosafra IA/terraform/modules/compute/lambda/oferta-indisponivel-handler
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/terraform/modules/compute/lambda/oferta-indisponivel-handler} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/terraform/modules/compute/lambda/oferta-indisponivel-validate
+2025/12/27 11:20:10 events.go:30: discovered module file in /home/henrique/upd8/Rodosafra IA/terraform/modules/compute/lambda/oferta-indisponivel-validate
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/terraform/modules/compute/lambda/oferta-indisponivel-validate} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/terraform/modules/compute/lambda/ofertas-disponiveis-handler
+2025/12/27 11:20:10 events.go:30: discovered module file in /home/henrique/upd8/Rodosafra IA/terraform/modules/compute/lambda/ofertas-disponiveis-handler
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/terraform/modules/compute/lambda/ofertas-disponiveis-handler} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/terraform/modules/compute/lambda/ofertas-disponiveis-validate
+2025/12/27 11:20:10 events.go:30: discovered module file in /home/henrique/upd8/Rodosafra IA/terraform/modules/compute/lambda/ofertas-disponiveis-validate
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/terraform/modules/compute/lambda/ofertas-disponiveis-validate} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/terraform/modules/compute/lambda/recebe-info-oferta-handler
+2025/12/27 11:20:10 events.go:30: discovered module file in /home/henrique/upd8/Rodosafra IA/terraform/modules/compute/lambda/recebe-info-oferta-handler
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/terraform/modules/compute/lambda/recebe-info-oferta-handler} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/terraform/modules/compute/lambda/recebe-info-oferta-validate
+2025/12/27 11:20:10 events.go:30: discovered module file in /home/henrique/upd8/Rodosafra IA/terraform/modules/compute/lambda/recebe-info-oferta-validate
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/terraform/modules/compute/lambda/recebe-info-oferta-validate} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/terraform/modules/compute/lambda/responder-mensagem
+2025/12/27 11:20:10 events.go:30: discovered module file in /home/henrique/upd8/Rodosafra IA/terraform/modules/compute/lambda/responder-mensagem
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/terraform/modules/compute/lambda/responder-mensagem} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/terraform/modules/compute/lambda/transbordo-action-group
+2025/12/27 11:20:10 events.go:30: discovered module file in /home/henrique/upd8/Rodosafra IA/terraform/modules/compute/lambda/transbordo-action-group
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/terraform/modules/compute/lambda/transbordo-action-group} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/terraform/modules/compute/lambda/verifica-cadastro-motorista
+2025/12/27 11:20:10 events.go:30: discovered module file in /home/henrique/upd8/Rodosafra IA/terraform/modules/compute/lambda/verifica-cadastro-motorista
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/terraform/modules/compute/lambda/verifica-cadastro-motorista} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/terraform/modules/compute/lambda/verifica-cadastro-veiculo
+2025/12/27 11:20:10 events.go:30: discovered module file in /home/henrique/upd8/Rodosafra IA/terraform/modules/compute/lambda/verifica-cadastro-veiculo
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/terraform/modules/compute/lambda/verifica-cadastro-veiculo} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/terraform/modules/compute/lambda/verificar-motorista-action-group
+2025/12/27 11:20:10 events.go:30: discovered module file in /home/henrique/upd8/Rodosafra IA/terraform/modules/compute/lambda/verificar-motorista-action-group
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/terraform/modules/compute/lambda/verificar-motorista-action-group} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/terraform/modules/compute/lambda/verificar-veiculo-action-group
+2025/12/27 11:20:10 events.go:30: discovered module file in /home/henrique/upd8/Rodosafra IA/terraform/modules/compute/lambda/verificar-veiculo-action-group
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/terraform/modules/compute/lambda/verificar-veiculo-action-group} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/terraform/modules/compute/lambda/webhook-cadastro-motorista
+2025/12/27 11:20:10 events.go:30: discovered module file in /home/henrique/upd8/Rodosafra IA/terraform/modules/compute/lambda/webhook-cadastro-motorista
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/terraform/modules/compute/lambda/webhook-cadastro-motorista} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/terraform/modules/compute/lambda/webhook-cadastro-veiculo
+2025/12/27 11:20:10 events.go:30: discovered module file in /home/henrique/upd8/Rodosafra IA/terraform/modules/compute/lambda/webhook-cadastro-veiculo
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/terraform/modules/compute/lambda/webhook-cadastro-veiculo} finished
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/terraform/modules/compute/lambda} finished
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/terraform/modules/compute} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/terraform/modules/databases
+2025/12/27 11:20:10 events.go:30: discovered module file in /home/henrique/upd8/Rodosafra IA/terraform/modules/databases
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/terraform/modules/databases} finished
+2025/12/27 11:20:10 discover.go:26: bus: -> Discover /home/henrique/upd8/Rodosafra IA/terraform/modules/networking
+2025/12/27 11:20:10 events.go:30: discovered module file in /home/henrique/upd8/Rodosafra IA/terraform/modules/networking
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/terraform/modules/networking} finished
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/terraform/modules} finished
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA/terraform} finished
+2025/12/27 11:20:10 walker.go:217: walking of {file:///home/henrique/upd8/Rodosafra%20IA} finished
+2025/12/27 11:20:10 walker.go:145: walker: walking through {"file:///home/henrique/upd8/Rodosafra%20IA"} finished
+Client: Starting --> Running
+Started client
+2025/12/27 11:20:10 opts.go:215: Received request batch of size 1 (qlen=0)
+2025/12/27 11:20:10 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2025/12/27 11:20:10 rpc_logger.go:32: Incoming notification for "initialized": {}
+2025/12/27 11:20:10 opts.go:215: Posting server call "client/registerCapability" {"registrations":[{"id":"09c2126f-3cdf-eec8-720f-79a8ab026fe6","method":"workspace/didChangeWatchedFiles","registerOptions":{"watchers":[{"globPattern":"**/.terraform","kind":3},{"globPattern":"**/.terraform/modules/modules.json"},{"globPattern":"**/.terraform.lock.hcl"},{"globPattern":"**/.terraform/plugins/selections.json"},{"globPattern":"**/.terraform/plugins/linux_amd64/lock.json"}]}}]}
+2025/12/27 11:20:10 opts.go:215: Received response for callback "1"
+2025/12/27 11:27:07 opts.go:215: Received request batch of size 1 (qlen=0)
+2025/12/27 11:27:07 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2025/12/27 11:27:07 opts.go:215: Request check error for "$/setTrace" (params "{\"value\":\"off\"}"): [-32601] method not found
+Client: Running --> Stopped
+2025/12/27 16:55:06 opts.go:215: Received request batch of size 1 (qlen=0)
+2025/12/27 16:55:06 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2025/12/27 16:55:06 rpc_logger.go:32: Incoming request for "shutdown" (ID 1): 
+2025/12/27 16:55:06 service.go:645: stopping closedDirWalker for session ...
+2025/12/27 16:55:06 service.go:647: closedDirWalker stopped
+2025/12/27 16:55:06 service.go:650: stopping openDirWalker for session ...
+2025/12/27 16:55:06 service.go:652: openDirWalker stopped
+2025/12/27 16:55:06 scheduler.go:63: stopped scheduler
+2025/12/27 16:55:06 scheduler.go:63: stopped scheduler
+2025/12/27 16:55:06 modules_feature.go:117: stopped modules feature
+2025/12/27 16:55:06 root_modules_feature.go:113: stopped root modules feature
+2025/12/27 16:55:06 variables_feature.go:103: stopped variables feature
+2025/12/27 16:55:06 stacks_feature.go:103: stopped stacks feature
+2025/12/27 16:55:06 tests_feature.go:102: stopped tests feature
+2025/12/27 16:55:06 search_feature.go:103: stopped search feature
+2025/12/27 16:55:06 rpc_logger.go:53: Response to "shutdown" (ID 1): null
+2025/12/27 16:55:06 opts.go:215: Completed 1 requests [354.832µs elapsed]
+2025/12/27 16:55:06 opts.go:215: Received request batch of size 1 (qlen=0)
+2025/12/27 16:55:06 opts.go:215: Server signaled to stop with err=EOF
+2025/12/27 16:55:06 opts.go:215: Retaining notification 0xc00027e100
+2025/12/27 16:55:06 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2025/12/27 16:55:06 opts.go:215: Error reading from client: EOF
+2025/12/27 16:55:06 rpc_logger.go:32: Incoming notification for "exit": 
+2025/12/27 16:55:06 service.go:636: session stopped unexpectedly (err: <nil>)
+2025/12/27 16:55:06 service.go:645: stopping closedDirWalker for session ...
+2025/12/27 16:55:06 service.go:647: closedDirWalker stopped
+2025/12/27 16:55:06 service.go:650: stopping openDirWalker for session ...
+2025/12/27 16:55:06 service.go:652: openDirWalker stopped
+2025/12/27 16:55:06 scheduler.go:63: stopped scheduler
+2025/12/27 16:55:06 scheduler.go:63: stopped scheduler
+2025/12/27 16:55:06 modules_feature.go:117: stopped modules feature
+2025/12/27 16:55:06 root_modules_feature.go:113: stopped root modules feature
+2025/12/27 16:55:06 variables_feature.go:103: stopped variables feature
+2025/12/27 16:55:06 stacks_feature.go:103: stopped stacks feature
+2025/12/27 16:55:06 tests_feature.go:102: stopped tests feature
+2025/12/27 16:55:06 search_feature.go:103: stopped search feature
+2025/12/27 16:55:06 langserver.go:115: Stopping server (pid 11444) ...
+2025/12/27 16:55:06 langserver.go:119: Server (pid 11444) stopped.
+2025/12/27 16:55:06 notifier.go:54: failed to notify a change batch: context canceled
+2025/12/27 16:55:06 notifier.go:47: stopping notifier: context canceled
+[Error - 16:55:06] Server process exited with code 0.

@@ -1,0 +1,27 @@
+{
+  "equipamentos": [
+    {
+      "id": 1,
+      "nomeTipoEquipamento": "Basculante"
+    },
+    {
+      "id": 2,
+      "nomeTipoEquipamento": "Baú Frigorificado"
+    }
+  ],
+  "veiculos": [
+    {
+      "id": 1,
+      "nomeTipoVeiculo": "VUC",
+      "cavaloOuCaminhao": true,
+      "podePossuirEquipamento": true
+    },
+    {
+      "id": 2,
+      "nomeTipoVeiculo": "Caminhão Toco",
+      "cavaloOuCaminhao": true,
+      "podePossuirEquipamento": true
+    }
+  ]
+}
+

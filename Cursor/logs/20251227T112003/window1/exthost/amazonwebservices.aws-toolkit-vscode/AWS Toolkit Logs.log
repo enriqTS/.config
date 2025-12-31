@@ -1,0 +1,94 @@
+2025-12-27 11:20:10.101 [info] Log level: info, beta=false
+2025-12-27 11:20:10.101 [info] endpoints: retrieving AWS endpoints data
+2025-12-27 11:20:10.101 [info] Telemetry product: AWS Toolkit For VS Code
+2025-12-27 11:20:11.414 [info] Telemetry clientId: 86f0e350-896e-494a-8918-9a4a2e81a9d7
+2025-12-27 11:20:11.414 [info] Telemetry sessionId: 8d6f0885-b9ff-452d-a0ff-60bd74527145
+2025-12-27 11:20:11.544 [warning] AwsContext: no default region in credentials profile, falling back to us-east-1:
+2025-12-27 11:20:12.029 [info] OS: Linux x64 6.18.2-2-cachyos
+2025-12-27 11:20:12.029 [info] Visual Studio Code extension host:  1.105.1
+2025-12-27 11:20:12.029 [info] AWS Toolkit:  3.91.0
+2025-12-27 11:20:12.029 [info] node: 22.19.0
+2025-12-27 11:20:12.029 [info] electron: 37.5.1
+2025-12-27 11:20:12.030 [info] initialized 'submitFeedback' command with default feedback id: AWS Toolkit
+2025-12-27 11:20:13.047 [warning] Ec2MetadataClient failed to fetch token. If this is an EC2 environment, then Toolkit will fall back to IMDSv1: ProviderError: TimeoutError from instance metadata service
+2025-12-27 11:20:13.578 [info] CloudFormation telemetry: choice=false, hasResponded=true, lastPromptDate=undefined
+2025-12-27 11:20:13.578 [info] using cloudformationLsp service configuration: default
+2025-12-27 11:20:13.578 [info] awsCfnLsp: Found CloudFormation LSP provider: RemoteLspServerProvider
+2025-12-27 11:20:13.578 [info] Remote debugging is initiated
+2025-12-27 11:20:13.578 [info] smus: SMUS Connection: Clearing all cached clients
+2025-12-27 11:20:13.578 [info] smus: Not in SageMaker Unified Studio remote environment, skipping user activity monitoring
+2025-12-27 11:20:13.837 [info] awsCfnLsp: Candidate versions: 1.2.0[darwin-arm64-22,darwin-x64-22,linux-arm64-22,linux-x64-22,linuxglib2.28-arm64-18,linuxglib2.28-x64-18,win32-arm64-22,windows-arm64-22,win32-x64-22,windows-x64-22], 1.1.0[darwin-arm64-22,darwin-x64-22,linux-arm64-22,linux-x64-22,win32-arm64-22,windows-arm64-22,win32-x64-22,windows-x64-22]
+2025-12-27 11:20:13.837 [info] awsCfnLsp: Found GLIBCXX {"maxFound":"3.4.34","allAvailable":["3.4","3.4.1","3.4.2","3.4.3","3.4.4","3.4.5","3.4.6","3.4.7","3.4.8","3.4.9","3.4.10","3.4.11","3.4.12","3.4.13","3.4.14","3.4.15","3.4.16","3.4.17","3.4.18","3.4.19","3.4.20","3.4.21","3.4.22","3.4.23","3.4.24","3.4.25","3.4.26","3.4.27","3.4.28","3.4.29","3.4.30","3.4.31","3.4.32","3.4.33","3.4.34"]}
+2025-12-27 11:20:13.837 [info] awsCfnLsp: Creating CloudFormation LSP manifest for prod
+2025-12-27 11:20:15.120 [info] lsp: Finished preparing "cloudformation-languageserver" LSP server: '/home/henrique/.cache/aws/toolkits/language-servers/cloudformation-languageserver/1.2.0'
+2025-12-27 11:20:15.144 [info] awsCfnLsp: Found CloudFormation LSP executable: /home/henrique/.cache/aws/toolkits/language-servers/cloudformation-languageserver/1.2.0/cloudformation-languageserver-1.2.0-linux-x64-node22/cfn-lsp-server-standalone.js
+2025-12-27 11:20:15.170 [warning] command failed (not registered?): "aws.amazonq.refreshConnectionCallback"
+2025-12-27 11:25:32.617 [info] telemetry: sent batch (size=10)
+2025-12-27 11:30:32.882 [info] telemetry: sent batch (size=2)
+2025-12-27 11:35:35.235 [info] telemetry: sent batch (size=2)
+2025-12-27 11:40:35.504 [info] telemetry: sent batch (size=2)
+2025-12-27 13:00:36.591 [info] telemetry: sent batch (size=2)
+2025-12-27 13:02:56.879 [info] Verifying AWS CLI availability...
+2025-12-27 13:02:56.879 [info] resolveShellEnv(): skipped (VSCODE_CLI is set)
+2025-12-27 13:02:56.879 [info] Command: (not started) [aws --version]
+2025-12-27 13:02:56.886 [info] resolveShellEnv(): skipped (VSCODE_CLI is set)
+2025-12-27 13:02:56.886 [info] Command: (not started) [/usr/bin/aws --version]
+2025-12-27 13:02:56.893 [info] resolveShellEnv(): skipped (VSCODE_CLI is set)
+2025-12-27 13:02:56.893 [info] Command: (not started) [/usr/local/bin/aws --version]
+2025-12-27 13:02:56.900 [info] resolveShellEnv(): skipped (VSCODE_CLI is set)
+2025-12-27 13:02:56.900 [info] Command: (not started) [/home/henrique/.config/Cursor/User/globalStorage/amazonwebservices.aws-toolkit-vscode/tools/Amazon/aws --version]
+2025-12-27 13:02:56.907 [info] resolveShellEnv(): skipped (VSCODE_CLI is set)
+2025-12-27 13:02:56.907 [info] Command: (not started) [/home/henrique/.config/Cursor/User/globalStorage/amazonwebservices.aws-toolkit-vscode/tools/Amazon/usr/bin/aws --version]
+2025-12-27 13:02:56.915 [info] resolveShellEnv(): skipped (VSCODE_CLI is set)
+2025-12-27 13:02:56.915 [info] Command: (not started) [/home/henrique/.config/Cursor/User/globalStorage/amazonwebservices.aws-toolkit-vscode/tools/Amazon/usr/local/bin/aws --version]
+2025-12-27 13:05:07.557 [warning] telemetry: invalid Metric:  "auth_addConnection" emitted with missing fields: featureId,isAggregated
+2025-12-27 13:05:11.042 [info] Cancelled installation for: aws-cli
+2025-12-27 13:05:11.043 [info] aws-cli installation: Cancelled
+2025-12-27 13:05:11.043 [error] Failed to verify or install AWS CLI: 'Error: Timeout token cancelled'
+2025-12-27 13:05:37.063 [info] telemetry: sent batch (size=11)
+2025-12-27 13:14:11.783 [info] Verifying AWS CLI availability...
+2025-12-27 13:14:11.783 [info] resolveShellEnv(): skipped (VSCODE_CLI is set)
+2025-12-27 13:14:11.783 [info] Command: (not started) [aws --version]
+2025-12-27 13:14:12.249 [info] AWS CLI found at: aws
+2025-12-27 13:14:12.249 [info] Executing login with console credentials command for profile: rodosafra, region: us-east-1
+2025-12-27 13:14:12.249 [info] Command: (not started) [aws login --profile rodosafra --region us-east-1]
+2025-12-27 13:14:26.170 [info] Login with console credentials command completed. Exit code: 0
+2025-12-27 13:14:26.170 [info] Verifying profile configuration for rodosafra
+2025-12-27 13:14:26.172 [info] Profile found: { login_session: 'arn:aws:iam::700308877414:user/suporteupd8' }
+2025-12-27 13:14:26.172 [info] Login session value: arn:aws:iam::700308877414:user/suporteupd8, type: string
+2025-12-27 13:14:26.172 [info] Activating profile: rodosafra
+2025-12-27 13:14:26.172 [info] Invalidated cached credentials for profile:rodosafra
+2025-12-27 13:14:26.172 [info] Looking for connection with ID: profile:rodosafra
+2025-12-27 13:14:26.184 [info] auth: Updating connection state of profile:rodosafra to valid
+2025-12-27 13:15:06.307 [info] auth: Updating connection state of profile:rodosafra to authenticating
+2025-12-27 13:15:06.981 [info] auth: Updating connection state of profile:rodosafra to valid
+2025-12-27 13:15:07.160 [warning] AwsContext: no default region in credentials profile, falling back to us-east-1: profile:rodosafra
+2025-12-27 13:15:37.603 [info] telemetry: sent batch (size=20)
+2025-12-27 13:15:38.089 [info] telemetry: sent batch (size=4)
+2025-12-27 13:16:02.252 [info] local: 54rBM4N76kzcSGiltJdG0U0qoUSFNq86t392pMElWzc=, remote: 54rBM4N76kzcSGiltJdG0U0qoUSFNq86t392pMElWzc=
+2025-12-27 13:20:39.388 [info] telemetry: sent batch (size=4)
+2025-12-27 13:53:32.843 [info] local: fkbmSleoxWckdKSNPpkTMAdd3IdySu1zFgbwcYMpKRE=, remote: fkbmSleoxWckdKSNPpkTMAdd3IdySu1zFgbwcYMpKRE=
+2025-12-27 13:53:40.190 [warning] telemetry: invalid Metric:  "toolkit_invokeAction" emitted with missing fields: component,id
+2025-12-27 13:55:39.937 [info] telemetry: sent batch (size=9)
+2025-12-27 14:21:46.708 [info] local: wr31AsKc4Chr809+VMTEImpsgULVyMmaWNL81lUloHg=, remote: wr31AsKc4Chr809+VMTEImpsgULVyMmaWNL81lUloHg=
+2025-12-27 14:22:33.218 [info] local: N7w3bBIeXd45tly+YkMuzc+iyjzPh59ovpMP7+mOsH8=, remote: N7w3bBIeXd45tly+YkMuzc+iyjzPh59ovpMP7+mOsH8=
+2025-12-27 14:23:42.993 [info] local: uE6Cs9K9fEjibWhqo/q/krU1fTI08DERLpCZIZG8SfA=, remote: uE6Cs9K9fEjibWhqo/q/krU1fTI08DERLpCZIZG8SfA=
+2025-12-27 14:24:36.593 [info] local: XqnFon+mdf3n+sKC93DBC/8vDLAaPoE75Bne2UpsnO4=, remote: XqnFon+mdf3n+sKC93DBC/8vDLAaPoE75Bne2UpsnO4=
+2025-12-27 14:25:42.268 [info] telemetry: sent batch (size=12)
+2025-12-27 14:26:47.159 [info] local: J9OGBO6AxELpGY/qbjSzIIA5RYxfV1TtK/4YA8DU340=, remote: J9OGBO6AxELpGY/qbjSzIIA5RYxfV1TtK/4YA8DU340=
+2025-12-27 14:28:23.738 [info] local: 8Te6hggbVaT+LwoStsGQsjr9wAB9OJrnxAcnH3INxVQ=, remote: 8Te6hggbVaT+LwoStsGQsjr9wAB9OJrnxAcnH3INxVQ=
+2025-12-27 14:29:06.804 [info] local: JaQWO9cTmoRl5gs02ZJvm4wobJKMQS5QoZmP8xtO6Qk=, remote: JaQWO9cTmoRl5gs02ZJvm4wobJKMQS5QoZmP8xtO6Qk=
+2025-12-27 14:29:18.645 [error] Failed to search logs: Error: Timeout token cancelled
+2025-12-27 14:30:42.995 [info] telemetry: sent batch (size=12)
+2025-12-27 14:55:43.537 [info] telemetry: sent batch (size=1)
+2025-12-27 15:00:44.084 [info] telemetry: sent batch (size=1)
+2025-12-27 15:10:44.666 [info] telemetry: sent batch (size=2)
+2025-12-27 15:15:45.127 [info] telemetry: sent batch (size=2)
+2025-12-27 15:20:45.816 [info] telemetry: sent batch (size=1)
+2025-12-27 15:25:46.923 [info] telemetry: sent batch (size=1)
+2025-12-27 15:30:47.415 [info] telemetry: sent batch (size=1)
+2025-12-27 16:00:47.809 [info] telemetry: sent batch (size=2)
+2025-12-27 16:05:48.261 [info] telemetry: sent batch (size=1)
+2025-12-27 16:08:15.510 [info] local: 2F7dK8iFUlPO3NLD9AiIY2ptJyBeUyzaKMz9tT0Jg9w=, remote: 2F7dK8iFUlPO3NLD9AiIY2ptJyBeUyzaKMz9tT0Jg9w=
+2025-12-27 16:08:38.204 [info] local: GA7Hypq5EHXu/9LGOjEH/XFD9AgXhZj+M/xV+SQ8Htk=, remote: GA7Hypq5EHXu/9LGOjEH/XFD9AgXhZj+M/xV+SQ8Htk=
+2025-12-27 16:10:48.782 [info] telemetry: sent batch (size=6)

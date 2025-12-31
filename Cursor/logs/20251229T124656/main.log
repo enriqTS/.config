@@ -1,0 +1,100 @@
+2025-12-29 12:46:56.249 [info] [CursorProclistService] Native module loaded successfully
+2025-12-29 12:46:56.337 [info] updateURL https://api2.cursor.sh/updates/api/update/linux-x64/cursor/2.3.10/ab794c19fedb1627b03a00ad16493031d91610ffd32bf0d51dbedd5a5feab6b8/stable
+2025-12-29 12:46:56.337 [info] update#setState idle
+2025-12-29 12:47:00.466 [info] [CursorProclistService] Config enabled feature (subsample every 10s)
+2025-12-29 12:47:26.338 [info] update#setState checking for updates
+2025-12-29 12:47:26.477 [info] update#setState idle
+2025-12-29 12:52:00.492 [info] [CursorProclistService] Sample 0 created: 22 processes, 31 subsamples
+2025-12-29 12:57:00.491 [info] [CursorProclistService] Sample 1 created: 15 processes, 31 subsamples
+2025-12-29 13:02:00.493 [info] [CursorProclistService] Sample 2 created: 15 processes, 31 subsamples
+2025-12-29 13:07:00.490 [info] [CursorProclistService] Sample 3 created: 15 processes, 31 subsamples
+2025-12-29 13:12:00.490 [info] [CursorProclistService] Sample 4 created: 15 processes, 31 subsamples
+2025-12-29 13:17:00.493 [info] [CursorProclistService] Sample 5 created: 15 processes, 31 subsamples
+2025-12-29 13:22:00.492 [info] [CursorProclistService] Sample 6 created: 15 processes, 31 subsamples
+2025-12-29 13:27:00.490 [info] [CursorProclistService] Sample 7 created: 15 processes, 31 subsamples
+2025-12-29 13:32:00.492 [info] [CursorProclistService] Sample 8 created: 15 processes, 31 subsamples
+2025-12-29 13:37:00.491 [info] [CursorProclistService] Sample 9 created: 15 processes, 31 subsamples
+2025-12-29 13:42:00.490 [info] [CursorProclistService] Sample 10 created: 15 processes, 31 subsamples
+2025-12-29 13:47:00.491 [info] [CursorProclistService] Sample 11 created: 15 processes, 31 subsamples
+2025-12-29 13:47:26.339 [info] update#setState checking for updates
+2025-12-29 13:47:26.744 [info] update#setState idle
+2025-12-29 13:47:43.331 [info] Extension host with pid 71440 exited with code: 0, signal: unknown.
+2025-12-29 13:47:43.357 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 71401]: crashed with code 15 and reason 'killed'
+2025-12-29 13:47:47.192 [info] [CursorProclistService] Config enabled feature (subsample every 10s)
+2025-12-29 13:47:56.923 [info] Extension host with pid 81959 exited with code: 0, signal: unknown.
+2025-12-29 13:47:56.939 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 81947]: crashed with code 15 and reason 'killed'
+2025-12-29 13:48:00.344 [info] [CursorProclistService] Config enabled feature (subsample every 10s)
+2025-12-29 13:53:00.356 [info] [CursorProclistService] Sample 12 created: 18 processes, 31 subsamples
+2025-12-29 13:58:00.357 [info] [CursorProclistService] Sample 13 created: 13 processes, 31 subsamples
+2025-12-29 14:03:00.356 [info] [CursorProclistService] Sample 14 created: 13 processes, 31 subsamples
+2025-12-29 14:08:00.359 [info] [CursorProclistService] Sample 15 created: 15 processes, 31 subsamples
+2025-12-29 14:13:00.368 [info] [CursorProclistService] Sample 16 created: 15 processes, 31 subsamples
+2025-12-29 14:18:00.359 [info] [CursorProclistService] Sample 17 created: 15 processes, 31 subsamples
+2025-12-29 14:23:00.357 [info] [CursorProclistService] Sample 18 created: 15 processes, 31 subsamples
+2025-12-29 14:28:00.359 [info] [CursorProclistService] Sample 19 created: 15 processes, 31 subsamples
+2025-12-29 14:33:00.356 [info] [CursorProclistService] Sample 20 created: 15 processes, 31 subsamples
+2025-12-29 14:38:00.356 [info] [CursorProclistService] Sample 21 created: 15 processes, 31 subsamples
+2025-12-29 14:43:00.356 [info] [CursorProclistService] Sample 22 created: 16 processes, 31 subsamples
+2025-12-29 14:47:26.341 [info] update#setState checking for updates
+2025-12-29 14:47:26.748 [info] update#setState idle
+2025-12-29 14:48:00.357 [info] [CursorProclistService] Sample 23 created: 15 processes, 31 subsamples
+2025-12-29 14:53:00.359 [info] [CursorProclistService] Sample 24 created: 15 processes, 31 subsamples
+2025-12-29 14:58:00.357 [info] [CursorProclistService] Sample 25 created: 15 processes, 31 subsamples
+2025-12-29 15:03:00.356 [info] [CursorProclistService] Sample 26 created: 15 processes, 31 subsamples
+2025-12-29 15:08:00.357 [info] [CursorProclistService] Sample 27 created: 15 processes, 31 subsamples
+2025-12-29 15:13:00.359 [info] [CursorProclistService] Sample 28 created: 15 processes, 31 subsamples
+2025-12-29 15:18:00.359 [info] [CursorProclistService] Sample 29 created: 15 processes, 31 subsamples
+2025-12-29 15:20:18.830 [info] TracingService: failed to send envelope undefined undefined
+2025-12-29 15:23:00.359 [info] [CursorProclistService] Sample 30 created: 15 processes, 31 subsamples
+2025-12-29 15:28:00.356 [info] [CursorProclistService] Sample 31 created: 15 processes, 31 subsamples
+2025-12-29 15:33:00.359 [info] [CursorProclistService] Sample 32 created: 15 processes, 31 subsamples
+2025-12-29 15:38:00.356 [info] [CursorProclistService] Sample 33 created: 15 processes, 31 subsamples
+2025-12-29 15:41:53.713 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 82441]: crashed with code 15 and reason 'killed'
+2025-12-29 15:41:53.715 [info] Extension host with pid 82454 exited with code: 0, signal: unknown.
+2025-12-29 15:41:57.488 [info] [CursorProclistService] Config enabled feature (subsample every 10s)
+2025-12-29 15:46:57.500 [info] [CursorProclistService] Sample 34 created: 16 processes, 31 subsamples
+2025-12-29 15:47:26.343 [info] update#setState checking for updates
+2025-12-29 15:47:26.488 [info] update#setState idle
+2025-12-29 15:51:57.503 [info] [CursorProclistService] Sample 35 created: 14 processes, 31 subsamples
+2025-12-29 15:56:57.503 [info] [CursorProclistService] Sample 36 created: 14 processes, 31 subsamples
+2025-12-29 16:01:57.503 [info] [CursorProclistService] Sample 37 created: 14 processes, 31 subsamples
+2025-12-29 16:06:57.502 [info] [CursorProclistService] Sample 38 created: 15 processes, 31 subsamples
+2025-12-29 16:11:57.500 [info] [CursorProclistService] Sample 39 created: 14 processes, 31 subsamples
+2025-12-29 16:16:57.500 [info] [CursorProclistService] Sample 40 created: 14 processes, 31 subsamples
+2025-12-29 16:21:57.500 [info] [CursorProclistService] Sample 41 created: 14 processes, 31 subsamples
+2025-12-29 16:26:57.500 [info] [CursorProclistService] Sample 42 created: 14 processes, 31 subsamples
+2025-12-29 16:31:57.500 [info] [CursorProclistService] Sample 43 created: 14 processes, 31 subsamples
+2025-12-29 16:36:57.503 [info] [CursorProclistService] Sample 44 created: 15 processes, 31 subsamples
+2025-12-29 16:41:57.501 [info] [CursorProclistService] Sample 45 created: 15 processes, 31 subsamples
+2025-12-29 16:46:57.503 [info] [CursorProclistService] Sample 46 created: 15 processes, 31 subsamples
+2025-12-29 16:47:26.345 [info] update#setState checking for updates
+2025-12-29 16:47:26.749 [info] update#setState idle
+2025-12-29 16:51:57.500 [info] [CursorProclistService] Sample 47 created: 15 processes, 31 subsamples
+2025-12-29 16:56:57.500 [info] [CursorProclistService] Sample 48 created: 15 processes, 31 subsamples
+2025-12-29 17:01:57.500 [info] [CursorProclistService] Sample 49 created: 15 processes, 31 subsamples
+2025-12-29 17:06:57.500 [info] [CursorProclistService] Sample 50 created: 15 processes, 31 subsamples
+2025-12-29 17:11:57.502 [info] [CursorProclistService] Sample 51 created: 15 processes, 31 subsamples
+2025-12-29 17:16:57.501 [info] [CursorProclistService] Sample 52 created: 15 processes, 31 subsamples
+2025-12-29 17:21:57.503 [info] [CursorProclistService] Sample 53 created: 15 processes, 31 subsamples
+2025-12-29 17:26:57.502 [info] [CursorProclistService] Sample 54 created: 16 processes, 31 subsamples
+2025-12-29 17:31:57.500 [info] [CursorProclistService] Sample 55 created: 15 processes, 31 subsamples
+2025-12-29 17:36:57.500 [info] [CursorProclistService] Sample 56 created: 15 processes, 31 subsamples
+2025-12-29 17:41:57.502 [info] [CursorProclistService] Sample 57 created: 15 processes, 31 subsamples
+2025-12-29 17:46:57.500 [info] [CursorProclistService] Sample 58 created: 15 processes, 31 subsamples
+2025-12-29 17:47:26.347 [info] update#setState checking for updates
+2025-12-29 17:47:26.763 [info] update#setState idle
+2025-12-29 17:51:57.501 [info] [CursorProclistService] Sample 59 created: 15 processes, 31 subsamples
+2025-12-29 17:56:57.500 [info] [CursorProclistService] Sample 60 created: 15 processes, 31 subsamples
+2025-12-29 18:01:57.503 [info] [CursorProclistService] Sample 61 created: 15 processes, 31 subsamples
+2025-12-29 18:06:57.500 [info] [CursorProclistService] Sample 62 created: 15 processes, 31 subsamples
+2025-12-29 18:11:57.504 [info] [CursorProclistService] Sample 63 created: 15 processes, 31 subsamples
+2025-12-29 18:16:57.501 [info] [CursorProclistService] Sample 64 created: 15 processes, 31 subsamples
+2025-12-29 18:21:57.505 [info] [CursorProclistService] Sample 65 created: 15 processes, 31 subsamples
+2025-12-29 18:26:57.501 [info] [CursorProclistService] Sample 66 created: 15 processes, 31 subsamples
+2025-12-29 18:31:57.504 [info] [CursorProclistService] Sample 67 created: 15 processes, 31 subsamples
+2025-12-29 18:36:57.501 [info] [CursorProclistService] Sample 68 created: 15 processes, 31 subsamples
+2025-12-29 18:41:57.502 [info] [CursorProclistService] Sample 69 created: 15 processes, 31 subsamples
+2025-12-29 18:46:57.503 [info] [CursorProclistService] Sample 70 created: 15 processes, 31 subsamples
+2025-12-29 18:47:26.361 [info] update#setState checking for updates
+2025-12-29 18:47:27.482 [info] update#setState idle
+2025-12-29 18:49:19.467 [info] Extension host with pid 104077 exited with code: 0, signal: unknown.

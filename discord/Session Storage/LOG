@@ -1,0 +1,4 @@
+2025/12/30-09:31:28.439 3b98 Reusing MANIFEST /home/henrique/.config/discord/Session Storage/MANIFEST-000001
+2025/12/30-09:31:28.440 3b98 Recovering log #3
+2025/12/30-09:31:28.440 3b98 (ignoring error) /home/henrique/.config/discord/Session Storage/000003.log: dropping 405 bytes; Corruption: checksum mismatch
+2025/12/30-09:31:28.440 3b98 Reusing old log /home/henrique/.config/discord/Session Storage/000003.log 

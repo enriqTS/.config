@@ -1,0 +1,26 @@
+2025/12/30-09:31:27.820 3b98 Reusing MANIFEST /home/henrique/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2025/12/30-09:31:27.825 3b98 Recovering log #153
+2025/12/30-09:31:27.825 3b98 Reusing old log /home/henrique/.config/discord/Local Storage/leveldb/000153.log 
+2025/12/30-09:32:27.835 3b98 Level-0 table #157: started
+2025/12/30-09:32:27.841 3b98 Level-0 table #157: 36315 bytes OK
+2025/12/30-09:32:27.852 3b98 Delete type=0 #153
+2025/12/30-10:01:47.988 3b99 Level-0 table #159: started
+2025/12/30-10:01:48.044 3b99 Level-0 table #159: 4127804 bytes OK
+2025/12/30-10:01:48.055 3b99 Delete type=0 #156
+2025/12/30-14:56:33.848 3b99 Level-0 table #161: started
+2025/12/30-14:56:33.861 3b99 Level-0 table #161: 24947 bytes OK
+2025/12/30-14:56:33.872 3b99 Delete type=0 #158
+2025/12/30-14:56:33.872 3b99 Compacting 4@0 + 2@1 files
+2025/12/30-14:56:33.921 3b99 Generated table #162@0: 34 keys, 4121903 bytes
+2025/12/30-14:56:33.957 3b99 Generated table #163@0: 78 keys, 4244184 bytes
+2025/12/30-14:56:33.957 3b99 Compacted 4@0 + 2@1 files => 8366087 bytes
+2025/12/30-14:56:33.967 3b99 compacted to: files[ 0 3 1 0 0 0 0 ]
+2025/12/30-14:56:33.967 3b99 Delete type=2 #151
+2025/12/30-14:56:33.967 3b99 Delete type=2 #152
+2025/12/30-14:56:33.967 3b99 Delete type=2 #154
+2025/12/30-14:56:33.967 3b99 Delete type=2 #157
+2025/12/30-14:56:33.967 3b99 Delete type=2 #159
+2025/12/30-14:56:33.967 3b99 Delete type=2 #161
+2025/12/30-20:43:49.215 3b98 Level-0 table #165: started
+2025/12/30-20:43:49.224 3b98 Level-0 table #165: 35185 bytes OK
+2025/12/30-20:43:49.235 3b98 Delete type=0 #160

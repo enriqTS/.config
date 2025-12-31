@@ -1,0 +1,15 @@
+2025-12-16 16:10:47.318 [error] Error getting repo info: Failed to execute git
+2025-12-16 16:10:47.318 [error] Error: Failed to execute git
+	at t.Git._exec (/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:34772)
+	at async t.Git.exec (/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:33895)
+	at async t.GitProvider.executeGitCommandStable (/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1444916)
+	at async t.GitProvider.getRepoInfo (/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1420845)
+2025-12-16 16:10:47.318 [warning] Failed to get symbolic ref: Failed to execute git
+2025-12-16 16:10:47.318 [error] Error getting repo info: Failed to execute git
+2025-12-16 16:10:47.318 [warning] Failed to read .git/HEAD: A system error occurred (ENOENT: no such file or directory, open '.git/HEAD')
+2025-12-16 16:10:47.318 [error] accessToken is undefined. User is not logged in. We shouldn't do any indexing.
+2025-12-16 16:10:47.345 [warning] Failed to get branches from remote: Failed to execute git
+2025-12-16 16:10:47.347 [warning] Failed to get default branch from git config: Failed to execute git
+2025-12-16 16:11:50.649 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-12-16 16:11:50.649 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-12-16 16:11:50.649 [error] NoWorkspaceUriError

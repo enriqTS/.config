@@ -1,0 +1,28 @@
+2025-12-24 10:50:20.097 [error] Failed to check if file sync is enabled for user {}
+2025-12-24 10:50:20.097 [error] Failed to fetch fsConfig File sync is disabled
+2025-12-24 10:50:20.097 [error] Failed to fetch fsConfig File sync is disabled
+2025-12-24 10:50:20.349 [info] [registerEventListeners] Registering event listeners
+2025-12-24 10:50:21.449 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-12-24 10:50:21.449 [error] Failed to fetch fsConfig File sync is disabled
+2025-12-24 10:50:21.449 [error] Failed to fetch fsConfig File sync is disabled
+2025-12-24 10:50:21.538 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-12-24 10:50:21.538 [error] Failed to fetch fsConfig File sync is disabled
+2025-12-24 10:50:21.538 [error] Failed to fetch fsConfig File sync is disabled
+2025-12-24 10:50:21.538 [info] File sync enabled status: false
+2025-12-24 10:50:22.816 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-12-24 10:50:22.817 [error] Failed to fetch fsConfig File sync is disabled
+2025-12-24 10:50:22.817 [error] Failed to fetch fsConfig File sync is disabled
+2025-12-24 11:07:20.255 [error] Failed to check if file sync is enabled for user {}
+2025-12-24 11:07:20.255 [error] Failed to fetch fsConfig File sync is disabled
+2025-12-24 11:07:20.255 [error] Failed to fetch fsConfig File sync is disabled
+2025-12-24 11:07:20.470 [info] [registerEventListeners] Registering event listeners
+2025-12-24 11:07:21.577 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-12-24 11:07:21.577 [error] Failed to fetch fsConfig File sync is disabled
+2025-12-24 11:07:21.577 [error] Failed to fetch fsConfig File sync is disabled
+2025-12-24 11:07:21.728 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-12-24 11:07:21.728 [error] Failed to fetch fsConfig File sync is disabled
+2025-12-24 11:07:21.728 [error] Failed to fetch fsConfig File sync is disabled
+2025-12-24 11:07:21.728 [info] File sync enabled status: false
+2025-12-24 11:07:23.003 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-12-24 11:07:23.003 [error] Failed to fetch fsConfig File sync is disabled
+2025-12-24 11:07:23.003 [error] Failed to fetch fsConfig File sync is disabled

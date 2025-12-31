@@ -1,0 +1,1273 @@
+2025-12-24 10:50:19.050 [info] [main] Log level: Info
+2025-12-24 10:50:19.050 [info] [main] Validating found git in: "git"
+2025-12-24 10:50:19.050 [info] [main] Using git "2.52.0" from "git"
+2025-12-24 10:50:19.050 [info] [Model][doInitialScan] Initial repository scan started
+2025-12-24 10:50:19.050 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-12-24 10:50:19.050 [info] > git config --get remote.origin.url [3ms]
+2025-12-24 10:50:19.265 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2025-12-24 10:50:19.265 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-12-24 10:50:19.265 [info] > git config --get remote.origin.url [5ms]
+2025-12-24 10:50:19.266 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [8ms]
+2025-12-24 10:50:19.266 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-12-24 10:50:19.461 [info] > git rev-parse --verify origin/main [7ms]
+2025-12-24 10:50:19.461 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-12-24 10:50:20.011 [info] > git rev-parse --verify origin/master [546ms]
+2025-12-24 10:50:20.011 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-12-24 10:50:20.054 [info] > git rev-parse --verify origin/develop [40ms]
+2025-12-24 10:50:20.054 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-12-24 10:50:20.078 [info] > git branch -r [21ms]
+2025-12-24 10:50:20.078 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-12-24 10:50:20.084 [info] > git config --get init.defaultBranch [2ms]
+2025-12-24 10:50:20.534 [info] > git remote get-url --push origin [3ms]
+2025-12-24 10:50:20.534 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-12-24 10:50:20.534 [info] > git remote get-url --push origin [6ms]
+2025-12-24 10:50:20.534 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-12-24 10:50:20.534 [info] > git remote get-url --push origin [11ms]
+2025-12-24 10:50:20.534 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-12-24 10:50:28.862 [info] > git config --global user.name [1ms]
+2025-12-24 10:50:28.866 [info] > git config --global user.email [0ms]
+2025-12-24 10:50:28.866 [info] [main] Stored git author name in global state:  <>
+2025-12-24 10:53:24.205 [info] > git clone https://upd8@dev.azure.com/upd8/Rodosafra%20IA/_git/Rodosafra%20IA /home/henrique/upd8/Rodosafra IA --progress [158247ms]
+2025-12-24 10:53:24.205 [info] Cloning into '/home/henrique/upd8/Rodosafra IA'...
+fatal: Authentication failed for 'https://dev.azure.com/upd8/Rodosafra%20IA/_git/Rodosafra%20IA/'
+2025-12-24 11:03:11.763 [info] > git clone https://upd8@dev.azure.com/upd8/Rodosafra%20IA/_git/Rodosafra%20IA /home/henrique/upd8/Rodosafra IA --progress [8909ms]
+2025-12-24 11:03:11.763 [info] Cloning into '/home/henrique/upd8/Rodosafra IA'...
+fatal: Authentication failed for 'https://dev.azure.com/upd8/Rodosafra%20IA/_git/Rodosafra%20IA/'
+2025-12-24 11:07:10.069 [info] > git clone https://upd8@dev.azure.com/upd8/Rodosafra%20IA/_git/Rodosafra%20IA /home/henrique/upd8/Rodosafra IA --progress [83013ms]
+2025-12-24 11:07:10.069 [info] Cloning into '/home/henrique/upd8/Rodosafra IA'...
+remote: Azure Repos        
+remote: remote: Found 839 objects to send. (35 ms)        
+Receiving objects:   0% (1/839)Receiving objects:   1% (9/839)Receiving objects:   2% (17/839)Receiving objects:   3% (26/839)Receiving objects:   4% (34/839)Receiving objects:   5% (42/839)Receiving objects:   6% (51/839)Receiving objects:   7% (59/839)Receiving objects:   8% (68/839)Receiving objects:   9% (76/839)Receiving objects:  10% (84/839)Receiving objects:  11% (93/839)Receiving objects:  12% (101/839)Receiving objects:  13% (110/839)Receiving objects:  14% (118/839)Receiving objects:  15% (126/839)Receiving objects:  16% (135/839)Receiving objects:  17% (143/839)Receiving objects:  18% (152/839)Receiving objects:  19% (160/839)Receiving objects:  20% (168/839)Receiving objects:  21% (177/839)Receiving objects:  22% (185/839)Receiving objects:  23% (193/839)Receiving objects:  24% (202/839)Receiving objects:  25% (210/839)Receiving objects:  26% (219/839)Receiving objects:  27% (227/839)Receiving objects:  28% (235/839)Receiving objects:  29% (244/839)Receiving objects:  30% (252/839)Receiving objects:  31% (261/839)Receiving objects:  32% (269/839)Receiving objects:  33% (277/839)Receiving objects:  34% (286/839)Receiving objects:  35% (294/839)Receiving objects:  36% (303/839)Receiving objects:  37% (311/839)Receiving objects:  38% (319/839)Receiving objects:  39% (328/839)Receiving objects:  40% (336/839)Receiving objects:  41% (344/839)Receiving objects:  41% (351/839), 11.06 MiB | 3.27 MiB/sReceiving objects:  41% (352/839), 15.62 MiB | 3.55 MiB/sReceiving objects:  41% (352/839), 17.94 MiB | 3.31 MiB/sReceiving objects:  41% (352/839), 20.25 MiB | 3.14 MiB/sReceiving objects:  41% (352/839), 22.43 MiB | 2.38 MiB/sReceiving objects:  41% (352/839), 24.93 MiB | 2.25 MiB/sReceiving objects:  41% (352/839), 26.06 MiB | 2.26 MiB/sReceiving objects:  41% (352/839), 28.49 MiB | 2.28 MiB/sReceiving objects:  41% (352/839), 30.74 MiB | 2.26 MiB/sReceiving objects:  41% (352/839), 32.81 MiB | 2.24 MiB/sReceiving objects:  41% (352/839), 34.81 MiB | 2.14 MiB/sReceiving objects:  41% (352/839), 36.93 MiB | 2.05 MiB/sReceiving objects:  41% (352/839), 38.99 MiB | 2.04 MiB/sReceiving objects:  41% (352/839), 41.12 MiB | 2.03 MiB/sReceiving objects:  41% (352/839), 43.68 MiB | 2.12 MiB/sReceiving objects:  41% (352/839), 45.68 MiB | 2.15 MiB/sReceiving objects:  41% (352/839), 48.18 MiB | 2.20 MiB/sReceiving objects:  41% (352/839), 50.80 MiB | 2.34 MiB/sReceiving objects:  41% (352/839), 52.80 MiB | 2.27 MiB/sReceiving objects:  41% (352/839), 55.11 MiB | 2.25 MiB/sReceiving objects:  41% (352/839), 56.99 MiB | 2.19 MiB/sReceiving objects:  41% (352/839), 59.36 MiB | 2.10 MiB/sReceiving objects:  41% (352/839), 61.61 MiB | 2.13 MiB/sReceiving objects:  41% (352/839), 63.73 MiB | 2.13 MiB/sReceiving objects:  41% (352/839), 65.11 MiB | 2.15 MiB/sReceiving objects:  41% (352/839), 67.67 MiB | 2.29 MiB/sReceiving objects:  41% (352/839), 69.92 MiB | 2.26 MiB/sReceiving objects:  41% (352/839), 72.61 MiB | 2.36 MiB/sReceiving objects:  41% (352/839), 75.48 MiB | 2.53 MiB/sReceiving objects:  41% (352/839), 77.48 MiB | 2.47 MiB/sReceiving objects:  41% (352/839), 79.94 MiB | 2.44 MiB/sReceiving objects:  41% (352/839), 82.48 MiB | 2.51 MiB/sReceiving objects:  41% (352/839), 84.79 MiB | 2.23 MiB/sReceiving objects:  41% (352/839), 87.60 MiB | 2.44 MiB/sReceiving objects:  41% (352/839), 89.91 MiB | 2.47 MiB/sReceiving objects:  41% (352/839), 92.22 MiB | 2.38 MiB/sReceiving objects:  41% (352/839), 94.60 MiB | 2.33 MiB/sReceiving objects:  41% (352/839), 97.16 MiB | 2.45 MiB/sReceiving objects:  41% (352/839), 99.03 MiB | 2.28 MiB/sReceiving objects:  41% (352/839), 101.41 MiB | 2.25 MiB/sReceiving objects:  41% (352/839), 103.78 MiB | 2.26 MiB/sReceiving objects:  41% (352/839), 106.66 MiB | 2.34 MiB/sReceiving objects:  41% (352/839), 108.66 MiB | 2.30 MiB/sReceiving objects:  41% (352/839), 110.72 MiB | 2.27 MiB/sReceiving objects:  41% (352/839), 113.09 MiB | 2.28 MiB/sReceiving objects:  41% (352/839), 115.59 MiB | 2.31 MiB/sReceiving objects:  41% (352/839), 116.47 MiB | 2.13 MiB/sReceiving objects:  41% (352/839), 118.72 MiB | 2.17 MiB/sReceiving objects:  41% (352/839), 120.53 MiB | 2.12 MiB/sReceiving objects:  41% (352/839), 122.96 MiB | 2.13 MiB/sReceiving objects:  41% (352/839), 125.03 MiB | 2.04 MiB/sReceiving objects:  41% (352/839), 128.28 MiB | 2.38 MiB/sReceiving objects:  41% (352/839), 130.27 MiB | 2.33 MiB/sReceiving objects:  41% (352/839), 132.27 MiB | 2.26 MiB/sReceiving objects:  41% (352/839), 134.52 MiB | 2.26 MiB/sReceiving objects:  41% (352/839), 136.34 MiB | 2.07 MiB/sReceiving objects:  41% (352/839), 138.90 MiB | 2.03 MiB/sReceiving objects:  41% (352/839), 141.77 MiB | 2.22 MiB/sReceiving objects:  41% (352/839), 143.90 MiB | 2.28 MiB/sReceiving objects:  41% (352/839), 145.89 MiB | 2.27 MiB/sReceiving objects:  41% (352/839), 148.96 MiB | 2.50 MiB/sReceiving objects:  41% (352/839), 151.27 MiB | 2.30 MiB/sReceiving objects:  41% (352/839), 153.52 MiB | 2.30 MiB/sReceiving objects:  41% (352/839), 156.14 MiB | 2.44 MiB/sReceiving objects:  41% (352/839), 157.20 MiB | 2.46 MiB/sReceiving objects:  41% (352/839), 159.27 MiB | 2.24 MiB/sReceiving objects:  41% (352/839), 161.76 MiB | 2.29 MiB/sReceiving objects:  41% (352/839), 164.33 MiB | 2.35 MiB/sReceiving objects:  41% (352/839), 166.95 MiB | 2.34 MiB/sReceiving objects:  41% (352/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  42% (353/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  43% (361/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  44% (370/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  45% (378/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  46% (386/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  47% (395/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  48% (403/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  49% (412/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  50% (420/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  51% (428/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  52% (437/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  53% (445/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  54% (454/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  55% (462/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  56% (470/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  57% (479/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  58% (487/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  59% (496/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  60% (504/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  61% (512/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  62% (521/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  63% (529/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  64% (537/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  65% (546/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  66% (554/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  67% (563/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  68% (571/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  69% (579/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  70% (588/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  71% (596/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  72% (605/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  73% (613/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  74% (621/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  75% (630/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  76% (638/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  77% (647/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  78% (655/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  79% (663/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  80% (672/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  81% (680/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  82% (688/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  83% (697/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  84% (705/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  85% (714/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  86% (722/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  87% (730/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  88% (739/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  89% (747/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  90% (756/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  91% (764/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  92% (772/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  93% (781/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  94% (789/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  95% (798/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  96% (806/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  97% (814/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  98% (823/839), 168.70 MiB | 2.30 MiB/sReceiving objects:  99% (831/839), 168.70 MiB | 2.30 MiB/sReceiving objects: 100% (839/839), 168.70 MiB | 2.30 MiB/sReceiving objects: 100% (839/839), 170.02 MiB | 2.34 MiB/s, done.
+Resolving deltas:   0% (0/319)Resolving deltas:   1% (4/319)Resolving deltas:   2% (7/319)Resolving deltas:   3% (10/319)Resolving deltas:   4% (13/319)Resolving deltas:   5% (16/319)Resolving deltas:   6% (20/319)Resolving deltas:   7% (23/319)Resolving deltas:   8% (26/319)Resolving deltas:   9% (29/319)Resolving deltas:  10% (32/319)Resolving deltas:  11% (37/319)Resolving deltas:  12% (40/319)Resolving deltas:  13% (42/319)Resolving deltas:  14% (47/319)Resolving deltas:  15% (49/319)Resolving deltas:  16% (52/319)Resolving deltas:  17% (56/319)Resolving deltas:  18% (58/319)Resolving deltas:  21% (67/319)Resolving deltas:  22% (71/319)Resolving deltas:  23% (74/319)Resolving deltas:  24% (78/319)Resolving deltas:  25% (82/319)Resolving deltas:  26% (85/319)Resolving deltas:  28% (91/319)Resolving deltas:  29% (94/319)Resolving deltas:  30% (97/319)Resolving deltas:  31% (101/319)Resolving deltas:  32% (103/319)Resolving deltas:  33% (106/319)Resolving deltas:  34% (109/319)Resolving deltas:  35% (113/319)Resolving deltas:  36% (115/319)Resolving deltas:  37% (119/319)Resolving deltas:  38% (122/319)Resolving deltas:  39% (125/319)Resolving deltas:  40% (128/319)Resolving deltas:  41% (132/319)Resolving deltas:  42% (134/319)Resolving deltas:  43% (138/319)Resolving deltas:  44% (141/319)Resolving deltas:  45% (146/319)Resolving deltas:  46% (149/319)Resolving deltas:  47% (152/319)Resolving deltas:  48% (154/319)Resolving deltas:  49% (157/319)Resolving deltas:  50% (162/319)Resolving deltas:  51% (163/319)Resolving deltas:  52% (166/319)Resolving deltas:  54% (174/319)Resolving deltas:  55% (176/319)Resolving deltas:  57% (182/319)Resolving deltas:  58% (186/319)Resolving deltas:  59% (189/319)Resolving deltas:  60% (192/319)Resolving deltas:  61% (196/319)Resolving deltas:  62% (198/319)Resolving deltas:  63% (201/319)Resolving deltas:  64% (205/319)Resolving deltas:  65% (209/319)Resolving deltas:  66% (211/319)Resolving deltas:  67% (215/319)Resolving deltas:  68% (217/319)Resolving deltas:  69% (222/319)Resolving deltas:  70% (224/319)Resolving deltas:  71% (227/319)Resolving deltas:  72% (230/319)Resolving deltas:  73% (233/319)Resolving deltas:  74% (237/319)Resolving deltas:  75% (241/319)Resolving deltas:  76% (243/319)Resolving deltas:  77% (246/319)Resolving deltas:  78% (249/319)Resolving deltas:  79% (253/319)Resolving deltas:  80% (256/319)Resolving deltas:  81% (259/319)Resolving deltas:  82% (262/319)Resolving deltas:  83% (265/319)Resolving deltas:  84% (268/319)Resolving deltas:  85% (272/319)Resolving deltas:  86% (275/319)Resolving deltas:  87% (278/319)Resolving deltas:  88% (281/319)Resolving deltas:  89% (284/319)Resolving deltas:  90% (290/319)Resolving deltas:  91% (291/319)Resolving deltas:  92% (294/319)Resolving deltas:  93% (297/319)Resolving deltas:  94% (300/319)Resolving deltas:  95% (304/319)Resolving deltas:  96% (309/319)Resolving deltas:  97% (310/319)Resolving deltas:  98% (313/319)Resolving deltas:  99% (316/319)Resolving deltas: 100% (319/319)Resolving deltas: 100% (319/319), done.
+Updating files:  72% (227/314)Updating files:  73% (230/314)Updating files:  74% (233/314)Updating files:  75% (236/314)Updating files:  76% (239/314)Updating files:  77% (242/314)Updating files:  78% (245/314)Updating files:  79% (249/314)Updating files:  80% (252/314)Updating files:  81% (255/314)Updating files:  82% (258/314)Updating files:  83% (261/314)Updating files:  84% (264/314)Updating files:  85% (267/314)Updating files:  86% (271/314)Updating files:  87% (274/314)Updating files:  88% (277/314)Updating files:  89% (280/314)Updating files:  90% (283/314)Updating files:  91% (286/314)Updating files:  92% (289/314)Updating files:  93% (293/314)Updating files:  94% (296/314)Updating files:  95% (299/314)Updating files:  96% (302/314)Updating files:  97% (305/314)Updating files:  98% (308/314)Updating files:  99% (311/314)Updating files: 100% (314/314)Updating files: 100% (314/314), done.
+2025-12-24 11:07:19.292 [info] [main] Log level: Info
+2025-12-24 11:07:19.292 [info] [main] Validating found git in: "git"
+2025-12-24 11:07:19.292 [info] [main] Using git "2.52.0" from "git"
+2025-12-24 11:07:19.292 [info] [Model][doInitialScan] Initial repository scan started
+2025-12-24 11:07:19.292 [info] > git rev-parse --show-toplevel [5ms]
+2025-12-24 11:07:19.296 [info] > git config --get remote.origin.url [6ms]
+2025-12-24 11:07:19.478 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [182ms]
+2025-12-24 11:07:19.485 [info] [Model][openRepository] Opened repository: /home/henrique/upd8/Rodosafra IA
+2025-12-24 11:07:19.485 [info] [Model][openRepository] Opened repository (kind): repository
+2025-12-24 11:07:19.488 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-12-24 11:07:19.546 [info] > git rev-parse --show-toplevel [16ms]
+2025-12-24 11:07:19.547 [info] > git rev-parse --show-toplevel [21ms]
+2025-12-24 11:07:19.768 [info] > git rev-parse --abbrev-ref HEAD [223ms]
+2025-12-24 11:07:19.768 [info] > git config --get commit.template [227ms]
+2025-12-24 11:07:19.768 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [232ms]
+2025-12-24 11:07:19.815 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [38ms]
+2025-12-24 11:07:19.815 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [41ms]
+2025-12-24 11:07:20.161 [info] > git rev-parse --abbrev-ref HEAD [352ms]
+2025-12-24 11:07:20.185 [info] > git check-ignore -v -z --stdin [20ms]
+2025-12-24 11:07:20.186 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [28ms]
+2025-12-24 11:07:20.216 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Rodosafra IA/.git/refs/remotes/origin/main'
+2025-12-24 11:07:20.233 [info] > git rev-parse refs/remotes/origin/main [17ms]
+2025-12-24 11:07:20.254 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [12ms]
+2025-12-24 11:07:20.549 [info] > git remote get-url --push origin [2ms]
+2025-12-24 11:07:28.805 [info] > git status -z -uall [8567ms]
+2025-12-24 11:07:28.825 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2025-12-24 11:07:28.840 [info] > git config --get --local branch.main.vscode-merge-base [9ms]
+2025-12-24 11:07:28.840 [warning] [Git][config] git config failed: Failed to execute git
+2025-12-24 11:07:28.844 [info] > git config --get commit.template [20ms]
+2025-12-24 11:07:28.845 [info] > git reflog main --grep-reflog=branch: Created from *. [1ms]
+2025-12-24 11:07:28.849 [info] > git rev-parse --abbrev-ref HEAD [10ms]
+2025-12-24 11:07:28.853 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [4ms]
+2025-12-24 11:07:28.857 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-12-24 11:07:28.861 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Rodosafra IA/.git/refs/remotes/origin/main'
+2025-12-24 11:07:28.861 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [4ms]
+2025-12-24 11:07:28.865 [info] > git rev-parse refs/remotes/origin/main [4ms]
+2025-12-24 11:07:28.873 [info] > git config --add --local branch.main.vscode-merge-base origin/main [8ms]
+2025-12-24 11:07:28.874 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms] (cancelled)
+2025-12-24 11:07:28.883 [info] > git status -z -uall [14ms] (cancelled)
+2025-12-24 11:07:28.883 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-12-24 11:07:28.887 [info] > git config --get commit.template [4ms]
+2025-12-24 11:07:28.888 [info] > git config --get --local branch.main.vscode-merge-base [1ms]
+2025-12-24 11:07:28.897 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-12-24 11:07:28.897 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [5ms]
+2025-12-24 11:07:28.907 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Rodosafra IA/.git/refs/remotes/origin/main'
+2025-12-24 11:07:28.908 [info] > git merge-base refs/heads/main refs/remotes/origin/main [5ms]
+2025-12-24 11:07:28.912 [info] > git rev-parse refs/remotes/origin/main [5ms]
+2025-12-24 11:07:28.920 [info] > git diff --name-status -z --diff-filter=ADMR 7eb8622e2b9c6978a955f043ca0bf8bd323714cd...refs/remotes/origin/main [8ms]
+2025-12-24 11:07:28.921 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-12-24 11:07:29.122 [info] > git config --global user.name [1ms]
+2025-12-24 11:07:29.127 [info] > git config --global user.email [1ms]
+2025-12-24 11:07:29.127 [info] [main] Stored git author name in global state: henrique.silva <henrique.silva@upd8.com.br>
+2025-12-24 11:07:29.319 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 11:07:37.420 [info] > git diff --name-only HEAD [8585ms]
+2025-12-24 11:07:37.427 [info] > git diff --cached --name-only [1ms]
+2025-12-24 11:07:37.434 [info] > git rev-parse HEAD [1ms]
+2025-12-24 11:07:37.440 [info] > git rev-parse HEAD^ [1ms]
+2025-12-24 11:07:37.446 [info] > git diff --name-only 2fba63e8849d7b4e3a21b3737eb67a7d7b559a1f 7eb8622e2b9c6978a955f043ca0bf8bd323714cd [1ms]
+2025-12-24 11:07:37.451 [info] > git cat-file -e 2fba63e8849d7b4e3a21b3737eb67a7d7b559a1f:anotacoes.md [1ms]
+2025-12-24 11:07:37.456 [info] > git show 2fba63e8849d7b4e3a21b3737eb67a7d7b559a1f:anotacoes.md [1ms]
+2025-12-24 11:07:37.462 [info] > git cat-file -e 7eb8622e2b9c6978a955f043ca0bf8bd323714cd:anotacoes.md [1ms]
+2025-12-24 11:07:37.467 [info] > git show 7eb8622e2b9c6978a955f043ca0bf8bd323714cd:anotacoes.md [1ms]
+2025-12-24 11:07:37.489 [info] > git status -z -uall [8573ms]
+2025-12-24 11:07:37.550 [info] > git cat-file -e 2fba63e8849d7b4e3a21b3737eb67a7d7b559a1f:chat/websocket/responder-mensagem/responder-mensagem.zip [2ms]
+2025-12-24 11:07:37.556 [info] > git show 2fba63e8849d7b4e3a21b3737eb67a7d7b559a1f:chat/websocket/responder-mensagem/responder-mensagem.zip [1ms]
+2025-12-24 11:07:37.563 [info] > git cat-file -e 7eb8622e2b9c6978a955f043ca0bf8bd323714cd:chat/websocket/responder-mensagem/responder-mensagem.zip [0ms]
+2025-12-24 11:07:37.569 [info] > git show 7eb8622e2b9c6978a955f043ca0bf8bd323714cd:chat/websocket/responder-mensagem/responder-mensagem.zip [2ms]
+2025-12-24 11:07:38.033 [info] > git cat-file -e 2fba63e8849d7b4e3a21b3737eb67a7d7b559a1f:chatbot/instrucoes/cadastro.md [1ms]
+2025-12-24 11:07:38.039 [info] > git show 2fba63e8849d7b4e3a21b3737eb67a7d7b559a1f:chatbot/instrucoes/cadastro.md [1ms]
+2025-12-24 11:07:38.054 [info] > git cat-file -e 7eb8622e2b9c6978a955f043ca0bf8bd323714cd:chatbot/instrucoes/cadastro.md [1ms]
+2025-12-24 11:07:38.061 [info] > git show 7eb8622e2b9c6978a955f043ca0bf8bd323714cd:chatbot/instrucoes/cadastro.md [1ms]
+2025-12-24 11:07:38.078 [info] > git cat-file -e 2fba63e8849d7b4e3a21b3737eb67a7d7b559a1f:chatbot/instrucoes/embarque.md [1ms]
+2025-12-24 11:07:38.085 [info] > git show 2fba63e8849d7b4e3a21b3737eb67a7d7b559a1f:chatbot/instrucoes/embarque.md [2ms]
+2025-12-24 11:07:38.094 [info] > git cat-file -e 7eb8622e2b9c6978a955f043ca0bf8bd323714cd:chatbot/instrucoes/embarque.md [1ms]
+2025-12-24 11:07:38.101 [info] > git show 7eb8622e2b9c6978a955f043ca0bf8bd323714cd:chatbot/instrucoes/embarque.md [2ms]
+2025-12-24 11:07:38.118 [info] > git cat-file -e 2fba63e8849d7b4e3a21b3737eb67a7d7b559a1f:chatbot/instrucoes/ofertas.md [1ms]
+2025-12-24 11:07:38.124 [info] > git show 2fba63e8849d7b4e3a21b3737eb67a7d7b559a1f:chatbot/instrucoes/ofertas.md [2ms]
+2025-12-24 11:07:38.130 [info] > git cat-file -e 7eb8622e2b9c6978a955f043ca0bf8bd323714cd:chatbot/instrucoes/ofertas.md [1ms]
+2025-12-24 11:07:38.136 [info] > git show 7eb8622e2b9c6978a955f043ca0bf8bd323714cd:chatbot/instrucoes/ofertas.md [2ms]
+2025-12-24 11:07:38.146 [info] > git cat-file -e 2fba63e8849d7b4e3a21b3737eb67a7d7b559a1f:chatbot/instrucoes/supervisor.md [2ms]
+2025-12-24 11:07:38.150 [info] > git show 2fba63e8849d7b4e3a21b3737eb67a7d7b559a1f:chatbot/instrucoes/supervisor.md [1ms]
+2025-12-24 11:07:38.158 [info] > git cat-file -e 7eb8622e2b9c6978a955f043ca0bf8bd323714cd:chatbot/instrucoes/supervisor.md [2ms]
+2025-12-24 11:07:38.163 [info] > git show 7eb8622e2b9c6978a955f043ca0bf8bd323714cd:chatbot/instrucoes/supervisor.md [1ms]
+2025-12-24 11:07:38.173 [info] > git cat-file -e 2fba63e8849d7b4e3a21b3737eb67a7d7b559a1f:terraform/environment/dev/.terraform.lock.hcl [1ms]
+2025-12-24 11:07:38.178 [info] > git show 2fba63e8849d7b4e3a21b3737eb67a7d7b559a1f:terraform/environment/dev/.terraform.lock.hcl [1ms]
+2025-12-24 11:07:38.184 [info] > git cat-file -e 7eb8622e2b9c6978a955f043ca0bf8bd323714cd:terraform/environment/dev/.terraform.lock.hcl [1ms]
+2025-12-24 11:07:38.188 [info] > git show 7eb8622e2b9c6978a955f043ca0bf8bd323714cd:terraform/environment/dev/.terraform.lock.hcl [1ms]
+2025-12-24 11:07:38.195 [info] > git cat-file -e 2fba63e8849d7b4e3a21b3737eb67a7d7b559a1f:terraform/environment/dev/.terraform/modules/modules.json [2ms]
+2025-12-24 11:07:38.200 [info] > git show 2fba63e8849d7b4e3a21b3737eb67a7d7b559a1f:terraform/environment/dev/.terraform/modules/modules.json [1ms]
+2025-12-24 11:07:38.205 [info] > git cat-file -e 7eb8622e2b9c6978a955f043ca0bf8bd323714cd:terraform/environment/dev/.terraform/modules/modules.json [1ms]
+2025-12-24 11:07:38.211 [info] > git show 7eb8622e2b9c6978a955f043ca0bf8bd323714cd:terraform/environment/dev/.terraform/modules/modules.json [1ms]
+2025-12-24 11:07:38.222 [info] > git cat-file -e 2fba63e8849d7b4e3a21b3737eb67a7d7b559a1f:terraform/environment/dev/main.tf [1ms]
+2025-12-24 11:07:38.227 [info] > git show 2fba63e8849d7b4e3a21b3737eb67a7d7b559a1f:terraform/environment/dev/main.tf [1ms]
+2025-12-24 11:07:38.235 [info] > git cat-file -e 7eb8622e2b9c6978a955f043ca0bf8bd323714cd:terraform/environment/dev/main.tf [1ms]
+2025-12-24 11:07:38.240 [info] > git show 7eb8622e2b9c6978a955f043ca0bf8bd323714cd:terraform/environment/dev/main.tf [1ms]
+2025-12-24 11:07:38.247 [info] > git cat-file -e 2fba63e8849d7b4e3a21b3737eb67a7d7b559a1f:terraform/environment/prod/main.tf [2ms]
+2025-12-24 11:07:38.252 [info] > git show 2fba63e8849d7b4e3a21b3737eb67a7d7b559a1f:terraform/environment/prod/main.tf [1ms]
+2025-12-24 11:07:38.258 [info] > git cat-file -e 7eb8622e2b9c6978a955f043ca0bf8bd323714cd:terraform/environment/prod/main.tf [1ms]
+2025-12-24 11:07:38.264 [info] > git show 7eb8622e2b9c6978a955f043ca0bf8bd323714cd:terraform/environment/prod/main.tf [1ms]
+2025-12-24 11:07:38.271 [info] > git cat-file -e 2fba63e8849d7b4e3a21b3737eb67a7d7b559a1f:terraform/modules/compute/lambda/envia-template/iam.tf [1ms]
+2025-12-24 11:07:38.275 [info] > git show 2fba63e8849d7b4e3a21b3737eb67a7d7b559a1f:terraform/modules/compute/lambda/envia-template/iam.tf [0ms]
+2025-12-24 11:07:38.280 [info] > git cat-file -e 7eb8622e2b9c6978a955f043ca0bf8bd323714cd:terraform/modules/compute/lambda/envia-template/iam.tf [1ms]
+2025-12-24 11:07:38.286 [info] > git show 7eb8622e2b9c6978a955f043ca0bf8bd323714cd:terraform/modules/compute/lambda/envia-template/iam.tf [2ms]
+2025-12-24 11:07:38.292 [info] > git cat-file -e 2fba63e8849d7b4e3a21b3737eb67a7d7b559a1f:terraform/modules/compute/lambda/envia-template/lambda.tf [0ms]
+2025-12-24 11:07:38.296 [info] > git show 2fba63e8849d7b4e3a21b3737eb67a7d7b559a1f:terraform/modules/compute/lambda/envia-template/lambda.tf [1ms]
+2025-12-24 11:07:38.302 [info] > git cat-file -e 7eb8622e2b9c6978a955f043ca0bf8bd323714cd:terraform/modules/compute/lambda/envia-template/lambda.tf [1ms]
+2025-12-24 11:07:38.308 [info] > git show 7eb8622e2b9c6978a955f043ca0bf8bd323714cd:terraform/modules/compute/lambda/envia-template/lambda.tf [1ms]
+2025-12-24 11:07:38.315 [info] > git cat-file -e 2fba63e8849d7b4e3a21b3737eb67a7d7b559a1f:terraform/modules/compute/lambda/main.tf [2ms]
+2025-12-24 11:07:38.320 [info] > git show 2fba63e8849d7b4e3a21b3737eb67a7d7b559a1f:terraform/modules/compute/lambda/main.tf [1ms]
+2025-12-24 11:07:38.326 [info] > git cat-file -e 7eb8622e2b9c6978a955f043ca0bf8bd323714cd:terraform/modules/compute/lambda/main.tf [1ms]
+2025-12-24 11:07:38.332 [info] > git show 7eb8622e2b9c6978a955f043ca0bf8bd323714cd:terraform/modules/compute/lambda/main.tf [2ms]
+2025-12-24 11:08:58.467 [info] > git check-ignore -v -z --stdin [1ms]
+2025-12-24 11:09:02.560 [info] > git check-ignore -v -z --stdin [2ms]
+2025-12-24 11:09:03.327 [info] > git show --textconv :auxiliares/api_retry_util.py [7ms]
+2025-12-24 11:09:03.328 [info] > git ls-files --stage -- auxiliares/api_retry_util.py [2ms]
+2025-12-24 11:09:03.332 [info] > git cat-file -s 08d7d9e8037af64d2af776b94c0f27b1dc96c977 [0ms]
+2025-12-24 11:09:17.681 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [4ms]
+2025-12-24 11:09:17.682 [info] > git rev-parse --abbrev-ref HEAD [1ms]
+2025-12-24 11:12:17.873 [info] > git rev-parse --show-toplevel [2ms]
+2025-12-24 11:12:18.285 [info] > git check-ignore -v -z --stdin [18ms]
+2025-12-24 11:12:18.888 [info] > git check-ignore -v -z --stdin [1ms]
+2025-12-24 11:12:19.403 [info] > git check-ignore -v -z --stdin [1ms]
+2025-12-24 11:12:19.851 [info] > git show --textconv :terraform/environment/prod/main.tf [10ms]
+2025-12-24 11:12:19.852 [info] > git ls-files --stage -- terraform/environment/prod/main.tf [2ms]
+2025-12-24 11:12:19.862 [info] > git cat-file -s b203ca7f9ded8b850cd4f76f347bd2a8693a40a8 [2ms]
+2025-12-24 11:13:17.684 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [5ms]
+2025-12-24 11:13:17.684 [info] > git rev-parse --abbrev-ref HEAD [0ms]
+2025-12-24 11:13:25.385 [info] > git show --textconv :terraform/environment/prod/main.tf [10ms]
+2025-12-24 11:13:25.385 [info] > git ls-files --stage -- terraform/environment/prod/main.tf [1ms]
+2025-12-24 11:13:25.395 [info] > git cat-file -s b203ca7f9ded8b850cd4f76f347bd2a8693a40a8 [1ms]
+2025-12-24 11:13:26.368 [info] > git blame --root --incremental 7eb8622e2b9c6978a955f043ca0bf8bd323714cd -- terraform/environment/prod/main.tf [11ms]
+2025-12-24 11:17:17.863 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 11:17:19.778 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 11:17:19.791 [info] > git config user.name [1ms]
+2025-12-24 11:17:19.802 [info] > git log --author=henrique.silva --format=%H -n 10 [1ms]
+2025-12-24 11:18:17.697 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [10ms]
+2025-12-24 11:18:17.698 [info] > git rev-parse --abbrev-ref HEAD [2ms]
+2025-12-24 11:22:17.861 [info] > git rev-parse --show-toplevel [2ms]
+2025-12-24 11:23:17.696 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [10ms]
+2025-12-24 11:23:17.696 [info] > git rev-parse --abbrev-ref HEAD [1ms]
+2025-12-24 11:27:17.855 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 11:27:19.773 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 11:27:19.783 [info] > git config user.name [1ms]
+2025-12-24 11:27:19.792 [info] > git log --author=henrique.silva --format=%H -n 10 [1ms]
+2025-12-24 11:27:20.495 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [8ms]
+2025-12-24 11:27:20.495 [info] > git rev-parse --abbrev-ref HEAD [1ms]
+2025-12-24 11:32:17.858 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 11:33:17.687 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [8ms]
+2025-12-24 11:33:17.688 [info] > git rev-parse --abbrev-ref HEAD [1ms]
+2025-12-24 11:37:17.861 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 11:37:19.778 [info] > git rev-parse --show-toplevel [2ms]
+2025-12-24 11:37:19.792 [info] > git config user.name [1ms]
+2025-12-24 11:37:19.804 [info] > git log --author=henrique.silva --format=%H -n 10 [2ms]
+2025-12-24 11:38:17.700 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [12ms]
+2025-12-24 11:38:17.701 [info] > git rev-parse --abbrev-ref HEAD [2ms]
+2025-12-24 11:42:17.856 [info] > git rev-parse --show-toplevel [0ms]
+2025-12-24 11:43:17.694 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [11ms]
+2025-12-24 11:43:17.694 [info] > git rev-parse --abbrev-ref HEAD [1ms]
+2025-12-24 11:47:17.861 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 11:47:19.774 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 11:47:19.786 [info] > git config user.name [1ms]
+2025-12-24 11:47:19.798 [info] > git log --author=henrique.silva --format=%H -n 10 [3ms]
+2025-12-24 11:47:20.505 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [12ms]
+2025-12-24 11:47:20.506 [info] > git rev-parse --abbrev-ref HEAD [2ms]
+2025-12-24 11:52:17.856 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 11:53:17.694 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [11ms]
+2025-12-24 11:53:17.694 [info] > git rev-parse --abbrev-ref HEAD [1ms]
+2025-12-24 11:57:17.856 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 11:57:19.771 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 11:57:19.779 [info] > git config user.name [1ms]
+2025-12-24 11:57:19.786 [info] > git log --author=henrique.silva --format=%H -n 10 [1ms]
+2025-12-24 11:58:17.689 [info] > git rev-parse --abbrev-ref HEAD [2ms]
+2025-12-24 11:58:17.689 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [9ms]
+2025-12-24 12:01:47.857 [info] > git show --textconv :anotacoes.md [8ms]
+2025-12-24 12:01:47.858 [info] > git ls-files --stage -- anotacoes.md [2ms]
+2025-12-24 12:01:47.865 [info] > git cat-file -s 73c2901fcf2503ef8a63f0629853e54b44f704d0 [0ms]
+2025-12-24 12:01:50.329 [info] > git config --get commit.template [13ms]
+2025-12-24 12:01:50.329 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-12-24 12:01:50.339 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Rodosafra IA/.git/refs/remotes/origin/main'
+2025-12-24 12:01:50.341 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-12-24 12:01:50.357 [info] > git status -z -uall [7ms]
+2025-12-24 12:01:50.358 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-12-24 12:01:50.411 [info] > git ls-files --stage -- anotacoes.md [1ms]
+2025-12-24 12:01:50.419 [info] > git cat-file -s 73c2901fcf2503ef8a63f0629853e54b44f704d0 [1ms]
+2025-12-24 12:01:50.428 [info] > git show --textconv :anotacoes.md [1ms]
+2025-12-24 12:01:55.366 [info] > git blame --root --incremental 7eb8622e2b9c6978a955f043ca0bf8bd323714cd -- anotacoes.md [3ms]
+2025-12-24 12:02:17.864 [info] > git rev-parse --show-toplevel [2ms]
+2025-12-24 12:03:17.699 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [10ms]
+2025-12-24 12:03:17.700 [info] > git rev-parse --abbrev-ref HEAD [2ms]
+2025-12-24 12:07:17.855 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 12:07:19.770 [info] > git rev-parse --show-toplevel [0ms]
+2025-12-24 12:07:19.780 [info] > git config user.name [1ms]
+2025-12-24 12:07:19.789 [info] > git log --author=henrique.silva --format=%H -n 10 [1ms]
+2025-12-24 12:07:20.496 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [9ms]
+2025-12-24 12:07:20.496 [info] > git rev-parse --abbrev-ref HEAD [1ms]
+2025-12-24 12:12:17.859 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 12:13:17.688 [info] > git rev-parse --abbrev-ref HEAD [2ms]
+2025-12-24 12:13:17.688 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [8ms]
+2025-12-24 12:17:17.856 [info] > git rev-parse --show-toplevel [0ms]
+2025-12-24 12:17:19.772 [info] > git rev-parse --show-toplevel [2ms]
+2025-12-24 12:17:19.781 [info] > git config user.name [1ms]
+2025-12-24 12:17:19.789 [info] > git log --author=henrique.silva --format=%H -n 10 [2ms]
+2025-12-24 12:18:17.698 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [12ms]
+2025-12-24 12:18:17.699 [info] > git rev-parse --abbrev-ref HEAD [2ms]
+2025-12-24 12:22:17.859 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 12:23:17.699 [info] > git rev-parse --abbrev-ref HEAD [2ms]
+2025-12-24 12:23:17.699 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [12ms]
+2025-12-24 12:27:17.858 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 12:27:19.771 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 12:27:19.780 [info] > git config user.name [1ms]
+2025-12-24 12:27:19.788 [info] > git log --author=henrique.silva --format=%H -n 10 [2ms]
+2025-12-24 12:27:20.494 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [8ms]
+2025-12-24 12:27:20.494 [info] > git rev-parse --abbrev-ref HEAD [1ms]
+2025-12-24 12:27:58.399 [info] > git config --get commit.template [1ms]
+2025-12-24 12:27:58.409 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-12-24 12:27:58.417 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Rodosafra IA/.git/refs/remotes/origin/main'
+2025-12-24 12:27:58.418 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-12-24 12:27:58.432 [info] > git status -z -uall [8ms]
+2025-12-24 12:27:58.432 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-12-24 12:27:58.466 [info] > git rev-parse --abbrev-ref HEAD [2ms]
+2025-12-24 12:27:58.466 [info] > git diff --name-only HEAD [10ms]
+2025-12-24 12:27:58.476 [info] > git diff --cached --name-only [1ms]
+2025-12-24 12:27:58.484 [info] > git cat-file -e HEAD:chatbot/action-groups/criar-embarque-action-group/dummy_lambda.py [1ms]
+2025-12-24 12:27:58.491 [info] > git show HEAD:chatbot/action-groups/criar-embarque-action-group/dummy_lambda.py [1ms]
+2025-12-24 12:27:58.507 [info] > git cat-file -e HEAD:chatbot/instrucoes/embarque.md [1ms]
+2025-12-24 12:27:58.523 [info] > git show HEAD:chatbot/instrucoes/embarque.md [9ms]
+2025-12-24 12:27:58.562 [info] > git rev-parse HEAD [1ms]
+2025-12-24 12:27:58.960 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 12:32:17.865 [info] > git rev-parse --show-toplevel [2ms]
+2025-12-24 12:32:30.535 [info] > git config --get commit.template [2ms]
+2025-12-24 12:32:30.544 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-12-24 12:32:30.550 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Rodosafra IA/.git/refs/remotes/origin/main'
+2025-12-24 12:32:30.551 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-12-24 12:32:30.566 [info] > git status -z -uall [8ms]
+2025-12-24 12:32:30.567 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-12-24 12:32:30.586 [info] > git rev-parse --abbrev-ref HEAD [8ms]
+2025-12-24 12:32:30.587 [info] > git diff --name-only HEAD [1ms]
+2025-12-24 12:32:30.595 [info] > git diff --cached --name-only [1ms]
+2025-12-24 12:32:30.603 [info] > git cat-file -e HEAD:chatbot/action-groups/criar-embarque-action-group/dummy_lambda.py [1ms]
+2025-12-24 12:32:30.613 [info] > git show HEAD:chatbot/action-groups/criar-embarque-action-group/dummy_lambda.py [1ms]
+2025-12-24 12:32:30.627 [info] > git cat-file -e HEAD:chatbot/instrucoes/embarque.md [1ms]
+2025-12-24 12:32:30.637 [info] > git show HEAD:chatbot/instrucoes/embarque.md [2ms]
+2025-12-24 12:32:30.647 [info] > git rev-parse HEAD [0ms]
+2025-12-24 12:32:31.079 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 12:32:35.583 [info] > git config --get commit.template [7ms]
+2025-12-24 12:32:35.584 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-12-24 12:32:35.592 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Rodosafra IA/.git/refs/remotes/origin/main'
+2025-12-24 12:32:35.594 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-12-24 12:32:35.613 [info] > git status -z -uall [9ms]
+2025-12-24 12:32:35.613 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-12-24 12:33:17.696 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [11ms]
+2025-12-24 12:33:17.696 [info] > git rev-parse --abbrev-ref HEAD [1ms]
+2025-12-24 12:35:52.471 [info] > git config --get commit.template [3ms]
+2025-12-24 12:35:52.494 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-12-24 12:35:52.514 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Rodosafra IA/.git/refs/remotes/origin/main'
+2025-12-24 12:35:52.516 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-12-24 12:35:52.541 [info] > git status -z -uall [12ms]
+2025-12-24 12:35:52.542 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-12-24 12:35:52.576 [info] > git rev-parse --abbrev-ref HEAD [3ms]
+2025-12-24 12:35:52.577 [info] > git diff --name-only HEAD [12ms]
+2025-12-24 12:35:52.585 [info] > git diff --cached --name-only [1ms]
+2025-12-24 12:35:52.594 [info] > git cat-file -e HEAD:chatbot/action-groups/criar-embarque-action-group/dummy_lambda.py [1ms]
+2025-12-24 12:35:52.601 [info] > git show HEAD:chatbot/action-groups/criar-embarque-action-group/dummy_lambda.py [1ms]
+2025-12-24 12:35:52.613 [info] > git cat-file -e HEAD:chatbot/instrucoes/supervisor.md [1ms]
+2025-12-24 12:35:52.622 [info] > git show HEAD:chatbot/instrucoes/supervisor.md [2ms]
+2025-12-24 12:35:52.644 [info] > git rev-parse HEAD [0ms]
+2025-12-24 12:35:53.066 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 12:35:53.770 [info] > git ls-files --stage -- anotacoes.md [1ms]
+2025-12-24 12:35:53.782 [info] > git cat-file -s 73c2901fcf2503ef8a63f0629853e54b44f704d0 [2ms]
+2025-12-24 12:35:53.795 [info] > git show --textconv :anotacoes.md [2ms]
+2025-12-24 12:36:32.631 [info] > git config --get commit.template [1ms]
+2025-12-24 12:36:32.643 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-12-24 12:36:32.650 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Rodosafra IA/.git/refs/remotes/origin/main'
+2025-12-24 12:36:32.651 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-12-24 12:36:32.667 [info] > git status -z -uall [9ms]
+2025-12-24 12:36:32.668 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-12-24 12:37:17.867 [info] > git rev-parse --show-toplevel [2ms]
+2025-12-24 12:37:19.776 [info] > git rev-parse --show-toplevel [2ms]
+2025-12-24 12:37:19.789 [info] > git config user.name [1ms]
+2025-12-24 12:37:19.801 [info] > git log --author=henrique.silva --format=%H -n 10 [2ms]
+2025-12-24 12:38:17.698 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [10ms]
+2025-12-24 12:38:17.699 [info] > git rev-parse --abbrev-ref HEAD [2ms]
+2025-12-24 12:39:40.843 [info] > git config --get commit.template [1ms]
+2025-12-24 12:39:40.854 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-12-24 12:39:40.862 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Rodosafra IA/.git/refs/remotes/origin/main'
+2025-12-24 12:39:40.862 [info] > git rev-parse refs/remotes/origin/main [0ms]
+2025-12-24 12:39:40.877 [info] > git status -z -uall [9ms]
+2025-12-24 12:39:40.878 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-12-24 12:40:58.368 [info] > git config --get commit.template [10ms]
+2025-12-24 12:40:58.368 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-12-24 12:40:58.376 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Rodosafra IA/.git/refs/remotes/origin/main'
+2025-12-24 12:40:58.377 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-12-24 12:40:58.395 [info] > git status -z -uall [9ms]
+2025-12-24 12:40:58.395 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-12-24 12:42:17.862 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 12:43:17.697 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [11ms]
+2025-12-24 12:43:17.697 [info] > git rev-parse --abbrev-ref HEAD [1ms]
+2025-12-24 12:43:41.995 [info] > git config --get commit.template [1ms]
+2025-12-24 12:43:42.006 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-12-24 12:43:42.016 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Rodosafra IA/.git/refs/remotes/origin/main'
+2025-12-24 12:43:42.017 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-12-24 12:43:42.032 [info] > git status -z -uall [8ms]
+2025-12-24 12:43:42.033 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-12-24 12:44:22.727 [info] > git config --get commit.template [1ms]
+2025-12-24 12:44:22.738 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-12-24 12:44:22.748 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Rodosafra IA/.git/refs/remotes/origin/main'
+2025-12-24 12:44:22.749 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-12-24 12:44:22.771 [info] > git status -z -uall [13ms]
+2025-12-24 12:44:22.772 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-12-24 12:47:17.861 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 12:47:19.772 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 12:47:19.780 [info] > git config user.name [0ms]
+2025-12-24 12:47:19.787 [info] > git log --author=henrique.silva --format=%H -n 10 [1ms]
+2025-12-24 12:47:20.502 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [10ms]
+2025-12-24 12:47:20.503 [info] > git rev-parse --abbrev-ref HEAD [1ms]
+2025-12-24 12:51:22.522 [info] > git config --get commit.template [1ms]
+2025-12-24 12:51:22.540 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-12-24 12:51:22.553 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Rodosafra IA/.git/refs/remotes/origin/main'
+2025-12-24 12:51:22.554 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-12-24 12:51:22.573 [info] > git status -z -uall [9ms]
+2025-12-24 12:51:22.573 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-12-24 12:51:46.832 [info] > git config --get commit.template [10ms]
+2025-12-24 12:51:46.833 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-12-24 12:51:46.840 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Rodosafra IA/.git/refs/remotes/origin/main'
+2025-12-24 12:51:46.841 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-12-24 12:51:46.856 [info] > git status -z -uall [8ms]
+2025-12-24 12:51:46.857 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-12-24 12:51:49.515 [info] > git check-ignore -v -z --stdin [0ms]
+2025-12-24 12:51:50.123 [info] > git check-ignore -v -z --stdin [0ms]
+2025-12-24 12:51:51.941 [info] > git check-ignore -v -z --stdin [1ms]
+2025-12-24 12:51:53.384 [info] > git check-ignore -v -z --stdin [1ms]
+2025-12-24 12:51:59.896 [info] > git show --textconv :anotacoes.md [11ms]
+2025-12-24 12:51:59.896 [info] > git ls-files --stage -- anotacoes.md [1ms]
+2025-12-24 12:51:59.904 [info] > git cat-file -s 73c2901fcf2503ef8a63f0629853e54b44f704d0 [1ms]
+2025-12-24 12:52:00.737 [info] > git config --get commit.template [0ms]
+2025-12-24 12:52:00.745 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-12-24 12:52:00.751 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Rodosafra IA/.git/refs/remotes/origin/main'
+2025-12-24 12:52:00.751 [info] > git rev-parse refs/remotes/origin/main [0ms]
+2025-12-24 12:52:00.766 [info] > git status -z -uall [6ms]
+2025-12-24 12:52:00.767 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-12-24 12:52:00.789 [info] > git rev-parse --abbrev-ref HEAD [1ms]
+2025-12-24 12:52:00.789 [info] > git diff --name-only HEAD [8ms]
+2025-12-24 12:52:00.798 [info] > git diff --cached --name-only [1ms]
+2025-12-24 12:52:00.807 [info] > git cat-file -e HEAD:chatbot/action-groups/criar-embarque-action-group/dummy_lambda.py [1ms]
+2025-12-24 12:52:00.815 [info] > git show HEAD:chatbot/action-groups/criar-embarque-action-group/dummy_lambda.py [2ms]
+2025-12-24 12:52:00.839 [info] > git cat-file -e HEAD:chatbot/instrucoes/supervisor.md [2ms]
+2025-12-24 12:52:00.846 [info] > git show HEAD:chatbot/instrucoes/supervisor.md [1ms]
+2025-12-24 12:52:00.861 [info] > git rev-parse HEAD [1ms]
+2025-12-24 12:52:01.281 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 12:52:17.857 [info] > git rev-parse --show-toplevel [0ms]
+2025-12-24 12:53:17.699 [info] > git rev-parse --abbrev-ref HEAD [3ms]
+2025-12-24 12:53:17.699 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [13ms]
+2025-12-24 12:57:17.866 [info] > git rev-parse --show-toplevel [9ms]
+2025-12-24 12:57:19.772 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 12:57:19.789 [info] > git config user.name [10ms]
+2025-12-24 12:57:19.799 [info] > git log --author=henrique.silva --format=%H -n 10 [0ms]
+2025-12-24 12:58:17.687 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [8ms]
+2025-12-24 12:58:17.687 [info] > git rev-parse --abbrev-ref HEAD [0ms]
+2025-12-24 13:02:17.857 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 13:03:17.688 [info] > git rev-parse --abbrev-ref HEAD [1ms]
+2025-12-24 13:03:17.688 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [8ms]
+2025-12-24 13:07:17.860 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 13:07:19.775 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 13:07:19.788 [info] > git config user.name [1ms]
+2025-12-24 13:07:19.800 [info] > git log --author=henrique.silva --format=%H -n 10 [2ms]
+2025-12-24 13:07:20.486 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [9ms]
+2025-12-24 13:07:20.501 [info] > git rev-parse --abbrev-ref HEAD [16ms]
+2025-12-24 13:07:20.502 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [9ms]
+2025-12-24 13:07:20.503 [info] > git rev-parse --abbrev-ref HEAD [2ms]
+2025-12-24 13:11:00.643 [info] > git config --get commit.template [11ms]
+2025-12-24 13:11:00.651 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2025-12-24 13:11:00.658 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Rodosafra IA/.git/refs/remotes/origin/main'
+2025-12-24 13:11:00.659 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-12-24 13:11:00.675 [info] > git status -z -uall [8ms]
+2025-12-24 13:11:00.675 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-12-24 13:11:00.696 [info] > git diff --name-only HEAD [8ms]
+2025-12-24 13:11:00.703 [info] > git rev-parse --abbrev-ref HEAD [8ms]
+2025-12-24 13:11:00.703 [info] > git diff --cached --name-only [1ms]
+2025-12-24 13:11:00.712 [info] > git cat-file -e HEAD:chatbot/action-groups/criar-embarque-action-group/dummy_lambda.py [1ms]
+2025-12-24 13:11:00.719 [info] > git show HEAD:chatbot/action-groups/criar-embarque-action-group/dummy_lambda.py [1ms]
+2025-12-24 13:11:00.734 [info] > git cat-file -e HEAD:chatbot/instrucoes/supervisor.md [1ms]
+2025-12-24 13:11:00.742 [info] > git show HEAD:chatbot/instrucoes/supervisor.md [2ms]
+2025-12-24 13:11:00.756 [info] > git rev-parse HEAD [0ms]
+2025-12-24 13:11:01.187 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 13:11:03.730 [info] > git check-ignore -v -z --stdin [1ms]
+2025-12-24 13:11:05.705 [info] > git config --get commit.template [12ms]
+2025-12-24 13:11:05.706 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-12-24 13:11:05.717 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Rodosafra IA/.git/refs/remotes/origin/main'
+2025-12-24 13:11:05.722 [info] > git rev-parse refs/remotes/origin/main [5ms]
+2025-12-24 13:11:05.741 [info] > git status -z -uall [10ms]
+2025-12-24 13:11:05.743 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-12-24 13:11:22.956 [info] > git check-ignore -v -z --stdin [1ms]
+2025-12-24 13:11:24.387 [info] > git show --textconv :chatbot/action-groups/flag-audio-action-group/dummy_lambda.py [7ms]
+2025-12-24 13:11:24.388 [info] > git ls-files --stage -- chatbot/action-groups/flag-audio-action-group/dummy_lambda.py [1ms]
+2025-12-24 13:11:24.396 [info] > git cat-file -s 3604d545a85cc855c8cc69303e1f48b1e95da940 [1ms]
+2025-12-24 13:11:29.328 [info] > git check-ignore -v -z --stdin [1ms]
+2025-12-24 13:12:17.857 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 13:13:17.686 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [6ms]
+2025-12-24 13:13:17.687 [info] > git rev-parse --abbrev-ref HEAD [1ms]
+2025-12-24 13:17:17.860 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 13:17:19.776 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 13:17:19.790 [info] > git config user.name [1ms]
+2025-12-24 13:17:19.802 [info] > git log --author=henrique.silva --format=%H -n 10 [2ms]
+2025-12-24 13:18:17.689 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [8ms]
+2025-12-24 13:18:17.690 [info] > git rev-parse --abbrev-ref HEAD [1ms]
+2025-12-24 13:20:08.065 [info] > git check-ignore -v -z --stdin [1ms]
+2025-12-24 13:20:23.637 [info] > git config --get commit.template [1ms]
+2025-12-24 13:20:23.647 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-12-24 13:20:23.655 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Rodosafra IA/.git/refs/remotes/origin/main'
+2025-12-24 13:20:23.656 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-12-24 13:20:23.673 [info] > git status -z -uall [8ms]
+2025-12-24 13:20:23.673 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-12-24 13:20:25.198 [info] > git show --textconv :CLAUDE.md [8ms]
+2025-12-24 13:20:25.205 [info] > git hash-object -t tree /dev/null [0ms]
+2025-12-24 13:20:25.205 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/henrique/upd8/Rodosafra%20IA/CLAUDE.md.git?%7B%22path%22%3A%22%2Fhome%2Fhenrique%2Fupd8%2FRodosafra%20IA%2FCLAUDE.md%22%2C%22ref%22%3A%22%22%7D
+2025-12-24 13:20:25.206 [info] > git ls-files --stage -- CLAUDE.md [9ms]
+2025-12-24 13:20:25.206 [warning] [GitFileSystemProvider][stat] File not found - git:/home/henrique/upd8/Rodosafra%20IA/CLAUDE.md.git?%7B%22path%22%3A%22%2Fhome%2Fhenrique%2Fupd8%2FRodosafra%20IA%2FCLAUDE.md%22%2C%22ref%22%3A%22%22%7D
+2025-12-24 13:20:25.488 [info] > git blame --root --incremental 7eb8622e2b9c6978a955f043ca0bf8bd323714cd -- CLAUDE.md [9ms]
+2025-12-24 13:20:25.488 [info] fatal: no such path CLAUDE.md in 7eb8622e2b9c6978a955f043ca0bf8bd323714cd
+2025-12-24 13:22:05.021 [info] > git ls-files --stage -- anotacoes.md [0ms]
+2025-12-24 13:22:05.029 [info] > git show --textconv :anotacoes.md [15ms]
+2025-12-24 13:22:05.030 [info] > git cat-file -s 73c2901fcf2503ef8a63f0629853e54b44f704d0 [1ms]
+2025-12-24 13:22:16.531 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 13:22:16.556 [info] > git remote get-url --push origin [6ms]
+2025-12-24 13:22:17.860 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 13:22:19.933 [info] > git show --textconv :anotacoes.md [9ms]
+2025-12-24 13:22:19.934 [info] > git ls-files --stage -- anotacoes.md [1ms]
+2025-12-24 13:22:19.942 [info] > git cat-file -s 73c2901fcf2503ef8a63f0629853e54b44f704d0 [1ms]
+2025-12-24 13:22:29.307 [info] > git config --get commit.template [12ms]
+2025-12-24 13:22:29.308 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-12-24 13:22:29.318 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Rodosafra IA/.git/refs/remotes/origin/main'
+2025-12-24 13:22:29.319 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-12-24 13:22:29.336 [info] > git status -z -uall [8ms]
+2025-12-24 13:22:29.336 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-12-24 13:22:29.356 [info] > git diff --name-only HEAD [8ms]
+2025-12-24 13:22:29.357 [info] > git rev-parse --abbrev-ref HEAD [2ms]
+2025-12-24 13:22:29.366 [info] > git diff --cached --name-only [1ms]
+2025-12-24 13:22:29.374 [info] > git cat-file -e HEAD:anotacoes.md [1ms]
+2025-12-24 13:22:29.382 [info] > git show HEAD:anotacoes.md [2ms]
+2025-12-24 13:22:29.399 [info] > git cat-file -e HEAD:chatbot/action-groups/criar-embarque-action-group/dummy_lambda.py [1ms]
+2025-12-24 13:22:29.406 [info] > git show HEAD:chatbot/action-groups/criar-embarque-action-group/dummy_lambda.py [1ms]
+2025-12-24 13:22:29.422 [info] > git cat-file -e HEAD:chatbot/instrucoes/supervisor.md [2ms]
+2025-12-24 13:22:29.434 [info] > git show HEAD:chatbot/instrucoes/supervisor.md [2ms]
+2025-12-24 13:22:29.450 [info] > git rev-parse HEAD [2ms]
+2025-12-24 13:22:29.854 [info] > git rev-parse --show-toplevel [2ms]
+2025-12-24 13:22:57.540 [info] > git show --textconv :chatbot/instrucoes/supervisor.md [7ms]
+2025-12-24 13:22:57.540 [info] > git ls-files --stage -- chatbot/instrucoes/supervisor.md [1ms]
+2025-12-24 13:22:57.548 [info] > git cat-file -s 8f88027e7e834a31f763eea1eaacc2322672f89a [1ms]
+2025-12-24 13:22:58.508 [info] > git blame --root --incremental 7eb8622e2b9c6978a955f043ca0bf8bd323714cd -- chatbot/instrucoes/supervisor.md [11ms]
+2025-12-24 13:23:17.689 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [8ms]
+2025-12-24 13:23:17.689 [info] > git rev-parse --abbrev-ref HEAD [2ms]
+2025-12-24 13:23:29.441 [info] > git show --textconv :chatbot/instrucoes/ofertas.md [9ms]
+2025-12-24 13:23:29.441 [info] > git ls-files --stage -- chatbot/instrucoes/ofertas.md [1ms]
+2025-12-24 13:23:29.449 [info] > git cat-file -s ffba639df28e361380a15985e3d58e1382cca59a [1ms]
+2025-12-24 13:23:30.087 [info] > git blame --root --incremental 7eb8622e2b9c6978a955f043ca0bf8bd323714cd -- chatbot/instrucoes/ofertas.md [2ms]
+2025-12-24 13:25:11.968 [info] > git show --textconv :chatbot/instrucoes/embarque.md [13ms]
+2025-12-24 13:25:11.969 [info] > git ls-files --stage -- chatbot/instrucoes/embarque.md [1ms]
+2025-12-24 13:25:11.979 [info] > git cat-file -s 770b65f1ea15f412c21777162ab1883da3cdbc29 [1ms]
+2025-12-24 13:25:12.602 [info] > git blame --root --incremental 7eb8622e2b9c6978a955f043ca0bf8bd323714cd -- chatbot/instrucoes/embarque.md [4ms]
+2025-12-24 13:27:17.856 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 13:27:19.773 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 13:27:19.787 [info] > git config user.name [1ms]
+2025-12-24 13:27:19.800 [info] > git log --author=henrique.silva --format=%H -n 10 [2ms]
+2025-12-24 13:27:20.502 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [10ms]
+2025-12-24 13:27:20.502 [info] > git rev-parse --abbrev-ref HEAD [1ms]
+2025-12-24 13:32:17.861 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 13:33:17.699 [info] > git rev-parse --abbrev-ref HEAD [2ms]
+2025-12-24 13:33:17.699 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [12ms]
+2025-12-24 13:34:28.175 [info] > git config --get commit.template [1ms]
+2025-12-24 13:34:28.182 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [0ms]
+2025-12-24 13:34:28.189 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Rodosafra IA/.git/refs/remotes/origin/main'
+2025-12-24 13:34:28.190 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-12-24 13:34:28.207 [info] > git status -z -uall [9ms]
+2025-12-24 13:34:28.207 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-12-24 13:34:28.229 [info] > git rev-parse --abbrev-ref HEAD [8ms]
+2025-12-24 13:34:28.229 [info] > git diff --name-only HEAD [1ms]
+2025-12-24 13:34:28.236 [info] > git diff --cached --name-only [1ms]
+2025-12-24 13:34:28.245 [info] > git cat-file -e HEAD:anotacoes.md [2ms]
+2025-12-24 13:34:28.252 [info] > git show HEAD:anotacoes.md [1ms]
+2025-12-24 13:34:28.263 [info] > git cat-file -e HEAD:chatbot/action-groups/criar-embarque-action-group/dummy_lambda.py [1ms]
+2025-12-24 13:34:28.270 [info] > git show HEAD:chatbot/action-groups/criar-embarque-action-group/dummy_lambda.py [1ms]
+2025-12-24 13:34:28.282 [info] > git cat-file -e HEAD:chatbot/instrucoes/cadastro.md [1ms]
+2025-12-24 13:34:28.290 [info] > git show HEAD:chatbot/instrucoes/cadastro.md [2ms]
+2025-12-24 13:34:28.344 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 13:34:28.356 [info] > git cat-file -e HEAD:chatbot/instrucoes/supervisor.md [1ms]
+2025-12-24 13:34:28.364 [info] > git show HEAD:chatbot/instrucoes/supervisor.md [1ms]
+2025-12-24 13:34:28.376 [info] > git rev-parse HEAD [1ms]
+2025-12-24 13:34:28.722 [info] > git rev-parse --show-toplevel [0ms]
+2025-12-24 13:34:31.540 [info] > git show --textconv :chatbot/instrucoes/cadastro.md [8ms]
+2025-12-24 13:34:31.541 [info] > git ls-files --stage -- chatbot/instrucoes/cadastro.md [1ms]
+2025-12-24 13:34:31.548 [info] > git cat-file -s 8a45985ba55a6ad30c25af155459f136039cb9ca [1ms]
+2025-12-24 13:34:32.143 [info] > git blame --root --incremental 7eb8622e2b9c6978a955f043ca0bf8bd323714cd -- chatbot/instrucoes/cadastro.md [2ms]
+2025-12-24 13:34:33.903 [info] > git show --textconv :chatbot/instrucoes/embarque.md [13ms]
+2025-12-24 13:34:33.903 [info] > git ls-files --stage -- chatbot/instrucoes/embarque.md [1ms]
+2025-12-24 13:34:33.914 [info] > git cat-file -s 770b65f1ea15f412c21777162ab1883da3cdbc29 [2ms]
+2025-12-24 13:35:08.239 [info] > git show --textconv :chatbot/instrucoes/cadastro.md [9ms]
+2025-12-24 13:35:08.239 [info] > git ls-files --stage -- chatbot/instrucoes/cadastro.md [1ms]
+2025-12-24 13:35:08.247 [info] > git cat-file -s 8a45985ba55a6ad30c25af155459f136039cb9ca [1ms]
+2025-12-24 13:35:13.671 [info] > git show --textconv :chatbot/instrucoes/embarque.md [8ms]
+2025-12-24 13:35:13.672 [info] > git ls-files --stage -- chatbot/instrucoes/embarque.md [2ms]
+2025-12-24 13:35:13.680 [info] > git cat-file -s 770b65f1ea15f412c21777162ab1883da3cdbc29 [1ms]
+2025-12-24 13:35:14.089 [info] > git show --textconv :chatbot/instrucoes/ofertas.md [7ms]
+2025-12-24 13:35:14.090 [info] > git ls-files --stage -- chatbot/instrucoes/ofertas.md [1ms]
+2025-12-24 13:35:14.098 [info] > git cat-file -s ffba639df28e361380a15985e3d58e1382cca59a [1ms]
+2025-12-24 13:35:21.037 [info] > git show --textconv :chatbot/instrucoes/supervisor.md [8ms]
+2025-12-24 13:35:21.038 [info] > git ls-files --stage -- chatbot/instrucoes/supervisor.md [1ms]
+2025-12-24 13:35:21.046 [info] > git cat-file -s 8f88027e7e834a31f763eea1eaacc2322672f89a [1ms]
+2025-12-24 13:35:31.183 [info] > git show --textconv :chatbot/instrucoes/cadastro.md [10ms]
+2025-12-24 13:35:31.184 [info] > git ls-files --stage -- chatbot/instrucoes/cadastro.md [2ms]
+2025-12-24 13:35:31.193 [info] > git cat-file -s 8a45985ba55a6ad30c25af155459f136039cb9ca [1ms]
+2025-12-24 13:37:14.219 [info] > git show --textconv :chatbot/instrucoes/embarque.md [8ms]
+2025-12-24 13:37:14.219 [info] > git ls-files --stage -- chatbot/instrucoes/embarque.md [1ms]
+2025-12-24 13:37:14.228 [info] > git cat-file -s 770b65f1ea15f412c21777162ab1883da3cdbc29 [1ms]
+2025-12-24 13:37:17.863 [info] > git rev-parse --show-toplevel [2ms]
+2025-12-24 13:37:19.778 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 13:37:19.791 [info] > git config user.name [1ms]
+2025-12-24 13:37:19.804 [info] > git log --author=henrique.silva --format=%H -n 10 [2ms]
+2025-12-24 13:37:28.028 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [8ms]
+2025-12-24 13:37:28.029 [info] > git rev-parse --abbrev-ref HEAD [1ms]
+2025-12-24 13:41:03.657 [info] > git rev-parse --abbrev-ref HEAD [1ms]
+2025-12-24 13:41:03.657 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [12ms]
+2025-12-24 13:41:03.669 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 13:41:46.806 [info] > git config --get commit.template [1ms]
+2025-12-24 13:41:46.819 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-12-24 13:41:46.831 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Rodosafra IA/.git/refs/remotes/origin/main'
+2025-12-24 13:41:46.831 [info] > git rev-parse refs/remotes/origin/main [0ms]
+2025-12-24 13:41:46.852 [info] > git status -z -uall [10ms]
+2025-12-24 13:41:46.852 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [0ms]
+2025-12-24 13:41:46.961 [info] > git diff --name-only HEAD [12ms]
+2025-12-24 13:41:46.961 [info] > git rev-parse --abbrev-ref HEAD [22ms]
+2025-12-24 13:41:46.962 [info] > git log --skip=0 --max-count=1 --format=%H [2ms]
+2025-12-24 13:41:46.985 [info] > git remote get-url --push origin [10ms]
+2025-12-24 13:41:46.986 [info] > git diff --cached --name-only [1ms]
+2025-12-24 13:41:47.017 [info] > git cat-file -e HEAD:anotacoes.md [21ms]
+2025-12-24 13:41:47.045 [info] > git show HEAD:anotacoes.md [16ms]
+2025-12-24 13:41:47.061 [info] > git show -m -s --format=%H<|ENT|><|RY|>%an<|ENT|><|RY|>%ad<|ENT|><|RY|>%B 7eb8622e2b9c6978a955f043ca0bf8bd323714cd [2ms]
+2025-12-24 13:41:47.084 [info] > git diff --no-color [11ms]
+2025-12-24 13:41:47.089 [info] > git ls-files --others --exclude-standard [6ms]
+2025-12-24 13:41:47.128 [info] > git cat-file -e HEAD:chatbot/action-groups/criar-embarque-action-group/dummy_lambda.py [1ms]
+2025-12-24 13:41:47.141 [info] > git show HEAD:chatbot/action-groups/criar-embarque-action-group/dummy_lambda.py [2ms]
+2025-12-24 13:41:47.184 [info] > git cat-file -e HEAD:chatbot/instrucoes/cadastro.md [1ms]
+2025-12-24 13:41:47.196 [info] > git show HEAD:chatbot/instrucoes/cadastro.md [2ms]
+2025-12-24 13:41:47.327 [info] > git cat-file -e HEAD:chatbot/instrucoes/supervisor.md [1ms]
+2025-12-24 13:41:47.341 [info] > git show HEAD:chatbot/instrucoes/supervisor.md [1ms]
+2025-12-24 13:41:47.371 [info] > git rev-parse HEAD [0ms]
+2025-12-24 13:41:47.438 [info] > git rev-parse --show-toplevel [0ms]
+2025-12-24 13:41:51.876 [info] > git config --get commit.template [10ms]
+2025-12-24 13:41:51.877 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-12-24 13:41:51.887 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Rodosafra IA/.git/refs/remotes/origin/main'
+2025-12-24 13:41:51.888 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-12-24 13:41:51.913 [info] > git status -z -uall [12ms]
+2025-12-24 13:41:51.914 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-12-24 13:42:07.690 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [12ms]
+2025-12-24 13:42:07.690 [info] > git rev-parse --abbrev-ref HEAD [1ms]
+2025-12-24 13:42:17.860 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 13:43:17.705 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [13ms]
+2025-12-24 13:43:17.705 [info] > git rev-parse --abbrev-ref HEAD [2ms]
+2025-12-24 13:43:30.106 [info] > git config --get commit.template [13ms]
+2025-12-24 13:43:30.107 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-12-24 13:43:30.122 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Rodosafra IA/.git/refs/remotes/origin/main'
+2025-12-24 13:43:30.123 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-12-24 13:43:30.148 [info] > git status -z -uall [14ms]
+2025-12-24 13:43:30.149 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-12-24 13:44:09.640 [info] > git config --get commit.template [14ms]
+2025-12-24 13:44:09.641 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-12-24 13:44:09.654 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Rodosafra IA/.git/refs/remotes/origin/main'
+2025-12-24 13:44:09.655 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-12-24 13:44:09.684 [info] > git status -z -uall [15ms]
+2025-12-24 13:44:09.685 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-12-24 13:44:41.498 [info] > git config --get commit.template [1ms]
+2025-12-24 13:44:41.513 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-12-24 13:44:41.525 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Rodosafra IA/.git/refs/remotes/origin/main'
+2025-12-24 13:44:41.526 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-12-24 13:44:41.553 [info] > git status -z -uall [14ms]
+2025-12-24 13:44:41.554 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-12-24 13:44:46.585 [info] > git config --get commit.template [11ms]
+2025-12-24 13:44:46.585 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-12-24 13:44:46.595 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Rodosafra IA/.git/refs/remotes/origin/main'
+2025-12-24 13:44:46.595 [info] > git rev-parse refs/remotes/origin/main [0ms]
+2025-12-24 13:44:46.613 [info] > git status -z -uall [10ms]
+2025-12-24 13:44:46.613 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-12-24 13:44:51.627 [info] > git config --get commit.template [1ms]
+2025-12-24 13:44:51.636 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-12-24 13:44:51.643 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Rodosafra IA/.git/refs/remotes/origin/main'
+2025-12-24 13:44:51.644 [info] > git rev-parse refs/remotes/origin/main [0ms]
+2025-12-24 13:44:51.659 [info] > git status -z -uall [9ms]
+2025-12-24 13:44:51.660 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-12-24 13:46:41.068 [info] > git check-ignore -v -z --stdin [0ms]
+2025-12-24 13:46:41.906 [info] > git show --textconv :exemplos-json/equipamentos_id.json [10ms]
+2025-12-24 13:46:41.907 [info] > git ls-files --stage -- exemplos-json/equipamentos_id.json [1ms]
+2025-12-24 13:46:41.916 [info] > git cat-file -s cd16b3f3480ab33d7f76ea2d8d2d9c4664043ddd [1ms]
+2025-12-24 13:46:48.969 [info] > git show --textconv :exemplos-json/veiculos_id.json [12ms]
+2025-12-24 13:46:48.970 [info] > git ls-files --stage -- exemplos-json/veiculos_id.json [1ms]
+2025-12-24 13:46:48.978 [info] > git cat-file -s b1502dca8d1ddd0279cd896bcee3a4fa3cfa6de7 [0ms]
+2025-12-24 13:47:17.858 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 13:47:19.773 [info] > git rev-parse --show-toplevel [2ms]
+2025-12-24 13:47:19.784 [info] > git config user.name [1ms]
+2025-12-24 13:47:19.795 [info] > git log --author=henrique.silva --format=%H -n 10 [2ms]
+2025-12-24 13:47:20.505 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [13ms]
+2025-12-24 13:47:20.506 [info] > git rev-parse --abbrev-ref HEAD [2ms]
+2025-12-24 13:52:17.860 [info] > git rev-parse --show-toplevel [0ms]
+2025-12-24 13:53:17.692 [info] > git rev-parse --abbrev-ref HEAD [1ms]
+2025-12-24 13:53:17.692 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [10ms]
+2025-12-24 13:57:17.865 [info] > git rev-parse --show-toplevel [0ms]
+2025-12-24 13:57:19.775 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 13:57:19.785 [info] > git config user.name [0ms]
+2025-12-24 13:57:19.799 [info] > git log --author=henrique.silva --format=%H -n 10 [2ms]
+2025-12-24 13:58:17.705 [info] > git rev-parse --abbrev-ref HEAD [2ms]
+2025-12-24 13:58:17.705 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [16ms]
+2025-12-24 14:02:17.863 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 14:03:17.706 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [14ms]
+2025-12-24 14:03:17.706 [info] > git rev-parse --abbrev-ref HEAD [2ms]
+2025-12-24 14:07:17.863 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 14:07:19.774 [info] > git rev-parse --show-toplevel [0ms]
+2025-12-24 14:07:19.787 [info] > git config user.name [1ms]
+2025-12-24 14:07:19.798 [info] > git log --author=henrique.silva --format=%H -n 10 [2ms]
+2025-12-24 14:07:20.485 [info] > git rev-parse --abbrev-ref HEAD [1ms]
+2025-12-24 14:07:20.485 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [9ms]
+2025-12-24 14:07:20.502 [info] > git rev-parse --abbrev-ref HEAD [1ms]
+2025-12-24 14:07:20.502 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [9ms]
+2025-12-24 14:12:17.859 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 14:13:17.693 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [11ms]
+2025-12-24 14:13:17.693 [info] > git rev-parse --abbrev-ref HEAD [1ms]
+2025-12-24 14:17:17.864 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 14:17:19.775 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 14:17:19.786 [info] > git config user.name [1ms]
+2025-12-24 14:17:19.798 [info] > git log --author=henrique.silva --format=%H -n 10 [1ms]
+2025-12-24 14:18:17.706 [info] > git rev-parse --abbrev-ref HEAD [3ms]
+2025-12-24 14:18:17.706 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [17ms]
+2025-12-24 14:18:29.652 [info] > git rev-parse --abbrev-ref HEAD [1ms]
+2025-12-24 14:18:29.804 [info] > git remote get-url --push origin [14ms]
+2025-12-24 14:18:29.857 [info] > git remote get-url --push origin [1ms]
+2025-12-24 14:18:36.716 [info] > git diff --no-color [9ms]
+2025-12-24 14:18:36.737 [info] > git ls-files --others --exclude-standard [22ms]
+2025-12-24 14:20:12.614 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [20ms]
+2025-12-24 14:20:12.623 [info] > git rev-parse --abbrev-ref HEAD [10ms]
+2025-12-24 14:21:17.698 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [10ms]
+2025-12-24 14:21:17.699 [info] > git rev-parse --abbrev-ref HEAD [1ms]
+2025-12-24 14:21:42.985 [info] > git config --get commit.template [2ms]
+2025-12-24 14:21:42.996 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [0ms]
+2025-12-24 14:21:43.007 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Rodosafra IA/.git/refs/remotes/origin/main'
+2025-12-24 14:21:43.016 [info] > git rev-parse refs/remotes/origin/main [9ms]
+2025-12-24 14:21:43.038 [info] > git status -z -uall [12ms]
+2025-12-24 14:21:43.039 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-12-24 14:21:43.194 [info] > git diff --name-only HEAD [13ms]
+2025-12-24 14:21:43.194 [info] > git rev-parse --abbrev-ref HEAD [24ms]
+2025-12-24 14:21:43.194 [info] > git log --skip=0 --max-count=1 --format=%H [1ms]
+2025-12-24 14:21:43.206 [info] > git remote get-url --push origin [2ms]
+2025-12-24 14:21:43.232 [info] > git diff --cached --name-only [3ms]
+2025-12-24 14:21:43.255 [info] > git cat-file -e HEAD:anotacoes.md [11ms]
+2025-12-24 14:21:43.267 [info] > git show -m -s --format=%H<|ENT|><|RY|>%an<|ENT|><|RY|>%ad<|ENT|><|RY|>%B 7eb8622e2b9c6978a955f043ca0bf8bd323714cd [12ms]
+2025-12-24 14:21:43.268 [info] > git show HEAD:anotacoes.md [2ms]
+2025-12-24 14:21:43.287 [info] > git cat-file -e HEAD:chatbot/action-groups/criar-embarque-action-group/dummy_lambda.py [1ms]
+2025-12-24 14:21:43.301 [info] > git show HEAD:chatbot/action-groups/criar-embarque-action-group/dummy_lambda.py [1ms]
+2025-12-24 14:21:43.418 [info] > git cat-file -e HEAD:chatbot/instrucoes/cadastro.md [1ms]
+2025-12-24 14:21:43.428 [info] > git show HEAD:chatbot/instrucoes/cadastro.md [2ms]
+2025-12-24 14:21:43.551 [info] > git cat-file -e HEAD:chatbot/instrucoes/supervisor.md [1ms]
+2025-12-24 14:21:43.561 [info] > git show HEAD:chatbot/instrucoes/supervisor.md [1ms]
+2025-12-24 14:21:43.614 [info] > git rev-parse HEAD [1ms]
+2025-12-24 14:21:43.668 [info] > git rev-parse --show-toplevel [0ms]
+2025-12-24 14:21:48.051 [info] > git config --get commit.template [0ms]
+2025-12-24 14:21:48.062 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-12-24 14:21:48.072 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Rodosafra IA/.git/refs/remotes/origin/main'
+2025-12-24 14:21:48.072 [info] > git rev-parse refs/remotes/origin/main [0ms]
+2025-12-24 14:21:48.090 [info] > git status -z -uall [9ms]
+2025-12-24 14:21:48.091 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-12-24 14:22:02.010 [info] > git rev-parse --show-toplevel [0ms]
+2025-12-24 14:22:02.668 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 14:22:03.076 [info] > git config --get commit.template [13ms]
+2025-12-24 14:22:03.077 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-12-24 14:22:03.087 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Rodosafra IA/.git/refs/remotes/origin/main'
+2025-12-24 14:22:03.088 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-12-24 14:22:03.108 [info] > git status -z -uall [10ms]
+2025-12-24 14:22:03.108 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-12-24 14:22:03.469 [info] > git rev-parse --show-toplevel [0ms]
+2025-12-24 14:22:04.180 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 14:22:09.912 [info] > git check-ignore -v -z --stdin [2ms]
+2025-12-24 14:22:11.330 [info] > git check-ignore -v -z --stdin [3ms]
+2025-12-24 14:22:17.737 [info] > git rev-parse --abbrev-ref HEAD [2ms]
+2025-12-24 14:22:17.737 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [11ms]
+2025-12-24 14:22:17.865 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 14:22:46.786 [info] > git config --get commit.template [10ms]
+2025-12-24 14:22:46.786 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-12-24 14:22:46.796 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Rodosafra IA/.git/refs/remotes/origin/main'
+2025-12-24 14:22:46.796 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-12-24 14:22:46.816 [info] > git status -z -uall [10ms]
+2025-12-24 14:22:46.816 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-12-24 14:23:00.335 [info] > git show --textconv :exemplos-json/popula-tabelas-referencia/lambda_function.py [11ms]
+2025-12-24 14:23:00.336 [info] > git ls-files --stage -- exemplos-json/popula-tabelas-referencia/lambda_function.py [2ms]
+2025-12-24 14:23:00.336 [warning] [GitFileSystemProvider][stat] File not found - git:/home/henrique/upd8/Rodosafra%20IA/exemplos-json/popula-tabelas-referencia/lambda_function.py.git?%7B%22path%22%3A%22%2Fhome%2Fhenrique%2Fupd8%2FRodosafra%20IA%2Fexemplos-json%2Fpopula-tabelas-referencia%2Flambda_function.py%22%2C%22ref%22%3A%22%22%7D
+2025-12-24 14:23:00.337 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/henrique/upd8/Rodosafra%20IA/exemplos-json/popula-tabelas-referencia/lambda_function.py.git?%7B%22path%22%3A%22%2Fhome%2Fhenrique%2Fupd8%2FRodosafra%20IA%2Fexemplos-json%2Fpopula-tabelas-referencia%2Flambda_function.py%22%2C%22ref%22%3A%22%22%7D
+2025-12-24 14:23:00.690 [info] > git check-ignore -v -z --stdin [0ms]
+2025-12-24 14:23:01.214 [info] > git config --get commit.template [17ms]
+2025-12-24 14:23:01.216 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-12-24 14:23:01.227 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Rodosafra IA/.git/refs/remotes/origin/main'
+2025-12-24 14:23:01.228 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-12-24 14:23:01.245 [info] > git status -z -uall [9ms]
+2025-12-24 14:23:01.246 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-12-24 14:23:37.017 [info] > git config --get commit.template [2ms]
+2025-12-24 14:23:37.047 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [16ms]
+2025-12-24 14:23:37.060 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Rodosafra IA/.git/refs/remotes/origin/main'
+2025-12-24 14:23:37.061 [info] > git check-ignore -v -z --stdin [15ms]
+2025-12-24 14:23:37.062 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-12-24 14:23:37.090 [info] > git status -z -uall [14ms]
+2025-12-24 14:23:37.091 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-12-24 14:23:37.125 [info] > git diff --name-only HEAD [18ms]
+2025-12-24 14:23:37.126 [info] > git rev-parse --abbrev-ref HEAD [2ms]
+2025-12-24 14:23:37.126 [info] > git log --skip=0 --max-count=1 --format=%H [9ms]
+2025-12-24 14:23:37.150 [info] > git remote get-url --push origin [14ms]
+2025-12-24 14:23:37.151 [info] > git diff --cached --name-only [1ms]
+2025-12-24 14:23:37.180 [info] > git cat-file -e HEAD:anotacoes.md [15ms]
+2025-12-24 14:23:37.195 [info] > git show HEAD:anotacoes.md [3ms]
+2025-12-24 14:23:37.195 [info] > git show -m -s --format=%H<|ENT|><|RY|>%an<|ENT|><|RY|>%ad<|ENT|><|RY|>%B 7eb8622e2b9c6978a955f043ca0bf8bd323714cd [16ms]
+2025-12-24 14:23:37.209 [info] > git cat-file -e HEAD:chatbot/action-groups/criar-embarque-action-group/dummy_lambda.py [1ms]
+2025-12-24 14:23:37.220 [info] > git show HEAD:chatbot/action-groups/criar-embarque-action-group/dummy_lambda.py [2ms]
+2025-12-24 14:23:37.239 [info] > git cat-file -e HEAD:chatbot/instrucoes/cadastro.md [1ms]
+2025-12-24 14:23:37.253 [info] > git show HEAD:chatbot/instrucoes/cadastro.md [2ms]
+2025-12-24 14:23:37.275 [info] > git cat-file -e HEAD:chatbot/instrucoes/supervisor.md [1ms]
+2025-12-24 14:23:37.290 [info] > git show HEAD:chatbot/instrucoes/supervisor.md [2ms]
+2025-12-24 14:23:37.310 [info] > git rev-parse HEAD [1ms]
+2025-12-24 14:23:37.616 [info] > git rev-parse --show-toplevel [0ms]
+2025-12-24 14:27:17.860 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 14:27:19.773 [info] > git rev-parse --show-toplevel [0ms]
+2025-12-24 14:27:19.784 [info] > git config user.name [1ms]
+2025-12-24 14:27:19.794 [info] > git log --author=henrique.silva --format=%H -n 10 [1ms]
+2025-12-24 14:27:20.500 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [9ms]
+2025-12-24 14:27:20.501 [info] > git rev-parse --abbrev-ref HEAD [1ms]
+2025-12-24 14:29:19.913 [info] > git rev-parse --abbrev-ref HEAD [2ms]
+2025-12-24 14:29:19.913 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [12ms]
+2025-12-24 14:30:37.546 [info] > git config --get commit.template [1ms]
+2025-12-24 14:30:37.557 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-12-24 14:30:37.566 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Rodosafra IA/.git/refs/remotes/origin/main'
+2025-12-24 14:30:37.566 [info] > git rev-parse refs/remotes/origin/main [0ms]
+2025-12-24 14:30:37.584 [info] > git status -z -uall [9ms]
+2025-12-24 14:30:37.585 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [0ms]
+2025-12-24 14:31:14.201 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [12ms]
+2025-12-24 14:31:14.201 [info] > git rev-parse --abbrev-ref HEAD [1ms]
+2025-12-24 14:31:48.285 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 14:31:48.956 [info] > git remote get-url --push origin [1ms]
+2025-12-24 14:31:52.584 [info] > git config --get commit.template [1ms]
+2025-12-24 14:31:52.597 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-12-24 14:31:52.607 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Rodosafra IA/.git/refs/remotes/origin/main'
+2025-12-24 14:31:52.607 [info] > git rev-parse refs/remotes/origin/main [0ms]
+2025-12-24 14:31:52.628 [info] > git status -z -uall [11ms]
+2025-12-24 14:31:52.629 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-12-24 14:31:57.644 [info] > git config --get commit.template [1ms]
+2025-12-24 14:31:57.658 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-12-24 14:31:57.667 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Rodosafra IA/.git/refs/remotes/origin/main'
+2025-12-24 14:31:57.668 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-12-24 14:31:57.688 [info] > git status -z -uall [10ms]
+2025-12-24 14:31:57.688 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-12-24 14:32:02.714 [info] > git config --get commit.template [10ms]
+2025-12-24 14:32:02.714 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-12-24 14:32:02.724 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Rodosafra IA/.git/refs/remotes/origin/main'
+2025-12-24 14:32:02.725 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-12-24 14:32:02.744 [info] > git status -z -uall [10ms]
+2025-12-24 14:32:02.745 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-12-24 14:32:07.757 [info] > git config --get commit.template [0ms]
+2025-12-24 14:32:07.768 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-12-24 14:32:07.778 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Rodosafra IA/.git/refs/remotes/origin/main'
+2025-12-24 14:32:07.779 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-12-24 14:32:07.801 [info] > git status -z -uall [12ms]
+2025-12-24 14:32:07.802 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-12-24 14:32:17.866 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 14:33:06.837 [info] > git rev-parse --abbrev-ref HEAD [1ms]
+2025-12-24 14:33:06.927 [info] > git rev-parse --abbrev-ref HEAD [2ms]
+2025-12-24 14:33:06.927 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [16ms]
+2025-12-24 14:33:06.991 [info] > git remote get-url --push origin [0ms]
+2025-12-24 14:33:07.066 [info] > git remote get-url --push origin [18ms]
+2025-12-24 14:33:08.304 [info] > git config --get commit.template [2ms]
+2025-12-24 14:33:08.320 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-12-24 14:33:08.333 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Rodosafra IA/.git/refs/remotes/origin/main'
+2025-12-24 14:33:08.335 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-12-24 14:33:08.362 [info] > git status -z -uall [14ms]
+2025-12-24 14:33:08.362 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-12-24 14:33:08.398 [info] > git diff --name-only HEAD [15ms]
+2025-12-24 14:33:08.398 [info] > git rev-parse --abbrev-ref HEAD [2ms]
+2025-12-24 14:33:08.415 [info] > git diff --cached --name-only [1ms]
+2025-12-24 14:33:08.430 [info] > git cat-file -e HEAD:anotacoes.md [1ms]
+2025-12-24 14:33:08.445 [info] > git show HEAD:anotacoes.md [3ms]
+2025-12-24 14:33:08.464 [info] > git cat-file -e HEAD:chatbot/action-groups/criar-embarque-action-group/dummy_lambda.py [2ms]
+2025-12-24 14:33:08.480 [info] > git show HEAD:chatbot/action-groups/criar-embarque-action-group/dummy_lambda.py [2ms]
+2025-12-24 14:33:08.502 [info] > git cat-file -e HEAD:chatbot/instrucoes/cadastro.md [2ms]
+2025-12-24 14:33:08.516 [info] > git show HEAD:chatbot/instrucoes/cadastro.md [2ms]
+2025-12-24 14:33:08.531 [info] > git cat-file -e HEAD:chatbot/instrucoes/supervisor.md [1ms]
+2025-12-24 14:33:08.544 [info] > git show HEAD:chatbot/instrucoes/supervisor.md [2ms]
+2025-12-24 14:33:08.564 [info] > git rev-parse HEAD [1ms]
+2025-12-24 14:33:08.895 [info] > git rev-parse --show-toplevel [3ms]
+2025-12-24 14:37:17.864 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 14:37:19.781 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 14:37:19.796 [info] > git config user.name [1ms]
+2025-12-24 14:37:19.811 [info] > git log --author=henrique.silva --format=%H -n 10 [2ms]
+2025-12-24 14:38:17.707 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [13ms]
+2025-12-24 14:38:17.708 [info] > git rev-parse --abbrev-ref HEAD [2ms]
+2025-12-24 14:42:17.868 [info] > git rev-parse --show-toplevel [0ms]
+2025-12-24 14:43:17.705 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [12ms]
+2025-12-24 14:43:17.706 [info] > git rev-parse --abbrev-ref HEAD [2ms]
+2025-12-24 14:47:17.866 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 14:47:19.780 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 14:47:19.799 [info] > git config user.name [1ms]
+2025-12-24 14:47:19.816 [info] > git log --author=henrique.silva --format=%H -n 10 [3ms]
+2025-12-24 14:47:20.512 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [15ms]
+2025-12-24 14:47:20.512 [info] > git rev-parse --abbrev-ref HEAD [1ms]
+2025-12-24 14:52:17.868 [info] > git rev-parse --show-toplevel [0ms]
+2025-12-24 14:53:17.704 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [13ms]
+2025-12-24 14:53:17.705 [info] > git rev-parse --abbrev-ref HEAD [2ms]
+2025-12-24 14:57:17.868 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 14:57:19.782 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 14:57:19.799 [info] > git config user.name [1ms]
+2025-12-24 14:57:19.815 [info] > git log --author=henrique.silva --format=%H -n 10 [2ms]
+2025-12-24 14:58:17.703 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [15ms]
+2025-12-24 14:58:17.704 [info] > git rev-parse --abbrev-ref HEAD [2ms]
+2025-12-24 15:02:17.858 [info] > git rev-parse --show-toplevel [0ms]
+2025-12-24 15:03:17.697 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [9ms]
+2025-12-24 15:03:17.698 [info] > git rev-parse --abbrev-ref HEAD [1ms]
+2025-12-24 15:07:17.874 [info] > git rev-parse --show-toplevel [0ms]
+2025-12-24 15:07:19.774 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 15:07:19.785 [info] > git config user.name [1ms]
+2025-12-24 15:07:19.800 [info] > git log --author=henrique.silva --format=%H -n 10 [2ms]
+2025-12-24 15:07:20.487 [info] > git rev-parse --abbrev-ref HEAD [2ms]
+2025-12-24 15:07:20.487 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [10ms]
+2025-12-24 15:07:20.507 [info] > git rev-parse --abbrev-ref HEAD [1ms]
+2025-12-24 15:07:20.508 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [11ms]
+2025-12-24 15:12:02.499 [info] > git config --get commit.template [1ms]
+2025-12-24 15:12:02.511 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-12-24 15:12:02.533 [info] > git status -z -uall [12ms]
+2025-12-24 15:12:02.534 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-12-24 15:12:02.547 [info] > git merge-base refs/heads/main refs/remotes/origin/main [1ms]
+2025-12-24 15:12:02.579 [info] > git diff --name-status -z --diff-filter=ADMR 85603cca448f028298011f2e85d702aa17065d51...refs/remotes/origin/main [21ms]
+2025-12-24 15:12:02.580 [info] > git rev-parse --abbrev-ref HEAD [1ms]
+2025-12-24 15:12:02.580 [info] > git diff --name-only HEAD [11ms]
+2025-12-24 15:12:02.590 [info] > git diff --cached --name-only [1ms]
+2025-12-24 15:12:02.602 [info] > git rev-parse HEAD [1ms]
+2025-12-24 15:12:02.612 [info] > git diff --name-only 7eb8622e2b9c6978a955f043ca0bf8bd323714cd 85603cca448f028298011f2e85d702aa17065d51 [0ms]
+2025-12-24 15:12:02.625 [info] > git cat-file -e 7eb8622e2b9c6978a955f043ca0bf8bd323714cd:anotacoes.md [1ms]
+2025-12-24 15:12:02.636 [info] > git show 7eb8622e2b9c6978a955f043ca0bf8bd323714cd:anotacoes.md [2ms]
+2025-12-24 15:12:02.648 [info] > git cat-file -e 85603cca448f028298011f2e85d702aa17065d51:anotacoes.md [1ms]
+2025-12-24 15:12:02.658 [info] > git show 85603cca448f028298011f2e85d702aa17065d51:anotacoes.md [1ms]
+2025-12-24 15:12:02.688 [info] > git cat-file -e 85603cca448f028298011f2e85d702aa17065d51:cadastros/popula-tabelas-referencia/README.md [1ms]
+2025-12-24 15:12:02.699 [info] > git show 85603cca448f028298011f2e85d702aa17065d51:cadastros/popula-tabelas-referencia/README.md [1ms]
+2025-12-24 15:12:02.722 [info] > git cat-file -e 85603cca448f028298011f2e85d702aa17065d51:cadastros/popula-tabelas-referencia/example-input.json [1ms]
+2025-12-24 15:12:02.735 [info] > git show 85603cca448f028298011f2e85d702aa17065d51:cadastros/popula-tabelas-referencia/example-input.json [2ms]
+2025-12-24 15:12:02.749 [info] > git cat-file -e 85603cca448f028298011f2e85d702aa17065d51:cadastros/popula-tabelas-referencia/prepare-input.py [1ms]
+2025-12-24 15:12:02.763 [info] > git show 85603cca448f028298011f2e85d702aa17065d51:cadastros/popula-tabelas-referencia/prepare-input.py [2ms]
+2025-12-24 15:12:02.776 [info] > git cat-file -e 7eb8622e2b9c6978a955f043ca0bf8bd323714cd:chatbot/action-groups/criar-embarque-action-group/dummy_lambda.py [0ms]
+2025-12-24 15:12:02.786 [info] > git show 7eb8622e2b9c6978a955f043ca0bf8bd323714cd:chatbot/action-groups/criar-embarque-action-group/dummy_lambda.py [1ms]
+2025-12-24 15:12:02.797 [info] > git cat-file -e 85603cca448f028298011f2e85d702aa17065d51:chatbot/action-groups/criar-embarque-action-group/dummy_lambda.py [1ms]
+2025-12-24 15:12:02.806 [info] > git show 85603cca448f028298011f2e85d702aa17065d51:chatbot/action-groups/criar-embarque-action-group/dummy_lambda.py [1ms]
+2025-12-24 15:12:02.821 [info] > git cat-file -e 7eb8622e2b9c6978a955f043ca0bf8bd323714cd:chatbot/action-groups/criar-embarque-action-group/transbordo_caller.py [1ms]
+2025-12-24 15:12:02.821 [info] fatal: path 'chatbot/action-groups/criar-embarque-action-group/transbordo_caller.py' exists on disk, but not in '7eb8622e2b9c6978a955f043ca0bf8bd323714cd'
+2025-12-24 15:12:02.833 [info] > git cat-file -e 85603cca448f028298011f2e85d702aa17065d51:chatbot/action-groups/criar-embarque-action-group/transbordo_caller.py [1ms]
+2025-12-24 15:12:02.844 [info] > git show 85603cca448f028298011f2e85d702aa17065d51:chatbot/action-groups/criar-embarque-action-group/transbordo_caller.py [1ms]
+2025-12-24 15:12:02.875 [info] > git show --textconv :exemplos-json/popula-tabelas-referencia/lambda_function.py [20ms]
+2025-12-24 15:12:02.875 [info] > git ls-files --stage -- exemplos-json/popula-tabelas-referencia/lambda_function.py [12ms]
+2025-12-24 15:12:02.886 [info] > git cat-file -e 7eb8622e2b9c6978a955f043ca0bf8bd323714cd:chatbot/action-groups/flag-duvida-embarque-action-group/dummy_lambda.py [12ms]
+2025-12-24 15:12:02.886 [info] fatal: path 'chatbot/action-groups/flag-duvida-embarque-action-group/dummy_lambda.py' exists on disk, but not in '7eb8622e2b9c6978a955f043ca0bf8bd323714cd'
+2025-12-24 15:12:02.886 [info] > git cat-file -s 36b5c6e962cf43cdd5752ca0700cf1605096b6ae [1ms]
+2025-12-24 15:12:02.898 [info] > git cat-file -e 85603cca448f028298011f2e85d702aa17065d51:chatbot/action-groups/flag-duvida-embarque-action-group/dummy_lambda.py [2ms]
+2025-12-24 15:12:02.909 [info] > git show 85603cca448f028298011f2e85d702aa17065d51:chatbot/action-groups/flag-duvida-embarque-action-group/dummy_lambda.py [1ms]
+2025-12-24 15:12:02.920 [info] > git cat-file -e 7eb8622e2b9c6978a955f043ca0bf8bd323714cd:chatbot/instrucoes/cadastro.md [1ms]
+2025-12-24 15:12:02.937 [info] > git show 7eb8622e2b9c6978a955f043ca0bf8bd323714cd:chatbot/instrucoes/cadastro.md [8ms]
+2025-12-24 15:12:02.938 [info] > git blame --root --incremental 85603cca448f028298011f2e85d702aa17065d51 -- exemplos-json/popula-tabelas-referencia/lambda_function.py [1ms]
+2025-12-24 15:12:02.948 [info] > git cat-file -e 85603cca448f028298011f2e85d702aa17065d51:chatbot/instrucoes/cadastro.md [1ms]
+2025-12-24 15:12:02.959 [info] > git show 85603cca448f028298011f2e85d702aa17065d51:chatbot/instrucoes/cadastro.md [1ms]
+2025-12-24 15:12:03.010 [info] > git cat-file -e 85603cca448f028298011f2e85d702aa17065d51:chatbot/instrucoes/embarque.md [1ms]
+2025-12-24 15:12:03.023 [info] > git show 85603cca448f028298011f2e85d702aa17065d51:chatbot/instrucoes/embarque.md [1ms]
+2025-12-24 15:12:03.062 [info] > git cat-file -e 7eb8622e2b9c6978a955f043ca0bf8bd323714cd:chatbot/instrucoes/supervisor.md [14ms]
+2025-12-24 15:12:03.076 [info] > git rev-parse --show-toplevel [14ms]
+2025-12-24 15:12:03.077 [info] > git show 7eb8622e2b9c6978a955f043ca0bf8bd323714cd:chatbot/instrucoes/supervisor.md [2ms]
+2025-12-24 15:12:03.092 [info] > git cat-file -e 85603cca448f028298011f2e85d702aa17065d51:chatbot/instrucoes/supervisor.md [2ms]
+2025-12-24 15:12:03.104 [info] > git show 85603cca448f028298011f2e85d702aa17065d51:chatbot/instrucoes/supervisor.md [1ms]
+2025-12-24 15:12:03.120 [info] > git cat-file -e 7eb8622e2b9c6978a955f043ca0bf8bd323714cd:exemplos-json/popula-tabelas-referencia/README.md [1ms]
+2025-12-24 15:12:03.120 [info] fatal: path 'exemplos-json/popula-tabelas-referencia/README.md' exists on disk, but not in '7eb8622e2b9c6978a955f043ca0bf8bd323714cd'
+2025-12-24 15:12:03.130 [info] > git cat-file -e 85603cca448f028298011f2e85d702aa17065d51:exemplos-json/popula-tabelas-referencia/README.md [0ms]
+2025-12-24 15:12:03.140 [info] > git show 85603cca448f028298011f2e85d702aa17065d51:exemplos-json/popula-tabelas-referencia/README.md [1ms]
+2025-12-24 15:12:03.150 [info] > git cat-file -e 7eb8622e2b9c6978a955f043ca0bf8bd323714cd:exemplos-json/popula-tabelas-referencia/example-input.json [1ms]
+2025-12-24 15:12:03.150 [info] fatal: path 'exemplos-json/popula-tabelas-referencia/example-input.json' exists on disk, but not in '7eb8622e2b9c6978a955f043ca0bf8bd323714cd'
+2025-12-24 15:12:03.161 [info] > git cat-file -e 85603cca448f028298011f2e85d702aa17065d51:exemplos-json/popula-tabelas-referencia/example-input.json [1ms]
+2025-12-24 15:12:03.170 [info] > git show 85603cca448f028298011f2e85d702aa17065d51:exemplos-json/popula-tabelas-referencia/example-input.json [1ms]
+2025-12-24 15:12:03.184 [info] > git cat-file -e 7eb8622e2b9c6978a955f043ca0bf8bd323714cd:exemplos-json/popula-tabelas-referencia/lambda-input.json [1ms]
+2025-12-24 15:12:03.184 [info] fatal: path 'exemplos-json/popula-tabelas-referencia/lambda-input.json' exists on disk, but not in '7eb8622e2b9c6978a955f043ca0bf8bd323714cd'
+2025-12-24 15:12:03.194 [info] > git cat-file -e 85603cca448f028298011f2e85d702aa17065d51:exemplos-json/popula-tabelas-referencia/lambda-input.json [1ms]
+2025-12-24 15:12:03.202 [info] > git show 85603cca448f028298011f2e85d702aa17065d51:exemplos-json/popula-tabelas-referencia/lambda-input.json [0ms]
+2025-12-24 15:12:03.213 [info] > git cat-file -e 85603cca448f028298011f2e85d702aa17065d51:exemplos-json/popula-tabelas-referencia/lambda_function.py [1ms]
+2025-12-24 15:12:03.223 [info] > git show 85603cca448f028298011f2e85d702aa17065d51:exemplos-json/popula-tabelas-referencia/lambda_function.py [1ms]
+2025-12-24 15:12:03.236 [info] > git cat-file -e 7eb8622e2b9c6978a955f043ca0bf8bd323714cd:exemplos-json/popula-tabelas-referencia/prepare-input.py [1ms]
+2025-12-24 15:12:03.236 [info] fatal: path 'exemplos-json/popula-tabelas-referencia/prepare-input.py' exists on disk, but not in '7eb8622e2b9c6978a955f043ca0bf8bd323714cd'
+2025-12-24 15:12:03.246 [info] > git cat-file -e 85603cca448f028298011f2e85d702aa17065d51:exemplos-json/popula-tabelas-referencia/prepare-input.py [1ms]
+2025-12-24 15:12:03.256 [info] > git show 85603cca448f028298011f2e85d702aa17065d51:exemplos-json/popula-tabelas-referencia/prepare-input.py [1ms]
+2025-12-24 15:12:03.267 [info] > git cat-file -e 7eb8622e2b9c6978a955f043ca0bf8bd323714cd:terraform/modules/compute/lambda/flag-duvida-embarque-action-group/iam.tf [1ms]
+2025-12-24 15:12:03.267 [info] fatal: path 'terraform/modules/compute/lambda/flag-duvida-embarque-action-group/iam.tf' exists on disk, but not in '7eb8622e2b9c6978a955f043ca0bf8bd323714cd'
+2025-12-24 15:12:03.278 [info] > git cat-file -e 85603cca448f028298011f2e85d702aa17065d51:terraform/modules/compute/lambda/flag-duvida-embarque-action-group/iam.tf [1ms]
+2025-12-24 15:12:03.289 [info] > git show 85603cca448f028298011f2e85d702aa17065d51:terraform/modules/compute/lambda/flag-duvida-embarque-action-group/iam.tf [1ms]
+2025-12-24 15:12:03.299 [info] > git cat-file -e 7eb8622e2b9c6978a955f043ca0bf8bd323714cd:terraform/modules/compute/lambda/flag-duvida-embarque-action-group/lambda.tf [0ms]
+2025-12-24 15:12:03.299 [info] fatal: path 'terraform/modules/compute/lambda/flag-duvida-embarque-action-group/lambda.tf' exists on disk, but not in '7eb8622e2b9c6978a955f043ca0bf8bd323714cd'
+2025-12-24 15:12:03.312 [info] > git cat-file -e 85603cca448f028298011f2e85d702aa17065d51:terraform/modules/compute/lambda/flag-duvida-embarque-action-group/lambda.tf [2ms]
+2025-12-24 15:12:03.322 [info] > git show 85603cca448f028298011f2e85d702aa17065d51:terraform/modules/compute/lambda/flag-duvida-embarque-action-group/lambda.tf [1ms]
+2025-12-24 15:12:03.333 [info] > git cat-file -e 7eb8622e2b9c6978a955f043ca0bf8bd323714cd:terraform/modules/compute/lambda/flag-duvida-embarque-action-group/variables.tf [2ms]
+2025-12-24 15:12:03.333 [info] fatal: path 'terraform/modules/compute/lambda/flag-duvida-embarque-action-group/variables.tf' exists on disk, but not in '7eb8622e2b9c6978a955f043ca0bf8bd323714cd'
+2025-12-24 15:12:03.343 [info] > git cat-file -e 85603cca448f028298011f2e85d702aa17065d51:terraform/modules/compute/lambda/flag-duvida-embarque-action-group/variables.tf [1ms]
+2025-12-24 15:12:03.352 [info] > git show 85603cca448f028298011f2e85d702aa17065d51:terraform/modules/compute/lambda/flag-duvida-embarque-action-group/variables.tf [1ms]
+2025-12-24 15:12:07.556 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 85603cca448f028298011f2e85d702aa17065d51 -- [11ms]
+2025-12-24 15:12:07.570 [info] > git config --get commit.template [14ms]
+2025-12-24 15:12:07.584 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-12-24 15:12:07.584 [info] > git var GIT_COMMITTER_IDENT [15ms]
+2025-12-24 15:12:07.621 [info] > git status -z -uall [14ms]
+2025-12-24 15:12:07.622 [info] > git check-mailmap henrique.silva <henrique.silva@upd8.com.br> 1766599927 -0300 [27ms]
+2025-12-24 15:12:07.622 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-12-24 15:12:07.648 [info] > git remote get-url --push origin [2ms]
+2025-12-24 15:12:07.648 [info] > git rev-parse --abbrev-ref HEAD [13ms]
+2025-12-24 15:12:07.717 [info] > git config user.name [1ms]
+2025-12-24 15:12:07.732 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 15:12:07.749 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 15:12:07.764 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 15:12:07.780 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 15:12:07.802 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 15:12:07.819 [info] > git rev-parse --show-toplevel [2ms]
+2025-12-24 15:12:07.834 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 15:12:07.849 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 15:12:07.863 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 15:12:07.875 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 15:12:07.886 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 15:12:07.899 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 15:12:07.920 [info] > git rev-parse --abbrev-ref HEAD [12ms]
+2025-12-24 15:12:07.921 [info] > git remote get-url --push origin [2ms]
+2025-12-24 15:12:17.865 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 15:12:30.167 [info] > git show --textconv :cadastros/popula-tabelas-referencia/example-input.json [11ms]
+2025-12-24 15:12:30.168 [info] > git ls-files --stage -- cadastros/popula-tabelas-referencia/example-input.json [1ms]
+2025-12-24 15:12:30.177 [info] > git cat-file -s 39358e6cc95cd0bba65874a9f363b43514b1e92e [0ms]
+2025-12-24 15:12:34.452 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [10ms]
+2025-12-24 15:12:34.452 [info] > git rev-parse --abbrev-ref HEAD [1ms]
+2025-12-24 15:12:35.555 [info] > git config --get commit.template [9ms]
+2025-12-24 15:12:35.556 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-12-24 15:12:35.574 [info] > git status -z -uall [9ms]
+2025-12-24 15:12:35.575 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-12-24 15:12:35.603 [info] > git rev-parse --abbrev-ref HEAD [1ms]
+2025-12-24 15:12:35.603 [info] > git diff --name-only HEAD [12ms]
+2025-12-24 15:12:35.617 [info] > git diff --cached --name-only [2ms]
+2025-12-24 15:12:35.628 [info] > git rev-parse HEAD [1ms]
+2025-12-24 15:12:36.097 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 15:12:36.942 [info] > git show --textconv :cadastros/popula-tabelas-referencia/prepare-input.py [16ms]
+2025-12-24 15:12:36.943 [info] > git ls-files --stage -- cadastros/popula-tabelas-referencia/prepare-input.py [2ms]
+2025-12-24 15:12:36.960 [info] > git cat-file -s 8e00d364dfa7ac4d701cfdd7a8c71aee85405806 [3ms]
+2025-12-24 15:12:39.893 [info] > git show --textconv :cadastros/popula-tabelas-referencia/example-input.json [11ms]
+2025-12-24 15:12:39.894 [info] > git ls-files --stage -- cadastros/popula-tabelas-referencia/example-input.json [2ms]
+2025-12-24 15:12:39.904 [info] > git cat-file -s 39358e6cc95cd0bba65874a9f363b43514b1e92e [2ms]
+2025-12-24 15:12:40.737 [info] > git config --get commit.template [1ms]
+2025-12-24 15:12:40.746 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-12-24 15:12:40.767 [info] > git status -z -uall [12ms]
+2025-12-24 15:12:40.768 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-12-24 15:12:40.806 [info] > git diff --name-only HEAD [15ms]
+2025-12-24 15:12:40.806 [info] > git rev-parse --abbrev-ref HEAD [2ms]
+2025-12-24 15:12:40.821 [info] > git diff --cached --name-only [2ms]
+2025-12-24 15:12:40.842 [info] > git rev-parse HEAD [1ms]
+2025-12-24 15:12:41.211 [info] > git show --textconv :cadastros/popula-tabelas-referencia/README.md [13ms]
+2025-12-24 15:12:41.211 [info] > git ls-files --stage -- cadastros/popula-tabelas-referencia/README.md [1ms]
+2025-12-24 15:12:41.221 [info] > git cat-file -s 0275440d2a5fbe29ec4738e299441f3680483d99 [1ms]
+2025-12-24 15:12:41.285 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 15:12:42.813 [info] > git show --textconv :cadastros/popula-tabelas-referencia/example-input.json [12ms]
+2025-12-24 15:12:42.814 [info] > git ls-files --stage -- cadastros/popula-tabelas-referencia/example-input.json [2ms]
+2025-12-24 15:12:42.824 [info] > git cat-file -s 39358e6cc95cd0bba65874a9f363b43514b1e92e [1ms]
+2025-12-24 15:12:45.801 [info] > git config --get commit.template [15ms]
+2025-12-24 15:12:45.802 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-12-24 15:12:45.830 [info] > git status -z -uall [11ms]
+2025-12-24 15:12:45.831 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-12-24 15:12:45.863 [info] > git rev-parse --abbrev-ref HEAD [2ms]
+2025-12-24 15:12:45.863 [info] > git diff --name-only HEAD [14ms]
+2025-12-24 15:12:45.879 [info] > git diff --cached --name-only [2ms]
+2025-12-24 15:12:45.902 [info] > git rev-parse HEAD [1ms]
+2025-12-24 15:12:46.347 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 15:12:47.952 [info] > git show --textconv :exemplos-json/popula-tabelas-referencia/lambda_function.py [12ms]
+2025-12-24 15:12:47.952 [info] > git ls-files --stage -- exemplos-json/popula-tabelas-referencia/lambda_function.py [1ms]
+2025-12-24 15:12:47.962 [info] > git cat-file -s 36b5c6e962cf43cdd5752ca0700cf1605096b6ae [1ms]
+2025-12-24 15:12:50.849 [info] > git config --get commit.template [1ms]
+2025-12-24 15:12:50.864 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-12-24 15:12:50.885 [info] > git status -z -uall [10ms]
+2025-12-24 15:12:50.885 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-12-24 15:13:39.012 [info] > git config --get commit.template [13ms]
+2025-12-24 15:13:39.022 [info] > git ls-files --stage -- exemplos-json/popula-tabelas-referencia/lambda_function.py [10ms]
+2025-12-24 15:13:39.035 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2025-12-24 15:13:39.035 [info] > git cat-file -s 36b5c6e962cf43cdd5752ca0700cf1605096b6ae [1ms]
+2025-12-24 15:13:39.057 [info] > git status -z -uall [10ms]
+2025-12-24 15:13:39.069 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [13ms]
+2025-12-24 15:13:39.097 [info] > git show --textconv :exemplos-json/popula-tabelas-referencia/lambda_function.py [29ms]
+2025-12-24 15:13:39.097 [info] > git merge-base refs/heads/main refs/remotes/origin/main [1ms]
+2025-12-24 15:13:39.107 [info] > git blame --root --incremental 2eb1c977e75b96b0e16e98364d5c708fe9c2eced -- exemplos-json/popula-tabelas-referencia/lambda_function.py [21ms]
+2025-12-24 15:13:39.130 [info] > git diff --name-status -z --diff-filter=ADMR 2eb1c977e75b96b0e16e98364d5c708fe9c2eced...refs/remotes/origin/main [23ms]
+2025-12-24 15:13:39.131 [info] > git rev-parse --abbrev-ref HEAD [1ms]
+2025-12-24 15:13:39.131 [info] > git diff --name-only HEAD [12ms]
+2025-12-24 15:13:39.142 [info] > git diff --cached --name-only [1ms]
+2025-12-24 15:13:39.154 [info] > git rev-parse HEAD [1ms]
+2025-12-24 15:13:39.167 [info] > git diff --name-only 85603cca448f028298011f2e85d702aa17065d51 2eb1c977e75b96b0e16e98364d5c708fe9c2eced [2ms]
+2025-12-24 15:13:39.177 [info] > git cat-file -e 2eb1c977e75b96b0e16e98364d5c708fe9c2eced:cadastros/popula-tabelas-referencia/README.md [1ms]
+2025-12-24 15:13:39.177 [info] fatal: path 'cadastros/popula-tabelas-referencia/README.md' does not exist in '2eb1c977e75b96b0e16e98364d5c708fe9c2eced'
+2025-12-24 15:13:39.189 [info] > git cat-file -e 2eb1c977e75b96b0e16e98364d5c708fe9c2eced:cadastros/popula-tabelas-referencia/example-input.json [2ms]
+2025-12-24 15:13:39.189 [info] fatal: path 'cadastros/popula-tabelas-referencia/example-input.json' does not exist in '2eb1c977e75b96b0e16e98364d5c708fe9c2eced'
+2025-12-24 15:13:39.202 [info] > git cat-file -e 2eb1c977e75b96b0e16e98364d5c708fe9c2eced:cadastros/popula-tabelas-referencia/prepare-input.py [1ms]
+2025-12-24 15:13:39.202 [info] fatal: path 'cadastros/popula-tabelas-referencia/prepare-input.py' does not exist in '2eb1c977e75b96b0e16e98364d5c708fe9c2eced'
+2025-12-24 15:13:39.590 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 15:13:44.093 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 2eb1c977e75b96b0e16e98364d5c708fe9c2eced -- [2ms]
+2025-12-24 15:13:44.109 [info] > git var GIT_COMMITTER_IDENT [2ms]
+2025-12-24 15:13:44.122 [info] > git check-mailmap henrique.silva <henrique.silva@upd8.com.br> 1766600024 -0300 [1ms]
+2025-12-24 15:13:44.153 [info] > git rev-parse --abbrev-ref HEAD [16ms]
+2025-12-24 15:13:44.153 [info] > git remote get-url --push origin [1ms]
+2025-12-24 15:13:44.200 [info] > git config user.name [0ms]
+2025-12-24 15:13:44.225 [info] > git rev-parse --abbrev-ref HEAD [12ms]
+2025-12-24 15:13:44.225 [info] > git remote get-url --push origin [1ms]
+2025-12-24 15:17:17.860 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 15:17:19.775 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 15:17:19.786 [info] > git config user.name [0ms]
+2025-12-24 15:17:19.800 [info] > git log --author=henrique.silva --format=%H -n 10 [1ms]
+2025-12-24 15:17:19.823 [info] > git rev-parse --abbrev-ref HEAD [12ms]
+2025-12-24 15:17:19.823 [info] > git remote get-url --push origin [1ms]
+2025-12-24 15:17:19.858 [info] > git config user.name [1ms]
+2025-12-24 15:17:19.882 [info] > git rev-parse --abbrev-ref HEAD [13ms]
+2025-12-24 15:17:19.882 [info] > git remote get-url --push origin [1ms]
+2025-12-24 15:17:20.472 [info] > git rev-parse --abbrev-ref HEAD [18ms]
+2025-12-24 15:17:20.472 [info] > git remote get-url --push origin [1ms]
+2025-12-24 15:17:20.551 [info] > git config user.name [1ms]
+2025-12-24 15:17:20.603 [info] > git remote get-url --push origin [1ms]
+2025-12-24 15:17:20.603 [info] > git rev-parse --abbrev-ref HEAD [12ms]
+2025-12-24 15:18:17.693 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [11ms]
+2025-12-24 15:18:17.694 [info] > git rev-parse --abbrev-ref HEAD [2ms]
+2025-12-24 15:22:17.868 [info] > git rev-parse --show-toplevel [2ms]
+2025-12-24 15:23:17.704 [info] > git rev-parse --abbrev-ref HEAD [3ms]
+2025-12-24 15:23:17.704 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [17ms]
+2025-12-24 15:27:17.861 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 15:27:19.774 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 15:27:19.786 [info] > git config user.name [0ms]
+2025-12-24 15:27:19.797 [info] > git log --author=henrique.silva --format=%H -n 10 [1ms]
+2025-12-24 15:27:19.819 [info] > git rev-parse --abbrev-ref HEAD [11ms]
+2025-12-24 15:27:19.819 [info] > git remote get-url --push origin [1ms]
+2025-12-24 15:27:19.854 [info] > git config user.name [1ms]
+2025-12-24 15:27:19.877 [info] > git rev-parse --abbrev-ref HEAD [11ms]
+2025-12-24 15:27:19.877 [info] > git remote get-url --push origin [1ms]
+2025-12-24 15:27:20.501 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [13ms]
+2025-12-24 15:27:20.501 [info] > git rev-parse --abbrev-ref HEAD [1ms]
+2025-12-24 15:27:20.570 [info] > git rev-parse --abbrev-ref HEAD [12ms]
+2025-12-24 15:27:20.571 [info] > git remote get-url --push origin [1ms]
+2025-12-24 15:27:20.622 [info] > git config user.name [0ms]
+2025-12-24 15:27:20.655 [info] > git rev-parse --abbrev-ref HEAD [12ms]
+2025-12-24 15:27:20.655 [info] > git remote get-url --push origin [1ms]
+2025-12-24 15:32:17.876 [info] > git rev-parse --show-toplevel [2ms]
+2025-12-24 15:33:17.692 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [10ms]
+2025-12-24 15:33:17.692 [info] > git rev-parse --abbrev-ref HEAD [1ms]
+2025-12-24 15:37:17.859 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 15:37:19.777 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 15:37:19.792 [info] > git config user.name [1ms]
+2025-12-24 15:37:19.807 [info] > git log --author=henrique.silva --format=%H -n 10 [1ms]
+2025-12-24 15:37:19.835 [info] > git rev-parse --abbrev-ref HEAD [14ms]
+2025-12-24 15:37:19.836 [info] > git remote get-url --push origin [2ms]
+2025-12-24 15:37:19.894 [info] > git config user.name [1ms]
+2025-12-24 15:37:19.927 [info] > git rev-parse --abbrev-ref HEAD [15ms]
+2025-12-24 15:37:19.928 [info] > git remote get-url --push origin [2ms]
+2025-12-24 15:37:20.641 [info] > git rev-parse --abbrev-ref HEAD [13ms]
+2025-12-24 15:37:20.641 [info] > git remote get-url --push origin [1ms]
+2025-12-24 15:37:20.700 [info] > git config user.name [1ms]
+2025-12-24 15:37:20.730 [info] > git remote get-url --push origin [1ms]
+2025-12-24 15:37:20.730 [info] > git rev-parse --abbrev-ref HEAD [10ms]
+2025-12-24 15:38:17.695 [info] > git rev-parse --abbrev-ref HEAD [2ms]
+2025-12-24 15:38:17.695 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [12ms]
+2025-12-24 15:42:17.869 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 15:43:17.705 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [14ms]
+2025-12-24 15:43:17.705 [info] > git rev-parse --abbrev-ref HEAD [1ms]
+2025-12-24 15:47:17.859 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 15:47:19.774 [info] > git rev-parse --show-toplevel [0ms]
+2025-12-24 15:47:19.787 [info] > git config user.name [1ms]
+2025-12-24 15:47:19.798 [info] > git log --author=henrique.silva --format=%H -n 10 [1ms]
+2025-12-24 15:47:19.827 [info] > git rev-parse --abbrev-ref HEAD [15ms]
+2025-12-24 15:47:19.828 [info] > git remote get-url --push origin [0ms]
+2025-12-24 15:47:19.870 [info] > git config user.name [0ms]
+2025-12-24 15:47:19.898 [info] > git remote get-url --push origin [2ms]
+2025-12-24 15:47:19.898 [info] > git rev-parse --abbrev-ref HEAD [16ms]
+2025-12-24 15:47:20.500 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [10ms]
+2025-12-24 15:47:20.500 [info] > git rev-parse --abbrev-ref HEAD [1ms]
+2025-12-24 15:47:20.544 [info] > git rev-parse --abbrev-ref HEAD [10ms]
+2025-12-24 15:47:20.544 [info] > git remote get-url --push origin [1ms]
+2025-12-24 15:47:20.600 [info] > git config user.name [1ms]
+2025-12-24 15:47:20.636 [info] > git remote get-url --push origin [1ms]
+2025-12-24 15:47:20.636 [info] > git rev-parse --abbrev-ref HEAD [14ms]
+2025-12-24 15:47:56.918 [info] > git config --get commit.template [11ms]
+2025-12-24 15:47:56.919 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-12-24 15:47:56.943 [info] > git status -z -uall [12ms]
+2025-12-24 15:47:56.944 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-12-24 15:52:17.864 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 15:53:17.695 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [10ms]
+2025-12-24 15:53:17.695 [info] > git rev-parse --abbrev-ref HEAD [0ms]
+2025-12-24 15:57:17.866 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 15:57:19.774 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 15:57:19.786 [info] > git config user.name [1ms]
+2025-12-24 15:57:19.797 [info] > git log --author=henrique.silva --format=%H -n 10 [2ms]
+2025-12-24 15:57:19.819 [info] > git rev-parse --abbrev-ref HEAD [11ms]
+2025-12-24 15:57:19.819 [info] > git remote get-url --push origin [0ms]
+2025-12-24 15:57:19.857 [info] > git config user.name [0ms]
+2025-12-24 15:57:19.892 [info] > git rev-parse --abbrev-ref HEAD [16ms]
+2025-12-24 15:57:19.892 [info] > git remote get-url --push origin [0ms]
+2025-12-24 15:57:20.535 [info] > git rev-parse --abbrev-ref HEAD [16ms]
+2025-12-24 15:57:20.536 [info] > git remote get-url --push origin [1ms]
+2025-12-24 15:57:20.595 [info] > git config user.name [0ms]
+2025-12-24 15:57:20.627 [info] > git rev-parse --abbrev-ref HEAD [11ms]
+2025-12-24 15:57:20.627 [info] > git remote get-url --push origin [1ms]
+2025-12-24 15:58:17.705 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [15ms]
+2025-12-24 15:58:17.705 [info] > git rev-parse --abbrev-ref HEAD [1ms]
+2025-12-24 16:02:17.865 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 16:03:17.691 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [10ms]
+2025-12-24 16:03:17.691 [info] > git rev-parse --abbrev-ref HEAD [0ms]
+2025-12-24 16:07:17.859 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 16:07:19.775 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 16:07:19.796 [info] > git config user.name [8ms]
+2025-12-24 16:07:19.807 [info] > git log --author=henrique.silva --format=%H -n 10 [1ms]
+2025-12-24 16:07:19.828 [info] > git remote get-url --push origin [0ms]
+2025-12-24 16:07:19.828 [info] > git rev-parse --abbrev-ref HEAD [11ms]
+2025-12-24 16:07:19.869 [info] > git config user.name [1ms]
+2025-12-24 16:07:19.898 [info] > git rev-parse --abbrev-ref HEAD [14ms]
+2025-12-24 16:07:19.898 [info] > git remote get-url --push origin [1ms]
+2025-12-24 16:07:20.489 [info] > git rev-parse --abbrev-ref HEAD [2ms]
+2025-12-24 16:07:20.489 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [13ms]
+2025-12-24 16:07:20.538 [info] > git remote get-url --push origin [2ms]
+2025-12-24 16:07:20.538 [info] > git rev-parse --abbrev-ref HEAD [16ms]
+2025-12-24 16:07:20.538 [info] > git rev-parse --abbrev-ref HEAD [27ms]
+2025-12-24 16:07:20.538 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [38ms]
+2025-12-24 16:07:20.608 [info] > git config user.name [1ms]
+2025-12-24 16:07:20.646 [info] > git rev-parse --abbrev-ref HEAD [14ms]
+2025-12-24 16:07:20.646 [info] > git remote get-url --push origin [1ms]
+2025-12-24 16:12:17.866 [info] > git rev-parse --show-toplevel [2ms]
+2025-12-24 16:13:17.693 [info] > git rev-parse --abbrev-ref HEAD [1ms]
+2025-12-24 16:13:17.693 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [10ms]
+2025-12-24 16:17:17.867 [info] > git rev-parse --show-toplevel [0ms]
+2025-12-24 16:17:19.774 [info] > git rev-parse --show-toplevel [0ms]
+2025-12-24 16:17:19.786 [info] > git config user.name [1ms]
+2025-12-24 16:17:19.799 [info] > git log --author=henrique.silva --format=%H -n 10 [2ms]
+2025-12-24 16:17:19.821 [info] > git rev-parse --abbrev-ref HEAD [11ms]
+2025-12-24 16:17:19.821 [info] > git remote get-url --push origin [1ms]
+2025-12-24 16:17:19.858 [info] > git config user.name [1ms]
+2025-12-24 16:17:19.880 [info] > git rev-parse --abbrev-ref HEAD [11ms]
+2025-12-24 16:17:19.880 [info] > git remote get-url --push origin [1ms]
+2025-12-24 16:17:20.570 [info] > git rev-parse --abbrev-ref HEAD [11ms]
+2025-12-24 16:17:20.571 [info] > git remote get-url --push origin [1ms]
+2025-12-24 16:17:20.625 [info] > git config user.name [1ms]
+2025-12-24 16:17:20.666 [info] > git rev-parse --abbrev-ref HEAD [14ms]
+2025-12-24 16:17:20.666 [info] > git remote get-url --push origin [1ms]
+2025-12-24 16:18:17.702 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [14ms]
+2025-12-24 16:18:17.702 [info] > git rev-parse --abbrev-ref HEAD [1ms]
+2025-12-24 16:22:17.861 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 16:23:17.697 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [13ms]
+2025-12-24 16:23:17.698 [info] > git rev-parse --abbrev-ref HEAD [1ms]
+2025-12-24 16:27:17.866 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 16:27:19.773 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 16:27:19.783 [info] > git config user.name [0ms]
+2025-12-24 16:27:19.794 [info] > git log --author=henrique.silva --format=%H -n 10 [1ms]
+2025-12-24 16:27:19.810 [info] > git remote get-url --push origin [0ms]
+2025-12-24 16:27:19.810 [info] > git rev-parse --abbrev-ref HEAD [8ms]
+2025-12-24 16:27:19.843 [info] > git config user.name [1ms]
+2025-12-24 16:27:19.868 [info] > git rev-parse --abbrev-ref HEAD [13ms]
+2025-12-24 16:27:19.868 [info] > git remote get-url --push origin [1ms]
+2025-12-24 16:27:20.445 [info] > git remote get-url --push origin [1ms]
+2025-12-24 16:27:20.445 [info] > git rev-parse --abbrev-ref HEAD [11ms]
+2025-12-24 16:27:20.499 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [10ms]
+2025-12-24 16:27:20.504 [info] > git rev-parse --abbrev-ref HEAD [5ms]
+2025-12-24 16:27:20.516 [info] > git config user.name [1ms]
+2025-12-24 16:27:20.551 [info] > git remote get-url --push origin [9ms]
+2025-12-24 16:27:20.551 [info] > git rev-parse --abbrev-ref HEAD [18ms]
+2025-12-24 16:32:17.858 [info] > git rev-parse --show-toplevel [0ms]
+2025-12-24 16:33:17.692 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [10ms]
+2025-12-24 16:33:17.692 [info] > git rev-parse --abbrev-ref HEAD [1ms]
+2025-12-24 16:37:17.861 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 16:37:19.775 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 16:37:19.787 [info] > git config user.name [0ms]
+2025-12-24 16:37:19.799 [info] > git log --author=henrique.silva --format=%H -n 10 [1ms]
+2025-12-24 16:37:19.820 [info] > git remote get-url --push origin [1ms]
+2025-12-24 16:37:19.821 [info] > git rev-parse --abbrev-ref HEAD [11ms]
+2025-12-24 16:37:19.854 [info] > git config user.name [1ms]
+2025-12-24 16:37:19.877 [info] > git remote get-url --push origin [1ms]
+2025-12-24 16:37:19.877 [info] > git rev-parse --abbrev-ref HEAD [12ms]
+2025-12-24 16:37:20.707 [info] > git rev-parse --abbrev-ref HEAD [10ms]
+2025-12-24 16:37:20.708 [info] > git remote get-url --push origin [1ms]
+2025-12-24 16:37:20.754 [info] > git config user.name [0ms]
+2025-12-24 16:37:20.783 [info] > git remote get-url --push origin [0ms]
+2025-12-24 16:37:20.784 [info] > git rev-parse --abbrev-ref HEAD [10ms]
+2025-12-24 16:38:17.692 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [11ms]
+2025-12-24 16:38:17.693 [info] > git rev-parse --abbrev-ref HEAD [1ms]
+2025-12-24 16:42:17.858 [info] > git rev-parse --show-toplevel [0ms]
+2025-12-24 16:43:17.697 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [11ms]
+2025-12-24 16:43:17.697 [info] > git rev-parse --abbrev-ref HEAD [1ms]
+2025-12-24 16:47:17.876 [info] > git rev-parse --show-toplevel [3ms]
+2025-12-24 16:47:19.774 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 16:47:19.793 [info] > git config user.name [0ms]
+2025-12-24 16:47:19.809 [info] > git log --author=henrique.silva --format=%H -n 10 [5ms]
+2025-12-24 16:47:19.837 [info] > git rev-parse --abbrev-ref HEAD [13ms]
+2025-12-24 16:47:19.837 [info] > git remote get-url --push origin [1ms]
+2025-12-24 16:47:19.875 [info] > git config user.name [0ms]
+2025-12-24 16:47:19.909 [info] > git rev-parse --abbrev-ref HEAD [15ms]
+2025-12-24 16:47:19.909 [info] > git remote get-url --push origin [1ms]
+2025-12-24 16:47:20.516 [info] > git remote get-url --push origin [21ms]
+2025-12-24 16:47:20.517 [info] > git rev-parse --abbrev-ref HEAD [33ms]
+2025-12-24 16:47:20.517 [info] > git rev-parse --abbrev-ref HEAD [1ms]
+2025-12-24 16:47:20.517 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [10ms]
+2025-12-24 16:47:20.575 [info] > git config user.name [1ms]
+2025-12-24 16:47:20.605 [info] > git rev-parse --abbrev-ref HEAD [12ms]
+2025-12-24 16:47:20.605 [info] > git remote get-url --push origin [2ms]
+2025-12-24 16:52:17.859 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 16:53:17.708 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [15ms]
+2025-12-24 16:53:17.708 [info] > git rev-parse --abbrev-ref HEAD [1ms]
+2025-12-24 16:57:17.868 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 16:57:19.782 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 16:57:19.801 [info] > git config user.name [1ms]
+2025-12-24 16:57:19.819 [info] > git log --author=henrique.silva --format=%H -n 10 [3ms]
+2025-12-24 16:57:19.848 [info] > git rev-parse --abbrev-ref HEAD [13ms]
+2025-12-24 16:57:19.848 [info] > git remote get-url --push origin [1ms]
+2025-12-24 16:57:19.897 [info] > git config user.name [1ms]
+2025-12-24 16:57:19.914 [info] > git rev-parse --abbrev-ref HEAD [1ms]
+2025-12-24 16:57:19.928 [info] > git remote get-url --push origin [1ms]
+2025-12-24 16:57:20.761 [info] > git rev-parse --abbrev-ref HEAD [14ms]
+2025-12-24 16:57:20.761 [info] > git remote get-url --push origin [1ms]
+2025-12-24 16:57:20.838 [info] > git config user.name [1ms]
+2025-12-24 16:57:20.884 [info] > git rev-parse --abbrev-ref HEAD [15ms]
+2025-12-24 16:57:20.884 [info] > git remote get-url --push origin [1ms]
+2025-12-24 16:58:17.704 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [13ms]
+2025-12-24 16:58:17.704 [info] > git rev-parse --abbrev-ref HEAD [1ms]
+2025-12-24 17:02:17.866 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-24 17:03:17.710 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [16ms]
+2025-12-24 17:03:17.710 [info] > git rev-parse --abbrev-ref HEAD [1ms]

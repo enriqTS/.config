@@ -1,0 +1,825 @@
+12/24/2025, 12:00:14 PM GMT-3 [Modules] Modules initializing
+12/24/2025, 12:00:14 PM GMT-3 [Modules] Distribution: remote
+12/24/2025, 12:00:14 PM GMT-3 [Modules] Host updates: enabled
+12/24/2025, 12:00:14 PM GMT-3 [Modules] Module updates: enabled
+12/24/2025, 12:00:14 PM GMT-3 [Modules] Module install path: /home/henrique/.config/discord/0.0.119/modules
+12/24/2025, 12:00:14 PM GMT-3 [Modules] Module installed file path: /home/henrique/.config/discord/0.0.119/modules/installed.json
+12/24/2025, 12:00:14 PM GMT-3 [Modules] Module download path: /home/henrique/.config/discord/0.0.119/modules/pending
+12/24/2025, 12:00:15 PM GMT-3 [Modules] Bootstrapping...
+12/24/2025, 12:00:15 PM GMT-3 [Modules] Installing discord_desktop_core@0 from /opt/discord/resources/bootstrap/discord_desktop_core.zip
+12/24/2025, 12:00:15 PM GMT-3 [Modules] Failed installing discord_desktop_core@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_desktop_core.zip'
+12/24/2025, 12:00:15 PM GMT-3 [Modules] Installing discord_erlpack@0 from /opt/discord/resources/bootstrap/discord_erlpack.zip
+12/24/2025, 12:00:15 PM GMT-3 [Modules] Failed installing discord_erlpack@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_erlpack.zip'
+12/24/2025, 12:00:15 PM GMT-3 [Modules] Installing discord_spellcheck@0 from /opt/discord/resources/bootstrap/discord_spellcheck.zip
+12/24/2025, 12:00:15 PM GMT-3 [Modules] Failed installing discord_spellcheck@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_spellcheck.zip'
+12/24/2025, 12:00:15 PM GMT-3 [Modules] Installing discord_utils@0 from /opt/discord/resources/bootstrap/discord_utils.zip
+12/24/2025, 12:00:15 PM GMT-3 [Modules] Failed installing discord_utils@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_utils.zip'
+12/24/2025, 12:00:15 PM GMT-3 [Modules] Installing discord_voice@0 from /opt/discord/resources/bootstrap/discord_voice.zip
+12/24/2025, 12:00:15 PM GMT-3 [Modules] Failed installing discord_voice@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_voice.zip'
+12/24/2025, 12:00:15 PM GMT-3 [Modules] Installing discord_zstd@0 from /opt/discord/resources/bootstrap/discord_zstd.zip
+12/24/2025, 12:00:15 PM GMT-3 [Modules] Failed installing discord_zstd@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_zstd.zip'
+12/24/2025, 12:00:15 PM GMT-3 [Modules] Finished module installations. [success: 0] [failure: 6]
+12/24/2025, 12:00:15 PM GMT-3 [Modules] Checking for host updates.
+12/24/2025, 12:00:15 PM GMT-3 [Modules] Host is up to date.
+12/24/2025, 12:00:15 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/24/2025, 12:00:15 PM GMT-3 [Modules] Module update available: discord_desktop_core@1 [installed: 0]
+12/24/2025, 12:00:15 PM GMT-3 [Modules] Module update available: discord_erlpack@1 [installed: 0]
+12/24/2025, 12:00:15 PM GMT-3 [Modules] Module update available: discord_spellcheck@1 [installed: 0]
+12/24/2025, 12:00:15 PM GMT-3 [Modules] Module update available: discord_utils@1 [installed: 0]
+12/24/2025, 12:00:15 PM GMT-3 [Modules] Module update available: discord_voice@1 [installed: 0]
+12/24/2025, 12:00:15 PM GMT-3 [Modules] Module update available: discord_zstd@1 [installed: 0]
+12/24/2025, 12:00:15 PM GMT-3 [Modules] Fetching discord_desktop_core@1 from https://discord.com/api/modules/stable/discord_desktop_core/1
+12/24/2025, 12:00:15 PM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_desktop_core-1.zip
+12/24/2025, 12:00:15 PM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_desktop_core-1.zip: 1%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_desktop_core-1.zip: 2%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_desktop_core-1.zip: 3%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_desktop_core-1.zip: 4%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_desktop_core-1.zip: 5%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_desktop_core-1.zip: 7%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_desktop_core-1.zip: 9%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_desktop_core-1.zip: 10%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_desktop_core-1.zip: 13%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_desktop_core-1.zip: 16%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_desktop_core-1.zip: 20%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_desktop_core-1.zip: 23%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_desktop_core-1.zip: 26%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_desktop_core-1.zip: 28%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_desktop_core-1.zip: 30%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_desktop_core-1.zip: 33%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_desktop_core-1.zip: 36%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_desktop_core-1.zip: 39%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_desktop_core-1.zip: 42%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_desktop_core-1.zip: 45%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_desktop_core-1.zip: 46%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_desktop_core-1.zip: 49%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_desktop_core-1.zip: 50%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_desktop_core-1.zip: 53%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_desktop_core-1.zip: 55%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_desktop_core-1.zip: 59%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_desktop_core-1.zip: 62%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_desktop_core-1.zip: 64%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_desktop_core-1.zip: 68%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_desktop_core-1.zip: 71%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_desktop_core-1.zip: 73%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_desktop_core-1.zip: 79%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_desktop_core-1.zip: 81%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_desktop_core-1.zip: 84%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_desktop_core-1.zip: 87%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_desktop_core-1.zip: 90%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_desktop_core-1.zip: 93%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_desktop_core-1.zip: 96%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_desktop_core-1.zip: 99%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_desktop_core-1.zip: 100%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Fetching discord_erlpack@1 from https://discord.com/api/modules/stable/discord_erlpack/1
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_erlpack-1.zip
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_erlpack-1.zip: 2%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_erlpack-1.zip: 6%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_erlpack-1.zip: 10%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_erlpack-1.zip: 15%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_erlpack-1.zip: 20%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_erlpack-1.zip: 23%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_erlpack-1.zip: 28%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_erlpack-1.zip: 33%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_erlpack-1.zip: 36%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_erlpack-1.zip: 39%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_erlpack-1.zip: 41%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_erlpack-1.zip: 43%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_erlpack-1.zip: 46%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_erlpack-1.zip: 49%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_erlpack-1.zip: 55%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_erlpack-1.zip: 60%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_erlpack-1.zip: 63%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_erlpack-1.zip: 66%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_erlpack-1.zip: 69%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_erlpack-1.zip: 71%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_erlpack-1.zip: 73%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_erlpack-1.zip: 75%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_erlpack-1.zip: 81%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_erlpack-1.zip: 83%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_erlpack-1.zip: 84%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_erlpack-1.zip: 89%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_erlpack-1.zip: 90%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_erlpack-1.zip: 93%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_erlpack-1.zip: 94%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_erlpack-1.zip: 100%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Fetching discord_spellcheck@1 from https://discord.com/api/modules/stable/discord_spellcheck/1
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 1%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 2%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 3%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 4%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 5%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 6%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 7%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 8%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 9%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 10%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 11%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 12%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 13%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 14%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 15%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 16%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 17%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 18%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 19%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 20%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 21%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 22%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 23%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 24%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 25%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 26%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 28%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 29%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 30%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 31%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 32%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 33%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 34%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 35%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 37%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 38%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 39%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 41%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 45%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 48%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 49%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 50%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 51%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 52%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 53%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 54%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 55%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 56%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 57%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 58%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 59%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 60%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 61%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 62%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 63%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 64%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 65%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 66%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 67%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 68%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 69%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 70%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 71%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 72%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 73%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 75%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 77%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 78%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 79%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 81%
+12/24/2025, 12:00:16 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 82%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 83%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 84%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 85%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 86%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 87%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 88%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 89%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 90%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 91%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 92%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 93%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 94%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 95%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 96%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 97%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 98%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 99%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip: 100%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Fetching discord_utils@1 from https://discord.com/api/modules/stable/discord_utils/1
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_utils-1.zip
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_utils-1.zip: 1%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_utils-1.zip: 5%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_utils-1.zip: 13%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_utils-1.zip: 14%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_utils-1.zip: 15%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_utils-1.zip: 24%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_utils-1.zip: 32%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_utils-1.zip: 33%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_utils-1.zip: 38%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_utils-1.zip: 42%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_utils-1.zip: 43%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_utils-1.zip: 44%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_utils-1.zip: 45%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_utils-1.zip: 46%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_utils-1.zip: 48%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_utils-1.zip: 49%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_utils-1.zip: 50%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_utils-1.zip: 51%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_utils-1.zip: 52%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_utils-1.zip: 53%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_utils-1.zip: 54%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_utils-1.zip: 55%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_utils-1.zip: 56%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_utils-1.zip: 57%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_utils-1.zip: 58%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_utils-1.zip: 59%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_utils-1.zip: 60%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_utils-1.zip: 61%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_utils-1.zip: 62%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_utils-1.zip: 63%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_utils-1.zip: 64%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_utils-1.zip: 72%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_utils-1.zip: 82%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_utils-1.zip: 85%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_utils-1.zip: 86%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_utils-1.zip: 87%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_utils-1.zip: 88%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_utils-1.zip: 89%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_utils-1.zip: 90%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_utils-1.zip: 91%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_utils-1.zip: 93%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_utils-1.zip: 94%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_utils-1.zip: 96%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_utils-1.zip: 97%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_utils-1.zip: 98%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_utils-1.zip: 99%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_utils-1.zip: 100%
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Fetching discord_voice@1 from https://discord.com/api/modules/stable/discord_voice/1
+12/24/2025, 12:00:17 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip
+12/24/2025, 12:00:18 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 1%
+12/24/2025, 12:00:18 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 2%
+12/24/2025, 12:00:18 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 3%
+12/24/2025, 12:00:18 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 4%
+12/24/2025, 12:00:18 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 5%
+12/24/2025, 12:00:18 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 6%
+12/24/2025, 12:00:18 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 7%
+12/24/2025, 12:00:18 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 8%
+12/24/2025, 12:00:18 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 9%
+12/24/2025, 12:00:18 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 10%
+12/24/2025, 12:00:18 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 11%
+12/24/2025, 12:00:18 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 12%
+12/24/2025, 12:00:18 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 13%
+12/24/2025, 12:00:18 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 15%
+12/24/2025, 12:00:18 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 16%
+12/24/2025, 12:00:18 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 17%
+12/24/2025, 12:00:18 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 18%
+12/24/2025, 12:00:18 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 19%
+12/24/2025, 12:00:18 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 20%
+12/24/2025, 12:00:18 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 21%
+12/24/2025, 12:00:18 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 22%
+12/24/2025, 12:00:18 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 23%
+12/24/2025, 12:00:18 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 24%
+12/24/2025, 12:00:18 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 25%
+12/24/2025, 12:00:18 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 26%
+12/24/2025, 12:00:18 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 27%
+12/24/2025, 12:00:18 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 29%
+12/24/2025, 12:00:18 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 31%
+12/24/2025, 12:00:18 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 32%
+12/24/2025, 12:00:18 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 33%
+12/24/2025, 12:00:18 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 34%
+12/24/2025, 12:00:18 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 35%
+12/24/2025, 12:00:18 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 36%
+12/24/2025, 12:00:18 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 37%
+12/24/2025, 12:00:18 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 38%
+12/24/2025, 12:00:18 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 39%
+12/24/2025, 12:00:18 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 40%
+12/24/2025, 12:00:18 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 41%
+12/24/2025, 12:00:18 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 42%
+12/24/2025, 12:00:18 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 43%
+12/24/2025, 12:00:18 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 44%
+12/24/2025, 12:00:18 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 45%
+12/24/2025, 12:00:18 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 46%
+12/24/2025, 12:00:18 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 47%
+12/24/2025, 12:00:18 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 48%
+12/24/2025, 12:00:18 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 49%
+12/24/2025, 12:00:18 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 50%
+12/24/2025, 12:00:18 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 51%
+12/24/2025, 12:00:18 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 52%
+12/24/2025, 12:00:18 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 53%
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 54%
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 55%
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 56%
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 57%
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 58%
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 59%
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 60%
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 61%
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 62%
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 63%
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 64%
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 65%
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 66%
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 67%
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 68%
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 69%
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 70%
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 71%
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 72%
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 73%
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 74%
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 75%
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 76%
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 77%
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 78%
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 79%
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 80%
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 81%
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 82%
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 84%
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 86%
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 87%
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 88%
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 89%
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 91%
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 92%
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 93%
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 94%
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 95%
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 96%
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 97%
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 98%
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 99%
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Streaming discord_voice@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip: 100%
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Fetching discord_zstd@1 from https://discord.com/api/modules/stable/discord_zstd/1
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Streaming discord_zstd@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_zstd-1.zip
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Streaming discord_zstd@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_zstd-1.zip: 7%
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Streaming discord_zstd@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_zstd-1.zip: 24%
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Streaming discord_zstd@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_zstd-1.zip: 51%
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Streaming discord_zstd@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_zstd-1.zip: 79%
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Streaming discord_zstd@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_zstd-1.zip: 89%
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Streaming discord_zstd@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_zstd-1.zip: 100%
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Finished module downloads. [success: 6] [failure: 0]
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Installing updates...
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Installing discord_desktop_core@1 from /home/henrique/.config/discord/0.0.119/modules/pending/discord_desktop_core-1.zip
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Installing discord_erlpack@1 from /home/henrique/.config/discord/0.0.119/modules/pending/discord_erlpack-1.zip
+12/24/2025, 12:00:19 PM GMT-3 [Modules] Installing discord_spellcheck@1 from /home/henrique/.config/discord/0.0.119/modules/pending/discord_spellcheck-1.zip
+12/24/2025, 12:00:20 PM GMT-3 [Modules] Installing discord_utils@1 from /home/henrique/.config/discord/0.0.119/modules/pending/discord_utils-1.zip
+12/24/2025, 12:00:20 PM GMT-3 [Modules] Installing discord_voice@1 from /home/henrique/.config/discord/0.0.119/modules/pending/discord_voice-1.zip
+12/24/2025, 12:00:20 PM GMT-3 [Modules] Installing discord_zstd@1 from /home/henrique/.config/discord/0.0.119/modules/pending/discord_zstd-1.zip
+12/24/2025, 12:00:20 PM GMT-3 [Modules] Finished module installations. [success: 6] [failure: 0]
+12/24/2025, 12:00:20 PM GMT-3 [Modules] Checking for host updates.
+12/24/2025, 12:00:20 PM GMT-3 [Modules] Host is up to date.
+12/24/2025, 12:00:20 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/24/2025, 12:00:20 PM GMT-3 [Modules] No module updates available.
+12/24/2025, 12:00:22 PM GMT-3 [Modules] Starting to install discord_krisp...
+12/24/2025, 12:00:22 PM GMT-3 [Modules] Fetching discord_krisp@1 from https://discord.com/api/modules/stable/discord_krisp/1
+12/24/2025, 12:00:22 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip
+12/24/2025, 12:00:22 PM GMT-3 [Modules] Starting to install discord_game_utils...
+12/24/2025, 12:00:22 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 1%
+12/24/2025, 12:00:22 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 2%
+12/24/2025, 12:00:22 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 3%
+12/24/2025, 12:00:22 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 4%
+12/24/2025, 12:00:22 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 5%
+12/24/2025, 12:00:22 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 6%
+12/24/2025, 12:00:22 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 7%
+12/24/2025, 12:00:22 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 8%
+12/24/2025, 12:00:22 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 9%
+12/24/2025, 12:00:22 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 10%
+12/24/2025, 12:00:22 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 11%
+12/24/2025, 12:00:22 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 12%
+12/24/2025, 12:00:22 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 13%
+12/24/2025, 12:00:22 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 14%
+12/24/2025, 12:00:22 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 15%
+12/24/2025, 12:00:22 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 16%
+12/24/2025, 12:00:22 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 17%
+12/24/2025, 12:00:22 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 18%
+12/24/2025, 12:00:22 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 19%
+12/24/2025, 12:00:22 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 20%
+12/24/2025, 12:00:22 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 21%
+12/24/2025, 12:00:22 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 22%
+12/24/2025, 12:00:22 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 23%
+12/24/2025, 12:00:22 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 24%
+12/24/2025, 12:00:22 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 25%
+12/24/2025, 12:00:22 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 26%
+12/24/2025, 12:00:22 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 27%
+12/24/2025, 12:00:22 PM GMT-3 [Modules] Starting to install discord_rpc...
+12/24/2025, 12:00:22 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 28%
+12/24/2025, 12:00:22 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 29%
+12/24/2025, 12:00:22 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 30%
+12/24/2025, 12:00:22 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 31%
+12/24/2025, 12:00:22 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 32%
+12/24/2025, 12:00:22 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 33%
+12/24/2025, 12:00:22 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 34%
+12/24/2025, 12:00:22 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 35%
+12/24/2025, 12:00:22 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 36%
+12/24/2025, 12:00:22 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 37%
+12/24/2025, 12:00:22 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 38%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 39%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 40%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 41%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 42%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 43%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 44%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 45%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 46%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 47%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 48%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 49%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 50%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 51%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 52%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 53%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 54%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 55%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 56%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 57%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 58%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 59%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 60%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 61%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 62%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 63%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 64%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 65%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 66%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 67%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 68%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 69%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 70%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 71%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 72%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 73%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 74%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 75%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 76%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 77%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 78%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 79%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 80%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 81%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 82%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 83%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 84%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 85%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 86%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 87%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 88%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 89%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 90%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 91%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 92%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 93%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 94%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 95%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 96%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 97%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 98%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 99%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_krisp@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip: 100%
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Fetching discord_game_utils@1 from https://discord.com/api/modules/stable/discord_game_utils/1
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_game_utils-1.zip
+12/24/2025, 12:00:23 PM GMT-3 [Modules] Installing discord_krisp@1 from /home/henrique/.config/discord/0.0.119/modules/pending/discord_krisp-1.zip
+12/24/2025, 12:00:24 PM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_game_utils-1.zip: 1%
+12/24/2025, 12:00:24 PM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_game_utils-1.zip: 3%
+12/24/2025, 12:00:24 PM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_game_utils-1.zip: 5%
+12/24/2025, 12:00:24 PM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_game_utils-1.zip: 6%
+12/24/2025, 12:00:24 PM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_game_utils-1.zip: 8%
+12/24/2025, 12:00:24 PM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_game_utils-1.zip: 9%
+12/24/2025, 12:00:24 PM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_game_utils-1.zip: 10%
+12/24/2025, 12:00:24 PM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_game_utils-1.zip: 11%
+12/24/2025, 12:00:24 PM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_game_utils-1.zip: 13%
+12/24/2025, 12:00:24 PM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_game_utils-1.zip: 14%
+12/24/2025, 12:00:24 PM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_game_utils-1.zip: 15%
+12/24/2025, 12:00:24 PM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_game_utils-1.zip: 16%
+12/24/2025, 12:00:24 PM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_game_utils-1.zip: 18%
+12/24/2025, 12:00:24 PM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_game_utils-1.zip: 19%
+12/24/2025, 12:00:24 PM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_game_utils-1.zip: 21%
+12/24/2025, 12:00:24 PM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_game_utils-1.zip: 25%
+12/24/2025, 12:00:24 PM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_game_utils-1.zip: 28%
+12/24/2025, 12:00:24 PM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_game_utils-1.zip: 30%
+12/24/2025, 12:00:24 PM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_game_utils-1.zip: 32%
+12/24/2025, 12:00:24 PM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_game_utils-1.zip: 35%
+12/24/2025, 12:00:24 PM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_game_utils-1.zip: 37%
+12/24/2025, 12:00:24 PM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_game_utils-1.zip: 41%
+12/24/2025, 12:00:24 PM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_game_utils-1.zip: 48%
+12/24/2025, 12:00:24 PM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_game_utils-1.zip: 54%
+12/24/2025, 12:00:24 PM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_game_utils-1.zip: 58%
+12/24/2025, 12:00:24 PM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_game_utils-1.zip: 59%
+12/24/2025, 12:00:24 PM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_game_utils-1.zip: 65%
+12/24/2025, 12:00:24 PM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_game_utils-1.zip: 67%
+12/24/2025, 12:00:24 PM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_game_utils-1.zip: 68%
+12/24/2025, 12:00:24 PM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_game_utils-1.zip: 69%
+12/24/2025, 12:00:24 PM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_game_utils-1.zip: 70%
+12/24/2025, 12:00:24 PM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_game_utils-1.zip: 72%
+12/24/2025, 12:00:24 PM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_game_utils-1.zip: 73%
+12/24/2025, 12:00:24 PM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_game_utils-1.zip: 74%
+12/24/2025, 12:00:24 PM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_game_utils-1.zip: 75%
+12/24/2025, 12:00:24 PM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_game_utils-1.zip: 76%
+12/24/2025, 12:00:24 PM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_game_utils-1.zip: 78%
+12/24/2025, 12:00:24 PM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_game_utils-1.zip: 80%
+12/24/2025, 12:00:24 PM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_game_utils-1.zip: 81%
+12/24/2025, 12:00:24 PM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_game_utils-1.zip: 83%
+12/24/2025, 12:00:24 PM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_game_utils-1.zip: 87%
+12/24/2025, 12:00:24 PM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_game_utils-1.zip: 91%
+12/24/2025, 12:00:24 PM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_game_utils-1.zip: 93%
+12/24/2025, 12:00:24 PM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_game_utils-1.zip: 95%
+12/24/2025, 12:00:24 PM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_game_utils-1.zip: 96%
+12/24/2025, 12:00:24 PM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_game_utils-1.zip: 97%
+12/24/2025, 12:00:24 PM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_game_utils-1.zip: 99%
+12/24/2025, 12:00:24 PM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_game_utils-1.zip: 100%
+12/24/2025, 12:00:24 PM GMT-3 [Modules] Fetching discord_rpc@1 from https://discord.com/api/modules/stable/discord_rpc/1
+12/24/2025, 12:00:24 PM GMT-3 [Modules] Streaming discord_rpc@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_rpc-1.zip
+12/24/2025, 12:00:24 PM GMT-3 [Modules] Streaming discord_rpc@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_rpc-1.zip: 20%
+12/24/2025, 12:00:24 PM GMT-3 [Modules] Streaming discord_rpc@1 to /home/henrique/.config/discord/0.0.119/modules/pending/discord_rpc-1.zip: 100%
+12/24/2025, 12:00:24 PM GMT-3 [Modules] Finished module downloads. [success: 3] [failure: 0]
+12/24/2025, 12:00:24 PM GMT-3 [Modules] Installing discord_game_utils@1 from /home/henrique/.config/discord/0.0.119/modules/pending/discord_game_utils-1.zip
+12/24/2025, 12:00:24 PM GMT-3 [Modules] Installing discord_rpc@1 from /home/henrique/.config/discord/0.0.119/modules/pending/discord_rpc-1.zip
+12/24/2025, 12:00:24 PM GMT-3 [Modules] Finished module installations. [success: 3] [failure: 0]
+12/24/2025, 12:01:00 PM GMT-3 [Modules] Checking for host updates.
+12/24/2025, 12:01:01 PM GMT-3 [Modules] Host is up to date.
+12/24/2025, 12:01:01 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/24/2025, 12:01:01 PM GMT-3 [Modules] No module updates available.
+12/24/2025, 1:01:00 PM GMT-3 [Modules] Checking for host updates.
+12/24/2025, 1:01:01 PM GMT-3 [Modules] Host is up to date.
+12/24/2025, 1:01:01 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/24/2025, 1:01:01 PM GMT-3 [Modules] No module updates available.
+12/24/2025, 2:01:00 PM GMT-3 [Modules] Checking for host updates.
+12/24/2025, 2:01:01 PM GMT-3 [Modules] Host is up to date.
+12/24/2025, 2:01:01 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/24/2025, 2:01:01 PM GMT-3 [Modules] No module updates available.
+12/24/2025, 3:01:00 PM GMT-3 [Modules] Checking for host updates.
+12/24/2025, 3:01:01 PM GMT-3 [Modules] Host is up to date.
+12/24/2025, 3:01:01 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/24/2025, 3:01:01 PM GMT-3 [Modules] No module updates available.
+12/24/2025, 4:01:00 PM GMT-3 [Modules] Checking for host updates.
+12/24/2025, 4:01:01 PM GMT-3 [Modules] Host is up to date.
+12/24/2025, 4:01:01 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/24/2025, 4:01:01 PM GMT-3 [Modules] No module updates available.
+12/24/2025, 5:01:00 PM GMT-3 [Modules] Checking for host updates.
+12/24/2025, 5:01:01 PM GMT-3 [Modules] Host is up to date.
+12/24/2025, 5:01:01 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/24/2025, 5:01:01 PM GMT-3 [Modules] No module updates available.
+12/26/2025, 6:09:33 PM GMT-3 [Modules] Modules initializing
+12/26/2025, 6:09:33 PM GMT-3 [Modules] Distribution: remote
+12/26/2025, 6:09:33 PM GMT-3 [Modules] Host updates: enabled
+12/26/2025, 6:09:33 PM GMT-3 [Modules] Module updates: enabled
+12/26/2025, 6:09:33 PM GMT-3 [Modules] Module install path: /home/henrique/.config/discord/0.0.119/modules
+12/26/2025, 6:09:33 PM GMT-3 [Modules] Module installed file path: /home/henrique/.config/discord/0.0.119/modules/installed.json
+12/26/2025, 6:09:33 PM GMT-3 [Modules] Module download path: /home/henrique/.config/discord/0.0.119/modules/pending
+12/26/2025, 6:09:33 PM GMT-3 [Modules] No updates to install
+12/26/2025, 6:09:33 PM GMT-3 [Modules] Checking for host updates.
+12/26/2025, 6:09:33 PM GMT-3 [Modules] Host is up to date.
+12/26/2025, 6:09:33 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/26/2025, 6:09:33 PM GMT-3 [Modules] No module updates available.
+12/26/2025, 6:09:39 PM GMT-3 [Modules] Checking for host updates.
+12/26/2025, 6:09:40 PM GMT-3 [Modules] Host is up to date.
+12/26/2025, 6:09:40 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/26/2025, 6:09:40 PM GMT-3 [Modules] No module updates available.
+12/26/2025, 7:09:39 PM GMT-3 [Modules] Checking for host updates.
+12/26/2025, 7:09:40 PM GMT-3 [Modules] Host is up to date.
+12/26/2025, 7:09:40 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/26/2025, 7:09:40 PM GMT-3 [Modules] No module updates available.
+12/26/2025, 8:09:39 PM GMT-3 [Modules] Checking for host updates.
+12/26/2025, 8:09:40 PM GMT-3 [Modules] Host is up to date.
+12/26/2025, 8:09:40 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/26/2025, 8:09:40 PM GMT-3 [Modules] No module updates available.
+12/26/2025, 9:09:39 PM GMT-3 [Modules] Checking for host updates.
+12/26/2025, 9:09:40 PM GMT-3 [Modules] Host is up to date.
+12/26/2025, 9:09:40 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/26/2025, 9:09:40 PM GMT-3 [Modules] No module updates available.
+12/26/2025, 10:09:39 PM GMT-3 [Modules] Checking for host updates.
+12/26/2025, 10:09:40 PM GMT-3 [Modules] Host is up to date.
+12/26/2025, 10:09:40 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/26/2025, 10:09:40 PM GMT-3 [Modules] No module updates available.
+12/27/2025, 10:38:39 AM GMT-3 [Modules] Modules initializing
+12/27/2025, 10:38:39 AM GMT-3 [Modules] Distribution: remote
+12/27/2025, 10:38:39 AM GMT-3 [Modules] Host updates: enabled
+12/27/2025, 10:38:39 AM GMT-3 [Modules] Module updates: enabled
+12/27/2025, 10:38:39 AM GMT-3 [Modules] Module install path: /home/henrique/.config/discord/0.0.119/modules
+12/27/2025, 10:38:39 AM GMT-3 [Modules] Module installed file path: /home/henrique/.config/discord/0.0.119/modules/installed.json
+12/27/2025, 10:38:39 AM GMT-3 [Modules] Module download path: /home/henrique/.config/discord/0.0.119/modules/pending
+12/27/2025, 10:38:39 AM GMT-3 [Modules] No updates to install
+12/27/2025, 10:38:39 AM GMT-3 [Modules] Checking for host updates.
+12/27/2025, 10:38:39 AM GMT-3 [Modules] Host is up to date.
+12/27/2025, 10:38:39 AM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/27/2025, 10:38:40 AM GMT-3 [Modules] No module updates available.
+12/27/2025, 10:38:46 AM GMT-3 [Modules] Checking for host updates.
+12/27/2025, 10:38:46 AM GMT-3 [Modules] Host is up to date.
+12/27/2025, 10:38:46 AM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/27/2025, 10:38:46 AM GMT-3 [Modules] No module updates available.
+12/27/2025, 11:39:06 AM GMT-3 [Modules] Checking for host updates.
+12/27/2025, 11:39:06 AM GMT-3 [Modules] Host is up to date.
+12/27/2025, 11:39:06 AM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/27/2025, 11:39:06 AM GMT-3 [Modules] No module updates available.
+12/27/2025, 12:39:06 PM GMT-3 [Modules] Checking for host updates.
+12/27/2025, 12:39:06 PM GMT-3 [Modules] Host is up to date.
+12/27/2025, 12:39:06 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/27/2025, 12:39:06 PM GMT-3 [Modules] No module updates available.
+12/27/2025, 1:39:06 PM GMT-3 [Modules] Checking for host updates.
+12/27/2025, 1:39:06 PM GMT-3 [Modules] Host is up to date.
+12/27/2025, 1:39:06 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/27/2025, 1:39:06 PM GMT-3 [Modules] No module updates available.
+12/27/2025, 2:39:06 PM GMT-3 [Modules] Checking for host updates.
+12/27/2025, 2:39:06 PM GMT-3 [Modules] Host is up to date.
+12/27/2025, 2:39:06 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/27/2025, 2:39:06 PM GMT-3 [Modules] No module updates available.
+12/27/2025, 3:39:06 PM GMT-3 [Modules] Checking for host updates.
+12/27/2025, 3:39:06 PM GMT-3 [Modules] Host is up to date.
+12/27/2025, 3:39:06 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/27/2025, 3:39:06 PM GMT-3 [Modules] No module updates available.
+12/27/2025, 4:39:06 PM GMT-3 [Modules] Checking for host updates.
+12/27/2025, 4:39:06 PM GMT-3 [Modules] Host is up to date.
+12/27/2025, 4:39:06 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/27/2025, 4:39:06 PM GMT-3 [Modules] No module updates available.
+12/27/2025, 5:39:06 PM GMT-3 [Modules] Checking for host updates.
+12/27/2025, 5:39:06 PM GMT-3 [Modules] Host is up to date.
+12/27/2025, 5:39:06 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/27/2025, 5:39:06 PM GMT-3 [Modules] No module updates available.
+12/27/2025, 6:39:06 PM GMT-3 [Modules] Checking for host updates.
+12/27/2025, 6:39:28 PM GMT-3 [Modules] Host update failed: AggregateError
+12/27/2025, 6:48:10 PM GMT-3 [Modules] Modules initializing
+12/27/2025, 6:48:10 PM GMT-3 [Modules] Distribution: remote
+12/27/2025, 6:48:10 PM GMT-3 [Modules] Host updates: enabled
+12/27/2025, 6:48:10 PM GMT-3 [Modules] Module updates: enabled
+12/27/2025, 6:48:10 PM GMT-3 [Modules] Module install path: /home/henrique/.config/discord/0.0.119/modules
+12/27/2025, 6:48:10 PM GMT-3 [Modules] Module installed file path: /home/henrique/.config/discord/0.0.119/modules/installed.json
+12/27/2025, 6:48:10 PM GMT-3 [Modules] Module download path: /home/henrique/.config/discord/0.0.119/modules/pending
+12/27/2025, 6:48:10 PM GMT-3 [Modules] No updates to install
+12/27/2025, 6:48:10 PM GMT-3 [Modules] Checking for host updates.
+12/27/2025, 6:48:31 PM GMT-3 [Modules] Host update failed: AggregateError
+12/27/2025, 6:48:51 PM GMT-3 [Modules] Checking for host updates.
+12/27/2025, 6:49:07 PM GMT-3 [Modules] Host is up to date.
+12/27/2025, 6:49:07 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/27/2025, 6:49:07 PM GMT-3 [Modules] No module updates available.
+12/27/2025, 6:49:16 PM GMT-3 [Modules] Checking for host updates.
+12/27/2025, 6:49:16 PM GMT-3 [Modules] Host is up to date.
+12/27/2025, 6:49:16 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/27/2025, 6:49:16 PM GMT-3 [Modules] No module updates available.
+12/27/2025, 6:49:31 PM GMT-3 [Modules] Checking for host updates.
+12/27/2025, 6:49:32 PM GMT-3 [Modules] Host is up to date.
+12/27/2025, 6:49:32 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/27/2025, 6:49:32 PM GMT-3 [Modules] No module updates available.
+12/27/2025, 7:49:16 PM GMT-3 [Modules] Checking for host updates.
+12/27/2025, 7:49:16 PM GMT-3 [Modules] Host is up to date.
+12/27/2025, 7:49:16 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/27/2025, 7:49:16 PM GMT-3 [Modules] No module updates available.
+12/27/2025, 8:49:16 PM GMT-3 [Modules] Checking for host updates.
+12/27/2025, 8:49:16 PM GMT-3 [Modules] Host is up to date.
+12/27/2025, 8:49:16 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/27/2025, 8:49:16 PM GMT-3 [Modules] No module updates available.
+12/27/2025, 9:49:16 PM GMT-3 [Modules] Checking for host updates.
+12/27/2025, 9:49:16 PM GMT-3 [Modules] Host is up to date.
+12/27/2025, 9:49:16 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/27/2025, 9:49:16 PM GMT-3 [Modules] No module updates available.
+12/27/2025, 10:49:16 PM GMT-3 [Modules] Checking for host updates.
+12/27/2025, 10:49:16 PM GMT-3 [Modules] Host is up to date.
+12/27/2025, 10:49:16 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/27/2025, 10:49:16 PM GMT-3 [Modules] No module updates available.
+12/28/2025, 3:27:47 PM GMT-3 [Modules] Modules initializing
+12/28/2025, 3:27:47 PM GMT-3 [Modules] Distribution: remote
+12/28/2025, 3:27:47 PM GMT-3 [Modules] Host updates: enabled
+12/28/2025, 3:27:47 PM GMT-3 [Modules] Module updates: enabled
+12/28/2025, 3:27:47 PM GMT-3 [Modules] Module install path: /home/henrique/.config/discord/0.0.119/modules
+12/28/2025, 3:27:47 PM GMT-3 [Modules] Module installed file path: /home/henrique/.config/discord/0.0.119/modules/installed.json
+12/28/2025, 3:27:47 PM GMT-3 [Modules] Module download path: /home/henrique/.config/discord/0.0.119/modules/pending
+12/28/2025, 3:27:47 PM GMT-3 [Modules] No updates to install
+12/28/2025, 3:27:47 PM GMT-3 [Modules] Checking for host updates.
+12/28/2025, 3:27:47 PM GMT-3 [Modules] Host is up to date.
+12/28/2025, 3:27:47 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/28/2025, 3:27:47 PM GMT-3 [Modules] No module updates available.
+12/28/2025, 3:27:53 PM GMT-3 [Modules] Checking for host updates.
+12/28/2025, 3:27:54 PM GMT-3 [Modules] Host is up to date.
+12/28/2025, 3:27:54 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/28/2025, 3:27:54 PM GMT-3 [Modules] No module updates available.
+12/28/2025, 4:27:53 PM GMT-3 [Modules] Checking for host updates.
+12/28/2025, 4:27:53 PM GMT-3 [Modules] Host is up to date.
+12/28/2025, 4:27:53 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/28/2025, 4:27:53 PM GMT-3 [Modules] No module updates available.
+12/28/2025, 5:27:53 PM GMT-3 [Modules] Checking for host updates.
+12/28/2025, 5:27:53 PM GMT-3 [Modules] Host is up to date.
+12/28/2025, 5:27:53 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/28/2025, 5:27:53 PM GMT-3 [Modules] No module updates available.
+12/28/2025, 6:27:53 PM GMT-3 [Modules] Checking for host updates.
+12/28/2025, 6:27:53 PM GMT-3 [Modules] Host is up to date.
+12/28/2025, 6:27:53 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/28/2025, 6:27:53 PM GMT-3 [Modules] No module updates available.
+12/28/2025, 7:27:53 PM GMT-3 [Modules] Checking for host updates.
+12/28/2025, 7:27:53 PM GMT-3 [Modules] Host is up to date.
+12/28/2025, 7:27:53 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/28/2025, 7:27:53 PM GMT-3 [Modules] No module updates available.
+12/28/2025, 8:27:53 PM GMT-3 [Modules] Checking for host updates.
+12/28/2025, 8:27:53 PM GMT-3 [Modules] Host is up to date.
+12/28/2025, 8:27:53 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/28/2025, 8:27:53 PM GMT-3 [Modules] No module updates available.
+12/28/2025, 9:27:53 PM GMT-3 [Modules] Checking for host updates.
+12/28/2025, 9:27:53 PM GMT-3 [Modules] Host is up to date.
+12/28/2025, 9:27:53 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/28/2025, 9:27:53 PM GMT-3 [Modules] No module updates available.
+12/28/2025, 10:27:53 PM GMT-3 [Modules] Checking for host updates.
+12/28/2025, 10:27:53 PM GMT-3 [Modules] Host is up to date.
+12/28/2025, 10:27:53 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/28/2025, 10:27:53 PM GMT-3 [Modules] No module updates available.
+12/29/2025, 6:49:22 PM GMT-3 [Modules] Modules initializing
+12/29/2025, 6:49:22 PM GMT-3 [Modules] Distribution: remote
+12/29/2025, 6:49:22 PM GMT-3 [Modules] Host updates: enabled
+12/29/2025, 6:49:22 PM GMT-3 [Modules] Module updates: enabled
+12/29/2025, 6:49:22 PM GMT-3 [Modules] Module install path: /home/henrique/.config/discord/0.0.119/modules
+12/29/2025, 6:49:22 PM GMT-3 [Modules] Module installed file path: /home/henrique/.config/discord/0.0.119/modules/installed.json
+12/29/2025, 6:49:22 PM GMT-3 [Modules] Module download path: /home/henrique/.config/discord/0.0.119/modules/pending
+12/29/2025, 6:49:22 PM GMT-3 [Modules] No updates to install
+12/29/2025, 6:49:22 PM GMT-3 [Modules] Checking for host updates.
+12/29/2025, 6:49:23 PM GMT-3 [Modules] Host is up to date.
+12/29/2025, 6:49:23 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/29/2025, 6:49:23 PM GMT-3 [Modules] No module updates available.
+12/29/2025, 6:49:29 PM GMT-3 [Modules] Checking for host updates.
+12/29/2025, 6:49:30 PM GMT-3 [Modules] Host is up to date.
+12/29/2025, 6:49:30 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/29/2025, 6:49:30 PM GMT-3 [Modules] No module updates available.
+12/29/2025, 7:49:29 PM GMT-3 [Modules] Checking for host updates.
+12/29/2025, 7:49:29 PM GMT-3 [Modules] Host is up to date.
+12/29/2025, 7:49:29 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/29/2025, 7:49:29 PM GMT-3 [Modules] No module updates available.
+12/29/2025, 8:49:29 PM GMT-3 [Modules] Checking for host updates.
+12/29/2025, 8:49:29 PM GMT-3 [Modules] Host is up to date.
+12/29/2025, 8:49:29 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/29/2025, 8:49:29 PM GMT-3 [Modules] No module updates available.
+12/29/2025, 9:49:29 PM GMT-3 [Modules] Checking for host updates.
+12/29/2025, 9:49:29 PM GMT-3 [Modules] Host is up to date.
+12/29/2025, 9:49:29 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/29/2025, 9:49:29 PM GMT-3 [Modules] No module updates available.
+12/29/2025, 10:49:29 PM GMT-3 [Modules] Checking for host updates.
+12/29/2025, 10:49:29 PM GMT-3 [Modules] Host is up to date.
+12/29/2025, 10:49:29 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/29/2025, 10:49:29 PM GMT-3 [Modules] No module updates available.
+12/30/2025, 9:30:54 AM GMT-3 [Modules] Modules initializing
+12/30/2025, 9:30:54 AM GMT-3 [Modules] Distribution: remote
+12/30/2025, 9:30:54 AM GMT-3 [Modules] Host updates: enabled
+12/30/2025, 9:30:54 AM GMT-3 [Modules] Module updates: enabled
+12/30/2025, 9:30:54 AM GMT-3 [Modules] Module install path: /home/henrique/.config/discord/0.0.119/modules
+12/30/2025, 9:30:54 AM GMT-3 [Modules] Module installed file path: /home/henrique/.config/discord/0.0.119/modules/installed.json
+12/30/2025, 9:30:54 AM GMT-3 [Modules] Module download path: /home/henrique/.config/discord/0.0.119/modules/pending
+12/30/2025, 9:30:54 AM GMT-3 [Modules] No updates to install
+12/30/2025, 9:30:54 AM GMT-3 [Modules] Checking for host updates.
+12/30/2025, 9:30:54 AM GMT-3 [Modules] Host is up to date.
+12/30/2025, 9:30:54 AM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/30/2025, 9:30:54 AM GMT-3 [Modules] No module updates available.
+12/30/2025, 9:31:02 AM GMT-3 [Modules] Checking for host updates.
+12/30/2025, 9:31:03 AM GMT-3 [Modules] Host is up to date.
+12/30/2025, 9:31:03 AM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/30/2025, 9:31:03 AM GMT-3 [Modules] No module updates available.
+12/30/2025, 9:31:27 AM GMT-3 [Modules] Modules initializing
+12/30/2025, 9:31:27 AM GMT-3 [Modules] Distribution: remote
+12/30/2025, 9:31:27 AM GMT-3 [Modules] Host updates: enabled
+12/30/2025, 9:31:27 AM GMT-3 [Modules] Module updates: enabled
+12/30/2025, 9:31:27 AM GMT-3 [Modules] Module install path: /home/henrique/.config/discord/0.0.119/modules
+12/30/2025, 9:31:27 AM GMT-3 [Modules] Module installed file path: /home/henrique/.config/discord/0.0.119/modules/installed.json
+12/30/2025, 9:31:27 AM GMT-3 [Modules] Module download path: /home/henrique/.config/discord/0.0.119/modules/pending
+12/30/2025, 9:31:28 AM GMT-3 [Modules] No updates to install
+12/30/2025, 9:31:28 AM GMT-3 [Modules] Checking for host updates.
+12/30/2025, 9:31:28 AM GMT-3 [Modules] Host is up to date.
+12/30/2025, 9:31:28 AM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/30/2025, 9:31:28 AM GMT-3 [Modules] No module updates available.
+12/30/2025, 9:31:36 AM GMT-3 [Modules] Checking for host updates.
+12/30/2025, 9:31:36 AM GMT-3 [Modules] Host is up to date.
+12/30/2025, 9:31:36 AM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/30/2025, 9:31:36 AM GMT-3 [Modules] No module updates available.
+12/30/2025, 10:31:36 AM GMT-3 [Modules] Checking for host updates.
+12/30/2025, 10:31:37 AM GMT-3 [Modules] Host is up to date.
+12/30/2025, 10:31:37 AM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/30/2025, 10:31:37 AM GMT-3 [Modules] No module updates available.
+12/30/2025, 11:31:36 AM GMT-3 [Modules] Checking for host updates.
+12/30/2025, 11:31:37 AM GMT-3 [Modules] Host is up to date.
+12/30/2025, 11:31:37 AM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/30/2025, 11:31:37 AM GMT-3 [Modules] No module updates available.
+12/30/2025, 12:31:36 PM GMT-3 [Modules] Checking for host updates.
+12/30/2025, 12:31:36 PM GMT-3 [Modules] Host is up to date.
+12/30/2025, 12:31:36 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/30/2025, 12:31:36 PM GMT-3 [Modules] No module updates available.
+12/30/2025, 1:31:36 PM GMT-3 [Modules] Checking for host updates.
+12/30/2025, 1:31:36 PM GMT-3 [Modules] Host is up to date.
+12/30/2025, 1:31:36 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/30/2025, 1:31:36 PM GMT-3 [Modules] No module updates available.
+12/30/2025, 2:31:36 PM GMT-3 [Modules] Checking for host updates.
+12/30/2025, 2:31:36 PM GMT-3 [Modules] Host is up to date.
+12/30/2025, 2:31:36 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/30/2025, 2:31:36 PM GMT-3 [Modules] No module updates available.
+12/30/2025, 3:31:36 PM GMT-3 [Modules] Checking for host updates.
+12/30/2025, 3:31:36 PM GMT-3 [Modules] Host is up to date.
+12/30/2025, 3:31:36 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/30/2025, 3:31:36 PM GMT-3 [Modules] No module updates available.
+12/30/2025, 4:31:36 PM GMT-3 [Modules] Checking for host updates.
+12/30/2025, 4:31:36 PM GMT-3 [Modules] Host is up to date.
+12/30/2025, 4:31:36 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/30/2025, 4:31:36 PM GMT-3 [Modules] No module updates available.
+12/30/2025, 5:31:36 PM GMT-3 [Modules] Checking for host updates.
+12/30/2025, 5:31:36 PM GMT-3 [Modules] Host is up to date.
+12/30/2025, 5:31:36 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/30/2025, 5:31:36 PM GMT-3 [Modules] No module updates available.
+12/30/2025, 6:31:36 PM GMT-3 [Modules] Checking for host updates.
+12/30/2025, 6:31:36 PM GMT-3 [Modules] Host is up to date.
+12/30/2025, 6:31:36 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/30/2025, 6:31:36 PM GMT-3 [Modules] No module updates available.
+12/30/2025, 7:31:36 PM GMT-3 [Modules] Checking for host updates.
+12/30/2025, 7:31:36 PM GMT-3 [Modules] Host is up to date.
+12/30/2025, 7:31:36 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/30/2025, 7:31:36 PM GMT-3 [Modules] No module updates available.
+12/30/2025, 8:31:36 PM GMT-3 [Modules] Checking for host updates.
+12/30/2025, 8:31:36 PM GMT-3 [Modules] Host is up to date.
+12/30/2025, 8:31:36 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/30/2025, 8:31:36 PM GMT-3 [Modules] No module updates available.
+12/30/2025, 9:31:36 PM GMT-3 [Modules] Checking for host updates.
+12/30/2025, 9:31:36 PM GMT-3 [Modules] Host is up to date.
+12/30/2025, 9:31:36 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/30/2025, 9:31:36 PM GMT-3 [Modules] No module updates available.
+12/30/2025, 10:31:36 PM GMT-3 [Modules] Checking for host updates.
+12/30/2025, 10:31:36 PM GMT-3 [Modules] Host is up to date.
+12/30/2025, 10:31:36 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+12/30/2025, 10:31:36 PM GMT-3 [Modules] No module updates available.

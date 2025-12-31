@@ -1,0 +1,24 @@
+[Info  - 11:20:10] basedpyright language server 1.32.1 starting
+[Info  - 11:20:10] Server root directory: file:///home/henrique/.cursor/extensions/anysphere.cursorpyright-1.0.10/dist
+[Info  - 11:20:11] Starting service instance "Rodosafra IA"
+[Info  - 11:20:11] BG: Background analysis(1) root directory: file:///home/henrique/.cursor/extensions/anysphere.cursorpyright-1.0.10/dist
+[Info  - 11:20:11] BG: Background analysis(1) started
+Received pythonPath from Python extension: /bin/python
+[Info  - 11:20:11] Setting pythonPath for service "Rodosafra IA": "/bin/python"
+[Info  - 11:20:11] No include entries specified; assuming /home/henrique/upd8/Rodosafra IA
+[Info  - 11:20:11] Auto-excluding **/node_modules
+[Info  - 11:20:11] Auto-excluding **/__pycache__
+[Info  - 11:20:11] Auto-excluding **/.*
+[Info  - 11:20:11] Assuming Python version 3.13.11.final.0
+[Info  - 11:20:11] Found 147 source files
+[Info  - 13:53:02] Found 147 source files
+[Info  - 14:02:27] Found 148 source files
+[Info  - 15:01:02] Found 148 source files
+[Info  - 15:01:25] Found 148 source files
+[Info  - 15:01:48] Found 148 source files
+[Info  - 15:02:11] Found 148 source files
+[Info  - 15:02:38] Found 148 source files
+[Info  - 15:03:09] Found 148 source files
+[Info  - 15:11:43] Found 158 source files
+[Info  - 15:12:04] Found 161 source files
+[Info  - 16:01:02] Found 161 source files

@@ -1,0 +1,130 @@
+2025-12-27 11:20:05.412 [warning] Missing property "ignoreSymlinks" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-27 11:20:05.412 [warning] Missing property "ignoreSymlinks" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-27 11:20:05.413 [warning] Missing property "rpcFileLoggerFolder" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-27 11:20:05.417 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-27 11:20:05.417 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-copilot-data-analysis' wants API proposal 'chatVariableResolver' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-27 11:20:05.417 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-27 11:20:05.418 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-python-envs' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-27 11:20:05.418 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatReadonlyPromptReference' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-27 11:20:05.418 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-27 11:20:05.418 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-27 11:20:05.419 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-27 11:20:05.419 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-27 11:20:05.874 [info] Started local extension host with pid 11036.
+2025-12-27 11:20:06.041 [warning] [aws-toolkit-vscode]: Couldn't find message for key AWS.command.apig.copyUrl.
+2025-12-27 11:20:06.106 [error] Extension 'ms-toolsai.jupyter' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): notebookDeprecated, notebookMessaging, notebookMime, contribNotebookStaticPreloads, portsAttributes, quickPickSortByLabel, notebookKernelSource, interactiveWindow, quickPickItemTooltip, notebookExecution, notebookCellExecution, notebookVariableProvider, notebookReplDocument
+product.json (WINS): notebookDeprecated, notebookMessaging, notebookMime, notebookCellExecutionState, quickPickSortByLabel, notebookKernelSource, interactiveWindow, notebookControllerAffinityHidden, contribNotebookStaticPreloads, quickPickItemTooltip, notebookExecution, notebookCellExecution, notebookVariableProvider, notebookReplDocument
+2025-12-27 11:20:06.145 [warning] [ms-python.python]: Cannot register 'python.venvPath'. This property is already registered.
+2025-12-27 11:20:06.560 [info] [agent-layout] force_to_agent_layout became true, will switch to agent layout on next app startup
+2025-12-27 11:20:06.561 [info] [agent-layout] Forcing switch to agent layout (pending from previous session)
+2025-12-27 11:20:06.602 [warning] Unexpected error checking unified sidebar visibility: Index out of bounds
+2025-12-27 11:20:06.603 [warning] Unexpected error checking unified sidebar visibility: Index out of bounds
+2025-12-27 11:20:06.603 [warning] Unexpected error checking unified sidebar visibility: Index out of bounds
+2025-12-27 11:20:06.603 [warning] Unexpected error checking unified sidebar visibility: Index out of bounds
+2025-12-27 11:20:06.616 [warning] Unexpected error checking unified sidebar visibility: Index out of bounds
+2025-12-27 11:20:06.616 [warning] Unexpected error checking unified sidebar visibility: Index out of bounds
+2025-12-27 11:20:06.617 [warning] Unexpected error checking unified sidebar visibility: Index out of bounds
+2025-12-27 11:20:06.617 [warning] Unexpected error checking unified sidebar visibility: Index out of bounds
+2025-12-27 11:20:06.617 [warning] Unexpected error checking unified sidebar visibility: Index out of bounds
+2025-12-27 11:20:06.942 [warning] No search provider registered for scheme: file, waiting
+2025-12-27 11:20:06.961 [info] [LocalProcessExtensionHost] getDefaultShell result: /usr/bin/fish
+2025-12-27 11:20:06.964 [info] [LocalProcessExtensionHost] Final userTerminalHint: /usr/bin/fish
+2025-12-27 11:20:07.378 [info] [WorktreeCleanupCron] Registering cleanup task with interval of 6 hours
+2025-12-27 11:20:07.378 [info] [WorktreeCleanupCron] Cleanup task registered with interval of 6 hours (21600000ms)
+2025-12-27 11:20:08.361 [info] [Debug] Registered command palette action: debug.getApplicationProperty
+2025-12-27 11:20:08.361 [info] [Debug] Registered command palette action: debug.logComposer
+2025-12-27 11:20:08.362 [info] [Debug] Registered command palette action: debug.getContextKeyValue
+2025-12-27 11:20:08.362 [info] [Debug] Registered command palette action: debug.testLinearIssues
+2025-12-27 11:20:08.362 [info] [Debug] Registered command palette action: debug.classifyRecentConversations
+2025-12-27 11:20:08.395 [info] OpenInBrowserWatcher: Initializing terminal log watcher
+2025-12-27 11:20:08.430 [info] [Cursor Proclist Polling] Config applied to Main process
+2025-12-27 11:20:08.431 [info] [Cursor Proclist Polling] Started polling (every 5 min)
+2025-12-27 11:20:08.712 [error] [Extension Host] (node:11036) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-12-27 11:20:09.460 [info] [perf] Render performance baseline is 17ms
+2025-12-27 11:20:09.910 [warning] Authentication provider HashiCorpTerraformCloud was not declared in the Extension Manifest.
+2025-12-27 11:20:10.016 [info] [ShellExec] Created session 0ccf2578-f280-4159-a3b4-ec699f0ba730 on LocalProcess host
+2025-12-27 11:20:15.547 [error] [Extension Host] [otel.error] {"stack":"OTLPExporterError: Bad Request\n\tat IncomingMessage.<anonymous> (/usr/share/cursor/resources/app/node_modules/@opentelemetry/otlp-exporter-base/build/src/transport/http-transport-utils.js:52:31)\n\tat IncomingMessage.emit (node:events:531:35)\n\tat IncomingMessage.emit (node:domain:489:12)\n\tat endReadableNT (node:internal/streams/readable:1698:12)\n\tat process.processTicksAndRejections (node:internal/process/task_queues:90:21)","message":"Bad Request","code":"400","name":"OTLPExporterError","data":"{\"error\":\"Trace spans collection is not enabled for this user\"}"}
+2025-12-27 11:20:34.092 [info] [Extensions]: Checking for updates. Reason: Product update
+2025-12-27 11:21:07.033 [error] [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh: ConnectError: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+    at t (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:12375:457550)
+    at async Object.getTeams (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:585:88139)
+    at async gFs.getTeams (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:14956:38459)
+    at async gFs.refreshMembership (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:14956:24577) [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2025-12-27 11:25:28.676 [info] [Cursor Proclist] Samples written: 21 local processes, 0 remote processes
+2025-12-27 11:28:44.426 [error] An unknown error occurred. Please consult the log for more details. {}
+2025-12-27 11:30:28.662 [info] [Cursor Proclist] Samples written: 17 local processes, 0 remote processes
+2025-12-27 11:35:28.663 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 11:40:28.679 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 11:45:28.674 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 11:50:28.662 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 11:55:28.669 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 12:00:28.662 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 12:05:28.671 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 12:10:28.665 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 12:15:28.663 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 12:20:28.673 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 12:25:28.666 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 12:30:28.671 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 12:35:28.670 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 12:40:28.667 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 12:45:28.667 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 12:50:28.668 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 12:55:28.670 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 13:00:28.674 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 13:05:28.668 [info] [Cursor Proclist] Samples written: 19 local processes, 0 remote processes
+2025-12-27 13:10:28.674 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 13:15:28.691 [info] [Cursor Proclist] Samples written: 21 local processes, 0 remote processes
+2025-12-27 13:20:28.665 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 13:25:28.671 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 13:30:28.667 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 13:35:28.668 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 13:40:28.664 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 13:45:28.663 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 13:50:28.665 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 13:53:01.967 [error] An unknown error occurred. Please consult the log for more details. {"code":-32601}
+2025-12-27 13:55:28.670 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 14:00:28.670 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 14:05:28.663 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 14:10:28.670 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 14:15:28.666 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 14:20:28.667 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 14:25:28.670 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 14:30:28.664 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 14:32:05.282 [error] [Extension Host] [otel.error] {"stack":"OTLPExporterError: Bad Request\n\tat IncomingMessage.<anonymous> (/usr/share/cursor/resources/app/node_modules/@opentelemetry/otlp-exporter-base/build/src/transport/http-transport-utils.js:52:31)\n\tat IncomingMessage.emit (node:events:531:35)\n\tat IncomingMessage.emit (node:domain:489:12)\n\tat endReadableNT (node:internal/streams/readable:1698:12)\n\tat process.processTicksAndRejections (node:internal/process/task_queues:90:21)","message":"Bad Request","code":"400","name":"OTLPExporterError","data":"{\"error\":\"Trace spans collection is not enabled for this user\"}"}
+2025-12-27 14:35:28.672 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 14:40:28.664 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 14:45:28.670 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 14:50:28.662 [info] [Cursor Proclist] Samples written: 19 local processes, 0 remote processes
+2025-12-27 14:55:28.662 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 15:00:28.663 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 15:05:28.669 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 15:10:17.566 [error] An unknown error occurred. Please consult the log for more details. {"code":-32601}
+2025-12-27 15:10:23.763 [error] An unknown error occurred. Please consult the log for more details. {"code":-32601}
+2025-12-27 15:10:28.676 [info] [Cursor Proclist] Samples written: 24 local processes, 0 remote processes
+2025-12-27 15:10:31.229 [error] An unknown error occurred. Please consult the log for more details. {"code":-32601}
+2025-12-27 15:10:44.915 [error] An unknown error occurred. Please consult the log for more details. {"code":-32601}
+2025-12-27 15:10:50.941 [error] An unknown error occurred. Please consult the log for more details. {"code":-32601}
+2025-12-27 15:15:28.670 [info] [Cursor Proclist] Samples written: 24 local processes, 0 remote processes
+2025-12-27 15:20:28.663 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 15:25:28.667 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 15:30:28.671 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 15:35:28.663 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 15:40:28.669 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 15:45:28.672 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 15:50:28.670 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 15:55:28.663 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 16:00:28.667 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 16:01:02.336 [error] An unknown error occurred. Please consult the log for more details. {"code":-32601}
+2025-12-27 16:05:28.663 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 16:10:28.677 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 16:15:28.675 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 16:20:28.670 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 16:25:28.670 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 16:30:28.663 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 16:35:28.672 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 16:40:28.662 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 16:45:28.665 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 16:50:28.673 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-27 16:55:06.883 [info] [Cursor Proclist Polling] Stopped polling

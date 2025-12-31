@@ -1,0 +1,2 @@
+2025-12-09 14:35:23.193 [info] Getting extensions control
+2025-12-09 14:35:23.202 [error] Error getting extensions control manifest net::ERR_NAME_NOT_RESOLVED

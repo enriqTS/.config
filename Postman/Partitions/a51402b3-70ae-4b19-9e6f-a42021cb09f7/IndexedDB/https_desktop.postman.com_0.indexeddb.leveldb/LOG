@@ -1,0 +1,15 @@
+2025/12/29-08:04:21.436 d4d Reusing MANIFEST /home/henrique/.config/Postman/Partitions/a51402b3-70ae-4b19-9e6f-a42021cb09f7/IndexedDB/https_desktop.postman.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/12/29-08:04:21.436 d4d Recovering log #11
+2025/12/29-08:04:21.436 d4d Reusing old log /home/henrique/.config/Postman/Partitions/a51402b3-70ae-4b19-9e6f-a42021cb09f7/IndexedDB/https_desktop.postman.com_0.indexeddb.leveldb/000011.log 
+2025/12/29-08:04:21.436 d4d Delete type=2 #7
+2025/12/29-08:04:55.317 d4e Manual compaction at level-0 from '\x00\x0a\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0b\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/29-08:04:55.329 d68 Level-0 table #16: started
+2025/12/29-08:04:55.334 d68 Level-0 table #16: 15494 bytes OK
+2025/12/29-08:04:55.345 d68 Delete type=0 #11
+2025/12/29-08:04:55.345 d4d Manual compaction at level-0 from '\x00\x0b\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0c\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0b\x00\x00\x05' @ 4522 : 1
+2025/12/29-08:04:55.345 d4d Compacting 1@0 + 1@1 files
+2025/12/29-08:04:55.352 d4d Generated table #17@0: 2228 keys, 25854 bytes
+2025/12/29-08:04:55.352 d4d Compacted 1@0 + 1@1 files => 25854 bytes
+2025/12/29-08:04:55.362 d4d compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/12/29-08:04:55.362 d4d Delete type=2 #16
+2025/12/29-08:04:55.362 d4d Manual compaction at level-0 from '\x00\x0b\x00\x00\x05' @ 4522 : 1 .. '\x00\x0c\x00\x00\x00' @ 0 : 0; will stop at (end)

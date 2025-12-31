@@ -1,0 +1,10 @@
+[2025-12-30T15:11:20.960Z] Initializing Cursor Hooks Service...
+[2025-12-30T15:11:20.960Z] User config path: /home/henrique/.cursor/hooks.json
+[2025-12-30T15:11:20.960Z] Project config path: /home/henrique/upd8/Rodosafra IA/.cursor/hooks.json
+[2025-12-30T15:11:20.960Z] Enterprise config path: file:///etc/cursor/hooks.json
+[2025-12-30T15:11:20.960Z] Reloading hooks configuration...
+[2025-12-30T15:11:20.966Z] No enterprise hooks configuration found
+[2025-12-30T15:11:20.967Z] No user hooks configuration found
+[2025-12-30T15:11:20.969Z] No project hooks configuration found
+[2025-12-30T15:11:20.969Z] Refreshing team hooks...
+[2025-12-30T15:11:20.969Z] Cursor Hooks Service initialized successfully

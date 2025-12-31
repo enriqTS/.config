@@ -1,0 +1,65 @@
+2025-12-29 08:08:47.992 [info] [CursorProclistService] Native module loaded successfully
+2025-12-29 08:08:48.087 [info] updateURL https://api2.cursor.sh/updates/api/update/linux-x64/cursor/2.3.9/ab794c19fedb1627b03a00ad16493031d91610ffd32bf0d51dbedd5a5feab6b8/stable
+2025-12-29 08:08:48.088 [info] update#setState idle
+2025-12-29 08:09:05.279 [info] [CursorProclistService] Config enabled feature (subsample every 10s)
+2025-12-29 08:09:18.089 [info] update#setState checking for updates
+2025-12-29 08:09:18.852 [info] update#setState available for download
+2025-12-29 08:14:05.289 [info] [CursorProclistService] Sample 0 created: 21 processes, 31 subsamples
+2025-12-29 08:19:05.292 [info] [CursorProclistService] Sample 1 created: 18 processes, 31 subsamples
+2025-12-29 08:24:05.289 [info] [CursorProclistService] Sample 2 created: 18 processes, 31 subsamples
+2025-12-29 08:29:05.289 [info] [CursorProclistService] Sample 3 created: 19 processes, 31 subsamples
+2025-12-29 08:34:05.290 [info] [CursorProclistService] Sample 4 created: 18 processes, 31 subsamples
+2025-12-29 08:39:05.292 [info] [CursorProclistService] Sample 5 created: 18 processes, 31 subsamples
+2025-12-29 08:44:05.289 [info] [CursorProclistService] Sample 6 created: 19 processes, 31 subsamples
+2025-12-29 08:49:05.293 [info] [CursorProclistService] Sample 7 created: 19 processes, 31 subsamples
+2025-12-29 08:54:05.289 [info] [CursorProclistService] Sample 8 created: 19 processes, 31 subsamples
+2025-12-29 08:59:05.289 [info] [CursorProclistService] Sample 9 created: 19 processes, 31 subsamples
+2025-12-29 09:04:05.290 [info] [CursorProclistService] Sample 10 created: 19 processes, 31 subsamples
+2025-12-29 09:09:05.290 [info] [CursorProclistService] Sample 11 created: 20 processes, 31 subsamples
+2025-12-29 09:14:05.289 [info] [CursorProclistService] Sample 12 created: 19 processes, 31 subsamples
+2025-12-29 09:19:05.293 [info] [CursorProclistService] Sample 13 created: 19 processes, 31 subsamples
+2025-12-29 09:24:05.292 [info] [CursorProclistService] Sample 14 created: 19 processes, 31 subsamples
+2025-12-29 09:29:05.289 [info] [CursorProclistService] Sample 15 created: 20 processes, 31 subsamples
+2025-12-29 09:34:05.292 [info] [CursorProclistService] Sample 16 created: 19 processes, 31 subsamples
+2025-12-29 09:39:05.290 [info] [CursorProclistService] Sample 17 created: 19 processes, 31 subsamples
+2025-12-29 09:44:05.291 [info] [CursorProclistService] Sample 18 created: 19 processes, 31 subsamples
+2025-12-29 09:49:05.289 [info] [CursorProclistService] Sample 19 created: 20 processes, 31 subsamples
+2025-12-29 09:54:05.289 [info] [CursorProclistService] Sample 20 created: 19 processes, 31 subsamples
+2025-12-29 09:59:05.289 [info] [CursorProclistService] Sample 21 created: 19 processes, 31 subsamples
+2025-12-29 10:04:05.289 [info] [CursorProclistService] Sample 22 created: 19 processes, 31 subsamples
+2025-12-29 10:09:05.292 [info] [CursorProclistService] Sample 23 created: 19 processes, 31 subsamples
+2025-12-29 10:14:05.292 [info] [CursorProclistService] Sample 24 created: 19 processes, 31 subsamples
+2025-12-29 10:19:05.290 [info] [CursorProclistService] Sample 25 created: 19 processes, 31 subsamples
+2025-12-29 10:24:05.293 [info] [CursorProclistService] Sample 26 created: 19 processes, 31 subsamples
+2025-12-29 10:29:05.289 [info] [CursorProclistService] Sample 27 created: 20 processes, 31 subsamples
+2025-12-29 10:34:05.293 [info] [CursorProclistService] Sample 28 created: 19 processes, 31 subsamples
+2025-12-29 10:39:05.290 [info] [CursorProclistService] Sample 29 created: 19 processes, 31 subsamples
+2025-12-29 10:44:05.292 [info] [CursorProclistService] Sample 30 created: 19 processes, 31 subsamples
+2025-12-29 10:49:05.291 [info] [CursorProclistService] Sample 31 created: 20 processes, 31 subsamples
+2025-12-29 10:54:05.290 [info] [CursorProclistService] Sample 32 created: 19 processes, 31 subsamples
+2025-12-29 10:59:05.290 [info] [CursorProclistService] Sample 33 created: 19 processes, 31 subsamples
+2025-12-29 11:04:05.289 [info] [CursorProclistService] Sample 34 created: 19 processes, 31 subsamples
+2025-12-29 11:09:05.290 [info] [CursorProclistService] Sample 35 created: 20 processes, 31 subsamples
+2025-12-29 11:14:05.289 [info] [CursorProclistService] Sample 36 created: 19 processes, 31 subsamples
+2025-12-29 11:19:05.290 [info] [CursorProclistService] Sample 37 created: 19 processes, 31 subsamples
+2025-12-29 11:24:05.289 [info] [CursorProclistService] Sample 38 created: 19 processes, 31 subsamples
+2025-12-29 11:29:05.293 [info] [CursorProclistService] Sample 39 created: 20 processes, 31 subsamples
+2025-12-29 11:34:05.290 [info] [CursorProclistService] Sample 40 created: 19 processes, 31 subsamples
+2025-12-29 11:39:05.292 [info] [CursorProclistService] Sample 41 created: 19 processes, 31 subsamples
+2025-12-29 11:44:05.289 [info] [CursorProclistService] Sample 42 created: 19 processes, 31 subsamples
+2025-12-29 11:49:05.289 [info] [CursorProclistService] Sample 43 created: 20 processes, 31 subsamples
+2025-12-29 11:54:05.292 [info] [CursorProclistService] Sample 44 created: 19 processes, 31 subsamples
+2025-12-29 11:59:05.289 [info] [CursorProclistService] Sample 45 created: 19 processes, 31 subsamples
+2025-12-29 12:04:05.289 [info] [CursorProclistService] Sample 46 created: 19 processes, 31 subsamples
+2025-12-29 12:09:05.289 [info] [CursorProclistService] Sample 47 created: 20 processes, 31 subsamples
+2025-12-29 12:14:05.289 [info] [CursorProclistService] Sample 48 created: 19 processes, 31 subsamples
+2025-12-29 12:19:05.289 [info] [CursorProclistService] Sample 49 created: 19 processes, 31 subsamples
+2025-12-29 12:24:05.289 [info] [CursorProclistService] Sample 50 created: 19 processes, 31 subsamples
+2025-12-29 12:29:05.292 [info] [CursorProclistService] Sample 51 created: 19 processes, 31 subsamples
+2025-12-29 12:34:05.289 [info] [CursorProclistService] Sample 52 created: 19 processes, 31 subsamples
+2025-12-29 12:39:05.289 [info] [CursorProclistService] Sample 53 created: 19 processes, 31 subsamples
+2025-12-29 12:44:05.291 [info] [CursorProclistService] Sample 54 created: 19 processes, 31 subsamples
+2025-12-29 12:45:56.557 [info] Extension host with pid 9499 exited with code: 0, signal: unknown.
+2025-12-29 12:45:59.246 [info] Extension host with pid 66574 exited with code: 55, signal: unknown.
+2025-12-29 12:46:00.977 [info] [CursorProclistService] Config enabled feature (subsample every 10s)
+2025-12-29 12:46:21.667 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 66549]: crashed with code 15 and reason 'killed'

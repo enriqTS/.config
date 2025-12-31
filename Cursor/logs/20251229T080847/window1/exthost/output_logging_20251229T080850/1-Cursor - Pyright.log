@@ -1,0 +1,9 @@
+[Info  - 11:08:52.226] [pylance import] Already imported settings globally
+[Info  - 11:08:52.227] [pylance import] No remote authority found, skipping remote settings migration
+[Info  - 11:08:52.227] [pylance import] Already imported settings for workspace Rodosafra IA
+[Info  - 11:08:52.227] [pylance import] Already imported settings for workspace folder /home/henrique/upd8/Rodosafra IA
+[Info  - 11:08:52.291] failed to find pyright executable, falling back to bundled:
+/bin/basedpyright-langserver
+[Info  - 11:08:52.291] using bundled pyright
+[Info  - 11:08:52.292] running node with argzs: --max-old-space-size=7853
+[Info  - 11:08:52.292] using node executable: /usr/share/cursor/resources/app/resources/helpers/node

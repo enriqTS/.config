@@ -1,0 +1,1187 @@
+2025-12-29 08:08:53.279 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-12-29 08:08:53.279 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-12-29 08:08:53.279 [info] Using existing keys for an index
+2025-12-29 08:08:53.279 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-12-29 08:08:53.279 [info] Starting RepoIndexWatcher for repo: 3174acaa-e797-424d-9a37-2526ec406894, owner: google-oauth2|user_01K5GX0SB3WX4QYYD6BC1W5KBQ
+2025-12-29 08:08:53.279 [info] Setting global status from status tracker: synced
+2025-12-29 08:08:53.279 [info] Doing a startup handshake.
+2025-12-29 08:08:54.165 [info] Finished computing merkle tree in 628.0210339999999 ms.
+2025-12-29 08:08:54.167 [info] Doing the initial handshake with hash: a7f8051b222fd438a328379ec585d230fc851f349ad72128ba6177fe5b04eea8
+2025-12-29 08:08:54.173 [info] Computed simhash vector of length: 256
+2025-12-29 08:08:54.173 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 08:08:54.173 [info] Handshake start
+2025-12-29 08:08:54.895 [info] Handshake timing: 723.7451550000005, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-12-29 08:08:54.895 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-12-29 08:08:54.895 [info] Starting fast remote sync.
+2025-12-29 08:08:54.896 [info] Total num embeddable files: 236
+2025-12-29 08:08:54.896 [info] Root hash: a7f8051b222fd438a328379ec585d230fc851f349ad72128ba6177fe5b04eea8
+2025-12-29 08:08:54.896 [info] In the out of sync case.
+2025-12-29 08:08:54.897 [info] Waiting on semaphore to be released 1
+2025-12-29 08:08:55.096 [info] setting numJobsToGo to 0
+2025-12-29 08:08:55.098 [info] [startSync]: numJobs: 0
+2025-12-29 08:08:55.623 [info] Uploading 0 files.
+2025-12-29 08:08:55.624 [info] Total number of files to embed: 236
+2025-12-29 08:08:55.624 [info] Not aborted
+2025-12-29 08:08:55.624 [info] Starting while loop.
+2025-12-29 08:08:55.777 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-12-29 08:08:58.389 [info] Finished indexing repository.
+2025-12-29 08:08:58.389 [info] Indexing job successfully done or aborted.
+2025-12-29 08:13:29.256 [info] multiCodebaseIndexingJob dispose
+2025-12-29 08:13:29.256 [info] Aborting indexing job.
+2025-12-29 08:13:29.256 [info] Setting global status from status tracker: synced
+2025-12-29 08:13:29.256 [info] Doing a startup handshake.
+2025-12-29 08:13:29.260 [info] Finished computing merkle tree in 2.503848000022117 ms.
+2025-12-29 08:13:29.260 [info] Doing the initial handshake with hash: ec95ff7065ffaf175a1d40e6eb67fc9452b60cf20d1dd86af901eec1c24725ff
+2025-12-29 08:13:29.263 [info] Computed simhash vector of length: 256
+2025-12-29 08:13:29.263 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 08:13:29.263 [info] Handshake start
+2025-12-29 08:13:29.432 [info] Handshake timing: 169.89061599998968, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-12-29 08:13:29.432 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-12-29 08:13:29.432 [info] Starting fast remote sync.
+2025-12-29 08:13:29.432 [info] Total num embeddable files: 236
+2025-12-29 08:13:29.433 [info] Root hash: ec95ff7065ffaf175a1d40e6eb67fc9452b60cf20d1dd86af901eec1c24725ff
+2025-12-29 08:13:29.433 [info] In the out of sync case.
+2025-12-29 08:13:29.434 [info] Waiting on semaphore to be released 1
+2025-12-29 08:13:29.632 [info] setting numJobsToGo to 1
+2025-12-29 08:13:29.633 [info] [startSync]: numJobs: 1
+2025-12-29 08:13:29.633 [info] Uploading 1 files.
+2025-12-29 08:13:29.633 [info] Total number of files to embed: 236
+2025-12-29 08:13:29.633 [info] Not aborted
+2025-12-29 08:13:29.633 [info] Starting while loop.
+2025-12-29 08:13:30.984 [info] Completed job successfully: 7c3cb03e-d7e7-4dd8-b97e-51eff57f7362 ./anotacoes.md
+2025-12-29 08:13:31.138 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-12-29 08:13:31.451 [info] Finished indexing repository.
+2025-12-29 08:13:31.451 [info] Indexing job successfully done or aborted.
+2025-12-29 08:18:05.256 [info] multiCodebaseIndexingJob dispose
+2025-12-29 08:18:05.256 [info] Aborting indexing job.
+2025-12-29 08:18:05.256 [info] Setting global status from status tracker: synced
+2025-12-29 08:18:05.256 [info] Doing a startup handshake.
+2025-12-29 08:18:05.259 [info] Finished computing merkle tree in 1.516319999936968 ms.
+2025-12-29 08:18:05.259 [info] Doing the initial handshake with hash: ec95ff7065ffaf175a1d40e6eb67fc9452b60cf20d1dd86af901eec1c24725ff
+2025-12-29 08:18:05.261 [info] Computed simhash vector of length: 256
+2025-12-29 08:18:05.261 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 08:18:05.261 [info] Handshake start
+2025-12-29 08:18:05.419 [info] Handshake timing: 158.26834700000472, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 08:18:05.419 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 08:18:05.419 [info] Starting fast remote sync.
+2025-12-29 08:18:05.419 [info] Total num embeddable files: 236
+2025-12-29 08:18:05.419 [info] Root hash: ec95ff7065ffaf175a1d40e6eb67fc9452b60cf20d1dd86af901eec1c24725ff
+2025-12-29 08:18:05.420 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-12-29 08:18:05.855 [info] Finished indexing repository.
+2025-12-29 08:18:05.856 [info] Indexing job successfully done or aborted.
+2025-12-29 08:22:41.256 [info] multiCodebaseIndexingJob dispose
+2025-12-29 08:22:41.256 [info] Aborting indexing job.
+2025-12-29 08:22:41.256 [info] Setting global status from status tracker: synced
+2025-12-29 08:22:41.256 [info] Doing a startup handshake.
+2025-12-29 08:22:41.260 [info] Finished computing merkle tree in 2.1909730000188574 ms.
+2025-12-29 08:22:41.260 [info] Doing the initial handshake with hash: 0d3768ee9a1241b37e0a6293412357dd8e4b6b3f65753082f994ed8acf62373d
+2025-12-29 08:22:41.262 [info] Computed simhash vector of length: 256
+2025-12-29 08:22:41.262 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 08:22:41.262 [info] Handshake start
+2025-12-29 08:22:41.436 [info] Handshake timing: 174.21023199998308, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-12-29 08:22:41.436 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-12-29 08:22:41.436 [info] Starting fast remote sync.
+2025-12-29 08:22:41.436 [info] Total num embeddable files: 239
+2025-12-29 08:22:41.436 [info] Root hash: 0d3768ee9a1241b37e0a6293412357dd8e4b6b3f65753082f994ed8acf62373d
+2025-12-29 08:22:41.436 [info] In the out of sync case.
+2025-12-29 08:22:41.437 [info] Waiting on semaphore to be released 1
+2025-12-29 08:22:41.638 [info] Waiting on semaphore to be released 1
+2025-12-29 08:22:41.839 [info] Waiting on semaphore to be released 1
+2025-12-29 08:22:42.039 [info] Waiting on semaphore to be released 1
+2025-12-29 08:22:42.239 [info] setting numJobsToGo to 1
+2025-12-29 08:22:42.239 [info] [startSync]: numJobs: 1
+2025-12-29 08:22:42.239 [info] Uploading 1 files.
+2025-12-29 08:22:42.240 [info] Total number of files to embed: 239
+2025-12-29 08:22:42.240 [info] Not aborted
+2025-12-29 08:22:42.240 [info] Starting while loop.
+2025-12-29 08:22:43.690 [info] Completed job successfully: 7c3cb03e-d7e7-4dd8-b97e-51eff57f7362 ./chat/websocket/envia-template/lambda_function.py
+2025-12-29 08:22:43.839 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-12-29 08:22:44.128 [info] Finished indexing repository.
+2025-12-29 08:22:44.128 [info] Indexing job successfully done or aborted.
+2025-12-29 08:27:17.257 [info] multiCodebaseIndexingJob dispose
+2025-12-29 08:27:17.265 [info] Aborting indexing job.
+2025-12-29 08:27:17.265 [info] Setting global status from status tracker: synced
+2025-12-29 08:27:17.265 [info] Doing a startup handshake.
+2025-12-29 08:27:17.270 [info] Finished computing merkle tree in 2.8141210000030696 ms.
+2025-12-29 08:27:17.271 [info] Doing the initial handshake with hash: 83a2198adadd54b965af3a5715f98a4e38fd3284db8d465d5b6852985efdb499
+2025-12-29 08:27:17.273 [info] Computed simhash vector of length: 256
+2025-12-29 08:27:17.273 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 08:27:17.273 [info] Handshake start
+2025-12-29 08:27:17.433 [info] Handshake timing: 161.28118000016548, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-12-29 08:27:17.433 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-12-29 08:27:17.433 [info] Starting fast remote sync.
+2025-12-29 08:27:17.434 [info] Total num embeddable files: 241
+2025-12-29 08:27:17.434 [info] Root hash: 83a2198adadd54b965af3a5715f98a4e38fd3284db8d465d5b6852985efdb499
+2025-12-29 08:27:17.434 [info] In the out of sync case.
+2025-12-29 08:27:17.435 [info] Waiting on semaphore to be released 1
+2025-12-29 08:27:17.635 [info] Waiting on semaphore to be released 1
+2025-12-29 08:27:17.836 [info] Waiting on semaphore to be released 1
+2025-12-29 08:27:18.037 [info] Waiting on semaphore to be released 1
+2025-12-29 08:27:18.237 [info] Waiting on semaphore to be released 1
+2025-12-29 08:27:18.438 [info] Waiting on semaphore to be released 1
+2025-12-29 08:27:18.638 [info] setting numJobsToGo to 1
+2025-12-29 08:27:18.638 [info] [startSync]: numJobs: 1
+2025-12-29 08:27:18.638 [info] Uploading 1 files.
+2025-12-29 08:27:18.639 [info] Total number of files to embed: 241
+2025-12-29 08:27:18.639 [info] Not aborted
+2025-12-29 08:27:18.639 [info] Starting while loop.
+2025-12-29 08:27:19.980 [info] Completed job successfully: 7c3cb03e-d7e7-4dd8-b97e-51eff57f7362 ./chat/websocket/envia-template/lambda_function.py
+2025-12-29 08:27:20.141 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-12-29 08:27:20.478 [info] Finished indexing repository.
+2025-12-29 08:27:20.478 [info] Indexing job successfully done or aborted.
+2025-12-29 08:31:53.256 [info] multiCodebaseIndexingJob dispose
+2025-12-29 08:31:53.257 [info] Aborting indexing job.
+2025-12-29 08:31:53.257 [info] Setting global status from status tracker: synced
+2025-12-29 08:31:53.257 [info] Doing a startup handshake.
+2025-12-29 08:31:53.260 [info] Finished computing merkle tree in 1.9817610001191497 ms.
+2025-12-29 08:31:53.261 [info] Doing the initial handshake with hash: 89551b1c2dc95fdbf6a8f123c1e002d1df14e604a4dd6352730a847a022910d1
+2025-12-29 08:31:53.262 [info] Computed simhash vector of length: 256
+2025-12-29 08:31:53.262 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 08:31:53.262 [info] Handshake start
+2025-12-29 08:31:53.421 [info] Handshake timing: 159.89922700007446, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-12-29 08:31:53.421 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-12-29 08:31:53.421 [info] Starting fast remote sync.
+2025-12-29 08:31:53.422 [info] Total num embeddable files: 246
+2025-12-29 08:31:53.422 [info] Root hash: 89551b1c2dc95fdbf6a8f123c1e002d1df14e604a4dd6352730a847a022910d1
+2025-12-29 08:31:53.422 [info] In the out of sync case.
+2025-12-29 08:31:53.423 [info] Waiting on semaphore to be released 1
+2025-12-29 08:31:53.623 [info] Waiting on semaphore to be released 1
+2025-12-29 08:31:53.823 [info] Waiting on semaphore to be released 1
+2025-12-29 08:31:54.023 [info] Waiting on semaphore to be released 1
+2025-12-29 08:31:54.223 [info] setting numJobsToGo to 1
+2025-12-29 08:31:54.223 [info] [startSync]: numJobs: 1
+2025-12-29 08:31:54.223 [info] Uploading 1 files.
+2025-12-29 08:31:54.223 [info] Total number of files to embed: 246
+2025-12-29 08:31:54.223 [info] Not aborted
+2025-12-29 08:31:54.223 [info] Starting while loop.
+2025-12-29 08:31:55.619 [info] Completed job successfully: 7c3cb03e-d7e7-4dd8-b97e-51eff57f7362 ./chat/websocket/envia-template/lambda_function.py
+2025-12-29 08:31:55.780 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-12-29 08:31:56.086 [info] Finished indexing repository.
+2025-12-29 08:31:56.086 [info] Indexing job successfully done or aborted.
+2025-12-29 08:36:29.257 [info] multiCodebaseIndexingJob dispose
+2025-12-29 08:36:29.257 [info] Aborting indexing job.
+2025-12-29 08:36:29.257 [info] Setting global status from status tracker: synced
+2025-12-29 08:36:29.257 [info] Doing a startup handshake.
+2025-12-29 08:36:29.261 [info] Finished computing merkle tree in 2.226924000075087 ms.
+2025-12-29 08:36:29.262 [info] Doing the initial handshake with hash: b89fe78f56dbf5081ca0d4e8baee0e0246bbc28f8102deaf735b5d6ec6f9a6f4
+2025-12-29 08:36:29.263 [info] Computed simhash vector of length: 256
+2025-12-29 08:36:29.263 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 08:36:29.263 [info] Handshake start
+2025-12-29 08:36:29.429 [info] Handshake timing: 166.76781300012954, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-12-29 08:36:29.429 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-12-29 08:36:29.429 [info] Starting fast remote sync.
+2025-12-29 08:36:29.430 [info] Total num embeddable files: 246
+2025-12-29 08:36:29.431 [info] Root hash: b89fe78f56dbf5081ca0d4e8baee0e0246bbc28f8102deaf735b5d6ec6f9a6f4
+2025-12-29 08:36:29.431 [info] In the out of sync case.
+2025-12-29 08:36:29.433 [info] Waiting on semaphore to be released 1
+2025-12-29 08:36:29.632 [info] Waiting on semaphore to be released 1
+2025-12-29 08:36:29.833 [info] Waiting on semaphore to be released 1
+2025-12-29 08:36:30.033 [info] Waiting on semaphore to be released 1
+2025-12-29 08:36:30.234 [info] Waiting on semaphore to be released 1
+2025-12-29 08:36:30.434 [info] Waiting on semaphore to be released 1
+2025-12-29 08:36:30.634 [info] setting numJobsToGo to 2
+2025-12-29 08:36:30.634 [info] [startSync]: numJobs: 2
+2025-12-29 08:36:30.634 [info] Uploading 2 files.
+2025-12-29 08:36:30.635 [info] Total number of files to embed: 246
+2025-12-29 08:36:30.635 [info] Not aborted
+2025-12-29 08:36:30.635 [info] Starting while loop.
+2025-12-29 08:36:30.638 [info] syncing batch of 2 files and 63724 bytes
+2025-12-29 08:36:33.139 [info] Completed job successfully: 7c3cb03e-d7e7-4dd8-b97e-51eff57f7362 ./anotacoes.md
+2025-12-29 08:36:33.139 [info] Completed job successfully: 7c3cb03e-d7e7-4dd8-b97e-51eff57f7362 ./chat/websocket/envia-template/lambda_function.py
+2025-12-29 08:36:33.292 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-12-29 08:36:33.727 [info] Finished indexing repository.
+2025-12-29 08:36:33.727 [info] Indexing job successfully done or aborted.
+2025-12-29 08:41:05.258 [info] multiCodebaseIndexingJob dispose
+2025-12-29 08:41:05.258 [info] Aborting indexing job.
+2025-12-29 08:41:05.258 [info] Setting global status from status tracker: synced
+2025-12-29 08:41:05.258 [info] Doing a startup handshake.
+2025-12-29 08:41:05.261 [info] Finished computing merkle tree in 2.080212000058964 ms.
+2025-12-29 08:41:05.262 [info] Doing the initial handshake with hash: b89fe78f56dbf5081ca0d4e8baee0e0246bbc28f8102deaf735b5d6ec6f9a6f4
+2025-12-29 08:41:05.263 [info] Computed simhash vector of length: 256
+2025-12-29 08:41:05.263 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 08:41:05.263 [info] Handshake start
+2025-12-29 08:41:05.423 [info] Handshake timing: 159.6208649999462, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 08:41:05.423 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 08:41:05.423 [info] Starting fast remote sync.
+2025-12-29 08:41:05.423 [info] Total num embeddable files: 246
+2025-12-29 08:41:05.423 [info] Root hash: b89fe78f56dbf5081ca0d4e8baee0e0246bbc28f8102deaf735b5d6ec6f9a6f4
+2025-12-29 08:41:05.424 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-12-29 08:41:05.578 [info] Finished indexing repository.
+2025-12-29 08:41:05.578 [info] Indexing job successfully done or aborted.
+2025-12-29 08:45:41.258 [info] multiCodebaseIndexingJob dispose
+2025-12-29 08:45:41.258 [info] Aborting indexing job.
+2025-12-29 08:45:41.258 [info] Setting global status from status tracker: synced
+2025-12-29 08:45:41.258 [info] Doing a startup handshake.
+2025-12-29 08:45:41.261 [info] Finished computing merkle tree in 2.007850999943912 ms.
+2025-12-29 08:45:41.262 [info] Doing the initial handshake with hash: b89fe78f56dbf5081ca0d4e8baee0e0246bbc28f8102deaf735b5d6ec6f9a6f4
+2025-12-29 08:45:41.263 [info] Computed simhash vector of length: 256
+2025-12-29 08:45:41.263 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 08:45:41.263 [info] Handshake start
+2025-12-29 08:45:41.426 [info] Handshake timing: 162.43794000009075, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 08:45:41.426 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 08:45:41.426 [info] Starting fast remote sync.
+2025-12-29 08:45:41.426 [info] Total num embeddable files: 246
+2025-12-29 08:45:41.426 [info] Root hash: b89fe78f56dbf5081ca0d4e8baee0e0246bbc28f8102deaf735b5d6ec6f9a6f4
+2025-12-29 08:45:41.427 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-12-29 08:45:41.849 [info] Finished indexing repository.
+2025-12-29 08:45:41.849 [info] Indexing job successfully done or aborted.
+2025-12-29 08:50:17.260 [info] multiCodebaseIndexingJob dispose
+2025-12-29 08:50:17.260 [info] Aborting indexing job.
+2025-12-29 08:50:17.260 [info] Setting global status from status tracker: synced
+2025-12-29 08:50:17.260 [info] Doing a startup handshake.
+2025-12-29 08:50:17.290 [info] Finished computing merkle tree in 29.740095000248402 ms.
+2025-12-29 08:50:17.291 [info] Doing the initial handshake with hash: bf47651c3a998e387cccb9ac1c1ec7bc20d59a24aeac5ca6cd7271143ec92ae2
+2025-12-29 08:50:17.292 [info] Computed simhash vector of length: 256
+2025-12-29 08:50:17.292 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 08:50:17.292 [info] Handshake start
+2025-12-29 08:50:17.465 [info] Handshake timing: 173.62000699993223, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-12-29 08:50:17.465 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-12-29 08:50:17.466 [info] Starting fast remote sync.
+2025-12-29 08:50:17.466 [info] Total num embeddable files: 240
+2025-12-29 08:50:17.466 [info] Root hash: bf47651c3a998e387cccb9ac1c1ec7bc20d59a24aeac5ca6cd7271143ec92ae2
+2025-12-29 08:50:17.466 [info] In the out of sync case.
+2025-12-29 08:50:17.467 [info] Waiting on semaphore to be released 1
+2025-12-29 08:50:17.667 [info] Waiting on semaphore to be released 1
+2025-12-29 08:50:17.867 [info] Waiting on semaphore to be released 1
+2025-12-29 08:50:18.067 [info] setting numJobsToGo to 4
+2025-12-29 08:50:18.067 [info] [startSync]: numJobs: 4
+2025-12-29 08:50:18.068 [info] Uploading 4 files.
+2025-12-29 08:50:18.068 [info] Total number of files to embed: 240
+2025-12-29 08:50:18.068 [info] Not aborted
+2025-12-29 08:50:18.068 [info] Starting while loop.
+2025-12-29 08:50:18.071 [info] syncing batch of 2 files and 17473 bytes
+2025-12-29 08:50:18.830 [info] Completed job successfully: 7c3cb03e-d7e7-4dd8-b97e-51eff57f7362 ./chatbot/action-groups/verificar-tipo-veiculo-permitido-action-group/transbordo_caller.py
+2025-12-29 08:50:18.830 [info] Completed job successfully: 7c3cb03e-d7e7-4dd8-b97e-51eff57f7362 ./chatbot/action-groups/verificar-tipo-veiculo-permitido-action-group/api_error_logger.py
+2025-12-29 08:50:18.831 [info] syncing batch of 2 files and 20117 bytes
+2025-12-29 08:50:19.853 [info] Completed job successfully: 7c3cb03e-d7e7-4dd8-b97e-51eff57f7362 ./chatbot/action-groups/verificar-tipo-veiculo-permitido-action-group/api_retry_util.py
+2025-12-29 08:50:19.854 [info] Completed job successfully: 7c3cb03e-d7e7-4dd8-b97e-51eff57f7362 ./chatbot/action-groups/verificar-tipo-veiculo-permitido-action-group/lambda_function.py
+2025-12-29 08:50:20.012 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-12-29 08:50:20.297 [info] Finished indexing repository.
+2025-12-29 08:50:20.297 [info] Indexing job successfully done or aborted.
+2025-12-29 08:54:53.260 [info] multiCodebaseIndexingJob dispose
+2025-12-29 08:54:53.260 [info] Aborting indexing job.
+2025-12-29 08:54:53.260 [info] Setting global status from status tracker: synced
+2025-12-29 08:54:53.260 [info] Doing a startup handshake.
+2025-12-29 08:54:53.264 [info] Finished computing merkle tree in 2.340828000102192 ms.
+2025-12-29 08:54:53.265 [info] Doing the initial handshake with hash: bf47651c3a998e387cccb9ac1c1ec7bc20d59a24aeac5ca6cd7271143ec92ae2
+2025-12-29 08:54:53.266 [info] Computed simhash vector of length: 256
+2025-12-29 08:54:53.266 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 08:54:53.266 [info] Handshake start
+2025-12-29 08:54:53.425 [info] Handshake timing: 158.99777599982917, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 08:54:53.425 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 08:54:53.425 [info] Starting fast remote sync.
+2025-12-29 08:54:53.426 [info] Total num embeddable files: 240
+2025-12-29 08:54:53.426 [info] Root hash: bf47651c3a998e387cccb9ac1c1ec7bc20d59a24aeac5ca6cd7271143ec92ae2
+2025-12-29 08:54:53.427 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-12-29 08:54:53.856 [info] Finished indexing repository.
+2025-12-29 08:54:53.856 [info] Indexing job successfully done or aborted.
+2025-12-29 08:59:29.261 [info] multiCodebaseIndexingJob dispose
+2025-12-29 08:59:29.269 [info] Aborting indexing job.
+2025-12-29 08:59:29.269 [info] Setting global status from status tracker: synced
+2025-12-29 08:59:29.269 [info] Doing a startup handshake.
+2025-12-29 08:59:29.275 [info] Finished computing merkle tree in 4.121125999838114 ms.
+2025-12-29 08:59:29.275 [info] Doing the initial handshake with hash: bf47651c3a998e387cccb9ac1c1ec7bc20d59a24aeac5ca6cd7271143ec92ae2
+2025-12-29 08:59:29.277 [info] Computed simhash vector of length: 256
+2025-12-29 08:59:29.277 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 08:59:29.277 [info] Handshake start
+2025-12-29 08:59:29.448 [info] Handshake timing: 171.75344400014728, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 08:59:29.448 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 08:59:29.448 [info] Starting fast remote sync.
+2025-12-29 08:59:29.448 [info] Total num embeddable files: 240
+2025-12-29 08:59:29.449 [info] Root hash: bf47651c3a998e387cccb9ac1c1ec7bc20d59a24aeac5ca6cd7271143ec92ae2
+2025-12-29 08:59:29.449 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-12-29 08:59:29.648 [info] Finished indexing repository.
+2025-12-29 08:59:29.648 [info] Indexing job successfully done or aborted.
+2025-12-29 09:04:05.262 [info] multiCodebaseIndexingJob dispose
+2025-12-29 09:04:05.270 [info] Aborting indexing job.
+2025-12-29 09:04:05.270 [info] Setting global status from status tracker: synced
+2025-12-29 09:04:05.270 [info] Doing a startup handshake.
+2025-12-29 09:04:05.276 [info] Finished computing merkle tree in 5.512088000308722 ms.
+2025-12-29 09:04:05.277 [info] Doing the initial handshake with hash: bf47651c3a998e387cccb9ac1c1ec7bc20d59a24aeac5ca6cd7271143ec92ae2
+2025-12-29 09:04:05.278 [info] Computed simhash vector of length: 256
+2025-12-29 09:04:05.278 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 09:04:05.278 [info] Handshake start
+2025-12-29 09:04:05.441 [info] Handshake timing: 163.47850799979642, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 09:04:05.442 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 09:04:05.442 [info] Starting fast remote sync.
+2025-12-29 09:04:05.442 [info] Total num embeddable files: 240
+2025-12-29 09:04:05.442 [info] Root hash: bf47651c3a998e387cccb9ac1c1ec7bc20d59a24aeac5ca6cd7271143ec92ae2
+2025-12-29 09:04:05.443 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-12-29 09:04:05.870 [info] Finished indexing repository.
+2025-12-29 09:04:05.870 [info] Indexing job successfully done or aborted.
+2025-12-29 09:08:41.262 [info] multiCodebaseIndexingJob dispose
+2025-12-29 09:08:41.270 [info] Aborting indexing job.
+2025-12-29 09:08:41.270 [info] Setting global status from status tracker: synced
+2025-12-29 09:08:41.270 [info] Doing a startup handshake.
+2025-12-29 09:08:41.278 [info] Finished computing merkle tree in 6.386125000193715 ms.
+2025-12-29 09:08:41.278 [info] Doing the initial handshake with hash: ed6f63ca39dcdcb651439e56f8af5f2eea8965d933d21155acd9e1c62f1e2d23
+2025-12-29 09:08:41.280 [info] Computed simhash vector of length: 256
+2025-12-29 09:08:41.280 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 09:08:41.280 [info] Handshake start
+2025-12-29 09:08:41.485 [info] Handshake timing: 205.43810599995777, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-12-29 09:08:41.485 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-12-29 09:08:41.485 [info] Starting fast remote sync.
+2025-12-29 09:08:41.485 [info] Total num embeddable files: 241
+2025-12-29 09:08:41.485 [info] Root hash: ed6f63ca39dcdcb651439e56f8af5f2eea8965d933d21155acd9e1c62f1e2d23
+2025-12-29 09:08:41.485 [info] In the out of sync case.
+2025-12-29 09:08:41.486 [info] Waiting on semaphore to be released 1
+2025-12-29 09:08:41.686 [info] Waiting on semaphore to be released 1
+2025-12-29 09:08:41.886 [info] Waiting on semaphore to be released 1
+2025-12-29 09:08:42.086 [info] Waiting on semaphore to be released 1
+2025-12-29 09:08:42.286 [info] setting numJobsToGo to 1
+2025-12-29 09:08:42.286 [info] [startSync]: numJobs: 1
+2025-12-29 09:08:42.286 [info] Uploading 1 files.
+2025-12-29 09:08:42.286 [info] Total number of files to embed: 241
+2025-12-29 09:08:42.286 [info] Not aborted
+2025-12-29 09:08:42.286 [info] Starting while loop.
+2025-12-29 09:08:42.712 [info] Completed job successfully: 7c3cb03e-d7e7-4dd8-b97e-51eff57f7362 ./chatbot/action-groups/function-definitions/verificar-tipo-veiculo-permitido-function-definition.json
+2025-12-29 09:08:42.868 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-12-29 09:08:43.160 [info] Finished indexing repository.
+2025-12-29 09:08:43.160 [info] Indexing job successfully done or aborted.
+2025-12-29 09:13:17.262 [info] multiCodebaseIndexingJob dispose
+2025-12-29 09:13:17.271 [info] Aborting indexing job.
+2025-12-29 09:13:17.271 [info] Setting global status from status tracker: synced
+2025-12-29 09:13:17.271 [info] Doing a startup handshake.
+2025-12-29 09:13:17.274 [info] Finished computing merkle tree in 2.277821999974549 ms.
+2025-12-29 09:13:17.275 [info] Doing the initial handshake with hash: 5946c07fa1a2b16b5f2679f7497994c7c8f5638544751a84ed24eb2154ad1439
+2025-12-29 09:13:17.276 [info] Computed simhash vector of length: 256
+2025-12-29 09:13:17.276 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 09:13:17.276 [info] Handshake start
+2025-12-29 09:13:17.447 [info] Handshake timing: 171.15816799970344, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-12-29 09:13:17.447 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-12-29 09:13:17.447 [info] Starting fast remote sync.
+2025-12-29 09:13:17.448 [info] Total num embeddable files: 242
+2025-12-29 09:13:17.448 [info] Root hash: 5946c07fa1a2b16b5f2679f7497994c7c8f5638544751a84ed24eb2154ad1439
+2025-12-29 09:13:17.448 [info] In the out of sync case.
+2025-12-29 09:13:17.450 [info] Waiting on semaphore to be released 1
+2025-12-29 09:13:17.648 [info] Waiting on semaphore to be released 1
+2025-12-29 09:13:17.848 [info] Waiting on semaphore to be released 1
+2025-12-29 09:13:18.049 [info] Waiting on semaphore to be released 1
+2025-12-29 09:13:18.249 [info] setting numJobsToGo to 1
+2025-12-29 09:13:18.249 [info] [startSync]: numJobs: 1
+2025-12-29 09:13:18.249 [info] Uploading 1 files.
+2025-12-29 09:13:18.249 [info] Total number of files to embed: 242
+2025-12-29 09:13:18.250 [info] Not aborted
+2025-12-29 09:13:18.250 [info] Starting while loop.
+2025-12-29 09:13:18.684 [info] Completed job successfully: 7c3cb03e-d7e7-4dd8-b97e-51eff57f7362 ./iam-policies/verificar-tipo-veiculo-permitido-action-group-policy.json
+2025-12-29 09:13:18.847 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-12-29 09:13:19.162 [info] Finished indexing repository.
+2025-12-29 09:13:19.162 [info] Indexing job successfully done or aborted.
+2025-12-29 09:17:53.262 [info] multiCodebaseIndexingJob dispose
+2025-12-29 09:17:53.271 [info] Aborting indexing job.
+2025-12-29 09:17:53.271 [info] Setting global status from status tracker: synced
+2025-12-29 09:17:53.271 [info] Doing a startup handshake.
+2025-12-29 09:17:53.274 [info] Finished computing merkle tree in 2.7767870002426207 ms.
+2025-12-29 09:17:53.275 [info] Doing the initial handshake with hash: 1fbded87e05a3631ce02fe7edfcd6a6ca3b54689c0ce2c4f43487ba176ef3780
+2025-12-29 09:17:53.277 [info] Computed simhash vector of length: 256
+2025-12-29 09:17:53.278 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 09:17:53.278 [info] Handshake start
+2025-12-29 09:17:53.439 [info] Handshake timing: 162.68846299964935, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-12-29 09:17:53.439 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-12-29 09:17:53.439 [info] Starting fast remote sync.
+2025-12-29 09:17:53.439 [info] Total num embeddable files: 242
+2025-12-29 09:17:53.440 [info] Root hash: 1fbded87e05a3631ce02fe7edfcd6a6ca3b54689c0ce2c4f43487ba176ef3780
+2025-12-29 09:17:53.440 [info] In the out of sync case.
+2025-12-29 09:17:53.440 [info] Waiting on semaphore to be released 1
+2025-12-29 09:17:53.640 [info] Waiting on semaphore to be released 1
+2025-12-29 09:17:53.840 [info] setting numJobsToGo to 1
+2025-12-29 09:17:53.840 [info] [startSync]: numJobs: 1
+2025-12-29 09:17:53.840 [info] Uploading 1 files.
+2025-12-29 09:17:53.840 [info] Total number of files to embed: 242
+2025-12-29 09:17:53.840 [info] Not aborted
+2025-12-29 09:17:53.840 [info] Starting while loop.
+2025-12-29 09:17:55.799 [info] Completed job successfully: 7c3cb03e-d7e7-4dd8-b97e-51eff57f7362 ./iam-policies/verificar-tipo-veiculo-permitido-action-group-policy.json
+2025-12-29 09:17:55.955 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-12-29 09:17:56.631 [info] Finished indexing repository.
+2025-12-29 09:17:56.631 [info] Indexing job successfully done or aborted.
+2025-12-29 09:22:29.262 [info] multiCodebaseIndexingJob dispose
+2025-12-29 09:22:29.270 [info] Aborting indexing job.
+2025-12-29 09:22:29.270 [info] Setting global status from status tracker: synced
+2025-12-29 09:22:29.270 [info] Doing a startup handshake.
+2025-12-29 09:22:29.274 [info] Finished computing merkle tree in 2.7550780000165105 ms.
+2025-12-29 09:22:29.274 [info] Doing the initial handshake with hash: 1fbded87e05a3631ce02fe7edfcd6a6ca3b54689c0ce2c4f43487ba176ef3780
+2025-12-29 09:22:29.275 [info] Computed simhash vector of length: 256
+2025-12-29 09:22:29.275 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 09:22:29.275 [info] Handshake start
+2025-12-29 09:22:29.442 [info] Handshake timing: 167.0850449996069, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 09:22:29.442 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 09:22:29.442 [info] Starting fast remote sync.
+2025-12-29 09:22:29.443 [info] Total num embeddable files: 242
+2025-12-29 09:22:29.443 [info] Root hash: 1fbded87e05a3631ce02fe7edfcd6a6ca3b54689c0ce2c4f43487ba176ef3780
+2025-12-29 09:22:29.444 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-12-29 09:22:29.878 [info] Finished indexing repository.
+2025-12-29 09:22:29.878 [info] Indexing job successfully done or aborted.
+2025-12-29 09:27:05.262 [info] multiCodebaseIndexingJob dispose
+2025-12-29 09:27:05.262 [info] Aborting indexing job.
+2025-12-29 09:27:05.262 [info] Setting global status from status tracker: synced
+2025-12-29 09:27:05.262 [info] Doing a startup handshake.
+2025-12-29 09:27:05.266 [info] Finished computing merkle tree in 1.8262460008263588 ms.
+2025-12-29 09:27:05.266 [info] Doing the initial handshake with hash: 1fbded87e05a3631ce02fe7edfcd6a6ca3b54689c0ce2c4f43487ba176ef3780
+2025-12-29 09:27:05.267 [info] Computed simhash vector of length: 256
+2025-12-29 09:27:05.267 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 09:27:05.267 [info] Handshake start
+2025-12-29 09:27:05.428 [info] Handshake timing: 160.9267110005021, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 09:27:05.428 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 09:27:05.428 [info] Starting fast remote sync.
+2025-12-29 09:27:05.428 [info] Total num embeddable files: 242
+2025-12-29 09:27:05.428 [info] Root hash: 1fbded87e05a3631ce02fe7edfcd6a6ca3b54689c0ce2c4f43487ba176ef3780
+2025-12-29 09:27:05.428 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-12-29 09:27:05.590 [info] Finished indexing repository.
+2025-12-29 09:27:05.590 [info] Indexing job successfully done or aborted.
+2025-12-29 09:31:41.262 [info] multiCodebaseIndexingJob dispose
+2025-12-29 09:31:41.262 [info] Aborting indexing job.
+2025-12-29 09:31:41.262 [info] Setting global status from status tracker: synced
+2025-12-29 09:31:41.262 [info] Doing a startup handshake.
+2025-12-29 09:31:41.264 [info] Finished computing merkle tree in 1.307944000698626 ms.
+2025-12-29 09:31:41.265 [info] Doing the initial handshake with hash: 1fbded87e05a3631ce02fe7edfcd6a6ca3b54689c0ce2c4f43487ba176ef3780
+2025-12-29 09:31:41.266 [info] Computed simhash vector of length: 256
+2025-12-29 09:31:41.266 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 09:31:41.266 [info] Handshake start
+2025-12-29 09:31:41.429 [info] Handshake timing: 163.1508289994672, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 09:31:41.429 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 09:31:41.429 [info] Starting fast remote sync.
+2025-12-29 09:31:41.429 [info] Total num embeddable files: 242
+2025-12-29 09:31:41.429 [info] Root hash: 1fbded87e05a3631ce02fe7edfcd6a6ca3b54689c0ce2c4f43487ba176ef3780
+2025-12-29 09:31:41.430 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-12-29 09:31:41.861 [info] Finished indexing repository.
+2025-12-29 09:31:41.862 [info] Indexing job successfully done or aborted.
+2025-12-29 09:36:17.261 [info] multiCodebaseIndexingJob dispose
+2025-12-29 09:36:17.261 [info] Aborting indexing job.
+2025-12-29 09:36:17.261 [info] Setting global status from status tracker: synced
+2025-12-29 09:36:17.261 [info] Doing a startup handshake.
+2025-12-29 09:36:17.264 [info] Finished computing merkle tree in 1.5066599994897842 ms.
+2025-12-29 09:36:17.264 [info] Doing the initial handshake with hash: 1fbded87e05a3631ce02fe7edfcd6a6ca3b54689c0ce2c4f43487ba176ef3780
+2025-12-29 09:36:17.266 [info] Computed simhash vector of length: 256
+2025-12-29 09:36:17.266 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 09:36:17.266 [info] Handshake start
+2025-12-29 09:36:17.588 [info] Handshake timing: 322.87194800004363, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 09:36:17.588 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 09:36:17.588 [info] Starting fast remote sync.
+2025-12-29 09:36:17.588 [info] Total num embeddable files: 242
+2025-12-29 09:36:17.588 [info] Root hash: 1fbded87e05a3631ce02fe7edfcd6a6ca3b54689c0ce2c4f43487ba176ef3780
+2025-12-29 09:36:17.589 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-12-29 09:36:17.747 [info] Finished indexing repository.
+2025-12-29 09:36:17.747 [info] Indexing job successfully done or aborted.
+2025-12-29 09:40:53.262 [info] multiCodebaseIndexingJob dispose
+2025-12-29 09:40:53.262 [info] Aborting indexing job.
+2025-12-29 09:40:53.262 [info] Setting global status from status tracker: synced
+2025-12-29 09:40:53.262 [info] Doing a startup handshake.
+2025-12-29 09:40:53.264 [info] Finished computing merkle tree in 1.249813999980688 ms.
+2025-12-29 09:40:53.265 [info] Doing the initial handshake with hash: 1fbded87e05a3631ce02fe7edfcd6a6ca3b54689c0ce2c4f43487ba176ef3780
+2025-12-29 09:40:53.265 [info] Computed simhash vector of length: 256
+2025-12-29 09:40:53.265 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 09:40:53.265 [info] Handshake start
+2025-12-29 09:40:53.429 [info] Handshake timing: 163.32311300002038, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 09:40:53.429 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 09:40:53.429 [info] Starting fast remote sync.
+2025-12-29 09:40:53.429 [info] Total num embeddable files: 242
+2025-12-29 09:40:53.429 [info] Root hash: 1fbded87e05a3631ce02fe7edfcd6a6ca3b54689c0ce2c4f43487ba176ef3780
+2025-12-29 09:40:53.430 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-12-29 09:40:53.903 [info] Finished indexing repository.
+2025-12-29 09:40:53.903 [info] Indexing job successfully done or aborted.
+2025-12-29 09:45:29.262 [info] multiCodebaseIndexingJob dispose
+2025-12-29 09:45:29.262 [info] Aborting indexing job.
+2025-12-29 09:45:29.262 [info] Setting global status from status tracker: synced
+2025-12-29 09:45:29.262 [info] Doing a startup handshake.
+2025-12-29 09:45:29.264 [info] Finished computing merkle tree in 1.2008830001577735 ms.
+2025-12-29 09:45:29.264 [info] Doing the initial handshake with hash: 1fbded87e05a3631ce02fe7edfcd6a6ca3b54689c0ce2c4f43487ba176ef3780
+2025-12-29 09:45:29.266 [info] Computed simhash vector of length: 256
+2025-12-29 09:45:29.266 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 09:45:29.266 [info] Handshake start
+2025-12-29 09:45:29.439 [info] Handshake timing: 173.11260399967432, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 09:45:29.439 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 09:45:29.439 [info] Starting fast remote sync.
+2025-12-29 09:45:29.439 [info] Total num embeddable files: 242
+2025-12-29 09:45:29.439 [info] Root hash: 1fbded87e05a3631ce02fe7edfcd6a6ca3b54689c0ce2c4f43487ba176ef3780
+2025-12-29 09:45:29.439 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-12-29 09:45:29.613 [info] Finished indexing repository.
+2025-12-29 09:45:29.613 [info] Indexing job successfully done or aborted.
+2025-12-29 09:50:05.262 [info] multiCodebaseIndexingJob dispose
+2025-12-29 09:50:05.262 [info] Aborting indexing job.
+2025-12-29 09:50:05.262 [info] Setting global status from status tracker: synced
+2025-12-29 09:50:05.262 [info] Doing a startup handshake.
+2025-12-29 09:50:05.265 [info] Finished computing merkle tree in 1.4805160006508231 ms.
+2025-12-29 09:50:05.265 [info] Doing the initial handshake with hash: 1fbded87e05a3631ce02fe7edfcd6a6ca3b54689c0ce2c4f43487ba176ef3780
+2025-12-29 09:50:05.267 [info] Computed simhash vector of length: 256
+2025-12-29 09:50:05.267 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 09:50:05.267 [info] Handshake start
+2025-12-29 09:50:05.430 [info] Handshake timing: 163.20442899968475, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 09:50:05.430 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 09:50:05.430 [info] Starting fast remote sync.
+2025-12-29 09:50:05.430 [info] Total num embeddable files: 242
+2025-12-29 09:50:05.430 [info] Root hash: 1fbded87e05a3631ce02fe7edfcd6a6ca3b54689c0ce2c4f43487ba176ef3780
+2025-12-29 09:50:05.431 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-12-29 09:50:05.867 [info] Finished indexing repository.
+2025-12-29 09:50:05.867 [info] Indexing job successfully done or aborted.
+2025-12-29 09:54:41.262 [info] multiCodebaseIndexingJob dispose
+2025-12-29 09:54:41.262 [info] Aborting indexing job.
+2025-12-29 09:54:41.262 [info] Setting global status from status tracker: synced
+2025-12-29 09:54:41.262 [info] Doing a startup handshake.
+2025-12-29 09:54:41.264 [info] Finished computing merkle tree in 1.2162810005247593 ms.
+2025-12-29 09:54:41.265 [info] Doing the initial handshake with hash: 1fbded87e05a3631ce02fe7edfcd6a6ca3b54689c0ce2c4f43487ba176ef3780
+2025-12-29 09:54:41.266 [info] Computed simhash vector of length: 256
+2025-12-29 09:54:41.266 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 09:54:41.266 [info] Handshake start
+2025-12-29 09:54:41.431 [info] Handshake timing: 165.48546500038356, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 09:54:41.431 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 09:54:41.431 [info] Starting fast remote sync.
+2025-12-29 09:54:41.431 [info] Total num embeddable files: 242
+2025-12-29 09:54:41.431 [info] Root hash: 1fbded87e05a3631ce02fe7edfcd6a6ca3b54689c0ce2c4f43487ba176ef3780
+2025-12-29 09:54:41.432 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-12-29 09:54:41.607 [info] Finished indexing repository.
+2025-12-29 09:54:41.607 [info] Indexing job successfully done or aborted.
+2025-12-29 09:59:17.263 [info] multiCodebaseIndexingJob dispose
+2025-12-29 09:59:17.263 [info] Aborting indexing job.
+2025-12-29 09:59:17.263 [info] Setting global status from status tracker: synced
+2025-12-29 09:59:17.263 [info] Doing a startup handshake.
+2025-12-29 09:59:17.266 [info] Finished computing merkle tree in 2.0309640001505613 ms.
+2025-12-29 09:59:17.267 [info] Doing the initial handshake with hash: 1fbded87e05a3631ce02fe7edfcd6a6ca3b54689c0ce2c4f43487ba176ef3780
+2025-12-29 09:59:17.269 [info] Computed simhash vector of length: 256
+2025-12-29 09:59:17.269 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 09:59:17.269 [info] Handshake start
+2025-12-29 09:59:17.428 [info] Handshake timing: 159.4480119999498, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 09:59:17.428 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 09:59:17.428 [info] Starting fast remote sync.
+2025-12-29 09:59:17.429 [info] Total num embeddable files: 242
+2025-12-29 09:59:17.429 [info] Root hash: 1fbded87e05a3631ce02fe7edfcd6a6ca3b54689c0ce2c4f43487ba176ef3780
+2025-12-29 09:59:17.430 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-12-29 09:59:17.865 [info] Finished indexing repository.
+2025-12-29 09:59:17.865 [info] Indexing job successfully done or aborted.
+2025-12-29 10:03:53.263 [info] multiCodebaseIndexingJob dispose
+2025-12-29 10:03:53.263 [info] Aborting indexing job.
+2025-12-29 10:03:53.263 [info] Setting global status from status tracker: synced
+2025-12-29 10:03:53.263 [info] Doing a startup handshake.
+2025-12-29 10:03:53.267 [info] Finished computing merkle tree in 2.3073439998552203 ms.
+2025-12-29 10:03:53.267 [info] Doing the initial handshake with hash: 1fbded87e05a3631ce02fe7edfcd6a6ca3b54689c0ce2c4f43487ba176ef3780
+2025-12-29 10:03:53.269 [info] Computed simhash vector of length: 256
+2025-12-29 10:03:53.269 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 10:03:53.269 [info] Handshake start
+2025-12-29 10:03:53.436 [info] Handshake timing: 167.80221000034362, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 10:03:53.436 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 10:03:53.436 [info] Starting fast remote sync.
+2025-12-29 10:03:53.437 [info] Total num embeddable files: 242
+2025-12-29 10:03:53.437 [info] Root hash: 1fbded87e05a3631ce02fe7edfcd6a6ca3b54689c0ce2c4f43487ba176ef3780
+2025-12-29 10:03:53.437 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-12-29 10:03:53.588 [info] Finished indexing repository.
+2025-12-29 10:03:53.588 [info] Indexing job successfully done or aborted.
+2025-12-29 10:08:29.263 [info] multiCodebaseIndexingJob dispose
+2025-12-29 10:08:29.263 [info] Aborting indexing job.
+2025-12-29 10:08:29.263 [info] Setting global status from status tracker: synced
+2025-12-29 10:08:29.263 [info] Doing a startup handshake.
+2025-12-29 10:08:29.266 [info] Finished computing merkle tree in 2.5139460004866123 ms.
+2025-12-29 10:08:29.267 [info] Doing the initial handshake with hash: 1fbded87e05a3631ce02fe7edfcd6a6ca3b54689c0ce2c4f43487ba176ef3780
+2025-12-29 10:08:29.268 [info] Computed simhash vector of length: 256
+2025-12-29 10:08:29.268 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 10:08:29.268 [info] Handshake start
+2025-12-29 10:08:29.436 [info] Handshake timing: 167.69708000030369, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 10:08:29.436 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 10:08:29.436 [info] Starting fast remote sync.
+2025-12-29 10:08:29.436 [info] Total num embeddable files: 242
+2025-12-29 10:08:29.436 [info] Root hash: 1fbded87e05a3631ce02fe7edfcd6a6ca3b54689c0ce2c4f43487ba176ef3780
+2025-12-29 10:08:29.437 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-12-29 10:08:29.886 [info] Finished indexing repository.
+2025-12-29 10:08:29.886 [info] Indexing job successfully done or aborted.
+2025-12-29 10:13:05.263 [info] multiCodebaseIndexingJob dispose
+2025-12-29 10:13:05.263 [info] Aborting indexing job.
+2025-12-29 10:13:05.263 [info] Setting global status from status tracker: synced
+2025-12-29 10:13:05.263 [info] Doing a startup handshake.
+2025-12-29 10:13:05.266 [info] Finished computing merkle tree in 1.7843880001455545 ms.
+2025-12-29 10:13:05.267 [info] Doing the initial handshake with hash: 1fbded87e05a3631ce02fe7edfcd6a6ca3b54689c0ce2c4f43487ba176ef3780
+2025-12-29 10:13:05.268 [info] Computed simhash vector of length: 256
+2025-12-29 10:13:05.268 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 10:13:05.268 [info] Handshake start
+2025-12-29 10:13:05.429 [info] Handshake timing: 161.4200280001387, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 10:13:05.429 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 10:13:05.429 [info] Starting fast remote sync.
+2025-12-29 10:13:05.429 [info] Total num embeddable files: 242
+2025-12-29 10:13:05.429 [info] Root hash: 1fbded87e05a3631ce02fe7edfcd6a6ca3b54689c0ce2c4f43487ba176ef3780
+2025-12-29 10:13:05.430 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-12-29 10:13:05.592 [info] Finished indexing repository.
+2025-12-29 10:13:05.592 [info] Indexing job successfully done or aborted.
+2025-12-29 10:17:41.263 [info] multiCodebaseIndexingJob dispose
+2025-12-29 10:17:41.263 [info] Aborting indexing job.
+2025-12-29 10:17:41.263 [info] Setting global status from status tracker: synced
+2025-12-29 10:17:41.263 [info] Doing a startup handshake.
+2025-12-29 10:17:41.266 [info] Finished computing merkle tree in 1.580256000161171 ms.
+2025-12-29 10:17:41.266 [info] Doing the initial handshake with hash: 1fbded87e05a3631ce02fe7edfcd6a6ca3b54689c0ce2c4f43487ba176ef3780
+2025-12-29 10:17:41.267 [info] Computed simhash vector of length: 256
+2025-12-29 10:17:41.267 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 10:17:41.267 [info] Handshake start
+2025-12-29 10:17:41.427 [info] Handshake timing: 159.45203499961644, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 10:17:41.427 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 10:17:41.427 [info] Starting fast remote sync.
+2025-12-29 10:17:41.427 [info] Total num embeddable files: 242
+2025-12-29 10:17:41.427 [info] Root hash: 1fbded87e05a3631ce02fe7edfcd6a6ca3b54689c0ce2c4f43487ba176ef3780
+2025-12-29 10:17:41.428 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-12-29 10:17:41.860 [info] Finished indexing repository.
+2025-12-29 10:17:41.860 [info] Indexing job successfully done or aborted.
+2025-12-29 10:22:17.264 [info] multiCodebaseIndexingJob dispose
+2025-12-29 10:22:17.264 [info] Aborting indexing job.
+2025-12-29 10:22:17.264 [info] Setting global status from status tracker: synced
+2025-12-29 10:22:17.264 [info] Doing a startup handshake.
+2025-12-29 10:22:17.267 [info] Finished computing merkle tree in 1.6406219992786646 ms.
+2025-12-29 10:22:17.267 [info] Doing the initial handshake with hash: 1fbded87e05a3631ce02fe7edfcd6a6ca3b54689c0ce2c4f43487ba176ef3780
+2025-12-29 10:22:17.269 [info] Computed simhash vector of length: 256
+2025-12-29 10:22:17.269 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 10:22:17.269 [info] Handshake start
+2025-12-29 10:22:17.438 [info] Handshake timing: 169.09996599983424, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 10:22:17.438 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 10:22:17.438 [info] Starting fast remote sync.
+2025-12-29 10:22:17.438 [info] Total num embeddable files: 242
+2025-12-29 10:22:17.438 [info] Root hash: 1fbded87e05a3631ce02fe7edfcd6a6ca3b54689c0ce2c4f43487ba176ef3780
+2025-12-29 10:22:17.439 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-12-29 10:22:17.595 [info] Finished indexing repository.
+2025-12-29 10:22:17.595 [info] Indexing job successfully done or aborted.
+2025-12-29 10:26:53.264 [info] multiCodebaseIndexingJob dispose
+2025-12-29 10:26:53.265 [info] Aborting indexing job.
+2025-12-29 10:26:53.265 [info] Setting global status from status tracker: synced
+2025-12-29 10:26:53.265 [info] Doing a startup handshake.
+2025-12-29 10:26:53.269 [info] Finished computing merkle tree in 2.0158369997516274 ms.
+2025-12-29 10:26:53.269 [info] Doing the initial handshake with hash: 1fbded87e05a3631ce02fe7edfcd6a6ca3b54689c0ce2c4f43487ba176ef3780
+2025-12-29 10:26:53.270 [info] Computed simhash vector of length: 256
+2025-12-29 10:26:53.270 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 10:26:53.270 [info] Handshake start
+2025-12-29 10:26:53.438 [info] Handshake timing: 168.246736000292, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 10:26:53.438 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 10:26:53.438 [info] Starting fast remote sync.
+2025-12-29 10:26:53.439 [info] Total num embeddable files: 242
+2025-12-29 10:26:53.439 [info] Root hash: 1fbded87e05a3631ce02fe7edfcd6a6ca3b54689c0ce2c4f43487ba176ef3780
+2025-12-29 10:26:53.440 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-12-29 10:26:53.867 [info] Finished indexing repository.
+2025-12-29 10:26:53.867 [info] Indexing job successfully done or aborted.
+2025-12-29 10:31:29.265 [info] multiCodebaseIndexingJob dispose
+2025-12-29 10:31:29.265 [info] Aborting indexing job.
+2025-12-29 10:31:29.265 [info] Setting global status from status tracker: synced
+2025-12-29 10:31:29.265 [info] Doing a startup handshake.
+2025-12-29 10:31:29.272 [info] Finished computing merkle tree in 5.399059999734163 ms.
+2025-12-29 10:31:29.274 [info] Doing the initial handshake with hash: 1fbded87e05a3631ce02fe7edfcd6a6ca3b54689c0ce2c4f43487ba176ef3780
+2025-12-29 10:31:29.277 [info] Computed simhash vector of length: 256
+2025-12-29 10:31:29.277 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 10:31:29.277 [info] Handshake start
+2025-12-29 10:31:29.445 [info] Handshake timing: 169.0916769988835, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 10:31:29.445 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 10:31:29.445 [info] Starting fast remote sync.
+2025-12-29 10:31:29.446 [info] Total num embeddable files: 242
+2025-12-29 10:31:29.446 [info] Root hash: 1fbded87e05a3631ce02fe7edfcd6a6ca3b54689c0ce2c4f43487ba176ef3780
+2025-12-29 10:31:29.446 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-12-29 10:31:29.601 [info] Finished indexing repository.
+2025-12-29 10:31:29.601 [info] Indexing job successfully done or aborted.
+2025-12-29 10:36:05.265 [info] multiCodebaseIndexingJob dispose
+2025-12-29 10:36:05.273 [info] Aborting indexing job.
+2025-12-29 10:36:05.273 [info] Setting global status from status tracker: synced
+2025-12-29 10:36:05.273 [info] Doing a startup handshake.
+2025-12-29 10:36:05.276 [info] Finished computing merkle tree in 1.6120050009340048 ms.
+2025-12-29 10:36:05.276 [info] Doing the initial handshake with hash: 1fbded87e05a3631ce02fe7edfcd6a6ca3b54689c0ce2c4f43487ba176ef3780
+2025-12-29 10:36:05.277 [info] Computed simhash vector of length: 256
+2025-12-29 10:36:05.277 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 10:36:05.277 [info] Handshake start
+2025-12-29 10:36:05.433 [info] Handshake timing: 155.5784660000354, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 10:36:05.433 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 10:36:05.433 [info] Starting fast remote sync.
+2025-12-29 10:36:05.433 [info] Total num embeddable files: 242
+2025-12-29 10:36:05.433 [info] Root hash: 1fbded87e05a3631ce02fe7edfcd6a6ca3b54689c0ce2c4f43487ba176ef3780
+2025-12-29 10:36:05.435 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-12-29 10:36:05.867 [info] Finished indexing repository.
+2025-12-29 10:36:05.867 [info] Indexing job successfully done or aborted.
+2025-12-29 10:40:41.265 [info] multiCodebaseIndexingJob dispose
+2025-12-29 10:40:41.265 [info] Aborting indexing job.
+2025-12-29 10:40:41.265 [info] Setting global status from status tracker: synced
+2025-12-29 10:40:41.265 [info] Doing a startup handshake.
+2025-12-29 10:40:41.267 [info] Finished computing merkle tree in 1.002581000328064 ms.
+2025-12-29 10:40:41.267 [info] Doing the initial handshake with hash: 1fbded87e05a3631ce02fe7edfcd6a6ca3b54689c0ce2c4f43487ba176ef3780
+2025-12-29 10:40:41.269 [info] Computed simhash vector of length: 256
+2025-12-29 10:40:41.269 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 10:40:41.269 [info] Handshake start
+2025-12-29 10:40:41.435 [info] Handshake timing: 166.2743480000645, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 10:40:41.435 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 10:40:41.435 [info] Starting fast remote sync.
+2025-12-29 10:40:41.435 [info] Total num embeddable files: 242
+2025-12-29 10:40:41.435 [info] Root hash: 1fbded87e05a3631ce02fe7edfcd6a6ca3b54689c0ce2c4f43487ba176ef3780
+2025-12-29 10:40:41.435 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-12-29 10:40:41.593 [info] Finished indexing repository.
+2025-12-29 10:40:41.593 [info] Indexing job successfully done or aborted.
+2025-12-29 10:45:17.265 [info] multiCodebaseIndexingJob dispose
+2025-12-29 10:45:17.273 [info] Aborting indexing job.
+2025-12-29 10:45:17.273 [info] Setting global status from status tracker: synced
+2025-12-29 10:45:17.273 [info] Doing a startup handshake.
+2025-12-29 10:45:17.275 [info] Finished computing merkle tree in 1.485435999929905 ms.
+2025-12-29 10:45:17.276 [info] Doing the initial handshake with hash: 1fbded87e05a3631ce02fe7edfcd6a6ca3b54689c0ce2c4f43487ba176ef3780
+2025-12-29 10:45:17.277 [info] Computed simhash vector of length: 256
+2025-12-29 10:45:17.277 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 10:45:17.277 [info] Handshake start
+2025-12-29 10:45:17.439 [info] Handshake timing: 162.57242299988866, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 10:45:17.439 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 10:45:17.439 [info] Starting fast remote sync.
+2025-12-29 10:45:17.440 [info] Total num embeddable files: 242
+2025-12-29 10:45:17.440 [info] Root hash: 1fbded87e05a3631ce02fe7edfcd6a6ca3b54689c0ce2c4f43487ba176ef3780
+2025-12-29 10:45:17.441 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-12-29 10:45:17.870 [info] Finished indexing repository.
+2025-12-29 10:45:17.870 [info] Indexing job successfully done or aborted.
+2025-12-29 10:49:53.265 [info] multiCodebaseIndexingJob dispose
+2025-12-29 10:49:53.265 [info] Aborting indexing job.
+2025-12-29 10:49:53.265 [info] Setting global status from status tracker: synced
+2025-12-29 10:49:53.265 [info] Doing a startup handshake.
+2025-12-29 10:49:53.267 [info] Finished computing merkle tree in 1.787609999999404 ms.
+2025-12-29 10:49:53.268 [info] Doing the initial handshake with hash: 727d8be61039e47424e69a91f91988d84badddb30bab8caf0245072e3ad04115
+2025-12-29 10:49:53.269 [info] Computed simhash vector of length: 256
+2025-12-29 10:49:53.269 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 10:49:53.269 [info] Handshake start
+2025-12-29 10:49:53.425 [info] Handshake timing: 156.36438099853694, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-12-29 10:49:53.425 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-12-29 10:49:53.425 [info] Starting fast remote sync.
+2025-12-29 10:49:53.425 [info] Total num embeddable files: 243
+2025-12-29 10:49:53.425 [info] Root hash: 727d8be61039e47424e69a91f91988d84badddb30bab8caf0245072e3ad04115
+2025-12-29 10:49:53.425 [info] In the out of sync case.
+2025-12-29 10:49:53.426 [info] Waiting on semaphore to be released 1
+2025-12-29 10:49:53.626 [info] setting numJobsToGo to 1
+2025-12-29 10:49:53.626 [info] [startSync]: numJobs: 1
+2025-12-29 10:49:53.627 [info] Uploading 1 files.
+2025-12-29 10:49:53.627 [info] Total number of files to embed: 243
+2025-12-29 10:49:53.627 [info] Not aborted
+2025-12-29 10:49:53.627 [info] Starting while loop.
+2025-12-29 10:49:54.805 [info] Completed job successfully: 7c3cb03e-d7e7-4dd8-b97e-51eff57f7362 ./.git/index
+2025-12-29 10:49:54.958 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-12-29 10:49:55.260 [info] Finished indexing repository.
+2025-12-29 10:49:55.260 [info] Indexing job successfully done or aborted.
+2025-12-29 10:54:29.265 [info] multiCodebaseIndexingJob dispose
+2025-12-29 10:54:29.273 [info] Aborting indexing job.
+2025-12-29 10:54:29.273 [info] Setting global status from status tracker: synced
+2025-12-29 10:54:29.273 [info] Doing a startup handshake.
+2025-12-29 10:54:29.276 [info] Finished computing merkle tree in 1.8576750010252 ms.
+2025-12-29 10:54:29.276 [info] Doing the initial handshake with hash: 4ce51ce47ecf0cea7c732897f8601deac37bcf2a2719c50dbc1e635670ce6138
+2025-12-29 10:54:29.277 [info] Computed simhash vector of length: 256
+2025-12-29 10:54:29.277 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 10:54:29.277 [info] Handshake start
+2025-12-29 10:54:29.440 [info] Handshake timing: 163.01461499929428, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-12-29 10:54:29.440 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-12-29 10:54:29.440 [info] Starting fast remote sync.
+2025-12-29 10:54:29.440 [info] Total num embeddable files: 246
+2025-12-29 10:54:29.441 [info] Root hash: 4ce51ce47ecf0cea7c732897f8601deac37bcf2a2719c50dbc1e635670ce6138
+2025-12-29 10:54:29.441 [info] In the out of sync case.
+2025-12-29 10:54:29.442 [info] Waiting on semaphore to be released 1
+2025-12-29 10:54:29.642 [info] Waiting on semaphore to be released 1
+2025-12-29 10:54:29.841 [info] Waiting on semaphore to be released 1
+2025-12-29 10:54:30.043 [info] Waiting on semaphore to be released 1
+2025-12-29 10:54:30.242 [info] setting numJobsToGo to 3
+2025-12-29 10:54:30.242 [info] [startSync]: numJobs: 3
+2025-12-29 10:54:30.242 [info] Uploading 3 files.
+2025-12-29 10:54:30.243 [info] Total number of files to embed: 246
+2025-12-29 10:54:30.243 [info] Not aborted
+2025-12-29 10:54:30.243 [info] Starting while loop.
+2025-12-29 10:54:30.245 [info] syncing batch of 2 files and 50067 bytes
+2025-12-29 10:54:31.800 [info] Completed job successfully: 7c3cb03e-d7e7-4dd8-b97e-51eff57f7362 ./.git/index
+2025-12-29 10:54:31.801 [info] Completed job successfully: 7c3cb03e-d7e7-4dd8-b97e-51eff57f7362 ./.git/refs/heads/main
+2025-12-29 10:54:32.803 [info] Completed job successfully: 7c3cb03e-d7e7-4dd8-b97e-51eff57f7362 ./.git/refs/remotes/origin/main
+2025-12-29 10:54:32.957 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-12-29 10:54:33.282 [info] Finished indexing repository.
+2025-12-29 10:54:33.282 [info] Indexing job successfully done or aborted.
+2025-12-29 10:59:05.265 [info] multiCodebaseIndexingJob dispose
+2025-12-29 10:59:05.265 [info] Aborting indexing job.
+2025-12-29 10:59:05.265 [info] Setting global status from status tracker: synced
+2025-12-29 10:59:05.265 [info] Doing a startup handshake.
+2025-12-29 10:59:05.268 [info] Finished computing merkle tree in 2.6093209981918335 ms.
+2025-12-29 10:59:05.269 [info] Doing the initial handshake with hash: 4ce51ce47ecf0cea7c732897f8601deac37bcf2a2719c50dbc1e635670ce6138
+2025-12-29 10:59:05.270 [info] Computed simhash vector of length: 256
+2025-12-29 10:59:05.270 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 10:59:05.270 [info] Handshake start
+2025-12-29 10:59:05.431 [info] Handshake timing: 161.45819600112736, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 10:59:05.431 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 10:59:05.431 [info] Starting fast remote sync.
+2025-12-29 10:59:05.431 [info] Total num embeddable files: 246
+2025-12-29 10:59:05.431 [info] Root hash: 4ce51ce47ecf0cea7c732897f8601deac37bcf2a2719c50dbc1e635670ce6138
+2025-12-29 10:59:05.432 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-12-29 10:59:05.590 [info] Finished indexing repository.
+2025-12-29 10:59:05.590 [info] Indexing job successfully done or aborted.
+2025-12-29 11:03:41.265 [info] multiCodebaseIndexingJob dispose
+2025-12-29 11:03:41.273 [info] Aborting indexing job.
+2025-12-29 11:03:41.273 [info] Setting global status from status tracker: synced
+2025-12-29 11:03:41.273 [info] Doing a startup handshake.
+2025-12-29 11:03:41.276 [info] Finished computing merkle tree in 1.5768649987876415 ms.
+2025-12-29 11:03:41.276 [info] Doing the initial handshake with hash: 4ce51ce47ecf0cea7c732897f8601deac37bcf2a2719c50dbc1e635670ce6138
+2025-12-29 11:03:41.277 [info] Computed simhash vector of length: 256
+2025-12-29 11:03:41.277 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 11:03:41.277 [info] Handshake start
+2025-12-29 11:03:41.446 [info] Handshake timing: 168.64920600131154, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 11:03:41.446 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 11:03:41.446 [info] Starting fast remote sync.
+2025-12-29 11:03:41.446 [info] Total num embeddable files: 246
+2025-12-29 11:03:41.446 [info] Root hash: 4ce51ce47ecf0cea7c732897f8601deac37bcf2a2719c50dbc1e635670ce6138
+2025-12-29 11:03:41.447 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-12-29 11:03:41.883 [info] Finished indexing repository.
+2025-12-29 11:03:41.883 [info] Indexing job successfully done or aborted.
+2025-12-29 11:08:17.265 [info] multiCodebaseIndexingJob dispose
+2025-12-29 11:08:17.265 [info] Aborting indexing job.
+2025-12-29 11:08:17.265 [info] Setting global status from status tracker: synced
+2025-12-29 11:08:17.265 [info] Doing a startup handshake.
+2025-12-29 11:08:17.276 [info] Finished computing merkle tree in 9.85173400118947 ms.
+2025-12-29 11:08:17.277 [info] Doing the initial handshake with hash: 4ce51ce47ecf0cea7c732897f8601deac37bcf2a2719c50dbc1e635670ce6138
+2025-12-29 11:08:17.278 [info] Computed simhash vector of length: 256
+2025-12-29 11:08:17.278 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 11:08:17.278 [info] Handshake start
+2025-12-29 11:08:17.444 [info] Handshake timing: 166.3086880017072, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 11:08:17.444 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 11:08:17.444 [info] Starting fast remote sync.
+2025-12-29 11:08:17.444 [info] Total num embeddable files: 246
+2025-12-29 11:08:17.444 [info] Root hash: 4ce51ce47ecf0cea7c732897f8601deac37bcf2a2719c50dbc1e635670ce6138
+2025-12-29 11:08:17.445 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-12-29 11:08:17.612 [info] Finished indexing repository.
+2025-12-29 11:08:17.612 [info] Indexing job successfully done or aborted.
+2025-12-29 11:12:53.265 [info] multiCodebaseIndexingJob dispose
+2025-12-29 11:12:53.273 [info] Aborting indexing job.
+2025-12-29 11:12:53.273 [info] Setting global status from status tracker: synced
+2025-12-29 11:12:53.273 [info] Doing a startup handshake.
+2025-12-29 11:12:53.275 [info] Finished computing merkle tree in 1.5540100000798702 ms.
+2025-12-29 11:12:53.276 [info] Doing the initial handshake with hash: 4ce51ce47ecf0cea7c732897f8601deac37bcf2a2719c50dbc1e635670ce6138
+2025-12-29 11:12:53.277 [info] Computed simhash vector of length: 256
+2025-12-29 11:12:53.277 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 11:12:53.277 [info] Handshake start
+2025-12-29 11:12:53.443 [info] Handshake timing: 165.77869599871337, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 11:12:53.443 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 11:12:53.443 [info] Starting fast remote sync.
+2025-12-29 11:12:53.443 [info] Total num embeddable files: 246
+2025-12-29 11:12:53.443 [info] Root hash: 4ce51ce47ecf0cea7c732897f8601deac37bcf2a2719c50dbc1e635670ce6138
+2025-12-29 11:12:53.444 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-12-29 11:12:53.877 [info] Finished indexing repository.
+2025-12-29 11:12:53.877 [info] Indexing job successfully done or aborted.
+2025-12-29 11:17:29.266 [info] multiCodebaseIndexingJob dispose
+2025-12-29 11:17:29.266 [info] Aborting indexing job.
+2025-12-29 11:17:29.266 [info] Setting global status from status tracker: synced
+2025-12-29 11:17:29.266 [info] Doing a startup handshake.
+2025-12-29 11:17:29.268 [info] Finished computing merkle tree in 1.156599000096321 ms.
+2025-12-29 11:17:29.268 [info] Doing the initial handshake with hash: 4ce51ce47ecf0cea7c732897f8601deac37bcf2a2719c50dbc1e635670ce6138
+2025-12-29 11:17:29.270 [info] Computed simhash vector of length: 256
+2025-12-29 11:17:29.270 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 11:17:29.270 [info] Handshake start
+2025-12-29 11:17:29.433 [info] Handshake timing: 164.1122420001775, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 11:17:29.433 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 11:17:29.433 [info] Starting fast remote sync.
+2025-12-29 11:17:29.433 [info] Total num embeddable files: 246
+2025-12-29 11:17:29.433 [info] Root hash: 4ce51ce47ecf0cea7c732897f8601deac37bcf2a2719c50dbc1e635670ce6138
+2025-12-29 11:17:29.434 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-12-29 11:17:29.602 [info] Finished indexing repository.
+2025-12-29 11:17:29.602 [info] Indexing job successfully done or aborted.
+2025-12-29 11:22:05.266 [info] multiCodebaseIndexingJob dispose
+2025-12-29 11:22:05.266 [info] Aborting indexing job.
+2025-12-29 11:22:05.266 [info] Setting global status from status tracker: synced
+2025-12-29 11:22:05.266 [info] Doing a startup handshake.
+2025-12-29 11:22:05.267 [info] Finished computing merkle tree in 1.1059140004217625 ms.
+2025-12-29 11:22:05.268 [info] Doing the initial handshake with hash: 4ce51ce47ecf0cea7c732897f8601deac37bcf2a2719c50dbc1e635670ce6138
+2025-12-29 11:22:05.269 [info] Computed simhash vector of length: 256
+2025-12-29 11:22:05.269 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 11:22:05.269 [info] Handshake start
+2025-12-29 11:22:05.434 [info] Handshake timing: 165.18145699985325, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 11:22:05.434 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 11:22:05.434 [info] Starting fast remote sync.
+2025-12-29 11:22:05.435 [info] Total num embeddable files: 246
+2025-12-29 11:22:05.435 [info] Root hash: 4ce51ce47ecf0cea7c732897f8601deac37bcf2a2719c50dbc1e635670ce6138
+2025-12-29 11:22:05.436 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-12-29 11:22:05.988 [info] Finished indexing repository.
+2025-12-29 11:22:05.988 [info] Indexing job successfully done or aborted.
+2025-12-29 11:26:41.266 [info] multiCodebaseIndexingJob dispose
+2025-12-29 11:26:41.266 [info] Aborting indexing job.
+2025-12-29 11:26:41.266 [info] Setting global status from status tracker: synced
+2025-12-29 11:26:41.266 [info] Doing a startup handshake.
+2025-12-29 11:26:41.269 [info] Finished computing merkle tree in 1.6831909995526075 ms.
+2025-12-29 11:26:41.269 [info] Doing the initial handshake with hash: 4ce51ce47ecf0cea7c732897f8601deac37bcf2a2719c50dbc1e635670ce6138
+2025-12-29 11:26:41.271 [info] Computed simhash vector of length: 256
+2025-12-29 11:26:41.271 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 11:26:41.271 [info] Handshake start
+2025-12-29 11:26:41.444 [info] Handshake timing: 173.8568380009383, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 11:26:41.444 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 11:26:41.444 [info] Starting fast remote sync.
+2025-12-29 11:26:41.444 [info] Total num embeddable files: 246
+2025-12-29 11:26:41.444 [info] Root hash: 4ce51ce47ecf0cea7c732897f8601deac37bcf2a2719c50dbc1e635670ce6138
+2025-12-29 11:26:41.445 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-12-29 11:26:41.606 [info] Finished indexing repository.
+2025-12-29 11:26:41.606 [info] Indexing job successfully done or aborted.
+2025-12-29 11:31:17.266 [info] multiCodebaseIndexingJob dispose
+2025-12-29 11:31:17.274 [info] Aborting indexing job.
+2025-12-29 11:31:17.274 [info] Setting global status from status tracker: synced
+2025-12-29 11:31:17.274 [info] Doing a startup handshake.
+2025-12-29 11:31:17.277 [info] Finished computing merkle tree in 1.6510990001261234 ms.
+2025-12-29 11:31:17.278 [info] Doing the initial handshake with hash: 4ce51ce47ecf0cea7c732897f8601deac37bcf2a2719c50dbc1e635670ce6138
+2025-12-29 11:31:17.279 [info] Computed simhash vector of length: 256
+2025-12-29 11:31:17.279 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 11:31:17.279 [info] Handshake start
+2025-12-29 11:31:17.439 [info] Handshake timing: 159.7606699988246, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 11:31:17.439 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 11:31:17.439 [info] Starting fast remote sync.
+2025-12-29 11:31:17.439 [info] Total num embeddable files: 246
+2025-12-29 11:31:17.439 [info] Root hash: 4ce51ce47ecf0cea7c732897f8601deac37bcf2a2719c50dbc1e635670ce6138
+2025-12-29 11:31:17.440 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-12-29 11:31:17.875 [info] Finished indexing repository.
+2025-12-29 11:31:17.875 [info] Indexing job successfully done or aborted.
+2025-12-29 11:35:53.266 [info] multiCodebaseIndexingJob dispose
+2025-12-29 11:35:53.266 [info] Aborting indexing job.
+2025-12-29 11:35:53.266 [info] Setting global status from status tracker: synced
+2025-12-29 11:35:53.266 [info] Doing a startup handshake.
+2025-12-29 11:35:53.268 [info] Finished computing merkle tree in 1.2724880017340183 ms.
+2025-12-29 11:35:53.269 [info] Doing the initial handshake with hash: 4ce51ce47ecf0cea7c732897f8601deac37bcf2a2719c50dbc1e635670ce6138
+2025-12-29 11:35:53.270 [info] Computed simhash vector of length: 256
+2025-12-29 11:35:53.270 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 11:35:53.270 [info] Handshake start
+2025-12-29 11:35:53.432 [info] Handshake timing: 162.64445200003684, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 11:35:53.432 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 11:35:53.432 [info] Starting fast remote sync.
+2025-12-29 11:35:53.433 [info] Total num embeddable files: 246
+2025-12-29 11:35:53.433 [info] Root hash: 4ce51ce47ecf0cea7c732897f8601deac37bcf2a2719c50dbc1e635670ce6138
+2025-12-29 11:35:53.433 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-12-29 11:35:53.590 [info] Finished indexing repository.
+2025-12-29 11:35:53.590 [info] Indexing job successfully done or aborted.
+2025-12-29 11:40:29.267 [info] multiCodebaseIndexingJob dispose
+2025-12-29 11:40:29.267 [info] Aborting indexing job.
+2025-12-29 11:40:29.267 [info] Setting global status from status tracker: synced
+2025-12-29 11:40:29.267 [info] Doing a startup handshake.
+2025-12-29 11:40:29.269 [info] Finished computing merkle tree in 1.6594040002673864 ms.
+2025-12-29 11:40:29.270 [info] Doing the initial handshake with hash: 4ce51ce47ecf0cea7c732897f8601deac37bcf2a2719c50dbc1e635670ce6138
+2025-12-29 11:40:29.271 [info] Computed simhash vector of length: 256
+2025-12-29 11:40:29.271 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 11:40:29.271 [info] Handshake start
+2025-12-29 11:40:29.431 [info] Handshake timing: 160.78232999891043, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 11:40:29.431 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 11:40:29.431 [info] Starting fast remote sync.
+2025-12-29 11:40:29.432 [info] Total num embeddable files: 246
+2025-12-29 11:40:29.432 [info] Root hash: 4ce51ce47ecf0cea7c732897f8601deac37bcf2a2719c50dbc1e635670ce6138
+2025-12-29 11:40:29.433 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-12-29 11:40:29.857 [info] Finished indexing repository.
+2025-12-29 11:40:29.857 [info] Indexing job successfully done or aborted.
+2025-12-29 11:45:05.267 [info] multiCodebaseIndexingJob dispose
+2025-12-29 11:45:05.267 [info] Aborting indexing job.
+2025-12-29 11:45:05.267 [info] Setting global status from status tracker: synced
+2025-12-29 11:45:05.267 [info] Doing a startup handshake.
+2025-12-29 11:45:05.270 [info] Finished computing merkle tree in 1.5004099998623133 ms.
+2025-12-29 11:45:05.271 [info] Doing the initial handshake with hash: 4ce51ce47ecf0cea7c732897f8601deac37bcf2a2719c50dbc1e635670ce6138
+2025-12-29 11:45:05.272 [info] Computed simhash vector of length: 256
+2025-12-29 11:45:05.272 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 11:45:05.272 [info] Handshake start
+2025-12-29 11:45:05.430 [info] Handshake timing: 158.94060499966145, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 11:45:05.431 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 11:45:05.431 [info] Starting fast remote sync.
+2025-12-29 11:45:05.431 [info] Total num embeddable files: 246
+2025-12-29 11:45:05.431 [info] Root hash: 4ce51ce47ecf0cea7c732897f8601deac37bcf2a2719c50dbc1e635670ce6138
+2025-12-29 11:45:05.432 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-12-29 11:45:05.584 [info] Finished indexing repository.
+2025-12-29 11:45:05.584 [info] Indexing job successfully done or aborted.
+2025-12-29 11:49:41.267 [info] multiCodebaseIndexingJob dispose
+2025-12-29 11:49:41.267 [info] Aborting indexing job.
+2025-12-29 11:49:41.267 [info] Setting global status from status tracker: synced
+2025-12-29 11:49:41.267 [info] Doing a startup handshake.
+2025-12-29 11:49:41.270 [info] Finished computing merkle tree in 1.7348299995064735 ms.
+2025-12-29 11:49:41.270 [info] Doing the initial handshake with hash: 4ce51ce47ecf0cea7c732897f8601deac37bcf2a2719c50dbc1e635670ce6138
+2025-12-29 11:49:41.271 [info] Computed simhash vector of length: 256
+2025-12-29 11:49:41.271 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 11:49:41.271 [info] Handshake start
+2025-12-29 11:49:41.440 [info] Handshake timing: 168.6276200003922, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 11:49:41.440 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 11:49:41.440 [info] Starting fast remote sync.
+2025-12-29 11:49:41.441 [info] Total num embeddable files: 246
+2025-12-29 11:49:41.441 [info] Root hash: 4ce51ce47ecf0cea7c732897f8601deac37bcf2a2719c50dbc1e635670ce6138
+2025-12-29 11:49:41.442 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-12-29 11:49:41.879 [info] Finished indexing repository.
+2025-12-29 11:49:41.879 [info] Indexing job successfully done or aborted.
+2025-12-29 11:54:17.267 [info] multiCodebaseIndexingJob dispose
+2025-12-29 11:54:17.267 [info] Aborting indexing job.
+2025-12-29 11:54:17.267 [info] Setting global status from status tracker: synced
+2025-12-29 11:54:17.267 [info] Doing a startup handshake.
+2025-12-29 11:54:17.270 [info] Finished computing merkle tree in 1.7821290008723736 ms.
+2025-12-29 11:54:17.270 [info] Doing the initial handshake with hash: 4ce51ce47ecf0cea7c732897f8601deac37bcf2a2719c50dbc1e635670ce6138
+2025-12-29 11:54:17.272 [info] Computed simhash vector of length: 256
+2025-12-29 11:54:17.272 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 11:54:17.272 [info] Handshake start
+2025-12-29 11:54:17.434 [info] Handshake timing: 162.91110600158572, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 11:54:17.434 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 11:54:17.434 [info] Starting fast remote sync.
+2025-12-29 11:54:17.434 [info] Total num embeddable files: 246
+2025-12-29 11:54:17.435 [info] Root hash: 4ce51ce47ecf0cea7c732897f8601deac37bcf2a2719c50dbc1e635670ce6138
+2025-12-29 11:54:17.435 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-12-29 11:54:17.618 [info] Finished indexing repository.
+2025-12-29 11:54:17.618 [info] Indexing job successfully done or aborted.
+2025-12-29 11:58:53.266 [info] multiCodebaseIndexingJob dispose
+2025-12-29 11:58:53.266 [info] Aborting indexing job.
+2025-12-29 11:58:53.266 [info] Setting global status from status tracker: synced
+2025-12-29 11:58:53.266 [info] Doing a startup handshake.
+2025-12-29 11:58:53.268 [info] Finished computing merkle tree in 0.9319250006228685 ms.
+2025-12-29 11:58:53.268 [info] Doing the initial handshake with hash: 4ce51ce47ecf0cea7c732897f8601deac37bcf2a2719c50dbc1e635670ce6138
+2025-12-29 11:58:53.269 [info] Computed simhash vector of length: 256
+2025-12-29 11:58:53.269 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 11:58:53.269 [info] Handshake start
+2025-12-29 11:58:53.444 [info] Handshake timing: 174.63233000040054, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 11:58:53.444 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 11:58:53.444 [info] Starting fast remote sync.
+2025-12-29 11:58:53.444 [info] Total num embeddable files: 246
+2025-12-29 11:58:53.444 [info] Root hash: 4ce51ce47ecf0cea7c732897f8601deac37bcf2a2719c50dbc1e635670ce6138
+2025-12-29 11:58:53.445 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-12-29 11:58:53.879 [info] Finished indexing repository.
+2025-12-29 11:58:53.879 [info] Indexing job successfully done or aborted.
+2025-12-29 12:03:29.266 [info] multiCodebaseIndexingJob dispose
+2025-12-29 12:03:29.266 [info] Aborting indexing job.
+2025-12-29 12:03:29.266 [info] Setting global status from status tracker: synced
+2025-12-29 12:03:29.266 [info] Doing a startup handshake.
+2025-12-29 12:03:29.268 [info] Finished computing merkle tree in 0.9122560005635023 ms.
+2025-12-29 12:03:29.268 [info] Doing the initial handshake with hash: 4ce51ce47ecf0cea7c732897f8601deac37bcf2a2719c50dbc1e635670ce6138
+2025-12-29 12:03:29.270 [info] Computed simhash vector of length: 256
+2025-12-29 12:03:29.270 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 12:03:29.270 [info] Handshake start
+2025-12-29 12:03:29.429 [info] Handshake timing: 159.6097749993205, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 12:03:29.429 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 12:03:29.429 [info] Starting fast remote sync.
+2025-12-29 12:03:29.429 [info] Total num embeddable files: 246
+2025-12-29 12:03:29.429 [info] Root hash: 4ce51ce47ecf0cea7c732897f8601deac37bcf2a2719c50dbc1e635670ce6138
+2025-12-29 12:03:29.430 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-12-29 12:03:29.618 [info] Finished indexing repository.
+2025-12-29 12:03:29.618 [info] Indexing job successfully done or aborted.
+2025-12-29 12:08:05.268 [info] multiCodebaseIndexingJob dispose
+2025-12-29 12:08:05.268 [info] Aborting indexing job.
+2025-12-29 12:08:05.268 [info] Setting global status from status tracker: synced
+2025-12-29 12:08:05.268 [info] Doing a startup handshake.
+2025-12-29 12:08:05.270 [info] Finished computing merkle tree in 1.7268950007855892 ms.
+2025-12-29 12:08:05.271 [info] Doing the initial handshake with hash: 4ce51ce47ecf0cea7c732897f8601deac37bcf2a2719c50dbc1e635670ce6138
+2025-12-29 12:08:05.272 [info] Computed simhash vector of length: 256
+2025-12-29 12:08:05.272 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 12:08:05.272 [info] Handshake start
+2025-12-29 12:08:05.432 [info] Handshake timing: 160.08194999955595, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 12:08:05.432 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 12:08:05.432 [info] Starting fast remote sync.
+2025-12-29 12:08:05.433 [info] Total num embeddable files: 246
+2025-12-29 12:08:05.433 [info] Root hash: 4ce51ce47ecf0cea7c732897f8601deac37bcf2a2719c50dbc1e635670ce6138
+2025-12-29 12:08:05.434 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-12-29 12:08:05.873 [info] Finished indexing repository.
+2025-12-29 12:08:05.873 [info] Indexing job successfully done or aborted.
+2025-12-29 12:12:41.268 [info] multiCodebaseIndexingJob dispose
+2025-12-29 12:12:41.268 [info] Aborting indexing job.
+2025-12-29 12:12:41.268 [info] Setting global status from status tracker: synced
+2025-12-29 12:12:41.268 [info] Doing a startup handshake.
+2025-12-29 12:12:41.270 [info] Finished computing merkle tree in 1.1175900008529425 ms.
+2025-12-29 12:12:41.270 [info] Doing the initial handshake with hash: 4ce51ce47ecf0cea7c732897f8601deac37bcf2a2719c50dbc1e635670ce6138
+2025-12-29 12:12:41.272 [info] Computed simhash vector of length: 256
+2025-12-29 12:12:41.272 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 12:12:41.272 [info] Handshake start
+2025-12-29 12:12:41.439 [info] Handshake timing: 167.79664599895477, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 12:12:41.439 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 12:12:41.439 [info] Starting fast remote sync.
+2025-12-29 12:12:41.439 [info] Total num embeddable files: 246
+2025-12-29 12:12:41.439 [info] Root hash: 4ce51ce47ecf0cea7c732897f8601deac37bcf2a2719c50dbc1e635670ce6138
+2025-12-29 12:12:41.440 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-12-29 12:12:41.597 [info] Finished indexing repository.
+2025-12-29 12:12:41.597 [info] Indexing job successfully done or aborted.
+2025-12-29 12:17:17.268 [info] multiCodebaseIndexingJob dispose
+2025-12-29 12:17:17.268 [info] Aborting indexing job.
+2025-12-29 12:17:17.268 [info] Setting global status from status tracker: synced
+2025-12-29 12:17:17.268 [info] Doing a startup handshake.
+2025-12-29 12:17:17.271 [info] Finished computing merkle tree in 1.248378999531269 ms.
+2025-12-29 12:17:17.271 [info] Doing the initial handshake with hash: 4ce51ce47ecf0cea7c732897f8601deac37bcf2a2719c50dbc1e635670ce6138
+2025-12-29 12:17:17.272 [info] Computed simhash vector of length: 256
+2025-12-29 12:17:17.272 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 12:17:17.272 [info] Handshake start
+2025-12-29 12:17:17.444 [info] Handshake timing: 171.7801990006119, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 12:17:17.444 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 12:17:17.444 [info] Starting fast remote sync.
+2025-12-29 12:17:17.444 [info] Total num embeddable files: 246
+2025-12-29 12:17:17.444 [info] Root hash: 4ce51ce47ecf0cea7c732897f8601deac37bcf2a2719c50dbc1e635670ce6138
+2025-12-29 12:17:17.445 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-12-29 12:17:17.873 [info] Finished indexing repository.
+2025-12-29 12:17:17.873 [info] Indexing job successfully done or aborted.
+2025-12-29 12:21:53.269 [info] multiCodebaseIndexingJob dispose
+2025-12-29 12:21:53.269 [info] Aborting indexing job.
+2025-12-29 12:21:53.269 [info] Setting global status from status tracker: synced
+2025-12-29 12:21:53.269 [info] Doing a startup handshake.
+2025-12-29 12:21:53.271 [info] Finished computing merkle tree in 0.9351529981940985 ms.
+2025-12-29 12:21:53.271 [info] Doing the initial handshake with hash: 4ce51ce47ecf0cea7c732897f8601deac37bcf2a2719c50dbc1e635670ce6138
+2025-12-29 12:21:53.272 [info] Computed simhash vector of length: 256
+2025-12-29 12:21:53.272 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 12:21:53.272 [info] Handshake start
+2025-12-29 12:21:53.438 [info] Handshake timing: 165.9353279992938, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 12:21:53.438 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 12:21:53.438 [info] Starting fast remote sync.
+2025-12-29 12:21:53.438 [info] Total num embeddable files: 246
+2025-12-29 12:21:53.438 [info] Root hash: 4ce51ce47ecf0cea7c732897f8601deac37bcf2a2719c50dbc1e635670ce6138
+2025-12-29 12:21:53.439 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-12-29 12:21:53.595 [info] Finished indexing repository.
+2025-12-29 12:21:53.595 [info] Indexing job successfully done or aborted.
+2025-12-29 12:26:29.269 [info] multiCodebaseIndexingJob dispose
+2025-12-29 12:26:29.269 [info] Aborting indexing job.
+2025-12-29 12:26:29.269 [info] Setting global status from status tracker: synced
+2025-12-29 12:26:29.269 [info] Doing a startup handshake.
+2025-12-29 12:26:29.271 [info] Finished computing merkle tree in 1.054185999557376 ms.
+2025-12-29 12:26:29.271 [info] Doing the initial handshake with hash: 4ce51ce47ecf0cea7c732897f8601deac37bcf2a2719c50dbc1e635670ce6138
+2025-12-29 12:26:29.273 [info] Computed simhash vector of length: 256
+2025-12-29 12:26:29.273 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 12:26:29.273 [info] Handshake start
+2025-12-29 12:26:29.434 [info] Handshake timing: 161.75716899894178, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 12:26:29.434 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 12:26:29.434 [info] Starting fast remote sync.
+2025-12-29 12:26:29.435 [info] Total num embeddable files: 246
+2025-12-29 12:26:29.435 [info] Root hash: 4ce51ce47ecf0cea7c732897f8601deac37bcf2a2719c50dbc1e635670ce6138
+2025-12-29 12:26:29.435 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-12-29 12:26:29.873 [info] Finished indexing repository.
+2025-12-29 12:26:29.873 [info] Indexing job successfully done or aborted.
+2025-12-29 12:31:05.269 [info] multiCodebaseIndexingJob dispose
+2025-12-29 12:31:05.269 [info] Aborting indexing job.
+2025-12-29 12:31:05.269 [info] Setting global status from status tracker: synced
+2025-12-29 12:31:05.269 [info] Doing a startup handshake.
+2025-12-29 12:31:05.271 [info] Finished computing merkle tree in 1.3475080002099276 ms.
+2025-12-29 12:31:05.272 [info] Doing the initial handshake with hash: 4ce51ce47ecf0cea7c732897f8601deac37bcf2a2719c50dbc1e635670ce6138
+2025-12-29 12:31:05.273 [info] Computed simhash vector of length: 256
+2025-12-29 12:31:05.273 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 12:31:05.273 [info] Handshake start
+2025-12-29 12:31:05.442 [info] Handshake timing: 170.06365099921823, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 12:31:05.442 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 12:31:05.442 [info] Starting fast remote sync.
+2025-12-29 12:31:05.443 [info] Total num embeddable files: 246
+2025-12-29 12:31:05.443 [info] Root hash: 4ce51ce47ecf0cea7c732897f8601deac37bcf2a2719c50dbc1e635670ce6138
+2025-12-29 12:31:05.443 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-12-29 12:31:05.602 [info] Finished indexing repository.
+2025-12-29 12:31:05.602 [info] Indexing job successfully done or aborted.
+2025-12-29 12:35:41.269 [info] multiCodebaseIndexingJob dispose
+2025-12-29 12:35:41.269 [info] Aborting indexing job.
+2025-12-29 12:35:41.269 [info] Setting global status from status tracker: synced
+2025-12-29 12:35:41.269 [info] Doing a startup handshake.
+2025-12-29 12:35:41.272 [info] Finished computing merkle tree in 1.7844709996134043 ms.
+2025-12-29 12:35:41.273 [info] Doing the initial handshake with hash: 4ce51ce47ecf0cea7c732897f8601deac37bcf2a2719c50dbc1e635670ce6138
+2025-12-29 12:35:41.274 [info] Computed simhash vector of length: 256
+2025-12-29 12:35:41.274 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 12:35:41.274 [info] Handshake start
+2025-12-29 12:35:41.441 [info] Handshake timing: 167.12557400017977, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 12:35:41.441 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 12:35:41.441 [info] Starting fast remote sync.
+2025-12-29 12:35:41.441 [info] Total num embeddable files: 246
+2025-12-29 12:35:41.442 [info] Root hash: 4ce51ce47ecf0cea7c732897f8601deac37bcf2a2719c50dbc1e635670ce6138
+2025-12-29 12:35:41.442 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-12-29 12:35:41.862 [info] Finished indexing repository.
+2025-12-29 12:35:41.862 [info] Indexing job successfully done or aborted.
+2025-12-29 12:40:17.270 [info] multiCodebaseIndexingJob dispose
+2025-12-29 12:40:17.270 [info] Aborting indexing job.
+2025-12-29 12:40:17.270 [info] Setting global status from status tracker: synced
+2025-12-29 12:40:17.270 [info] Doing a startup handshake.
+2025-12-29 12:40:17.272 [info] Finished computing merkle tree in 1.424337999895215 ms.
+2025-12-29 12:40:17.273 [info] Doing the initial handshake with hash: 4ce51ce47ecf0cea7c732897f8601deac37bcf2a2719c50dbc1e635670ce6138
+2025-12-29 12:40:17.274 [info] Computed simhash vector of length: 256
+2025-12-29 12:40:17.274 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 12:40:17.274 [info] Handshake start
+2025-12-29 12:40:17.431 [info] Handshake timing: 157.37902900017798, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 12:40:17.431 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 12:40:17.431 [info] Starting fast remote sync.
+2025-12-29 12:40:17.431 [info] Total num embeddable files: 246
+2025-12-29 12:40:17.431 [info] Root hash: 4ce51ce47ecf0cea7c732897f8601deac37bcf2a2719c50dbc1e635670ce6138
+2025-12-29 12:40:17.432 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-12-29 12:40:17.897 [info] Finished indexing repository.
+2025-12-29 12:40:17.897 [info] Indexing job successfully done or aborted.
+2025-12-29 12:44:53.270 [info] multiCodebaseIndexingJob dispose
+2025-12-29 12:44:53.270 [info] Aborting indexing job.
+2025-12-29 12:44:53.270 [info] Setting global status from status tracker: synced
+2025-12-29 12:44:53.270 [info] Doing a startup handshake.
+2025-12-29 12:44:53.273 [info] Finished computing merkle tree in 2.0591940004378557 ms.
+2025-12-29 12:44:53.274 [info] Doing the initial handshake with hash: 4ce51ce47ecf0cea7c732897f8601deac37bcf2a2719c50dbc1e635670ce6138
+2025-12-29 12:44:53.275 [info] Computed simhash vector of length: 256
+2025-12-29 12:44:53.275 [info] Path key hash: 8bbb8067135c4ee5ea68f72ad10c4e42ca8a4c8274c573d1932f47da557b8b49
+2025-12-29 12:44:53.275 [info] Handshake start
+2025-12-29 12:44:53.448 [info] Handshake timing: 173.76316099986434, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 12:44:53.448 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c3cb03e-d7e7-4dd8-b97e-51eff57f7362","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-12-29 12:44:53.448 [info] Starting fast remote sync.
+2025-12-29 12:44:53.449 [info] Total num embeddable files: 246
+2025-12-29 12:44:53.449 [info] Root hash: 4ce51ce47ecf0cea7c732897f8601deac37bcf2a2719c50dbc1e635670ce6138
+2025-12-29 12:44:53.450 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-12-29 12:44:53.876 [info] Finished indexing repository.
+2025-12-29 12:44:53.877 [info] Indexing job successfully done or aborted.
+2025-12-29 12:45:56.534 [info] multiCodebaseIndexingJob dispose
+2025-12-29 12:45:56.534 [info] Aborting indexing job.

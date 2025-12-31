@@ -1,0 +1,54 @@
+<unity_prefs version_major="1" version_minor="1">
+	<pref name="DLCOwnership_SupporterPack" type="int">0</pref>
+	<pref name="HasPlayedTutorial" type="int">1</pref>
+	<pref name="Screenmanager Fullscreen mode" type="int">1</pref>
+	<pref name="Screenmanager Fullscreen mode Default" type="int">1</pref>
+	<pref name="Screenmanager Resolution Height" type="int">1080</pref>
+	<pref name="Screenmanager Resolution Height Default" type="int">1080</pref>
+	<pref name="Screenmanager Resolution Use Native" type="int">0</pref>
+	<pref name="Screenmanager Resolution Use Native Default" type="int">1</pref>
+	<pref name="Screenmanager Resolution Width" type="int">1920</pref>
+	<pref name="Screenmanager Resolution Width Default" type="int">1920</pref>
+	<pref name="Screenmanager Window Position X" type="int">0</pref>
+	<pref name="Screenmanager Window Position Y" type="int">0</pref>
+	<pref name="UnityGraphicsQuality" type="int">4</pref>
+	<pref name="UnitySelectMonitor" type="int">0</pref>
+	<pref name="demoGamepadSounds" type="int">1</pref>
+	<pref name="enableBuffIcons" type="int">1</pref>
+	<pref name="enableDeathEffect" type="int">1</pref>
+	<pref name="enableExperienceCollectSound" type="int">1</pref>
+	<pref name="gamePrefs" type="string">eyJDcm9zc2hhaXJBbHdheXNFbmFibGVkIjp0cnVlLCJRdWlja0Nhc3RFbmFibGVkIjp0cnVlLCJBdXRvTGV2ZWxVcEVuYWJsZWQiOnRydWUsIkRhbWFnZU51bWJlcnNFbmFibGVkIjp0cnVlLCJEYW1hZ2VOdW1iZXJDb2xvcnNFbmFibGVkIjpmYWxzZSwiRW5lbXlIZWFsdGhCYXJzRGlzYWJsZWQiOmZhbHNlLCJFbGl0ZUVuZW15SGVhbHRoQmFyc0Rpc2FibGVkIjpmYWxzZSwiQm9zc0hlYWx0aEJhcnNEaXNhYmxlZCI6ZmFsc2UsIlNob3dUb29sdGlwc0R1cmluZ0dhbWVwbGF5Ijp0cnVlLCJDdXJzb3JTaXplIjo5Ni4wLCJDdXJzb3JIdWUiOjAuMCwiQ3Vyc29yU2F0dXJhdGlvbiI6MC41LCJRdWFsaXR5U2V0dGluZ3NJbmRleCI6NCwiRWZmZWN0VmlzaWJpbGl0eSI6MC4yOTk5OTk5MjI1MTM5NjE4LCJWaWduZXR0ZUVmZmVjdCI6dHJ1ZSwiQW1iaWVudE9jY2x1c2lvbkVmZmVjdCI6dHJ1ZSwiVXNlSW5kaXZpZHVhbERhbWFnZU51bWJlcnMiOmZhbHNlLCJIZWFsdGhCYXJzV2l0aERvb20iOnRydWUsIkhlYWx0aEJhcnNXaXRoQnVybiI6ZmFsc2UsIkhlYWx0aEJhcnNXaXRoUG9pc29uIjpmYWxzZSwiSGVhbHRoQmFyc1dpdGhCbGVlZCI6ZmFsc2UsIkRpc2FibGVPYmplY3RpdmVXYXJuaW5nIjpmYWxzZSwiRW5hYmxlRGVhdGhFZmZlY3QiOnRydWUsIk9uZUhhbmRPbmx5TW9kZSI6ZmFsc2UsIkF1dG9Nb3ZlVG9DdXJzb3IiOmZhbHNlLCJBdXRvQWltRW5hYmxlZCI6dHJ1ZSwiUGF1c2VPbkZvY3VzIjp0cnVlLCJQaHlzaWNzQ1BVTGltaXQiOnRydWUsIlNob3dCdWZmU3RhdHVzIjp0cnVlLCJMZXZlbFVwQ29vbGRvd24iOjAuMjAwMDAwMDAyOTgwMjMyMjUsIkFibm9ybWFsU3RhY2tDb3VudEVuYWJsZWQiOnRydWUsIlN0cmVhbVNraWxsU2VjdGlvblRpbWUiOjE1LjAsIlN0cmVhbU1heFZpZXdlck1vbnN0ZXJzIjo1LjAsIlN0cmVhbVZpZXdlclNwYXduUmF0aW8iOjEwLjAsIlN0cmVhbVNhdmVQbGF5ZXJLZXlFbmFibGVkIjpmYWxzZSwiRGFtYWdlT3ZlcmxheUludGVuc2l0eSI6MS4wLCJDdXJzb3JWaXNpYmxlIjp0cnVlLCJIYXB0aWNzRmVlZGJhY2siOnRydWUsIkhhcHRpY3NGZWVkYmFja0ludGVuc2l0eSI6MS4wLCJDdXJyZW50U2VsZWN0ZWRJbnZlbnRvcnlUeXBlIjoyLCJQbGF5U291bmRzR2FtZXBhZEVuYWJsZWQiOmZhbHNlLCJEaXNhYmxlVm9pY2VPdmVyIjpmYWxzZSwiRGlzYWJsZU1vZElPIjpmYWxzZSwiRGlzYWJsZVN1YnRpdGxlcyI6ZmFsc2UsIlZmeEludGVuc2l0eUxldmVsIjoxLCJVc2VIRFIiOnRydWUsIk1pbmltYXBTY3JlZW5Qb3NpdGlvbiI6MSwiTWluaW1hcE9wYWNpdHkiOjAuNSwiSGlkZUFsbENvbWJhdFRleHQiOmZhbHNlLCJSZWZyZXNoUmF0ZU1vZGUiOjAsIlJlZnJlc2hSYXRlV2hlbk1vZGVJc1NwZWNpZmljIjo2MCwiRW5hYmxlRXhwZXJpZW5jZUNvbGxlY3RTb3VuZCI6dHJ1ZSwiVnN5bmMiOnRydWUsIlZzeW5jQ291bnQiOjF9</pref>
+	<pref name="gamepadVolume" type="float">1</pref>
+	<pref name="hapticsFeedbackIntensity" type="int">1</pref>
+	<pref name="lastSelectedSaveIndex" type="int">0</pref>
+	<pref name="masterVolume" type="float">0.0940521</pref>
+	<pref name="migratedAbnormalStackCount" type="int">1</pref>
+	<pref name="migratedAmbientOcclusionEffect" type="int">1</pref>
+	<pref name="migratedCursorColor" type="int">1</pref>
+	<pref name="migratedDamageColors" type="int">1</pref>
+	<pref name="migratedDamageOverlayIntensity" type="int">1</pref>
+	<pref name="migratedDoomOnHealthBars" type="int">1</pref>
+	<pref name="migratedIngameTooltips" type="int">1</pref>
+	<pref name="migratedLevelUpCooldown" type="int">1</pref>
+	<pref name="migratedQualitySettings" type="int">1</pref>
+	<pref name="migratedRefreshRate" type="int">1</pref>
+	<pref name="migratedVignetteEffect" type="int">1</pref>
+	<pref name="minimapOpacity" type="int">1</pref>
+	<pref name="minimapScreenPosition" type="int">1</pref>
+	<pref name="musicVolume" type="float">1</pref>
+	<pref name="physicsCPULimit" type="int">1</pref>
+	<pref name="refreshRateMode" type="int">1</pref>
+	<pref name="sfxVolume" type="float">1</pref>
+	<pref name="streamMaxViewerMonsters" type="int">1</pref>
+	<pref name="streamSavePlayerKeyEnabled" type="int">1</pref>
+	<pref name="streamSkillSectionTime" type="int">1</pref>
+	<pref name="streamViewerSpawnRation" type="int">1</pref>
+	<pref name="unity.cloud_userid" type="string">MWUwYmU4NTU2MmYxMjJkZGRiMWI1N2I2MTY2ZTRkOTk=</pref>
+	<pref name="unity.player_session_count" type="string">Ng==</pref>
+	<pref name="unity.player_sessionid" type="string">MTA5MTI0ODI4ODU2NzUxODQwNg==</pref>
+	<pref name="vfxIntensityLevel" type="int">1</pref>
+	<pref name="voiceOver" type="int">1</pref>
+	<pref name="voiceOverEnabled" type="int">1</pref>
+	<pref name="voiceOverVolume" type="float">1</pref>
+	<pref name="vsyncCount" type="int">1</pref>
+</unity_prefs>

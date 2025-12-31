@@ -1,0 +1,53 @@
+2025-12-24 11:09:19.050 [warning] Dir "/home/henrique/upd8/Rodosafra IA/.pixi/envs" is not watchable (directory does not exist)
+2025-12-24 11:09:19.077 [info] Starting Environment refresh
+2025-12-24 11:09:19.077 [info] Searching for interpreters in posix paths locator
+2025-12-24 11:09:19.081 [info] Searching for pyenv environments
+2025-12-24 11:09:19.081 [info] Searching for conda environments
+2025-12-24 11:09:19.081 [info] Searching for global virtual environments
+2025-12-24 11:09:19.081 [info] Searching for custom virtual environments
+2025-12-24 11:09:19.127 [info] pyenv is not installed
+2025-12-24 11:09:19.127 [info] Finished searching for pyenv environments: 50 milliseconds
+2025-12-24 11:09:19.127 [info] Finished searching for custom virtual envs: 49 milliseconds
+2025-12-24 11:09:19.134 [info] > conda info --json
+2025-12-24 11:09:19.140 [info] > hatch env show --json
+2025-12-24 11:09:19.140 [info] cwd: ~/upd8/Rodosafra IA
+2025-12-24 11:09:19.214 [info] > pyenv which python
+2025-12-24 11:09:19.214 [info] cwd: ~/upd8/Rodosafra IA
+2025-12-24 11:09:19.214 [info] Finished searching for global virtual envs: 136 milliseconds
+2025-12-24 11:09:19.249 [info] Found: /bin/python --> /bin/python3.13
+2025-12-24 11:09:19.250 [info] Found: /bin/python3 --> /bin/python3.13
+2025-12-24 11:09:19.250 [info] Found: /bin/python3.13 --> /bin/python3.13
+2025-12-24 11:09:19.264 [info] Found: /sbin/python --> /sbin/python3.13
+2025-12-24 11:09:19.264 [info] Found: /sbin/python3 --> /sbin/python3.13
+2025-12-24 11:09:19.264 [info] Found: /sbin/python3.13 --> /sbin/python3.13
+2025-12-24 11:09:19.267 [info] Found: /usr/bin/python --> /usr/bin/python3.13
+2025-12-24 11:09:19.267 [info] Found: /usr/bin/python3 --> /usr/bin/python3.13
+2025-12-24 11:09:19.268 [info] Found: /usr/bin/python3.13 --> /usr/bin/python3.13
+2025-12-24 11:09:19.280 [info] Found: /usr/sbin/python --> /usr/sbin/python3.13
+2025-12-24 11:09:19.281 [info] Found: /usr/sbin/python3 --> /usr/sbin/python3.13
+2025-12-24 11:09:19.281 [info] Found: /usr/sbin/python3.13 --> /usr/sbin/python3.13
+2025-12-24 11:09:19.291 [info] > /bin/python -I ~/.cursor/extensions/ms-python.python-2025.6.1-linux-x64/python_files/get_output_via_markers.py ~/.cursor/extensions/ms-python.python-2025.6.1-linux-x64/python_files/interpreterInfo.py
+2025-12-24 11:09:19.302 [info] > /sbin/python -I ~/.cursor/extensions/ms-python.python-2025.6.1-linux-x64/python_files/get_output_via_markers.py ~/.cursor/extensions/ms-python.python-2025.6.1-linux-x64/python_files/interpreterInfo.py
+2025-12-24 11:09:19.307 [info] Finished searching for interpreters in posix paths locator: 231 milliseconds
+2025-12-24 11:09:19.312 [info] Environments refresh paths discovered (event): 236 milliseconds
+2025-12-24 11:09:19.312 [info] Environments refresh paths discovered: 236 milliseconds
+2025-12-24 11:09:19.321 [info] > /usr/bin/python -I ~/.cursor/extensions/ms-python.python-2025.6.1-linux-x64/python_files/get_output_via_markers.py ~/.cursor/extensions/ms-python.python-2025.6.1-linux-x64/python_files/interpreterInfo.py
+2025-12-24 11:09:19.329 [info] > /usr/sbin/python -I ~/.cursor/extensions/ms-python.python-2025.6.1-linux-x64/python_files/get_output_via_markers.py ~/.cursor/extensions/ms-python.python-2025.6.1-linux-x64/python_files/interpreterInfo.py
+2025-12-24 11:09:19.351 [info] Environments refresh finished (event): 275 milliseconds
+2025-12-24 11:09:19.356 [info] Environment refresh took 281 milliseconds
+2025-12-24 11:09:19.360 [info] Python interpreter path: /bin/python
+2025-12-24 11:09:19.361 [info] Editor support is inactive since language server is set to None.
+2025-12-24 11:10:28.138 [info] Discover tests for workspace name: undefined - uri: /home/henrique/.config/Cursor/User/settings.json
+2025-12-24 13:22:28.435 [info] Discover tests for workspace name: undefined - uri: /home/henrique/.config/Cursor/User/settings.json
+2025-12-24 14:22:45.955 [info] Discover tests for workspace name: Rodosafra IA - uri: /home/henrique/upd8/Rodosafra IA/cadastros/popula-tabelas-referencia/lambda_function.py
+2025-12-24 14:23:35.471 [info] CreateEnv Trigger - Skipping for /home/henrique/upd8/Rodosafra IA/exemplos-json/popula-tabelas-referencia/prepare-input.py
+2025-12-24 14:23:35.838 [info] Send text to terminal: /bin/python "/home/henrique/upd8/Rodosafra IA/exemplos-json/popula-tabelas-referencia/prepare-input.py"
+2025-12-24 14:30:36.737 [info] Discover tests for workspace name: Rodosafra IA - uri: /home/henrique/upd8/Rodosafra IA/exemplos-json/popula-tabelas-referencia/lambda_function.py
+2025-12-24 14:31:34.322 [info] Discover tests for workspace name: Rodosafra IA - uri: /home/henrique/upd8/Rodosafra IA/exemplos-json/popula-tabelas-referencia/lambda_function.py
+2025-12-24 14:31:35.481 [info] Discover tests for workspace name: Rodosafra IA - uri: /home/henrique/upd8/Rodosafra IA/exemplos-json/popula-tabelas-referencia/lambda_function.py
+2025-12-24 14:31:42.752 [info] Discover tests for workspace name: Rodosafra IA - uri: /home/henrique/upd8/Rodosafra IA/exemplos-json/popula-tabelas-referencia/lambda_function.py
+2025-12-24 14:31:48.503 [info] Discover tests for workspace name: Rodosafra IA - uri: /home/henrique/upd8/Rodosafra IA/exemplos-json/popula-tabelas-referencia/lambda_function.py
+2025-12-24 14:31:58.809 [info] Discover tests for workspace name: Rodosafra IA - uri: /home/henrique/upd8/Rodosafra IA/exemplos-json/popula-tabelas-referencia/lambda_function.py
+2025-12-24 14:32:06.586 [info] Discover tests for workspace name: Rodosafra IA - uri: /home/henrique/upd8/Rodosafra IA/exemplos-json/popula-tabelas-referencia/lambda_function.py
+2025-12-24 14:33:07.466 [info] Discover tests for workspace name: Rodosafra IA - uri: /home/henrique/upd8/Rodosafra IA/cadastros/popula-tabelas-referencia/prepare-input.py
+2025-12-24 15:12:39.893 [info] Discover tests for workspace name: Rodosafra IA - uri: /home/henrique/upd8/Rodosafra IA/cadastros/popula-tabelas-referencia/prepare-input.py

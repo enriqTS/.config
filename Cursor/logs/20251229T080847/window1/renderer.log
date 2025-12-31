@@ -1,0 +1,140 @@
+2025-12-29 08:08:49.366 [warning] Missing property "rpcFileLoggerFolder" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-29 08:08:49.371 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-29 08:08:49.372 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-copilot-data-analysis' wants API proposal 'chatVariableResolver' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-29 08:08:49.372 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-29 08:08:49.372 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-python-envs' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-29 08:08:49.372 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatReadonlyPromptReference' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-29 08:08:49.373 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-29 08:08:49.373 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-29 08:08:49.373 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-29 08:08:49.373 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-29 08:08:49.811 [info] Started local extension host with pid 9499.
+2025-12-29 08:08:49.999 [warning] [aws-toolkit-vscode]: Couldn't find message for key AWS.command.apig.copyUrl.
+2025-12-29 08:08:50.064 [error] Extension 'ms-toolsai.jupyter' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): notebookDeprecated, notebookMessaging, notebookMime, contribNotebookStaticPreloads, portsAttributes, quickPickSortByLabel, notebookKernelSource, interactiveWindow, quickPickItemTooltip, notebookExecution, notebookCellExecution, notebookVariableProvider, notebookReplDocument
+product.json (WINS): notebookDeprecated, notebookMessaging, notebookMime, notebookCellExecutionState, quickPickSortByLabel, notebookKernelSource, interactiveWindow, notebookControllerAffinityHidden, contribNotebookStaticPreloads, quickPickItemTooltip, notebookExecution, notebookCellExecution, notebookVariableProvider, notebookReplDocument
+2025-12-29 08:08:50.109 [warning] [ms-python.python]: Cannot register 'python.venvPath'. This property is already registered.
+2025-12-29 08:08:50.426 [info] [LocalProcessExtensionHost] getDefaultShell result: /usr/bin/fish
+2025-12-29 08:08:50.426 [info] [LocalProcessExtensionHost] Final userTerminalHint: /usr/bin/fish
+2025-12-29 08:08:50.542 [warning] No search provider registered for scheme: file, waiting
+2025-12-29 08:08:51.818 [error] [Extension Host] (node:9499) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-12-29 08:08:52.447 [info] [ShellExec] Created session 69d80cd4-4036-4282-91a0-2b1d6bd14add on LocalProcess host
+2025-12-29 08:08:52.461 [warning] Authentication provider HashiCorpTerraformCloud was not declared in the Extension Manifest.
+2025-12-29 08:08:59.344 [info] [WorktreeCleanupCron] Registering cleanup task with interval of 6 hours
+2025-12-29 08:08:59.344 [info] [WorktreeCleanupCron] Cleanup task registered with interval of 6 hours (21600000ms)
+2025-12-29 08:09:05.223 [info] [Debug] Registered command palette action: debug.classifyRecentConversations
+2025-12-29 08:09:05.223 [info] [Debug] Registered command palette action: debug.testLinearIssues
+2025-12-29 08:09:05.223 [info] [Debug] Registered command palette action: debug.logComposer
+2025-12-29 08:09:05.223 [info] [Debug] Registered command palette action: debug.getContextKeyValue
+2025-12-29 08:09:05.223 [info] [Debug] Registered command palette action: debug.getApplicationProperty
+2025-12-29 08:09:05.232 [info] OpenInBrowserWatcher: Initializing terminal log watcher
+2025-12-29 08:09:05.235 [info] [RepositoryTracker] Stored repository path: dev.azure.com/upd8/rodosafra%20ia/_git/rodosafra%20ia -> file:///home/henrique/upd8/Rodosafra%20IA
+2025-12-29 08:09:05.279 [info] [perf] Render performance baseline is 12ms
+2025-12-29 08:09:05.285 [info] [Cursor Proclist Polling] Config applied to Main process
+2025-12-29 08:09:05.285 [info] [Cursor Proclist Polling] Started polling (every 5 min)
+2025-12-29 08:09:18.862 [info] [Extensions]: Checking for updates. Reason: Product update
+2025-12-29 08:10:34.720 [error] An unknown error occurred. Please consult the log for more details. {}
+2025-12-29 08:14:05.293 [info] [Cursor Proclist] Samples written: 21 local processes, 0 remote processes
+2025-12-29 08:19:05.294 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-29 08:24:05.299 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-29 08:29:05.291 [info] [Cursor Proclist] Samples written: 19 local processes, 0 remote processes
+2025-12-29 08:34:05.292 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-29 08:39:05.294 [info] [Cursor Proclist] Samples written: 18 local processes, 0 remote processes
+2025-12-29 08:44:05.291 [info] [Cursor Proclist] Samples written: 19 local processes, 0 remote processes
+2025-12-29 08:49:05.294 [info] [Cursor Proclist] Samples written: 19 local processes, 0 remote processes
+2025-12-29 08:54:05.290 [info] [Cursor Proclist] Samples written: 19 local processes, 0 remote processes
+2025-12-29 08:59:05.299 [info] [Cursor Proclist] Samples written: 19 local processes, 0 remote processes
+2025-12-29 09:04:05.297 [info] [Cursor Proclist] Samples written: 19 local processes, 0 remote processes
+2025-12-29 09:09:05.292 [info] [Cursor Proclist] Samples written: 20 local processes, 0 remote processes
+2025-12-29 09:14:05.291 [info] [Cursor Proclist] Samples written: 19 local processes, 0 remote processes
+2025-12-29 09:19:05.303 [info] [Cursor Proclist] Samples written: 19 local processes, 0 remote processes
+2025-12-29 09:24:05.303 [info] [Cursor Proclist] Samples written: 19 local processes, 0 remote processes
+2025-12-29 09:29:05.291 [info] [Cursor Proclist] Samples written: 20 local processes, 0 remote processes
+2025-12-29 09:34:05.294 [info] [Cursor Proclist] Samples written: 19 local processes, 0 remote processes
+2025-12-29 09:39:05.291 [info] [Cursor Proclist] Samples written: 19 local processes, 0 remote processes
+2025-12-29 09:44:05.293 [info] [Cursor Proclist] Samples written: 19 local processes, 0 remote processes
+2025-12-29 09:49:05.291 [info] [Cursor Proclist] Samples written: 20 local processes, 0 remote processes
+2025-12-29 09:54:05.290 [info] [Cursor Proclist] Samples written: 19 local processes, 0 remote processes
+2025-12-29 09:59:05.290 [info] [Cursor Proclist] Samples written: 19 local processes, 0 remote processes
+2025-12-29 10:04:05.291 [info] [Cursor Proclist] Samples written: 19 local processes, 0 remote processes
+2025-12-29 10:09:05.294 [info] [Cursor Proclist] Samples written: 19 local processes, 0 remote processes
+2025-12-29 10:14:05.293 [info] [Cursor Proclist] Samples written: 19 local processes, 0 remote processes
+2025-12-29 10:19:05.292 [info] [Cursor Proclist] Samples written: 19 local processes, 0 remote processes
+2025-12-29 10:24:05.294 [info] [Cursor Proclist] Samples written: 19 local processes, 0 remote processes
+2025-12-29 10:29:05.291 [info] [Cursor Proclist] Samples written: 20 local processes, 0 remote processes
+2025-12-29 10:34:05.304 [info] [Cursor Proclist] Samples written: 19 local processes, 0 remote processes
+2025-12-29 10:39:05.291 [info] [Cursor Proclist] Samples written: 19 local processes, 0 remote processes
+2025-12-29 10:44:05.302 [info] [Cursor Proclist] Samples written: 19 local processes, 0 remote processes
+2025-12-29 10:49:05.292 [info] [Cursor Proclist] Samples written: 20 local processes, 0 remote processes
+2025-12-29 10:54:05.300 [info] [Cursor Proclist] Samples written: 19 local processes, 0 remote processes
+2025-12-29 10:59:05.291 [info] [Cursor Proclist] Samples written: 19 local processes, 0 remote processes
+2025-12-29 11:04:05.299 [info] [Cursor Proclist] Samples written: 19 local processes, 0 remote processes
+2025-12-29 11:09:05.292 [info] [Cursor Proclist] Samples written: 20 local processes, 0 remote processes
+2025-12-29 11:14:05.290 [info] [Cursor Proclist] Samples written: 19 local processes, 0 remote processes
+2025-12-29 11:19:05.300 [info] [Cursor Proclist] Samples written: 19 local processes, 0 remote processes
+2025-12-29 11:24:05.291 [info] [Cursor Proclist] Samples written: 19 local processes, 0 remote processes
+2025-12-29 11:29:05.294 [info] [Cursor Proclist] Samples written: 20 local processes, 0 remote processes
+2025-12-29 11:34:05.299 [info] [Cursor Proclist] Samples written: 19 local processes, 0 remote processes
+2025-12-29 11:39:05.294 [info] [Cursor Proclist] Samples written: 19 local processes, 0 remote processes
+2025-12-29 11:44:05.290 [info] [Cursor Proclist] Samples written: 19 local processes, 0 remote processes
+2025-12-29 11:49:05.290 [info] [Cursor Proclist] Samples written: 20 local processes, 0 remote processes
+2025-12-29 11:54:05.293 [info] [Cursor Proclist] Samples written: 19 local processes, 0 remote processes
+2025-12-29 11:59:05.290 [info] [Cursor Proclist] Samples written: 19 local processes, 0 remote processes
+2025-12-29 12:04:05.291 [info] [Cursor Proclist] Samples written: 19 local processes, 0 remote processes
+2025-12-29 12:09:05.291 [info] [Cursor Proclist] Samples written: 20 local processes, 0 remote processes
+2025-12-29 12:14:05.290 [info] [Cursor Proclist] Samples written: 19 local processes, 0 remote processes
+2025-12-29 12:19:05.290 [info] [Cursor Proclist] Samples written: 19 local processes, 0 remote processes
+2025-12-29 12:24:05.290 [info] [Cursor Proclist] Samples written: 19 local processes, 0 remote processes
+2025-12-29 12:29:05.294 [info] [Cursor Proclist] Samples written: 19 local processes, 0 remote processes
+2025-12-29 12:34:05.290 [info] [Cursor Proclist] Samples written: 19 local processes, 0 remote processes
+2025-12-29 12:39:05.291 [info] [Cursor Proclist] Samples written: 19 local processes, 0 remote processes
+2025-12-29 12:44:05.292 [info] [Cursor Proclist] Samples written: 19 local processes, 0 remote processes
+2025-12-29 12:45:56.534 [info] [Cursor Proclist Polling] Stopped polling
+2025-12-29 12:45:58.129 [warning] Missing property "rpcFileLoggerFolder" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-29 12:45:58.133 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-29 12:45:58.133 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-copilot-data-analysis' wants API proposal 'chatVariableResolver' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-29 12:45:58.133 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-29 12:45:58.134 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-python-envs' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-29 12:45:58.134 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatReadonlyPromptReference' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-29 12:45:58.134 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-29 12:45:58.134 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-29 12:45:58.134 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-29 12:45:58.134 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-29 12:45:58.526 [info] Started local extension host with pid 66574.
+2025-12-29 12:45:58.687 [error] Extension 'ms-toolsai.jupyter' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): notebookDeprecated, notebookMessaging, notebookMime, contribNotebookStaticPreloads, portsAttributes, quickPickSortByLabel, notebookKernelSource, interactiveWindow, quickPickItemTooltip, notebookExecution, notebookCellExecution, notebookVariableProvider, notebookReplDocument
+product.json (WINS): notebookDeprecated, notebookMessaging, notebookMime, notebookCellExecutionState, quickPickSortByLabel, notebookKernelSource, interactiveWindow, notebookControllerAffinityHidden, contribNotebookStaticPreloads, quickPickItemTooltip, notebookExecution, notebookCellExecution, notebookVariableProvider, notebookReplDocument
+2025-12-29 12:45:58.706 [warning] [ms-python.python]: Cannot register 'python.venvPath'. This property is already registered.
+2025-12-29 12:45:59.070 [info] [WorktreeCleanupCron] Registering cleanup task with interval of 6 hours
+2025-12-29 12:45:59.070 [info] [WorktreeCleanupCron] Cleanup task registered with interval of 6 hours (21600000ms)
+2025-12-29 12:45:59.204 [info] [LocalProcessExtensionHost] getDefaultShell result: /usr/bin/fish
+2025-12-29 12:45:59.223 [info] [LocalProcessExtensionHost] Final userTerminalHint: /usr/bin/fish
+2025-12-29 12:46:00.923 [warning] 
+
+----------------------------------------------
+***	Installation has been modified on disk ***
+----------------------------------------------
+
+
+2025-12-29 12:46:00.939 [info] [Debug] Registered command palette action: debug.classifyRecentConversations
+2025-12-29 12:46:00.939 [info] [Debug] Registered command palette action: debug.logComposer
+2025-12-29 12:46:00.939 [info] [Debug] Registered command palette action: debug.getContextKeyValue
+2025-12-29 12:46:00.939 [info] [Debug] Registered command palette action: debug.getApplicationProperty
+2025-12-29 12:46:00.939 [info] [Debug] Registered command palette action: debug.testLinearIssues
+2025-12-29 12:46:00.956 [info] OpenInBrowserWatcher: Initializing terminal log watcher
+2025-12-29 12:46:00.982 [info] [Cursor Proclist Polling] Config applied to Main process
+2025-12-29 12:46:00.982 [info] [Cursor Proclist Polling] Started polling (every 5 min)
+2025-12-29 12:46:01.554 [warning] [aws-toolkit-vscode]: Couldn't find message for key AWS.command.apig.copyUrl.
+2025-12-29 12:46:01.882 [info] [perf] Render performance baseline is 13ms
+2025-12-29 12:46:06.345 [warning] Unexpected error checking unified sidebar visibility: Index out of bounds
+2025-12-29 12:46:06.345 [warning] Unexpected error checking unified sidebar visibility: Index out of bounds
+2025-12-29 12:46:06.345 [warning] Unexpected error checking unified sidebar visibility: Index out of bounds
+2025-12-29 12:46:06.345 [warning] Unexpected error checking unified sidebar visibility: Index out of bounds
+2025-12-29 12:46:06.346 [warning] Unexpected error checking unified sidebar visibility: Index out of bounds
+2025-12-29 12:46:06.346 [warning] Unexpected error checking unified sidebar visibility: Index out of bounds
+2025-12-29 12:46:06.346 [warning] Unexpected error checking unified sidebar visibility: Index out of bounds
+2025-12-29 12:46:06.346 [warning] Unexpected error checking unified sidebar visibility: Index out of bounds
+2025-12-29 12:46:06.346 [warning] Unexpected error checking unified sidebar visibility: Index out of bounds
+2025-12-29 12:46:06.462 [warning] No search provider registered for scheme: file, waiting
+2025-12-29 12:46:21.635 [info] [Cursor Proclist Polling] Stopped polling

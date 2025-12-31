@@ -1,0 +1,1010 @@
+2025-12-29 12:46:59.179 [info] [main] Log level: Info
+2025-12-29 12:46:59.179 [info] [main] Validating found git in: "/usr/bin/git"
+2025-12-29 12:46:59.179 [info] [main] Using git "2.52.0" from "/usr/bin/git"
+2025-12-29 12:46:59.179 [info] [Model][doInitialScan] Initial repository scan started
+2025-12-29 12:46:59.186 [info] > git rev-parse --show-toplevel [3ms] (getRepositoryRoot)
+2025-12-29 12:46:59.333 [info] > git config --get remote.origin.url [5ms] 
+2025-12-29 12:46:59.335 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [3ms] 
+2025-12-29 12:46:59.341 [info] [Model][openRepository] Opened repository: /home/henrique/upd8/Docly/poc-docly-doc-analise
+2025-12-29 12:46:59.341 [info] [Model][openRepository] Opened repository (kind): repository
+2025-12-29 12:46:59.343 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-12-29 12:46:59.590 [info] > git rev-parse --show-toplevel [7ms] 
+2025-12-29 12:46:59.590 [info] > git rev-parse --show-toplevel [10ms] 
+2025-12-29 12:46:59.590 [info] > git rev-parse --show-toplevel [13ms] 
+2025-12-29 12:46:59.591 [info] > git rev-parse --show-toplevel [16ms] 
+2025-12-29 12:46:59.591 [info] > git rev-parse --show-toplevel [19ms] 
+2025-12-29 12:46:59.591 [info] > git rev-parse --show-toplevel [21ms] 
+2025-12-29 12:46:59.591 [info] > git rev-parse --show-toplevel [24ms] 
+2025-12-29 12:46:59.591 [info] > git rev-parse --show-toplevel [28ms] 
+2025-12-29 12:46:59.591 [info] > git rev-parse --show-toplevel [30ms] 
+2025-12-29 12:46:59.591 [info] > git rev-parse --show-toplevel [33ms] 
+2025-12-29 12:46:59.591 [info] > git rev-parse --show-toplevel [37ms] 
+2025-12-29 12:46:59.591 [info] > git rev-parse --show-toplevel [47ms] (findGitRoot)
+2025-12-29 12:46:59.600 [info] > git rev-parse --show-toplevel [60ms] (findGitRoot)
+2025-12-29 12:46:59.609 [info] > git config --get commit.template [91ms] 
+2025-12-29 12:46:59.635 [info] > git rev-parse --abbrev-ref HEAD [47ms] (GitProvider.getCurrentBranch)
+2025-12-29 12:46:59.635 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [49ms] 
+2025-12-29 12:46:59.668 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [20ms] 
+2025-12-29 12:46:59.672 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 12:46:59.681 [info] > git rev-parse refs/remotes/origin/main [9ms] 
+2025-12-29 12:46:59.690 [info] > git status -z -uall [5ms]
+2025-12-29 12:46:59.690 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms] 
+2025-12-29 12:46:59.710 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms] 
+2025-12-29 12:46:59.717 [info] > git config --get --local branch.main.vscode-merge-base [4ms] 
+2025-12-29 12:46:59.717 [warning] [Git][config] git config failed: Failed to execute git
+2025-12-29 12:46:59.720 [info] > git config --get commit.template [11ms] 
+2025-12-29 12:46:59.728 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [6ms] 
+2025-12-29 12:46:59.728 [info] > git reflog main --grep-reflog=branch: Created from *. [8ms] 
+2025-12-29 12:46:59.730 [info] > git rev-parse --abbrev-ref HEAD [13ms] (GitProvider.getCurrentBranch)
+2025-12-29 12:46:59.748 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [18ms] 
+2025-12-29 12:46:59.750 [info] > git rev-parse --abbrev-ref HEAD [23ms] (GitProvider.getCurrentBranch)
+2025-12-29 12:46:59.750 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [26ms] 
+2025-12-29 12:46:59.761 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [11ms] 
+2025-12-29 12:46:59.765 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [18ms] 
+2025-12-29 12:46:59.768 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 12:46:59.769 [info] > git config --add --local branch.main.vscode-merge-base origin/main [5ms] 
+2025-12-29 12:46:59.773 [info] > git rev-parse refs/remotes/origin/main [5ms] 
+2025-12-29 12:46:59.777 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms] 
+2025-12-29 12:46:59.780 [info] > git config --get commit.template [7ms] 
+2025-12-29 12:46:59.781 [info] > git config --get --local branch.main.vscode-merge-base [1ms] 
+2025-12-29 12:46:59.788 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [4ms] 
+2025-12-29 12:46:59.795 [info] > git merge-base refs/heads/main refs/remotes/origin/main [3ms] 
+2025-12-29 12:46:59.798 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms] 
+2025-12-29 12:46:59.801 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 12:46:59.803 [info] > git rev-parse refs/remotes/origin/main [2ms] 
+2025-12-29 12:46:59.808 [info] > git diff --name-status -z --diff-filter=ADMR 543d8f7003bf3fec5df4799c67d4a757cae9e54b...refs/remotes/origin/main [10ms] 
+2025-12-29 12:46:59.809 [info] > git status -z -uall [4ms]
+2025-12-29 12:46:59.809 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms] 
+2025-12-29 12:47:00.016 [info] > git rev-parse --show-toplevel [149ms] (findGitRoot)
+2025-12-29 12:47:00.131 [info] > git check-ignore -v -z --stdin [12ms]
+2025-12-29 12:47:01.802 [info] > git rev-parse --show-toplevel [32ms] 
+2025-12-29 12:47:01.812 [info] > git config --get commit.template [11ms] 
+2025-12-29 12:47:01.837 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms] 
+2025-12-29 12:47:01.842 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 12:47:01.848 [info] > git rev-parse refs/remotes/origin/main [6ms] 
+2025-12-29 12:47:01.860 [info] > git status -z -uall [7ms]
+2025-12-29 12:47:01.860 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms] 
+2025-12-29 12:47:02.184 [info] > git remote get-url --push origin [3ms] 
+2025-12-29 12:47:09.177 [info] > git config --global user.name [1ms] 
+2025-12-29 12:47:09.182 [info] > git config --global user.email [0ms] 
+2025-12-29 12:47:09.182 [info] [main] Stored git author name in global state: henrique.silva <henrique.silva@upd8.com.br>
+2025-12-29 12:47:25.821 [info] > git check-ignore -v -z --stdin [0ms]
+2025-12-29 12:47:28.887 [info] > git check-ignore -v -z --stdin [0ms]
+2025-12-29 12:47:44.907 [info] > git config --get commit.template [9ms] 
+2025-12-29 12:47:44.908 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms] 
+2025-12-29 12:47:44.913 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 12:47:44.913 [info] > git rev-parse refs/remotes/origin/main [0ms] 
+2025-12-29 12:47:44.925 [info] > git status -z -uall [6ms]
+2025-12-29 12:47:44.925 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms] 
+2025-12-29 12:48:19.801 [info] > git check-ignore -v -z --stdin [1ms]
+2025-12-29 12:48:20.522 [info] > git check-ignore -v -z --stdin [1ms]
+2025-12-29 12:48:25.573 [info] > git check-ignore -v -z --stdin [1ms]
+2025-12-29 12:48:30.125 [info] > git check-ignore -v -z --stdin [0ms]
+2025-12-29 12:48:37.670 [info] > git config --get commit.template [5ms] 
+2025-12-29 12:48:37.670 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms] 
+2025-12-29 12:48:37.674 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 12:48:37.675 [info] > git rev-parse refs/remotes/origin/main [1ms] 
+2025-12-29 12:48:37.687 [info] > git status -z -uall [7ms]
+2025-12-29 12:48:37.688 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms] 
+2025-12-29 12:48:37.696 [info] > git rev-parse --abbrev-ref HEAD [0ms] (GitProvider.getCurrentBranch)
+2025-12-29 12:48:38.197 [info] > git rev-parse --show-toplevel [0ms] 
+2025-12-29 12:48:45.488 [info] > git config --get commit.template [1ms] 
+2025-12-29 12:48:45.494 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms] 
+2025-12-29 12:48:45.501 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 12:48:45.502 [info] > git rev-parse refs/remotes/origin/main [1ms] 
+2025-12-29 12:48:45.512 [info] > git status -z -uall [5ms]
+2025-12-29 12:48:45.513 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms] 
+2025-12-29 12:48:45.523 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 12:48:46.023 [info] > git rev-parse --show-toplevel [1ms] 
+2025-12-29 12:48:47.715 [info] > git check-ignore -v -z --stdin [0ms]
+2025-12-29 12:48:52.310 [info] > git check-ignore -v -z --stdin [1ms]
+2025-12-29 12:48:54.235 [info] > git check-ignore -v -z --stdin [0ms]
+2025-12-29 12:49:02.279 [info] > git config --get commit.template [5ms] 
+2025-12-29 12:49:02.279 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms] 
+2025-12-29 12:49:02.285 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 12:49:02.286 [info] > git rev-parse refs/remotes/origin/main [1ms] 
+2025-12-29 12:49:02.295 [info] > git status -z -uall [5ms]
+2025-12-29 12:49:02.295 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [0ms] 
+2025-12-29 12:49:02.316 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 12:49:02.818 [info] > git rev-parse --show-toplevel [1ms] 
+2025-12-29 12:49:07.310 [info] > git config --get commit.template [6ms] 
+2025-12-29 12:49:07.310 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms] 
+2025-12-29 12:49:07.316 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 12:49:07.316 [info] > git rev-parse refs/remotes/origin/main [1ms] 
+2025-12-29 12:49:07.326 [info] > git status -z -uall [5ms]
+2025-12-29 12:49:07.327 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms] 
+2025-12-29 12:49:07.335 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 12:49:07.836 [info] > git rev-parse --show-toplevel [1ms] 
+2025-12-29 12:49:57.683 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [5ms] 
+2025-12-29 12:49:57.684 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 12:50:44.675 [info] > git check-ignore -v -z --stdin [1ms]
+2025-12-29 12:51:18.211 [info] > git config --get commit.template [6ms] 
+2025-12-29 12:51:18.212 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms] 
+2025-12-29 12:51:18.217 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 12:51:18.218 [info] > git rev-parse refs/remotes/origin/main [1ms] 
+2025-12-29 12:51:18.231 [info] > git status -z -uall [8ms]
+2025-12-29 12:51:18.231 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms] 
+2025-12-29 12:51:18.247 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 12:51:18.747 [info] > git rev-parse --show-toplevel [0ms] 
+2025-12-29 12:51:56.954 [info] > git config --get commit.template [1ms] 
+2025-12-29 12:51:56.961 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms] 
+2025-12-29 12:51:56.967 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 12:51:56.968 [info] > git rev-parse refs/remotes/origin/main [1ms] 
+2025-12-29 12:51:56.980 [info] > git status -z -uall [5ms]
+2025-12-29 12:51:56.980 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms] 
+2025-12-29 12:51:57.957 [info] > git rev-parse --show-toplevel [1ms] 
+2025-12-29 12:52:00.234 [info] > git check-ignore -v -z --stdin [1ms]
+2025-12-29 12:52:57.683 [info] > git rev-parse --abbrev-ref HEAD [0ms] (GitProvider.getCurrentBranch)
+2025-12-29 12:52:57.683 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [5ms] 
+2025-12-29 12:54:18.333 [info] > git config --get commit.template [6ms] 
+2025-12-29 12:54:18.334 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms] 
+2025-12-29 12:54:18.341 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 12:54:18.342 [info] > git rev-parse refs/remotes/origin/main [1ms] 
+2025-12-29 12:54:18.357 [info] > git status -z -uall [9ms]
+2025-12-29 12:54:18.357 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms] 
+2025-12-29 12:54:18.367 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 12:54:18.869 [info] > git rev-parse --show-toplevel [0ms] 
+2025-12-29 12:54:23.365 [info] > git config --get commit.template [1ms] 
+2025-12-29 12:54:23.371 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms] 
+2025-12-29 12:54:23.375 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 12:54:23.376 [info] > git rev-parse refs/remotes/origin/main [1ms] 
+2025-12-29 12:54:23.386 [info] > git status -z -uall [6ms]
+2025-12-29 12:54:23.386 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms] 
+2025-12-29 12:54:23.805 [info] > git check-ignore -v -z --stdin [0ms]
+2025-12-29 12:54:33.972 [info] > git check-ignore -v -z --stdin [0ms]
+2025-12-29 12:54:35.779 [info] > git check-ignore -v -z --stdin [0ms]
+2025-12-29 12:56:57.956 [info] > git rev-parse --show-toplevel [1ms] 
+2025-12-29 12:57:56.016 [info] > git check-ignore -v -z --stdin [0ms]
+2025-12-29 12:57:57.683 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [5ms] 
+2025-12-29 12:57:57.683 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 12:58:10.405 [info] > git check-ignore -v -z --stdin [1ms]
+2025-12-29 13:01:57.957 [info] > git rev-parse --show-toplevel [0ms] 
+2025-12-29 13:02:57.683 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 13:02:57.683 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [6ms] 
+2025-12-29 13:03:50.485 [info] > git config --get commit.template [8ms] 
+2025-12-29 13:03:50.485 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms] 
+2025-12-29 13:03:50.491 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 13:03:50.492 [info] > git rev-parse refs/remotes/origin/main [1ms] 
+2025-12-29 13:03:50.503 [info] > git status -z -uall [6ms]
+2025-12-29 13:03:50.504 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms] 
+2025-12-29 13:03:50.518 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 13:03:50.823 [info] > git show --textconv :terraform/modules/lambda/api-gateway/outputs.tf [7ms]
+2025-12-29 13:03:50.828 [info] > git ls-files --stage -- terraform/modules/lambda/api-gateway/outputs.tf [5ms] 
+2025-12-29 13:03:50.834 [info] > git hash-object -t tree /dev/null [6ms] 
+2025-12-29 13:03:50.834 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/henrique/upd8/Docly/poc-docly-doc-analise/terraform/modules/lambda/api-gateway/outputs.tf.git?%7B%22path%22%3A%22%2Fhome%2Fhenrique%2Fupd8%2FDocly%2Fpoc-docly-doc-analise%2Fterraform%2Fmodules%2Flambda%2Fapi-gateway%2Foutputs.tf%22%2C%22ref%22%3A%22%22%7D
+2025-12-29 13:03:50.835 [info] > git hash-object -t tree /dev/null [2ms] 
+2025-12-29 13:03:50.835 [warning] [GitFileSystemProvider][stat] File not found - git:/home/henrique/upd8/Docly/poc-docly-doc-analise/terraform/modules/lambda/api-gateway/outputs.tf.git?%7B%22path%22%3A%22%2Fhome%2Fhenrique%2Fupd8%2FDocly%2Fpoc-docly-doc-analise%2Fterraform%2Fmodules%2Flambda%2Fapi-gateway%2Foutputs.tf%22%2C%22ref%22%3A%22%22%7D
+2025-12-29 13:03:51.019 [info] > git rev-parse --show-toplevel [1ms] 
+2025-12-29 13:03:53.805 [info] > git check-ignore -v -z --stdin [1ms]
+2025-12-29 13:03:54.680 [info] > git check-ignore -v -z --stdin [1ms]
+2025-12-29 13:03:55.511 [info] > git config --get commit.template [1ms] 
+2025-12-29 13:03:55.517 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms] 
+2025-12-29 13:03:55.522 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 13:03:55.522 [info] > git rev-parse refs/remotes/origin/main [0ms] 
+2025-12-29 13:03:55.531 [info] > git status -z -uall [5ms]
+2025-12-29 13:03:55.531 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms] 
+2025-12-29 13:06:57.956 [info] > git rev-parse --show-toplevel [1ms] 
+2025-12-29 13:07:00.460 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 13:07:00.460 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [5ms] 
+2025-12-29 13:11:57.956 [info] > git rev-parse --show-toplevel [1ms] 
+2025-12-29 13:12:57.682 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [4ms] 
+2025-12-29 13:12:57.682 [info] > git rev-parse --abbrev-ref HEAD [0ms] (GitProvider.getCurrentBranch)
+2025-12-29 13:16:57.956 [info] > git rev-parse --show-toplevel [1ms] 
+2025-12-29 13:17:57.682 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [4ms] 
+2025-12-29 13:17:57.683 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 13:21:57.956 [info] > git rev-parse --show-toplevel [1ms] 
+2025-12-29 13:22:57.682 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [4ms] 
+2025-12-29 13:22:57.683 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 13:26:57.956 [info] > git rev-parse --show-toplevel [0ms] 
+2025-12-29 13:27:00.460 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [5ms] 
+2025-12-29 13:27:00.461 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 13:31:57.956 [info] > git rev-parse --show-toplevel [0ms] 
+2025-12-29 13:32:57.683 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [5ms] 
+2025-12-29 13:32:57.684 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 13:36:57.956 [info] > git rev-parse --show-toplevel [1ms] 
+2025-12-29 13:37:57.683 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 13:37:57.687 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [9ms] 
+2025-12-29 13:38:51.430 [info] > git --no-optional-locks status [6ms] (GitProvider.getGitStatusRaw)
+2025-12-29 13:38:51.431 [info] > git remote get-url --push origin [0ms] 
+2025-12-29 13:38:51.474 [info] > git rev-parse --show-toplevel [1ms] (getGitRepoPathForWorkspacePath)
+2025-12-29 13:38:51.479 [info] > git config --get remote.origin.url [0ms] (getGitRemoteUrl)
+2025-12-29 13:38:56.086 [info] > git config --get remote.origin.url [1ms] (getGitRemoteUrl)
+2025-12-29 13:41:13.991 [info] > git rev-parse --show-toplevel [1ms] 
+2025-12-29 13:41:14.088 [info] > git rev-parse --show-toplevel [1ms] 
+2025-12-29 13:41:14.118 [info] > git rev-parse --show-toplevel [7ms] 
+2025-12-29 13:41:14.118 [info] > git rev-parse --show-toplevel [14ms] 
+2025-12-29 13:41:14.118 [info] > git rev-parse --show-toplevel [18ms] 
+2025-12-29 13:41:14.118 [info] > git rev-parse --show-toplevel [24ms] 
+2025-12-29 13:41:14.119 [info] > git rev-parse --show-toplevel [2ms] 
+2025-12-29 13:41:57.686 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [6ms] 
+2025-12-29 13:41:57.686 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 13:41:57.956 [info] > git rev-parse --show-toplevel [1ms] 
+2025-12-29 13:42:28.878 [info] > git config --get commit.template [5ms] 
+2025-12-29 13:42:28.878 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms] 
+2025-12-29 13:42:28.884 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 13:42:28.884 [info] > git rev-parse refs/remotes/origin/main [1ms] 
+2025-12-29 13:42:28.895 [info] > git status -z -uall [6ms]
+2025-12-29 13:42:28.895 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [0ms] 
+2025-12-29 13:43:32.494 [info] > git config --get commit.template [1ms] 
+2025-12-29 13:43:32.500 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms] 
+2025-12-29 13:43:32.504 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 13:43:32.505 [info] > git rev-parse refs/remotes/origin/main [1ms] 
+2025-12-29 13:43:32.514 [info] > git status -z -uall [5ms]
+2025-12-29 13:43:32.514 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms] 
+2025-12-29 13:43:57.683 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [5ms] 
+2025-12-29 13:43:57.683 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 13:45:18.881 [info] > git check-ignore -v -z --stdin [1ms]
+2025-12-29 13:45:24.498 [info] > git check-ignore -v -z --stdin [0ms]
+2025-12-29 13:45:35.053 [info] > git config --get commit.template [5ms] 
+2025-12-29 13:45:35.054 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms] 
+2025-12-29 13:45:35.058 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 13:45:35.059 [info] > git rev-parse refs/remotes/origin/main [1ms] 
+2025-12-29 13:45:35.073 [info] > git status -z -uall [8ms]
+2025-12-29 13:45:35.073 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms] 
+2025-12-29 13:45:35.097 [info] > git rev-parse --abbrev-ref HEAD [6ms] (GitProvider.getCurrentBranch)
+2025-12-29 13:45:35.098 [info] > git --no-optional-locks status [2ms] (GitProvider.getGitStatusRaw)
+2025-12-29 13:45:35.592 [info] > git rev-parse --show-toplevel [1ms] 
+2025-12-29 13:45:40.085 [info] > git config --get commit.template [5ms] 
+2025-12-29 13:45:40.086 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms] 
+2025-12-29 13:45:40.090 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 13:45:40.091 [info] > git rev-parse refs/remotes/origin/main [1ms] 
+2025-12-29 13:45:40.102 [info] > git status -z -uall [6ms]
+2025-12-29 13:45:40.102 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms] 
+2025-12-29 13:45:57.683 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [5ms] 
+2025-12-29 13:45:57.683 [info] > git rev-parse --abbrev-ref HEAD [0ms] (GitProvider.getCurrentBranch)
+2025-12-29 13:46:57.956 [info] > git rev-parse --show-toplevel [0ms] 
+2025-12-29 13:47:00.459 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [4ms] 
+2025-12-29 13:47:00.459 [info] > git rev-parse --abbrev-ref HEAD [0ms] (GitProvider.getCurrentBranch)
+2025-12-29 13:47:45.560 [info] [main] Log level: Info
+2025-12-29 13:47:45.560 [info] [main] Validating found git in: "/usr/bin/git"
+2025-12-29 13:47:45.571 [info] [main] Using git "2.52.0" from "/usr/bin/git"
+2025-12-29 13:47:45.571 [info] [Model][doInitialScan] Initial repository scan started
+2025-12-29 13:47:45.584 [info] > git rev-parse --show-toplevel [6ms] (getRepositoryRoot)
+2025-12-29 13:47:45.748 [info] > git config --get remote.origin.url [6ms] 
+2025-12-29 13:47:45.751 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [4ms] 
+2025-12-29 13:47:45.757 [info] [Model][openRepository] Opened repository: /home/henrique/upd8/Docly/poc-docly-doc-analise
+2025-12-29 13:47:45.757 [info] [Model][openRepository] Opened repository (kind): repository
+2025-12-29 13:47:45.982 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [5ms] 
+2025-12-29 13:47:45.982 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [8ms] 
+2025-12-29 13:47:45.982 [info] > git rev-parse --show-toplevel [16ms] (findGitRoot)
+2025-12-29 13:47:45.991 [info] > git rev-parse --show-toplevel [29ms] (findGitRoot)
+2025-12-29 13:47:46.001 [info] > git rev-parse --show-toplevel [61ms] (getRepositoryRoot)
+2025-12-29 13:47:46.003 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-12-29 13:47:46.003 [info] > git config --get commit.template [65ms] 
+2025-12-29 13:47:46.010 [info] > git rev-parse --abbrev-ref HEAD [28ms] (GitProvider.getCurrentBranch)
+2025-12-29 13:47:46.039 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms] 
+2025-12-29 13:47:46.044 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 13:47:46.044 [info] > git rev-parse --show-toplevel [7ms] 
+2025-12-29 13:47:46.052 [info] > git rev-parse refs/remotes/origin/main [9ms] 
+2025-12-29 13:47:46.061 [info] > git status -z -uall [5ms]
+2025-12-29 13:47:46.063 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms] 
+2025-12-29 13:47:46.081 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms] 
+2025-12-29 13:47:46.090 [info] > git config --get --local branch.main.vscode-merge-base [6ms] 
+2025-12-29 13:47:46.093 [info] > git config --get commit.template [12ms] 
+2025-12-29 13:47:46.094 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms] 
+2025-12-29 13:47:46.099 [info] > git rev-parse --abbrev-ref HEAD [10ms] (GitProvider.getCurrentBranch)
+2025-12-29 13:47:46.117 [info] > git merge-base refs/heads/main refs/remotes/origin/main [19ms] 
+2025-12-29 13:47:46.132 [info] > git diff --name-status -z --diff-filter=ADMR 543d8f7003bf3fec5df4799c67d4a757cae9e54b...refs/remotes/origin/main [12ms] 
+2025-12-29 13:47:46.132 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [15ms] 
+2025-12-29 13:47:46.136 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 13:47:46.137 [info] > git rev-parse refs/remotes/origin/main [1ms] 
+2025-12-29 13:47:46.144 [info] > git status -z -uall [4ms]
+2025-12-29 13:47:46.145 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms] 
+2025-12-29 13:47:46.173 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [4ms] 
+2025-12-29 13:47:46.173 [info] > git rev-parse --abbrev-ref HEAD [0ms] (GitProvider.getCurrentBranch)
+2025-12-29 13:47:46.376 [info] > git rev-parse --show-toplevel [150ms] (findGitRoot)
+2025-12-29 13:47:48.228 [info] > git check-ignore -v -z --stdin [47ms]
+2025-12-29 13:47:48.228 [info] > git rev-parse --show-toplevel [37ms] 
+2025-12-29 13:47:48.660 [info] > git remote get-url --push origin [2ms] 
+2025-12-29 13:47:55.573 [info] > git config --global user.name [1ms] 
+2025-12-29 13:47:55.578 [info] > git config --global user.email [1ms] 
+2025-12-29 13:47:55.578 [info] [main] Stored git author name in global state: henrique.silva <henrique.silva@upd8.com.br>
+2025-12-29 13:47:58.898 [info] [main] Log level: Info
+2025-12-29 13:47:58.898 [info] [main] Validating found git in: "/usr/bin/git"
+2025-12-29 13:47:58.909 [info] [main] Using git "2.52.0" from "/usr/bin/git"
+2025-12-29 13:47:58.909 [info] [Model][doInitialScan] Initial repository scan started
+2025-12-29 13:47:58.918 [info] > git rev-parse --show-toplevel [3ms] (getRepositoryRoot)
+2025-12-29 13:47:59.080 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [153ms] 
+2025-12-29 13:47:59.087 [info] [Model][openRepository] Opened repository: /home/henrique/upd8/Docly/poc-docly-doc-analise
+2025-12-29 13:47:59.087 [info] [Model][openRepository] Opened repository (kind): repository
+2025-12-29 13:47:59.103 [info] > git config --get remote.origin.url [10ms] 
+2025-12-29 13:47:59.104 [info] > git rev-parse --show-toplevel [2ms] (getRepositoryRoot)
+2025-12-29 13:47:59.106 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-12-29 13:47:59.106 [info] > git config --get commit.template [7ms] 
+2025-12-29 13:47:59.115 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms] 
+2025-12-29 13:47:59.119 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 13:47:59.299 [info] > git rev-parse refs/remotes/origin/main [180ms] 
+2025-12-29 13:47:59.362 [info] > git status -z -uall [58ms]
+2025-12-29 13:47:59.362 [info] > git rev-parse --show-toplevel [8ms] 
+2025-12-29 13:47:59.362 [info] > git rev-parse --show-toplevel [17ms] (findGitRoot)
+2025-12-29 13:47:59.373 [info] > git rev-parse --show-toplevel [33ms] (findGitRoot)
+2025-12-29 13:47:59.385 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [62ms] 
+2025-12-29 13:47:59.385 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [67ms] 
+2025-12-29 13:47:59.385 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [77ms] 
+2025-12-29 13:47:59.434 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [28ms] 
+2025-12-29 13:47:59.434 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [34ms] 
+2025-12-29 13:47:59.439 [info] > git rev-parse --abbrev-ref HEAD [80ms] (GitProvider.getCurrentBranch)
+2025-12-29 13:47:59.478 [info] > git show --textconv :terraform/main.tf [35ms]
+2025-12-29 13:47:59.479 [info] > git ls-files --stage -- terraform/main.tf [28ms] 
+2025-12-29 13:47:59.487 [info] > git config --get --local branch.main.vscode-merge-base [49ms] 
+2025-12-29 13:47:59.490 [info] > git rev-parse --abbrev-ref HEAD [58ms] (GitProvider.getCurrentBranch)
+2025-12-29 13:47:59.490 [info] > git config --get commit.template [63ms] 
+2025-12-29 13:47:59.513 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [23ms] 
+2025-12-29 13:47:59.517 [info] > git hash-object -t tree /dev/null [31ms] 
+2025-12-29 13:47:59.518 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/henrique/upd8/Docly/poc-docly-doc-analise/terraform/main.tf.git?%7B%22path%22%3A%22%2Fhome%2Fhenrique%2Fupd8%2FDocly%2Fpoc-docly-doc-analise%2Fterraform%2Fmain.tf%22%2C%22ref%22%3A%22%22%7D
+2025-12-29 13:47:59.518 [info] > git hash-object -t tree /dev/null [35ms] 
+2025-12-29 13:47:59.518 [warning] [GitFileSystemProvider][stat] File not found - git:/home/henrique/upd8/Docly/poc-docly-doc-analise/terraform/main.tf.git?%7B%22path%22%3A%22%2Fhome%2Fhenrique%2Fupd8%2FDocly%2Fpoc-docly-doc-analise%2Fterraform%2Fmain.tf%22%2C%22ref%22%3A%22%22%7D
+2025-12-29 13:47:59.518 [info] > git rev-parse --abbrev-ref HEAD [42ms] (GitProvider.getCurrentBranch)
+2025-12-29 13:47:59.540 [info] > git merge-base refs/heads/main refs/remotes/origin/main [23ms] 
+2025-12-29 13:47:59.552 [info] > git diff --name-status -z --diff-filter=ADMR 543d8f7003bf3fec5df4799c67d4a757cae9e54b...refs/remotes/origin/main [8ms] 
+2025-12-29 13:47:59.552 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [18ms] 
+2025-12-29 13:47:59.558 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 13:47:59.561 [info] > git rev-parse refs/remotes/origin/main [3ms] 
+2025-12-29 13:47:59.570 [info] > git status -z -uall [6ms]
+2025-12-29 13:47:59.576 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms] 
+2025-12-29 13:47:59.578 [info] > git blame --root --incremental 543d8f7003bf3fec5df4799c67d4a757cae9e54b -- terraform/main.tf [3ms] 
+2025-12-29 13:47:59.578 [info] fatal: no such path terraform/main.tf in 543d8f7003bf3fec5df4799c67d4a757cae9e54b
+2025-12-29 13:47:59.821 [info] > git rev-parse --show-toplevel [187ms] (findGitRoot)
+2025-12-29 13:47:59.856 [info] > git check-ignore -v -z --stdin [18ms]
+2025-12-29 13:48:01.829 [info] > git rev-parse --show-toplevel [36ms] 
+2025-12-29 13:48:02.150 [info] > git remote get-url --push origin [2ms] 
+2025-12-29 13:48:08.911 [info] > git config --global user.name [0ms] 
+2025-12-29 13:48:08.917 [info] > git config --global user.email [0ms] 
+2025-12-29 13:48:08.917 [info] [main] Stored git author name in global state: henrique.silva <henrique.silva@upd8.com.br>
+2025-12-29 13:48:43.166 [info] > git config --get commit.template [7ms] 
+2025-12-29 13:48:43.166 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [0ms] 
+2025-12-29 13:48:43.172 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 13:48:43.173 [info] > git rev-parse refs/remotes/origin/main [1ms] 
+2025-12-29 13:48:43.187 [info] > git status -z -uall [7ms]
+2025-12-29 13:48:43.187 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms] 
+2025-12-29 13:48:48.198 [info] > git config --get commit.template [1ms] 
+2025-12-29 13:48:48.205 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms] 
+2025-12-29 13:48:48.210 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 13:48:48.211 [info] > git rev-parse refs/remotes/origin/main [1ms] 
+2025-12-29 13:48:48.222 [info] > git status -z -uall [6ms]
+2025-12-29 13:48:48.223 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms] 
+2025-12-29 13:48:53.236 [info] > git config --get commit.template [5ms] 
+2025-12-29 13:48:53.237 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms] 
+2025-12-29 13:48:53.242 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 13:48:53.242 [info] > git rev-parse refs/remotes/origin/main [0ms] 
+2025-12-29 13:48:53.252 [info] > git status -z -uall [5ms]
+2025-12-29 13:48:53.252 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms] 
+2025-12-29 13:49:01.318 [info] > git config --get commit.template [6ms] 
+2025-12-29 13:49:01.319 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms] 
+2025-12-29 13:49:01.324 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 13:49:01.325 [info] > git rev-parse refs/remotes/origin/main [1ms] 
+2025-12-29 13:49:01.336 [info] > git status -z -uall [6ms]
+2025-12-29 13:49:01.336 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms] 
+2025-12-29 13:49:06.350 [info] > git config --get commit.template [7ms] 
+2025-12-29 13:49:06.351 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms] 
+2025-12-29 13:49:06.357 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 13:49:06.357 [info] > git rev-parse refs/remotes/origin/main [0ms] 
+2025-12-29 13:49:06.368 [info] > git status -z -uall [6ms]
+2025-12-29 13:49:06.368 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [0ms] 
+2025-12-29 13:49:11.381 [info] > git config --get commit.template [2ms] 
+2025-12-29 13:49:11.389 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms] 
+2025-12-29 13:49:11.394 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 13:49:11.394 [info] > git rev-parse refs/remotes/origin/main [0ms] 
+2025-12-29 13:49:11.406 [info] > git status -z -uall [6ms]
+2025-12-29 13:49:11.406 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms] 
+2025-12-29 13:49:16.415 [info] > git config --get commit.template [0ms] 
+2025-12-29 13:49:16.422 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms] 
+2025-12-29 13:49:16.426 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 13:49:16.427 [info] > git rev-parse refs/remotes/origin/main [1ms] 
+2025-12-29 13:49:16.437 [info] > git status -z -uall [6ms]
+2025-12-29 13:49:16.437 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms] 
+2025-12-29 13:49:25.000 [info] > git config --get commit.template [0ms] 
+2025-12-29 13:49:25.007 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms] 
+2025-12-29 13:49:25.012 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 13:49:25.013 [info] > git rev-parse refs/remotes/origin/main [1ms] 
+2025-12-29 13:49:25.022 [info] > git status -z -uall [5ms]
+2025-12-29 13:49:25.023 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms] 
+2025-12-29 13:49:31.026 [info] > git config --get commit.template [5ms] 
+2025-12-29 13:49:31.026 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [0ms] 
+2025-12-29 13:49:31.032 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 13:49:31.033 [info] > git rev-parse refs/remotes/origin/main [1ms] 
+2025-12-29 13:49:31.043 [info] > git status -z -uall [6ms]
+2025-12-29 13:49:31.044 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [0ms] 
+2025-12-29 13:49:39.908 [info] > git config --get commit.template [6ms] 
+2025-12-29 13:49:39.909 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms] 
+2025-12-29 13:49:39.914 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 13:49:39.915 [info] > git rev-parse refs/remotes/origin/main [1ms] 
+2025-12-29 13:49:39.926 [info] > git status -z -uall [6ms]
+2025-12-29 13:49:39.926 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [0ms] 
+2025-12-29 13:50:39.970 [info] > git config --get commit.template [1ms] 
+2025-12-29 13:50:39.976 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [0ms] 
+2025-12-29 13:50:39.984 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 13:50:39.984 [info] > git rev-parse refs/remotes/origin/main [1ms] 
+2025-12-29 13:50:39.995 [info] > git status -z -uall [5ms]
+2025-12-29 13:50:39.995 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms] 
+2025-12-29 13:50:57.629 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms] 
+2025-12-29 13:50:57.629 [info] > git config --get commit.template [7ms] 
+2025-12-29 13:50:57.635 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 13:50:57.636 [info] > git rev-parse refs/remotes/origin/main [1ms] 
+2025-12-29 13:50:57.645 [info] > git status -z -uall [5ms]
+2025-12-29 13:50:57.646 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms] 
+2025-12-29 13:51:02.660 [info] > git config --get commit.template [5ms] 
+2025-12-29 13:51:02.660 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms] 
+2025-12-29 13:51:02.664 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 13:51:02.665 [info] > git rev-parse refs/remotes/origin/main [1ms] 
+2025-12-29 13:51:02.674 [info] > git status -z -uall [5ms]
+2025-12-29 13:51:02.674 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [0ms] 
+2025-12-29 13:51:11.699 [info] > git config --get commit.template [5ms] 
+2025-12-29 13:51:11.699 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [0ms] 
+2025-12-29 13:51:11.704 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 13:51:11.704 [info] > git rev-parse refs/remotes/origin/main [0ms] 
+2025-12-29 13:51:11.713 [info] > git status -z -uall [5ms]
+2025-12-29 13:51:11.714 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms] 
+2025-12-29 13:51:22.315 [info] > git config --get commit.template [0ms] 
+2025-12-29 13:51:22.320 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms] 
+2025-12-29 13:51:22.325 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 13:51:22.325 [info] > git rev-parse refs/remotes/origin/main [0ms] 
+2025-12-29 13:51:22.334 [info] > git status -z -uall [5ms]
+2025-12-29 13:51:22.335 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms] 
+2025-12-29 13:51:30.837 [info] > git config --get commit.template [1ms] 
+2025-12-29 13:51:30.842 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms] 
+2025-12-29 13:51:30.847 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 13:51:30.847 [info] > git rev-parse refs/remotes/origin/main [0ms] 
+2025-12-29 13:51:30.858 [info] > git status -z -uall [6ms]
+2025-12-29 13:51:30.859 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms] 
+2025-12-29 13:51:41.980 [info] > git check-ignore -v -z --stdin [0ms]
+2025-12-29 13:51:44.756 [info] > git check-ignore -v -z --stdin [1ms]
+2025-12-29 13:52:08.816 [info] > git check-ignore -v -z --stdin [0ms]
+2025-12-29 13:52:38.463 [info] > git config --get commit.template [0ms] 
+2025-12-29 13:52:38.468 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [0ms] 
+2025-12-29 13:52:38.473 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 13:52:38.474 [info] > git rev-parse refs/remotes/origin/main [1ms] 
+2025-12-29 13:52:38.483 [info] > git status -z -uall [5ms]
+2025-12-29 13:52:38.483 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms] 
+2025-12-29 13:52:57.663 [info] > git rev-parse --show-toplevel [1ms] 
+2025-12-29 13:53:14.256 [info] > git check-ignore -v -z --stdin [0ms]
+2025-12-29 13:53:18.725 [info] > git config --get commit.template [1ms] 
+2025-12-29 13:53:18.731 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms] 
+2025-12-29 13:53:18.736 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 13:53:18.737 [info] > git rev-parse refs/remotes/origin/main [1ms] 
+2025-12-29 13:53:18.748 [info] > git status -z -uall [5ms]
+2025-12-29 13:53:18.749 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms] 
+2025-12-29 13:53:57.538 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 13:53:57.538 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [6ms] 
+2025-12-29 13:54:44.791 [info] > git check-ignore -v -z --stdin [0ms]
+2025-12-29 13:54:59.751 [info] > git config --get commit.template [6ms] 
+2025-12-29 13:54:59.752 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [0ms] 
+2025-12-29 13:54:59.757 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 13:54:59.757 [info] > git rev-parse refs/remotes/origin/main [0ms] 
+2025-12-29 13:54:59.766 [info] > git status -z -uall [5ms]
+2025-12-29 13:54:59.767 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms] 
+2025-12-29 13:56:31.478 [info] > git config --get commit.template [1ms] 
+2025-12-29 13:56:31.484 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms] 
+2025-12-29 13:56:31.489 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 13:56:31.490 [info] > git rev-parse refs/remotes/origin/main [1ms] 
+2025-12-29 13:56:31.502 [info] > git status -z -uall [6ms]
+2025-12-29 13:56:31.502 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms] 
+2025-12-29 13:56:51.135 [info] > git config --get commit.template [5ms] 
+2025-12-29 13:56:51.135 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms] 
+2025-12-29 13:56:51.141 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 13:56:51.141 [info] > git rev-parse refs/remotes/origin/main [0ms] 
+2025-12-29 13:56:51.152 [info] > git status -z -uall [6ms]
+2025-12-29 13:56:51.152 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms] 
+2025-12-29 13:56:56.163 [info] > git config --get commit.template [1ms] 
+2025-12-29 13:56:56.168 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms] 
+2025-12-29 13:56:56.172 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 13:56:56.173 [info] > git rev-parse refs/remotes/origin/main [1ms] 
+2025-12-29 13:56:56.181 [info] > git status -z -uall [4ms]
+2025-12-29 13:56:56.182 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms] 
+2025-12-29 13:57:04.373 [info] > git config --get commit.template [0ms] 
+2025-12-29 13:57:04.378 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [0ms] 
+2025-12-29 13:57:04.383 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 13:57:04.383 [info] > git rev-parse refs/remotes/origin/main [0ms] 
+2025-12-29 13:57:04.392 [info] > git status -z -uall [4ms]
+2025-12-29 13:57:04.393 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms] 
+2025-12-29 13:57:37.242 [info] > git config --get commit.template [1ms] 
+2025-12-29 13:57:37.248 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms] 
+2025-12-29 13:57:37.252 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 13:57:37.253 [info] > git rev-parse refs/remotes/origin/main [1ms] 
+2025-12-29 13:57:37.262 [info] > git status -z -uall [5ms]
+2025-12-29 13:57:37.262 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms] 
+2025-12-29 13:57:57.662 [info] > git rev-parse --show-toplevel [0ms] 
+2025-12-29 13:58:02.951 [info] > git config --get commit.template [1ms] 
+2025-12-29 13:58:02.956 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [0ms] 
+2025-12-29 13:58:02.962 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 13:58:02.963 [info] > git rev-parse refs/remotes/origin/main [1ms] 
+2025-12-29 13:58:02.972 [info] > git status -z -uall [5ms]
+2025-12-29 13:58:02.973 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms] 
+2025-12-29 13:58:57.537 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [5ms] 
+2025-12-29 13:58:57.537 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 14:02:57.663 [info] > git rev-parse --show-toplevel [1ms] 
+2025-12-29 14:03:57.537 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [5ms] 
+2025-12-29 14:03:57.537 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 14:05:31.781 [info] > git config --get commit.template [1ms] 
+2025-12-29 14:05:31.789 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms] 
+2025-12-29 14:05:31.795 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 14:05:31.796 [info] > git rev-parse refs/remotes/origin/main [1ms] 
+2025-12-29 14:05:31.807 [info] > git status -z -uall [6ms]
+2025-12-29 14:05:31.808 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms] 
+2025-12-29 14:05:34.343 [info] > git check-ignore -v -z --stdin [1ms]
+2025-12-29 14:05:36.815 [info] > git config --get commit.template [0ms] 
+2025-12-29 14:05:36.820 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms] 
+2025-12-29 14:05:36.825 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 14:05:36.825 [info] > git rev-parse refs/remotes/origin/main [0ms] 
+2025-12-29 14:05:36.835 [info] > git status -z -uall [5ms]
+2025-12-29 14:05:36.836 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms] 
+2025-12-29 14:07:48.829 [info] > git config --get commit.template [1ms] 
+2025-12-29 14:07:48.835 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [0ms] 
+2025-12-29 14:07:48.841 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 14:07:48.843 [info] > git rev-parse refs/remotes/origin/main [2ms] 
+2025-12-29 14:07:48.856 [info] > git status -z -uall [8ms]
+2025-12-29 14:07:48.856 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms] 
+2025-12-29 14:07:57.663 [info] > git rev-parse --show-toplevel [1ms] 
+2025-12-29 14:08:00.334 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [5ms] 
+2025-12-29 14:08:00.334 [info] > git rev-parse --abbrev-ref HEAD [0ms] (GitProvider.getCurrentBranch)
+2025-12-29 14:12:53.298 [info] > git check-ignore -v -z --stdin [1ms]
+2025-12-29 14:12:57.664 [info] > git rev-parse --show-toplevel [1ms] 
+2025-12-29 14:13:57.537 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [5ms] 
+2025-12-29 14:13:57.537 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 14:17:57.663 [info] > git rev-parse --show-toplevel [0ms] 
+2025-12-29 14:18:57.537 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [5ms] 
+2025-12-29 14:18:57.537 [info] > git rev-parse --abbrev-ref HEAD [0ms] (GitProvider.getCurrentBranch)
+2025-12-29 14:22:57.663 [info] > git rev-parse --show-toplevel [1ms] 
+2025-12-29 14:23:57.538 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [6ms] 
+2025-12-29 14:23:57.538 [info] > git rev-parse --abbrev-ref HEAD [0ms] (GitProvider.getCurrentBranch)
+2025-12-29 14:27:57.663 [info] > git rev-parse --show-toplevel [0ms] 
+2025-12-29 14:28:00.335 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [6ms] 
+2025-12-29 14:28:00.335 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 14:32:57.665 [info] > git rev-parse --show-toplevel [1ms] 
+2025-12-29 14:33:22.872 [info] > git config --get commit.template [0ms] 
+2025-12-29 14:33:22.879 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms] 
+2025-12-29 14:33:22.884 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 14:33:22.885 [info] > git rev-parse refs/remotes/origin/main [0ms] 
+2025-12-29 14:33:22.898 [info] > git status -z -uall [7ms]
+2025-12-29 14:33:22.899 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms] 
+2025-12-29 14:33:22.926 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 14:33:23.425 [info] > git rev-parse --show-toplevel [0ms] 
+2025-12-29 14:33:57.537 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [5ms] 
+2025-12-29 14:33:57.537 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 14:35:11.964 [info] > git check-ignore -v -z --stdin [1ms]
+2025-12-29 14:37:57.669 [info] > git rev-parse --show-toplevel [1ms] 
+2025-12-29 14:38:14.663 [info] > git config --get commit.template [1ms] 
+2025-12-29 14:38:14.670 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms] 
+2025-12-29 14:38:14.675 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 14:38:14.676 [info] > git rev-parse refs/remotes/origin/main [1ms] 
+2025-12-29 14:38:14.689 [info] > git status -z -uall [9ms]
+2025-12-29 14:38:14.690 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms] 
+2025-12-29 14:38:14.702 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 14:38:15.202 [info] > git rev-parse --show-toplevel [0ms] 
+2025-12-29 14:38:57.537 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [5ms] 
+2025-12-29 14:38:57.537 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 14:39:53.644 [info] > git config --get commit.template [9ms] 
+2025-12-29 14:39:53.645 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms] 
+2025-12-29 14:39:53.650 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 14:39:53.651 [info] > git rev-parse refs/remotes/origin/main [1ms] 
+2025-12-29 14:39:53.663 [info] > git status -z -uall [7ms]
+2025-12-29 14:39:53.663 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms] 
+2025-12-29 14:39:53.678 [info] > git rev-parse --abbrev-ref HEAD [0ms] (GitProvider.getCurrentBranch)
+2025-12-29 14:39:53.680 [info] > git merge-base refs/heads/main refs/remotes/origin/main [9ms] 
+2025-12-29 14:39:53.687 [info] > git diff --name-status -z --diff-filter=ADMR 543d8f7003bf3fec5df4799c67d4a757cae9e54b...refs/remotes/origin/main [1ms] 
+2025-12-29 14:39:53.982 [info] > git ls-files --stage -- terraform/outputs.tf [3ms] 
+2025-12-29 14:39:53.987 [info] > git show --textconv :terraform/outputs.tf [14ms]
+2025-12-29 14:39:53.988 [info] > git cat-file -s 46857c5cea3aff1c241cc3a8eeca3590e9331345 [1ms] 
+2025-12-29 14:39:54.030 [info] > git blame --root --incremental f8b1fc190a85cab9472a6940db933ce6786a0044 -- terraform/outputs.tf [2ms] 
+2025-12-29 14:39:54.175 [info] > git rev-parse --show-toplevel [0ms] 
+2025-12-29 14:39:56.091 [info] > git show --textconv :terraform/.terraform.lock.hcl [7ms]
+2025-12-29 14:39:56.093 [info] > git ls-files --stage -- terraform/.terraform.lock.hcl [4ms] 
+2025-12-29 14:39:56.100 [info] > git cat-file -s 760b5c901f12aebe28bf2e7e5b187a30b37b9f0b [1ms] 
+2025-12-29 14:39:58.686 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms] 
+2025-12-29 14:39:58.686 [info] > git config --get commit.template [8ms] 
+2025-12-29 14:39:58.691 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 14:39:58.692 [info] > git rev-parse refs/remotes/origin/main [1ms] 
+2025-12-29 14:39:58.703 [info] > git status -z -uall [6ms]
+2025-12-29 14:39:58.704 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms] 
+2025-12-29 14:39:58.708 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z f8b1fc190a85cab9472a6940db933ce6786a0044 -- [37ms] 
+2025-12-29 14:39:58.715 [info] > git var GIT_COMMITTER_IDENT [1ms] 
+2025-12-29 14:39:58.722 [info] > git check-mailmap henrique.silva <henrique.silva@upd8.com.br> 1767029998 -0300 [2ms] 
+2025-12-29 14:39:59.844 [info] > git show --textconv :.gitignore [6ms]
+2025-12-29 14:39:59.844 [info] > git ls-files --stage -- .gitignore [1ms] 
+2025-12-29 14:39:59.850 [info] > git cat-file -s b7faf403d915ca307532bb0eb9cceaf0214e8e5b [1ms] 
+2025-12-29 14:42:57.662 [info] > git rev-parse --show-toplevel [0ms] 
+2025-12-29 14:43:57.538 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 14:43:57.538 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [6ms] 
+2025-12-29 14:46:33.565 [info] > git config --get commit.template [2ms] 
+2025-12-29 14:46:33.579 [info] > git ls-files --stage -- .gitignore [7ms] 
+2025-12-29 14:46:33.585 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms] 
+2025-12-29 14:46:33.592 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 14:46:33.593 [info] > git cat-file -s 3a3b09e7881400d00e4eb4d33356d1e3d4a4e6b3 [9ms] 
+2025-12-29 14:46:33.594 [info] > git rev-parse refs/remotes/origin/main [2ms] 
+2025-12-29 14:46:33.608 [info] > git status -z -uall [9ms]
+2025-12-29 14:46:33.616 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms] 
+2025-12-29 14:46:33.623 [info] > git show --textconv :.gitignore [7ms]
+2025-12-29 14:46:33.623 [info] > git merge-base refs/heads/main refs/remotes/origin/main [1ms] 
+2025-12-29 14:46:33.636 [info] > git diff --name-status -z --diff-filter=ADMR 543d8f7003bf3fec5df4799c67d4a757cae9e54b...refs/remotes/origin/main [9ms] 
+2025-12-29 14:46:33.637 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 14:46:34.125 [info] > git rev-parse --show-toplevel [1ms] 
+2025-12-29 14:46:38.656 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z d71afed5890684331398e01447d6f1777f078359 -- [32ms] 
+2025-12-29 14:46:38.663 [info] > git var GIT_COMMITTER_IDENT [0ms] 
+2025-12-29 14:46:38.670 [info] > git check-mailmap henrique.silva <henrique.silva@upd8.com.br> 1767030398 -0300 [1ms] 
+2025-12-29 14:47:57.664 [info] > git rev-parse --show-toplevel [0ms] 
+2025-12-29 14:48:00.336 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 14:48:00.339 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [10ms] 
+2025-12-29 14:52:24.940 [info] > git config --get commit.template [1ms] 
+2025-12-29 14:52:24.953 [info] > git ls-files --stage -- .gitignore [6ms] 
+2025-12-29 14:52:24.958 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms] 
+2025-12-29 14:52:24.965 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 14:52:24.966 [info] > git cat-file -s 3a3b09e7881400d00e4eb4d33356d1e3d4a4e6b3 [8ms] 
+2025-12-29 14:52:24.966 [info] > git rev-parse refs/remotes/origin/main [1ms] 
+2025-12-29 14:52:24.979 [info] > git status -z -uall [6ms]
+2025-12-29 14:52:24.988 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [10ms] 
+2025-12-29 14:52:24.999 [info] > git show --textconv :.gitignore [12ms]
+2025-12-29 14:52:25.005 [info] > git merge-base refs/heads/main refs/remotes/origin/main [7ms] 
+2025-12-29 14:52:25.010 [info] > git rev-parse --abbrev-ref HEAD [5ms] (GitProvider.getCurrentBranch)
+2025-12-29 14:52:25.012 [info] > git diff --name-status -z --diff-filter=ADMR 395ced29b5fddd7fece035933611bc5ea600341f...refs/remotes/origin/main [1ms] 
+2025-12-29 14:52:25.499 [info] > git rev-parse --show-toplevel [1ms] 
+2025-12-29 14:52:30.000 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 395ced29b5fddd7fece035933611bc5ea600341f -- [2ms] 
+2025-12-29 14:52:30.005 [info] > git var GIT_COMMITTER_IDENT [1ms] 
+2025-12-29 14:52:30.010 [info] > git check-mailmap henrique.silva <henrique.silva@upd8.com.br> 1767030750 -0300 [0ms] 
+2025-12-29 14:52:57.663 [info] > git rev-parse --show-toplevel [1ms] 
+2025-12-29 14:53:57.536 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [4ms] 
+2025-12-29 14:53:57.536 [info] > git rev-parse --abbrev-ref HEAD [0ms] (GitProvider.getCurrentBranch)
+2025-12-29 14:54:52.955 [info] > git config --get commit.template [1ms] 
+2025-12-29 14:54:52.964 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms] 
+2025-12-29 14:54:52.969 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/henrique/upd8/Docly/poc-docly-doc-analise/.git/refs/remotes/origin/main'
+2025-12-29 14:54:52.970 [info] > git rev-parse refs/remotes/origin/main [1ms] 
+2025-12-29 14:54:52.982 [info] > git status -z -uall [7ms]
+2025-12-29 14:54:52.983 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms] 
+2025-12-29 14:54:52.999 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 14:54:53.498 [info] > git rev-parse --show-toplevel [0ms] 
+2025-12-29 14:57:57.663 [info] > git rev-parse --show-toplevel [1ms] 
+2025-12-29 14:58:20.048 [info] > git config --get commit.template [2ms] 
+2025-12-29 14:58:20.062 [info] > git ls-files --stage -- .gitignore [6ms] 
+2025-12-29 14:58:20.068 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms] 
+2025-12-29 14:58:20.081 [info] > git status -z -uall [8ms]
+2025-12-29 14:58:20.081 [info] > git cat-file -s 3a3b09e7881400d00e4eb4d33356d1e3d4a4e6b3 [13ms] 
+2025-12-29 14:58:20.082 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms] 
+2025-12-29 14:58:20.102 [info] > git show --textconv :.gitignore [6ms]
+2025-12-29 14:58:20.102 [info] > git merge-base refs/heads/main refs/remotes/origin/main [13ms] 
+2025-12-29 14:58:20.107 [info] > git rev-parse --abbrev-ref HEAD [5ms] (GitProvider.getCurrentBranch)
+2025-12-29 14:58:20.108 [info] > git diff --name-status -z --diff-filter=ADMR 81a3dae6c2d3e7f1ad73f6f5eac3977306afb8cb...refs/remotes/origin/main [1ms] 
+2025-12-29 14:58:20.594 [info] > git rev-parse --show-toplevel [1ms] 
+2025-12-29 14:58:21.336 [info] > git blame --root --incremental 81a3dae6c2d3e7f1ad73f6f5eac3977306afb8cb -- .gitignore [1ms] 
+2025-12-29 14:58:25.095 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 81a3dae6c2d3e7f1ad73f6f5eac3977306afb8cb -- [5ms] 
+2025-12-29 14:58:25.100 [info] > git config --get commit.template [5ms] 
+2025-12-29 14:58:25.105 [info] > git var GIT_COMMITTER_IDENT [5ms] 
+2025-12-29 14:58:25.110 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms] 
+2025-12-29 14:58:25.110 [info] > git check-mailmap henrique.silva <henrique.silva@upd8.com.br> 1767031105 -0300 [1ms] 
+2025-12-29 14:58:25.120 [info] > git status -z -uall [6ms]
+2025-12-29 14:58:25.120 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms] 
+2025-12-29 14:58:57.537 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [5ms] 
+2025-12-29 14:58:57.545 [info] > git rev-parse --abbrev-ref HEAD [9ms] (GitProvider.getCurrentBranch)
+2025-12-29 15:02:57.663 [info] > git rev-parse --show-toplevel [0ms] 
+2025-12-29 15:03:57.537 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [5ms] 
+2025-12-29 15:03:57.538 [info] > git rev-parse --abbrev-ref HEAD [0ms] (GitProvider.getCurrentBranch)
+2025-12-29 15:07:57.662 [info] > git rev-parse --show-toplevel [0ms] 
+2025-12-29 15:08:00.335 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [5ms] 
+2025-12-29 15:08:00.335 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 15:12:57.663 [info] > git rev-parse --show-toplevel [1ms] 
+2025-12-29 15:13:57.539 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [6ms] 
+2025-12-29 15:13:57.539 [info] > git rev-parse --abbrev-ref HEAD [0ms] (GitProvider.getCurrentBranch)
+2025-12-29 15:17:57.663 [info] > git rev-parse --show-toplevel [1ms] 
+2025-12-29 15:18:57.537 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [5ms] 
+2025-12-29 15:18:57.537 [info] > git rev-parse --abbrev-ref HEAD [0ms] (GitProvider.getCurrentBranch)
+2025-12-29 15:22:57.674 [info] > git rev-parse --show-toplevel [1ms] 
+2025-12-29 15:23:57.537 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [5ms] 
+2025-12-29 15:23:57.537 [info] > git rev-parse --abbrev-ref HEAD [0ms] (GitProvider.getCurrentBranch)
+2025-12-29 15:27:57.663 [info] > git rev-parse --show-toplevel [0ms] 
+2025-12-29 15:28:00.336 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 15:28:00.339 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [9ms] 
+2025-12-29 15:32:57.663 [info] > git rev-parse --show-toplevel [0ms] 
+2025-12-29 15:33:57.538 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 15:33:57.538 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [6ms] 
+2025-12-29 15:37:57.663 [info] > git rev-parse --show-toplevel [0ms] 
+2025-12-29 15:38:57.538 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [6ms] 
+2025-12-29 15:38:57.538 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 15:41:40.327 [info] > git show --textconv :terraform/outputs.tf [7ms]
+2025-12-29 15:41:40.328 [info] > git ls-files --stage -- terraform/outputs.tf [1ms] 
+2025-12-29 15:41:40.334 [info] > git cat-file -s 46857c5cea3aff1c241cc3a8eeca3590e9331345 [1ms] 
+2025-12-29 15:41:40.347 [info] > git blame --root --incremental 81a3dae6c2d3e7f1ad73f6f5eac3977306afb8cb -- terraform/outputs.tf [1ms] 
+2025-12-29 15:41:41.391 [info] > git show --textconv :terraform/modules/api-gateway/main.tf [5ms]
+2025-12-29 15:41:41.391 [info] > git ls-files --stage -- terraform/modules/api-gateway/main.tf [0ms] 
+2025-12-29 15:41:41.398 [info] > git cat-file -s 65cfb9c64d780090899201d49c009e9f08988185 [1ms] 
+2025-12-29 15:41:41.407 [info] > git blame --root --incremental 81a3dae6c2d3e7f1ad73f6f5eac3977306afb8cb -- terraform/modules/api-gateway/main.tf [1ms] 
+2025-12-29 15:41:42.728 [info] > git show --textconv :terraform/modules/lambda/analisa-docs/function/main.tf [8ms]
+2025-12-29 15:41:42.729 [info] > git ls-files --stage -- terraform/modules/lambda/analisa-docs/function/main.tf [1ms] 
+2025-12-29 15:41:42.735 [info] > git cat-file -s 89b3cb10ec81fa673fe8b09b7b86e31eaa523182 [0ms] 
+2025-12-29 15:41:42.745 [info] > git blame --root --incremental 81a3dae6c2d3e7f1ad73f6f5eac3977306afb8cb -- terraform/modules/lambda/analisa-docs/function/main.tf [2ms] 
+2025-12-29 15:41:43.124 [info] > git check-ignore -v -z --stdin [1ms]
+2025-12-29 15:41:43.475 [info] > git show --textconv :terraform/modules/lambda/analisa-docs/iam/main.tf [5ms]
+2025-12-29 15:41:43.475 [info] > git ls-files --stage -- terraform/modules/lambda/analisa-docs/iam/main.tf [1ms] 
+2025-12-29 15:41:43.482 [info] > git cat-file -s e93dccc8af2ee11906c830dea9231b3f6d26abaf [1ms] 
+2025-12-29 15:41:43.491 [info] > git blame --root --incremental 81a3dae6c2d3e7f1ad73f6f5eac3977306afb8cb -- terraform/modules/lambda/analisa-docs/iam/main.tf [1ms] 
+2025-12-29 15:41:44.143 [info] > git show --textconv :terraform/modules/storage/results-bucket/main.tf [5ms]
+2025-12-29 15:41:44.144 [info] > git ls-files --stage -- terraform/modules/storage/results-bucket/main.tf [1ms] 
+2025-12-29 15:41:44.150 [info] > git cat-file -s 1d821e87806b413b934d6f98ed46575c98a409a2 [0ms] 
+2025-12-29 15:41:44.159 [info] > git blame --root --incremental 81a3dae6c2d3e7f1ad73f6f5eac3977306afb8cb -- terraform/modules/storage/results-bucket/main.tf [1ms] 
+2025-12-29 15:41:44.928 [info] > git show --textconv :terraform/modules/storage/input-bucket/main.tf [8ms]
+2025-12-29 15:41:44.928 [info] > git ls-files --stage -- terraform/modules/storage/input-bucket/main.tf [1ms] 
+2025-12-29 15:41:44.936 [info] > git cat-file -s 27df30abf3e10d16bd118655946569e8c7fae397 [1ms] 
+2025-12-29 15:41:44.945 [info] > git blame --root --incremental 81a3dae6c2d3e7f1ad73f6f5eac3977306afb8cb -- terraform/modules/storage/input-bucket/main.tf [1ms] 
+2025-12-29 15:41:45.738 [info] > git show --textconv :terraform/main.tf [7ms]
+2025-12-29 15:41:45.739 [info] > git ls-files --stage -- terraform/main.tf [1ms] 
+2025-12-29 15:41:45.746 [info] > git cat-file -s d8ada14cde0ebb44e91893f5d983e4ce35893ebd [1ms] 
+2025-12-29 15:41:45.757 [info] > git blame --root --incremental 81a3dae6c2d3e7f1ad73f6f5eac3977306afb8cb -- terraform/main.tf [1ms] 
+2025-12-29 15:41:55.978 [info] [main] Log level: Info
+2025-12-29 15:41:55.995 [info] [main] Validating found git in: "/usr/bin/git"
+2025-12-29 15:41:56.008 [info] [main] Using git "2.52.0" from "/usr/bin/git"
+2025-12-29 15:41:56.008 [info] [Model][doInitialScan] Initial repository scan started
+2025-12-29 15:41:56.019 [info] > git rev-parse --show-toplevel [4ms] (getRepositoryRoot)
+2025-12-29 15:41:56.180 [info] > git config --get remote.origin.url [6ms] 
+2025-12-29 15:41:56.362 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [183ms] 
+2025-12-29 15:41:56.369 [info] [Model][openRepository] Opened repository: /home/henrique/upd8/Rodosafra IA
+2025-12-29 15:41:56.369 [info] [Model][openRepository] Opened repository (kind): repository
+2025-12-29 15:41:56.371 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-12-29 15:41:56.448 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [14ms] 
+2025-12-29 15:41:56.448 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [21ms] 
+2025-12-29 15:41:56.448 [info] > git rev-parse --show-toplevel [32ms] (findGitRoot)
+2025-12-29 15:41:56.462 [info] > git rev-parse --show-toplevel [53ms] (findGitRoot)
+2025-12-29 15:41:56.507 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [12ms] 
+2025-12-29 15:41:56.507 [info] > git rev-parse --show-toplevel [16ms] 
+2025-12-29 15:41:56.507 [info] > git rev-parse --abbrev-ref HEAD [61ms] (GitProvider.getCurrentBranch)
+2025-12-29 15:41:56.508 [info] > git config --get commit.template [67ms] 
+2025-12-29 15:41:56.535 [info] > git rev-parse --abbrev-ref HEAD [30ms] (GitProvider.getCurrentBranch)
+2025-12-29 15:41:56.556 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms] 
+2025-12-29 15:41:56.578 [info] > git status -z -uall [7ms]
+2025-12-29 15:41:56.579 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms] 
+2025-12-29 15:41:56.598 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms] 
+2025-12-29 15:41:56.607 [info] > git config --get --local branch.main.vscode-merge-base [5ms] 
+2025-12-29 15:41:56.610 [info] > git config --get commit.template [12ms] 
+2025-12-29 15:41:56.612 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms] 
+2025-12-29 15:41:56.616 [info] > git rev-parse --abbrev-ref HEAD [10ms] (GitProvider.getCurrentBranch)
+2025-12-29 15:41:56.620 [info] > git merge-base refs/heads/main refs/remotes/origin/main [4ms] 
+2025-12-29 15:41:56.624 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms] 
+2025-12-29 15:41:56.625 [info] > git diff --name-status -z --diff-filter=ADMR b0ed27253a733ebc2aeb6ac6cff86a20d477fc19...refs/remotes/origin/main [1ms] 
+2025-12-29 15:41:56.633 [info] > git status -z -uall [4ms]
+2025-12-29 15:41:56.633 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [0ms] 
+2025-12-29 15:41:56.838 [info] > git rev-parse --show-toplevel [154ms] (findGitRoot)
+2025-12-29 15:41:58.791 [info] > git check-ignore -v -z --stdin [1404ms]
+2025-12-29 15:41:58.792 [info] > git rev-parse --show-toplevel [9ms] 
+2025-12-29 15:41:59.060 [info] > git remote get-url --push origin [5ms] 
+2025-12-29 15:42:06.012 [info] > git config --global user.name [1ms] 
+2025-12-29 15:42:06.021 [info] > git config --global user.email [0ms] 
+2025-12-29 15:42:06.021 [info] [main] Stored git author name in global state: henrique.silva <henrique.silva@upd8.com.br>
+2025-12-29 15:46:54.856 [info] > git rev-parse --show-toplevel [1ms] 
+2025-12-29 15:47:54.737 [info] > git rev-parse --abbrev-ref HEAD [0ms] (GitProvider.getCurrentBranch)
+2025-12-29 15:47:54.741 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [9ms] 
+2025-12-29 15:51:54.854 [info] > git rev-parse --show-toplevel [0ms] 
+2025-12-29 15:52:54.737 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 15:52:54.737 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [6ms] 
+2025-12-29 15:56:54.855 [info] > git rev-parse --show-toplevel [0ms] 
+2025-12-29 15:57:54.737 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [6ms] 
+2025-12-29 15:57:54.737 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 16:01:54.855 [info] > git rev-parse --show-toplevel [0ms] 
+2025-12-29 16:01:57.487 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [7ms] 
+2025-12-29 16:01:57.487 [info] > git rev-parse --abbrev-ref HEAD [0ms] (GitProvider.getCurrentBranch)
+2025-12-29 16:06:54.864 [info] > git rev-parse --show-toplevel [1ms] 
+2025-12-29 16:07:54.737 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [6ms] 
+2025-12-29 16:07:54.737 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 16:11:54.863 [info] > git rev-parse --show-toplevel [9ms] 
+2025-12-29 16:12:54.736 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [5ms] 
+2025-12-29 16:12:54.737 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 16:16:54.855 [info] > git rev-parse --show-toplevel [1ms] 
+2025-12-29 16:17:54.736 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 16:17:54.736 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [5ms] 
+2025-12-29 16:21:54.855 [info] > git rev-parse --show-toplevel [1ms] 
+2025-12-29 16:21:57.485 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [5ms] 
+2025-12-29 16:21:57.485 [info] > git rev-parse --abbrev-ref HEAD [0ms] (GitProvider.getCurrentBranch)
+2025-12-29 16:26:54.854 [info] > git rev-parse --show-toplevel [0ms] 
+2025-12-29 16:27:54.736 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [5ms] 
+2025-12-29 16:27:54.737 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 16:31:54.855 [info] > git rev-parse --show-toplevel [1ms] 
+2025-12-29 16:32:54.738 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [6ms] 
+2025-12-29 16:32:54.739 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 16:35:52.879 [info] > git check-ignore -v -z --stdin [2ms]
+2025-12-29 16:35:54.358 [info] > git show --textconv :iam-policies/chatbot-policy.json [8ms]
+2025-12-29 16:35:54.368 [info] > git ls-files --stage -- iam-policies/chatbot-policy.json [11ms] 
+2025-12-29 16:35:54.376 [info] > git cat-file -s 248c23e202b1930ce73ab344faf7e830136122c2 [1ms] 
+2025-12-29 16:36:18.454 [info] > git blame --root --incremental b0ed27253a733ebc2aeb6ac6cff86a20d477fc19 -- iam-policies/chatbot-policy.json [1ms] 
+2025-12-29 16:36:54.855 [info] > git rev-parse --show-toplevel [1ms] 
+2025-12-29 16:37:54.737 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [6ms] 
+2025-12-29 16:37:54.737 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 16:38:18.529 [info] > git config --get commit.template [1ms] 
+2025-12-29 16:38:18.537 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms] 
+2025-12-29 16:38:18.551 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms] 
+2025-12-29 16:38:18.555 [info] > git status -z -uall [11ms]
+2025-12-29 16:38:18.571 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 16:38:19.072 [info] > git rev-parse --show-toplevel [1ms] 
+2025-12-29 16:38:29.828 [info] > git show --textconv :iam-policies/atualiza-auth-token-policy.json [6ms]
+2025-12-29 16:38:29.828 [info] > git ls-files --stage -- iam-policies/atualiza-auth-token-policy.json [1ms] 
+2025-12-29 16:38:29.835 [info] > git cat-file -s de3e1eb6845bef29f2fff5bd8db66b60ac2bcab7 [1ms] 
+2025-12-29 16:38:29.846 [info] > git blame --root --incremental b0ed27253a733ebc2aeb6ac6cff86a20d477fc19 -- iam-policies/atualiza-auth-token-policy.json [2ms] 
+2025-12-29 16:39:06.131 [info] > git show --textconv :iam-policies/busca-conversas-policy.json [8ms]
+2025-12-29 16:39:06.132 [info] > git ls-files --stage -- iam-policies/busca-conversas-policy.json [1ms] 
+2025-12-29 16:39:06.138 [info] > git cat-file -s 03833d1929121b5a06fa03520709cf6da87133d1 [1ms] 
+2025-12-29 16:39:09.609 [info] > git blame --root --incremental b0ed27253a733ebc2aeb6ac6cff86a20d477fc19 -- iam-policies/busca-conversas-policy.json [2ms] 
+2025-12-29 16:39:32.830 [info] > git show --textconv :iam-policies/cadastra-motorista-action-group-policy.json [8ms]
+2025-12-29 16:39:32.830 [info] > git ls-files --stage -- iam-policies/cadastra-motorista-action-group-policy.json [1ms] 
+2025-12-29 16:39:32.836 [info] > git cat-file -s dd2d13935d4954253ea4a4ee0cb3598ebfb48759 [1ms] 
+2025-12-29 16:40:00.296 [info] > git blame --root --incremental b0ed27253a733ebc2aeb6ac6cff86a20d477fc19 -- iam-policies/cadastra-motorista-action-group-policy.json [2ms] 
+2025-12-29 16:40:19.249 [info] > git show --textconv :iam-policies/cadastra-veiculo-action-group-policy.json [6ms]
+2025-12-29 16:40:19.250 [info] > git ls-files --stage -- iam-policies/cadastra-veiculo-action-group-policy.json [1ms] 
+2025-12-29 16:40:19.257 [info] > git cat-file -s eb2f9d35b21bbffeda8148d16f7d3d5d9bc7d80d [1ms] 
+2025-12-29 16:40:20.784 [info] > git blame --root --incremental b0ed27253a733ebc2aeb6ac6cff86a20d477fc19 -- iam-policies/cadastra-veiculo-action-group-policy.json [1ms] 
+2025-12-29 16:40:40.174 [info] > git show --textconv :iam-policies/chatbot-policy.json [6ms]
+2025-12-29 16:40:40.175 [info] > git ls-files --stage -- iam-policies/chatbot-policy.json [1ms] 
+2025-12-29 16:40:40.181 [info] > git cat-file -s 248c23e202b1930ce73ab344faf7e830136122c2 [1ms] 
+2025-12-29 16:40:40.997 [info] > git show --textconv :iam-policies/consultar-ofertas-action-group-policy.json [8ms]
+2025-12-29 16:40:40.998 [info] > git ls-files --stage -- iam-policies/consultar-ofertas-action-group-policy.json [1ms] 
+2025-12-29 16:40:41.004 [info] > git cat-file -s 9e6a085d89ad0a6f488508cdf4608900b2a24bb6 [1ms] 
+2025-12-29 16:40:41.373 [info] > git blame --root --incremental b0ed27253a733ebc2aeb6ac6cff86a20d477fc19 -- iam-policies/consultar-ofertas-action-group-policy.json [2ms] 
+2025-12-29 16:41:04.758 [info] > git show --textconv :iam-policies/criar-embarque-action-group-policy.json [8ms]
+2025-12-29 16:41:04.758 [info] > git ls-files --stage -- iam-policies/criar-embarque-action-group-policy.json [2ms] 
+2025-12-29 16:41:04.764 [info] > git cat-file -s ef544d49c23b0e3074bd0f2a30be075b56329a1e [1ms] 
+2025-12-29 16:41:05.865 [info] > git blame --root --incremental b0ed27253a733ebc2aeb6ac6cff86a20d477fc19 -- iam-policies/criar-embarque-action-group-policy.json [1ms] 
+2025-12-29 16:41:27.622 [info] > git show --textconv :iam-policies/embarque-aceito-handler-policy.json [8ms]
+2025-12-29 16:41:27.623 [info] > git ls-files --stage -- iam-policies/embarque-aceito-handler-policy.json [1ms] 
+2025-12-29 16:41:27.630 [info] > git cat-file -s c0a6c49cd5a4e50f50db33297dc9b6386cd83c8c [0ms] 
+2025-12-29 16:41:28.761 [info] > git blame --root --incremental b0ed27253a733ebc2aeb6ac6cff86a20d477fc19 -- iam-policies/embarque-aceito-handler-policy.json [1ms] 
+2025-12-29 16:41:47.043 [info] > git show --textconv :iam-policies/embarque-aceito-validate-policy.json [6ms]
+2025-12-29 16:41:47.044 [info] > git ls-files --stage -- iam-policies/embarque-aceito-validate-policy.json [1ms] 
+2025-12-29 16:41:47.050 [info] > git cat-file -s 50780e69728bae8bc1305fb24bdbf2ff03a44253 [1ms] 
+2025-12-29 16:41:47.480 [info] > git blame --root --incremental b0ed27253a733ebc2aeb6ac6cff86a20d477fc19 -- iam-policies/embarque-aceito-validate-policy.json [1ms] 
+2025-12-29 16:41:54.856 [info] > git rev-parse --show-toplevel [1ms] 
+2025-12-29 16:41:57.485 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [6ms] 
+2025-12-29 16:41:57.485 [info] > git rev-parse --abbrev-ref HEAD [0ms] (GitProvider.getCurrentBranch)
+2025-12-29 16:42:04.916 [info] > git show --textconv :iam-policies/embarque-cancelado-handler-policy.json [6ms]
+2025-12-29 16:42:04.916 [info] > git ls-files --stage -- iam-policies/embarque-cancelado-handler-policy.json [1ms] 
+2025-12-29 16:42:04.923 [info] > git cat-file -s d8ef3e91582c0bf428ca68bc6a81aee52f13aef8 [1ms] 
+2025-12-29 16:42:05.554 [info] > git blame --root --incremental b0ed27253a733ebc2aeb6ac6cff86a20d477fc19 -- iam-policies/embarque-cancelado-handler-policy.json [1ms] 
+2025-12-29 16:42:23.699 [info] > git show --textconv :iam-policies/embarque-cancelado-validate-policy.json [6ms]
+2025-12-29 16:42:23.699 [info] > git ls-files --stage -- iam-policies/embarque-cancelado-validate-policy.json [1ms] 
+2025-12-29 16:42:23.706 [info] > git cat-file -s 7dde4a227b1aa7d4a5522cfa29f85324e05c59c1 [1ms] 
+2025-12-29 16:42:24.159 [info] > git blame --root --incremental b0ed27253a733ebc2aeb6ac6cff86a20d477fc19 -- iam-policies/embarque-cancelado-validate-policy.json [2ms] 
+2025-12-29 16:42:48.266 [info] > git show --textconv :iam-policies/envia-template-policy.json [7ms]
+2025-12-29 16:42:48.267 [info] > git ls-files --stage -- iam-policies/envia-template-policy.json [1ms] 
+2025-12-29 16:42:48.273 [info] > git cat-file -s cb2f7e89e135fdde5e3977747babe9a7fdbc7215 [0ms] 
+2025-12-29 16:42:48.295 [info] > git blame --root --incremental b0ed27253a733ebc2aeb6ac6cff86a20d477fc19 -- iam-policies/envia-template-policy.json [11ms] 
+2025-12-29 16:42:49.793 [info] > git show --textconv :iam-policies/flag-audio-action-group-policy.json [8ms]
+2025-12-29 16:42:49.793 [info] > git ls-files --stage -- iam-policies/flag-audio-action-group-policy.json [1ms] 
+2025-12-29 16:42:49.800 [info] > git cat-file -s e9d240c856639a0f13843126998014f162183f3f [1ms] 
+2025-12-29 16:42:50.271 [info] > git blame --root --incremental b0ed27253a733ebc2aeb6ac6cff86a20d477fc19 -- iam-policies/flag-audio-action-group-policy.json [1ms] 
+2025-12-29 16:43:10.354 [info] > git show --textconv :iam-policies/flag-duvida-embarque-action-group-policy.json [7ms]
+2025-12-29 16:43:10.354 [info] > git ls-files --stage -- iam-policies/flag-duvida-embarque-action-group-policy.json [1ms] 
+2025-12-29 16:43:10.360 [info] > git cat-file -s dcf0de0afa2cfbe1a1edfd83efcbce108d9ffaad [0ms] 
+2025-12-29 16:43:11.045 [info] > git blame --root --incremental b0ed27253a733ebc2aeb6ac6cff86a20d477fc19 -- iam-policies/flag-duvida-embarque-action-group-policy.json [1ms] 
+2025-12-29 16:43:26.387 [info] > git show --textconv :iam-policies/oferta-indisponivel-handler-policy.json [6ms]
+2025-12-29 16:43:26.388 [info] > git ls-files --stage -- iam-policies/oferta-indisponivel-handler-policy.json [1ms] 
+2025-12-29 16:43:26.395 [info] > git cat-file -s 98e8efcbfa4226b194de0e67d2e92d1c148103d6 [0ms] 
+2025-12-29 16:43:26.905 [info] > git blame --root --incremental b0ed27253a733ebc2aeb6ac6cff86a20d477fc19 -- iam-policies/oferta-indisponivel-handler-policy.json [2ms] 
+2025-12-29 16:44:07.499 [info] > git show --textconv :iam-policies/oferta-indisponivel-validate-policy.json [6ms]
+2025-12-29 16:44:07.499 [info] > git ls-files --stage -- iam-policies/oferta-indisponivel-validate-policy.json [1ms] 
+2025-12-29 16:44:07.506 [info] > git cat-file -s 53c35a9d93371061c287d01d1b6166b5a728b5c0 [1ms] 
+2025-12-29 16:44:08.082 [info] > git blame --root --incremental b0ed27253a733ebc2aeb6ac6cff86a20d477fc19 -- iam-policies/oferta-indisponivel-validate-policy.json [1ms] 
+2025-12-29 16:44:23.287 [info] > git show --textconv :iam-policies/ofertas-disponiveis-handler-policy.json [7ms]
+2025-12-29 16:44:23.287 [info] > git ls-files --stage -- iam-policies/ofertas-disponiveis-handler-policy.json [1ms] 
+2025-12-29 16:44:23.295 [info] > git cat-file -s 0c038f1a364b5131747ed38592997fe2c144d597 [1ms] 
+2025-12-29 16:44:23.642 [info] > git blame --root --incremental b0ed27253a733ebc2aeb6ac6cff86a20d477fc19 -- iam-policies/ofertas-disponiveis-handler-policy.json [2ms] 
+2025-12-29 16:44:38.739 [info] > git show --textconv :iam-policies/ofertas-disponiveis-validate-policy.json [8ms]
+2025-12-29 16:44:38.739 [info] > git ls-files --stage -- iam-policies/ofertas-disponiveis-validate-policy.json [1ms] 
+2025-12-29 16:44:38.745 [info] > git cat-file -s 0c5e11da252a50dfbceab7597ae478316534bb1b [0ms] 
+2025-12-29 16:44:39.157 [info] > git blame --root --incremental b0ed27253a733ebc2aeb6ac6cff86a20d477fc19 -- iam-policies/ofertas-disponiveis-validate-policy.json [2ms] 
+2025-12-29 16:44:54.389 [info] > git show --textconv :iam-policies/recebe-info-oferta-handler-policy.json [8ms]
+2025-12-29 16:44:54.389 [info] > git ls-files --stage -- iam-policies/recebe-info-oferta-handler-policy.json [1ms] 
+2025-12-29 16:44:54.396 [info] > git cat-file -s 6194cf91d9454477acba6932ff109f42e78e66c7 [1ms] 
+2025-12-29 16:44:54.983 [info] > git blame --root --incremental b0ed27253a733ebc2aeb6ac6cff86a20d477fc19 -- iam-policies/recebe-info-oferta-handler-policy.json [1ms] 
+2025-12-29 16:45:12.366 [info] > git show --textconv :iam-policies/recebe-info-oferta-validate-policy.json [7ms]
+2025-12-29 16:45:12.366 [info] > git ls-files --stage -- iam-policies/recebe-info-oferta-validate-policy.json [0ms] 
+2025-12-29 16:45:12.372 [info] > git cat-file -s 2f14424cb5e7ea4f9b6eec2f296dadd9855ac1a6 [0ms] 
+2025-12-29 16:45:12.774 [info] > git blame --root --incremental b0ed27253a733ebc2aeb6ac6cff86a20d477fc19 -- iam-policies/recebe-info-oferta-validate-policy.json [2ms] 
+2025-12-29 16:45:30.393 [info] > git show --textconv :iam-policies/transbordo-action-group-policy.json [6ms]
+2025-12-29 16:45:30.394 [info] > git ls-files --stage -- iam-policies/transbordo-action-group-policy.json [1ms] 
+2025-12-29 16:45:30.401 [info] > git cat-file -s 9b979b7f56df43e77f9b47a50c53f8056a36a3fe [1ms] 
+2025-12-29 16:45:31.015 [info] > git blame --root --incremental b0ed27253a733ebc2aeb6ac6cff86a20d477fc19 -- iam-policies/transbordo-action-group-policy.json [1ms] 
+2025-12-29 16:46:20.639 [info] > git show --textconv :iam-policies/verificar-cadastro-policy.json [7ms]
+2025-12-29 16:46:20.639 [info] > git ls-files --stage -- iam-policies/verificar-cadastro-policy.json [1ms] 
+2025-12-29 16:46:20.645 [info] > git cat-file -s c0f907b582dd8ca792b4e01c97f1458e6cb82c11 [1ms] 
+2025-12-29 16:46:20.963 [info] > git blame --root --incremental b0ed27253a733ebc2aeb6ac6cff86a20d477fc19 -- iam-policies/verificar-cadastro-policy.json [1ms] 
+2025-12-29 16:46:52.551 [info] > git show --textconv :iam-policies/verificar-motorista-action-group-policy.json [8ms]
+2025-12-29 16:46:52.551 [info] > git ls-files --stage -- iam-policies/verificar-motorista-action-group-policy.json [1ms] 
+2025-12-29 16:46:52.557 [info] > git cat-file -s 330fcb4b7413ec8cffbc14b9a8fa82a6748477ad [1ms] 
+2025-12-29 16:46:52.965 [info] > git blame --root --incremental b0ed27253a733ebc2aeb6ac6cff86a20d477fc19 -- iam-policies/verificar-motorista-action-group-policy.json [2ms] 
+2025-12-29 16:46:54.855 [info] > git rev-parse --show-toplevel [1ms] 
+2025-12-29 16:47:07.973 [info] > git show --textconv :iam-policies/verificar-tipo-veiculo-permitido-action-group-policy.json [8ms]
+2025-12-29 16:47:07.974 [info] > git ls-files --stage -- iam-policies/verificar-tipo-veiculo-permitido-action-group-policy.json [1ms] 
+2025-12-29 16:47:07.979 [info] > git cat-file -s 8e9c0681b0bf907fe4be5a42c178e86a9f4e3283 [0ms] 
+2025-12-29 16:47:07.989 [info] > git blame --root --incremental b0ed27253a733ebc2aeb6ac6cff86a20d477fc19 -- iam-policies/verificar-tipo-veiculo-permitido-action-group-policy.json [1ms] 
+2025-12-29 16:47:32.598 [info] > git show --textconv :iam-policies/verificar-veiculo-action-group-policy.json [8ms]
+2025-12-29 16:47:32.599 [info] > git ls-files --stage -- iam-policies/verificar-veiculo-action-group-policy.json [2ms] 
+2025-12-29 16:47:32.606 [info] > git cat-file -s 54e9f26c3c327065135419beb39298744f1e29c6 [1ms] 
+2025-12-29 16:47:32.811 [info] > git blame --root --incremental b0ed27253a733ebc2aeb6ac6cff86a20d477fc19 -- iam-policies/verificar-veiculo-action-group-policy.json [2ms] 
+2025-12-29 16:47:54.737 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [6ms] 
+2025-12-29 16:47:54.738 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 16:51:54.864 [info] > git rev-parse --show-toplevel [1ms] 
+2025-12-29 16:52:54.737 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [6ms] 
+2025-12-29 16:52:54.738 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 16:56:54.867 [info] > git rev-parse --show-toplevel [3ms] 
+2025-12-29 16:57:54.739 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 16:57:54.741 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [9ms] 
+2025-12-29 17:01:54.855 [info] > git rev-parse --show-toplevel [1ms] 
+2025-12-29 17:01:57.485 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [6ms] 
+2025-12-29 17:01:57.485 [info] > git rev-parse --abbrev-ref HEAD [0ms] (GitProvider.getCurrentBranch)
+2025-12-29 17:06:54.855 [info] > git rev-parse --show-toplevel [1ms] 
+2025-12-29 17:07:54.739 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [7ms] 
+2025-12-29 17:07:54.739 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 17:11:54.864 [info] > git rev-parse --show-toplevel [9ms] 
+2025-12-29 17:12:54.736 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [5ms] 
+2025-12-29 17:12:54.737 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 17:16:54.867 [info] > git rev-parse --show-toplevel [9ms] 
+2025-12-29 17:17:54.738 [info] > git rev-parse --abbrev-ref HEAD [0ms] (GitProvider.getCurrentBranch)
+2025-12-29 17:17:54.741 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [9ms] 
+2025-12-29 17:21:54.855 [info] > git rev-parse --show-toplevel [1ms] 
+2025-12-29 17:21:57.495 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [6ms] 
+2025-12-29 17:21:57.495 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 17:26:54.854 [info] > git rev-parse --show-toplevel [0ms] 
+2025-12-29 17:27:54.745 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 17:27:54.745 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [6ms] 
+2025-12-29 17:31:54.854 [info] > git rev-parse --show-toplevel [0ms] 
+2025-12-29 17:32:54.738 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [7ms] 
+2025-12-29 17:32:54.738 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 17:36:54.854 [info] > git rev-parse --show-toplevel [0ms] 
+2025-12-29 17:37:54.736 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [5ms] 
+2025-12-29 17:37:54.737 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 17:41:54.855 [info] > git rev-parse --show-toplevel [1ms] 
+2025-12-29 17:41:57.485 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [5ms] 
+2025-12-29 17:41:57.485 [info] > git rev-parse --abbrev-ref HEAD [0ms] (GitProvider.getCurrentBranch)
+2025-12-29 17:46:54.855 [info] > git rev-parse --show-toplevel [1ms] 
+2025-12-29 17:47:54.736 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [5ms] 
+2025-12-29 17:47:54.736 [info] > git rev-parse --abbrev-ref HEAD [0ms] (GitProvider.getCurrentBranch)
+2025-12-29 17:51:54.855 [info] > git rev-parse --show-toplevel [1ms] 
+2025-12-29 17:52:54.738 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [7ms] 
+2025-12-29 17:52:54.738 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 17:54:08.382 [info] > git config --get commit.template [2ms] 
+2025-12-29 17:54:08.393 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms] 
+2025-12-29 17:54:08.409 [info] > git status -z -uall [7ms]
+2025-12-29 17:54:08.410 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms] 
+2025-12-29 17:54:08.440 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 17:54:08.939 [info] > git rev-parse --show-toplevel [0ms] 
+2025-12-29 17:55:18.950 [info] > git check-ignore -v -z --stdin [1ms]
+2025-12-29 17:56:54.856 [info] > git rev-parse --show-toplevel [0ms] 
+2025-12-29 17:57:54.737 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [6ms] 
+2025-12-29 17:57:54.737 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 17:58:33.736 [info] > git config --get commit.template [5ms] 
+2025-12-29 17:58:33.737 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [0ms] 
+2025-12-29 17:58:33.748 [info] > git status -z -uall [6ms]
+2025-12-29 17:58:33.749 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms] 
+2025-12-29 18:01:54.855 [info] > git rev-parse --show-toplevel [1ms] 
+2025-12-29 18:01:57.488 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [7ms] 
+2025-12-29 18:01:57.488 [info] > git rev-parse --abbrev-ref HEAD [0ms] (GitProvider.getCurrentBranch)
+2025-12-29 18:06:54.864 [info] > git rev-parse --show-toplevel [1ms] 
+2025-12-29 18:07:54.736 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [5ms] 
+2025-12-29 18:07:54.737 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 18:11:54.868 [info] > git rev-parse --show-toplevel [2ms] 
+2025-12-29 18:12:54.741 [info] > git rev-parse --abbrev-ref HEAD [2ms] (GitProvider.getCurrentBranch)
+2025-12-29 18:12:54.742 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [9ms] 
+2025-12-29 18:16:54.866 [info] > git rev-parse --show-toplevel [10ms] 
+2025-12-29 18:17:54.745 [info] > git rev-parse --abbrev-ref HEAD [2ms] (GitProvider.getCurrentBranch)
+2025-12-29 18:17:54.745 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [10ms] 
+2025-12-29 18:21:54.858 [info] > git rev-parse --show-toplevel [1ms] 
+2025-12-29 18:21:57.491 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [8ms] 
+2025-12-29 18:21:57.491 [info] > git rev-parse --abbrev-ref HEAD [0ms] (GitProvider.getCurrentBranch)
+2025-12-29 18:26:54.868 [info] > git rev-parse --show-toplevel [3ms] 
+2025-12-29 18:27:54.753 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [9ms] 
+2025-12-29 18:27:54.754 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 18:31:54.857 [info] > git rev-parse --show-toplevel [1ms] 
+2025-12-29 18:32:54.742 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [9ms] 
+2025-12-29 18:32:54.742 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 18:36:54.856 [info] > git rev-parse --show-toplevel [0ms] 
+2025-12-29 18:37:54.755 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [9ms] 
+2025-12-29 18:37:54.755 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 18:41:54.873 [info] > git rev-parse --show-toplevel [2ms] 
+2025-12-29 18:41:57.501 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [9ms] 
+2025-12-29 18:41:57.502 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 18:46:54.868 [info] > git rev-parse --show-toplevel [10ms] 
+2025-12-29 18:47:54.741 [info] > git rev-parse --abbrev-ref HEAD [1ms] (GitProvider.getCurrentBranch)
+2025-12-29 18:47:54.742 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [10ms] 
+2025-12-29 18:49:18.803 [info] > git config --get commit.template [3ms] 
+2025-12-29 18:49:18.826 [info] > git ls-files --stage -- iam-policies/verificar-veiculo-action-group-policy.json [12ms] 
+2025-12-29 18:49:18.837 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms] 
+2025-12-29 18:49:18.837 [info] > git cat-file -s 54e9f26c3c327065135419beb39298744f1e29c6 [1ms] 
+2025-12-29 18:49:18.858 [info] > git status -z -uall [10ms]
+2025-12-29 18:49:18.870 [info] > git show --textconv :iam-policies/verificar-veiculo-action-group-policy.json [2ms]
+2025-12-29 18:49:18.870 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [12ms] 
+2025-12-29 18:49:18.903 [info] > git merge-base refs/heads/main refs/remotes/origin/main [1ms] 
+2025-12-29 18:49:18.914 [info] > git blame --root --incremental 7fab1c4ba5235c0101ef6e91be52a7b070abf19f -- iam-policies/verificar-veiculo-action-group-policy.json [22ms] 
+2025-12-29 18:49:18.926 [info] > git diff --name-status -z --diff-filter=ADMR 7fab1c4ba5235c0101ef6e91be52a7b070abf19f...refs/remotes/origin/main [13ms] 
+2025-12-29 18:49:18.928 [info] > git rev-parse --abbrev-ref HEAD [3ms] (GitProvider.getCurrentBranch)

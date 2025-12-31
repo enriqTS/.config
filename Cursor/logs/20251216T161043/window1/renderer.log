@@ -1,0 +1,171 @@
+2025-12-16 16:10:44.674 [warning] Missing property "cppConfig" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-16 16:10:44.675 [warning] Missing property "rpcFileLoggerFolder" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-16 16:10:44.677 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-16 16:10:44.677 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-copilot-data-analysis' wants API proposal 'chatVariableResolver' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-16 16:10:44.678 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-16 16:10:44.678 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-python-envs' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-16 16:10:44.678 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatReadonlyPromptReference' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-16 16:10:44.678 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-16 16:10:44.678 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-16 16:10:44.679 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-16 16:10:44.679 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-16 16:10:45.043 [info] Started local extension host with pid 23418.
+2025-12-16 16:10:45.375 [info] [WorktreeCleanupCron] Registering cleanup task with interval of 6 hours
+2025-12-16 16:10:45.375 [info] [WorktreeCleanupCron] Cleanup task registered with interval of 6 hours (21600000ms)
+2025-12-16 16:10:45.925 [info] [LocalProcessExtensionHost] getDefaultShell result: /usr/bin/fish
+2025-12-16 16:10:45.926 [info] [LocalProcessExtensionHost] Final userTerminalHint: /usr/bin/fish
+2025-12-16 16:10:46.297 [error] [Extension Host] (node:23418) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-12-16 16:10:47.486 [info] [Debug] Registered command palette action: debug.getApplicationProperty
+2025-12-16 16:10:47.486 [info] [Debug] Registered command palette action: debug.logComposer
+2025-12-16 16:10:47.486 [info] [Debug] Registered command palette action: debug.getContextKeyValue
+2025-12-16 16:10:47.486 [info] [Debug] Registered command palette action: debug.testLinearIssues
+2025-12-16 16:10:47.495 [info] OpenInBrowserWatcher: Initializing terminal log watcher
+2025-12-16 16:10:47.519 [info] [Cursor Proclist Polling] Local collection disabled by config
+2025-12-16 16:10:47.959 [info] [perf] Render performance baseline is 21ms
+2025-12-16 16:10:48.067 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:6409:410319)
+    at async Object.availableModels (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:565:79961)
+    at async PDo.keepCppModelStateUpdated (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:9015:16111)
+    at async PDo.loadCppConfigIncludingHandlingProAccess (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:9025:1259) [unauthenticated] Error
+2025-12-16 16:10:48.068 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:6409:410319)
+    at async Object.getEmail (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:565:79961)
+    at async ELs.getEmailAndSignUpType (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8900:836) [unauthenticated] Error
+2025-12-16 16:10:48.075 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:6409:410319)
+    at async Object.getUserPrivacyMode (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:565:79961)
+    at async ELs.fetchUserPrivacyMode (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:11797)
+    at async ELs.refreshPrivacyMode (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8899:11454) [unauthenticated] Error
+2025-12-16 16:10:48.076 [error] Error fetching user privacy mode: [unauthenticated] Error
+2025-12-16 16:10:48.099 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:6409:410319)
+    at async Object.getEmail (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:565:79961)
+    at async ELs.getEmailAndSignUpType (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8900:836) [unauthenticated] Error
+2025-12-16 16:10:48.126 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:6409:410319)
+    at async Object.getDefaultModelNudgeData (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:565:79961)
+    at async Mlo.performDefaultModelRequest (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:7074:7787) [unauthenticated] Error
+2025-12-16 16:10:48.134 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:6409:410319)
+    at async Object.availableDocs (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:565:79961)
+    at async Mlo.availableDocs (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:7074:3800)
+    at async vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:9047:90595 [unauthenticated] Error
+2025-12-16 16:10:48.403 [info] [Cursor Proclist] Local collection enabled by dynamic config change
+2025-12-16 16:10:48.417 [info] [ShellExec] Created session 07fc0319-9e8d-44eb-be6c-833d855b8b26 on LocalProcess host
+2025-12-16 16:10:48.418 [info] [Cursor Proclist Polling] Started polling (every 5 min)
+2025-12-16 16:10:58.493 [info] Starting polling for manual login link
+2025-12-16 16:10:58.993 [info] Manual login polling iteration
+2025-12-16 16:10:59.493 [info] Manual login polling iteration
+2025-12-16 16:10:59.993 [info] Manual login polling iteration
+2025-12-16 16:11:00.493 [info] Manual login polling iteration
+2025-12-16 16:11:00.994 [info] Manual login polling iteration
+2025-12-16 16:11:01.494 [info] Manual login polling iteration
+2025-12-16 16:11:01.994 [info] Manual login polling iteration
+2025-12-16 16:11:02.495 [info] Manual login polling iteration
+2025-12-16 16:11:02.993 [info] Manual login polling iteration
+2025-12-16 16:11:03.494 [info] Manual login polling iteration
+2025-12-16 16:11:03.993 [info] Manual login polling iteration
+2025-12-16 16:11:04.493 [info] Manual login polling iteration
+2025-12-16 16:11:04.994 [info] Manual login polling iteration
+2025-12-16 16:11:05.494 [info] Manual login polling iteration
+2025-12-16 16:11:05.994 [info] Manual login polling iteration
+2025-12-16 16:11:06.494 [info] Manual login polling iteration
+2025-12-16 16:11:06.994 [info] Manual login polling iteration
+2025-12-16 16:11:07.494 [info] Manual login polling iteration
+2025-12-16 16:11:07.994 [info] Manual login polling iteration
+2025-12-16 16:11:08.494 [info] Manual login polling iteration
+2025-12-16 16:11:08.993 [info] Manual login polling iteration
+2025-12-16 16:11:09.494 [info] Manual login polling iteration
+2025-12-16 16:11:09.994 [info] Manual login polling iteration
+2025-12-16 16:11:10.494 [info] Manual login polling iteration
+2025-12-16 16:11:10.994 [info] Manual login polling iteration
+2025-12-16 16:11:11.494 [info] Manual login polling iteration
+2025-12-16 16:11:11.994 [info] Manual login polling iteration
+2025-12-16 16:11:12.495 [info] Manual login polling iteration
+2025-12-16 16:11:12.995 [info] Manual login polling iteration
+2025-12-16 16:11:13.493 [info] Manual login polling iteration
+2025-12-16 16:11:13.994 [info] Manual login polling iteration
+2025-12-16 16:11:14.250 [info] [Extensions]: Checking for updates. Reason: Product update
+2025-12-16 16:11:14.493 [info] Manual login polling iteration
+2025-12-16 16:11:14.995 [info] Manual login polling iteration
+2025-12-16 16:11:15.495 [info] Manual login polling iteration
+2025-12-16 16:11:15.995 [info] Manual login polling iteration
+2025-12-16 16:11:16.495 [info] Manual login polling iteration
+2025-12-16 16:11:16.994 [info] Manual login polling iteration
+2025-12-16 16:11:17.494 [info] Manual login polling iteration
+2025-12-16 16:11:17.994 [info] Manual login polling iteration
+2025-12-16 16:11:18.494 [info] Manual login polling iteration
+2025-12-16 16:11:18.995 [info] Manual login polling iteration
+2025-12-16 16:11:19.495 [info] Manual login polling iteration
+2025-12-16 16:11:19.995 [info] Manual login polling iteration
+2025-12-16 16:11:20.495 [info] Manual login polling iteration
+2025-12-16 16:11:20.995 [info] Manual login polling iteration
+2025-12-16 16:11:21.495 [info] Manual login polling iteration
+2025-12-16 16:11:21.993 [info] Manual login polling iteration
+2025-12-16 16:11:22.495 [info] Manual login polling iteration
+2025-12-16 16:11:22.997 [info] Manual login polling iteration
+2025-12-16 16:11:23.495 [info] Manual login polling iteration
+2025-12-16 16:11:23.995 [info] Manual login polling iteration
+2025-12-16 16:11:24.493 [info] Manual login polling iteration
+2025-12-16 16:11:24.994 [info] Manual login polling iteration
+2025-12-16 16:11:25.494 [info] Manual login polling iteration
+2025-12-16 16:11:25.993 [info] Manual login polling iteration
+2025-12-16 16:11:26.494 [info] Manual login polling iteration
+2025-12-16 16:11:26.994 [info] Manual login polling iteration
+2025-12-16 16:11:27.493 [info] Manual login polling iteration
+2025-12-16 16:11:27.994 [info] Manual login polling iteration
+2025-12-16 16:11:28.494 [info] Manual login polling iteration
+2025-12-16 16:11:28.994 [info] Manual login polling iteration
+2025-12-16 16:11:29.494 [info] Manual login polling iteration
+2025-12-16 16:11:29.995 [info] Manual login polling iteration
+2025-12-16 16:11:30.495 [info] Manual login polling iteration
+2025-12-16 16:11:30.995 [info] Manual login polling iteration
+2025-12-16 16:11:31.495 [info] Manual login polling iteration
+2025-12-16 16:11:31.994 [info] Manual login polling iteration
+2025-12-16 16:11:32.493 [info] Manual login polling iteration
+2025-12-16 16:11:32.993 [info] Manual login polling iteration
+2025-12-16 16:11:33.493 [info] Manual login polling iteration
+2025-12-16 16:11:33.994 [info] Manual login polling iteration
+2025-12-16 16:11:34.494 [info] Manual login polling iteration
+2025-12-16 16:11:34.994 [info] Manual login polling iteration
+2025-12-16 16:11:35.495 [info] Manual login polling iteration
+2025-12-16 16:11:35.994 [info] Manual login polling iteration
+2025-12-16 16:11:36.495 [info] Manual login polling iteration
+2025-12-16 16:11:36.995 [info] Manual login polling iteration
+2025-12-16 16:11:37.494 [info] Manual login polling iteration
+2025-12-16 16:11:37.994 [info] Manual login polling iteration
+2025-12-16 16:11:38.495 [info] Manual login polling iteration
+2025-12-16 16:11:38.994 [info] Manual login polling iteration
+2025-12-16 16:11:39.495 [info] Manual login polling iteration
+2025-12-16 16:11:39.993 [info] Manual login polling iteration
+2025-12-16 16:11:40.494 [info] Manual login polling iteration
+2025-12-16 16:11:40.994 [info] Manual login polling iteration
+2025-12-16 16:11:41.493 [info] Manual login polling iteration
+2025-12-16 16:11:41.994 [info] Manual login polling iteration
+2025-12-16 16:11:42.493 [info] Manual login polling iteration
+2025-12-16 16:11:42.995 [info] Manual login polling iteration
+2025-12-16 16:11:43.495 [info] Manual login polling iteration
+2025-12-16 16:11:43.994 [info] Manual login polling iteration
+2025-12-16 16:11:44.495 [info] Manual login polling iteration
+2025-12-16 16:11:44.995 [info] Manual login polling iteration
+2025-12-16 16:11:45.494 [info] Manual login polling iteration
+2025-12-16 16:11:45.995 [info] Manual login polling iteration
+2025-12-16 16:11:46.494 [info] Manual login polling iteration
+2025-12-16 16:11:46.994 [info] Manual login polling iteration
+2025-12-16 16:11:47.494 [info] Manual login polling iteration
+2025-12-16 16:11:47.994 [info] Manual login polling iteration
+2025-12-16 16:11:48.494 [info] Manual login polling iteration
+2025-12-16 16:11:48.993 [info] Manual login polling iteration
+2025-12-16 16:11:49.494 [info] Manual login polling iteration
+2025-12-16 16:11:49.994 [info] Manual login polling iteration
+2025-12-16 16:11:50.494 [info] Manual login polling iteration
+2025-12-16 16:11:58.942 [error] command 'workbench.action.installCommandLine' not found: Error: command 'workbench.action.installCommandLine' not found
+    at Voo._tryExecuteCommand (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:7007:3012)
+    at Voo.executeCommand (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:7007:2576)
+    at async T (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8979:9737) command 'workbench.action.installCommandLine' not found
+2025-12-16 16:12:09.240 [error] command 'workbench.action.installCommandLine' not found: Error: command 'workbench.action.installCommandLine' not found
+    at Voo._tryExecuteCommand (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:7007:3012)
+    at Voo.executeCommand (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:7007:2576)
+    at async T (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:8979:9737) command 'workbench.action.installCommandLine' not found
+2025-12-16 16:15:00.000 [info] [Cursor Proclist Polling] Stopped polling

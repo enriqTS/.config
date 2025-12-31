@@ -1,0 +1,77 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "ab794c19fedb1627b03a00ad16493031d91610ffd32bf0d51dbedd5a5feab6b8",
+    "telemetry.devDeviceId": "862390c5-72f7-46ce-a63c-1cd96a888a9a",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/henrique/upd8/Rodosafra%20IA"
+            },
+            {
+                "folderUri": "file:///home/henrique/upd8/Docly/poc-docly-doc-analise"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/henrique/upd8/Rodosafra%20IA": "__default__profile__",
+            "file:///home/henrique/upd8/Docly/poc-docly-doc-analise": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#181818",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "rgba(228, 228, 228, 0.92)",
+            "background": "#181818",
+            "editorBackground": "#181818",
+            "titleBarBackground": "#141414",
+            "titleBarBorder": "rgba(228, 228, 228, 0.07)",
+            "activityBarBackground": "#141414",
+            "sideBarBackground": "#141414",
+            "sideBarBorder": "rgba(228, 228, 228, 0.07)",
+            "statusBarBackground": "#141414",
+            "statusBarBorder": "rgba(228, 228, 228, 0.07)",
+            "statusBarNoFolderBackground": "#141414"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 0,
+            "sideBarWidth": 281,
+            "auxiliarySideBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/henrique/upd8/Rodosafra%20IA",
+            "backupPath": "/home/henrique/.config/Cursor/Backups/7afae7f3d5651ceb149d5a21520fa60a",
+            "uiState": {
+                "mode": 0,
+                "x": 0,
+                "y": 0,
+                "width": 1280,
+                "height": 1035
+            }
+        },
+        "openedWindows": []
+    },
+    "telemetry.macMachineId": "8d092c7677f55b2ee450ade6a1d98e8bdd9f83c63b62da74c69bf89ffdcbab08",
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "auxiliarySideBarWidth": [
+                508,
+                []
+            ]
+        }
+    }
+}

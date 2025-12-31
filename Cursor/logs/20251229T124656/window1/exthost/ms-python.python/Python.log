@@ -1,0 +1,16 @@
+2025-12-29 14:05:35.056 [warning] Dir "/home/henrique/upd8/Docly/poc-docly-doc-analise/.pixi/envs" is not watchable (directory does not exist)
+2025-12-29 14:05:35.056 [info] Starting Environment refresh
+2025-12-29 14:05:35.056 [info] Starting Environment refresh
+2025-12-29 14:05:35.056 [info] > hatch env show --json
+2025-12-29 14:05:35.056 [info] cwd: .
+2025-12-29 14:05:35.056 [info] > conda info --json
+2025-12-29 14:05:35.066 [info] Environments refresh finished (event): 115 milliseconds
+2025-12-29 14:05:35.066 [info] Environments refresh paths discovered: 115 milliseconds
+2025-12-29 14:05:35.066 [info] Environments refresh finished (event): 114 milliseconds
+2025-12-29 14:05:35.066 [info] Environments refresh paths discovered: 114 milliseconds
+2025-12-29 14:05:35.067 [info] Environment refresh took 116 milliseconds
+2025-12-29 14:05:35.067 [info] Environment refresh took 116 milliseconds
+2025-12-29 14:05:35.074 [info] > pyenv which python
+2025-12-29 14:05:35.074 [info] cwd: .
+2025-12-29 14:05:35.081 [info] Python interpreter path: /bin/python
+2025-12-29 14:05:35.083 [info] Editor support is inactive since language server is set to None.

@@ -1,0 +1,69 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+      {
+          "Sid": "DynamoDBAccess",
+          "Effect": "Allow",
+          "Action": [
+              "dynamodb:BatchGetItem",
+              "dynamodb:BatchWriteItem",
+              "dynamodb:ConditionCheckItem",
+              "dynamodb:PutItem",
+              "dynamodb:GetItem",
+              "dynamodb:Scan",
+              "dynamodb:Query",
+              "dynamodb:UpdateItem"
+          ],
+          "Resource": "arn:aws:dynamodb:*:700308877414:table/*"
+      },
+      {
+          "Sid": "LambdaInvokeAccess",
+          "Effect": "Allow",
+          "Action": [
+              "lambda:InvokeFunction",
+              "lambda:InvokeAsync"
+          ],
+          "Resource": [
+              "arn:aws:lambda:*:700308877414:function/*",
+              "arn:aws:lambda:us-east-1:700308877414:function:chatbot"
+          ]
+      },
+      {
+          "Sid": "SSMParameterStoreAccess",
+          "Effect": "Allow",
+          "Action": [
+              "ssm:GetParameter",
+              "ssm:GetParameters",
+              "ssm:GetParametersByPath"
+          ],
+          "Resource": "arn:aws:ssm:*:700308877414:parameter/*"
+      },
+      {
+          "Sid": "ECSAccess",
+          "Effect": "Allow",
+          "Action": [
+              "ecs:ListTasks",
+              "ecs:DescribeServices",
+              "ecs:DescribeTasks",
+              "ecs:DescribeClusters"
+          ],
+          "Resource": "*"
+      },
+      {
+          "Sid": "EC2NetworkAccess",
+          "Effect": "Allow",
+          "Action": "ec2:DescribeNetworkInterfaces",
+          "Resource": "*"
+      },
+      {
+          "Sid": "CloudWatchLogsAccess",
+          "Effect": "Allow",
+          "Action": [
+              "logs:CreateLogStream",
+              "logs:CreateLogGroup",
+              "logs:PutLogEvents"
+          ],
+          "Resource": "arn:aws:logs:*:700308877414:*"
+      }
+  ]
+}

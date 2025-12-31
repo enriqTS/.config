@@ -1,0 +1,58 @@
+[Info  - 13:47:52] AWS CloudFormation launched from /home/henrique/.cache/aws/toolkits/language-servers/cloudformation-languageserver/1.2.0/cloudformation-languageserver-1.2.0-linux-x64-node22
+[Info  - 13:47:52] AWS CloudFormation is now listening...
+[01:47:52 PM] INFO: [Init] AWS CloudFormation initializing...
+    ClientInfo: {
+      "name": "Cursor",
+      "version": "1.105.1"
+    }
+    NodeEnv: "production"
+    AwsEnv: "prod"
+    aws: {
+      "clientInfo": {
+        "extension": {
+          "name": "amazonwebservices.cloudformation",
+          "version": "1.0.0"
+        },
+        "clientId": "11111111-1111-1111-1111-111111111111"
+      },
+      "telemetryEnabled": false
+    }
+[01:47:52 PM] INFO: [Init] 
+    Machine: "Linux-linux-x64-x86_64-6.18.2-2-cachyos"
+    Process: "linux-x64"
+    Runtime: "node=22.19.0 v8=13.8.258.32-electron.0 uv=1.51.0 modules=136"
+[01:47:52 PM] INFO: [TelemetryService] Telemetry disabled
+[01:47:52 PM] INFO: [LMDB.Global] Initialized LMDB v5 with stores: ['public_schemas', 'sam_schemas'] and 11.9727 MB
+    path: "/home/henrique/.cache/aws/toolkits/language-servers/cloudformation-languageserver/1.2.0/cloudformation-languageserver-1.2.0-linux-x64-node22/.aws-cfn-storage/lmdb/v5"
+    maxDbs: 10
+    mapSize: 262144000
+    encoding: "msgpack"
+[01:47:52 PM] INFO: [AwsCredentials] AWS credentials encrypted
+[01:47:52 PM] INFO: [RuleConfiguration] Rule pack configuration updated
+[01:47:52 PM] INFO: [GuardService] Loading rules from 1 rule packs: cis-aws-benchmark-level-1
+[01:47:52 PM] INFO: [FeatureFlagProvider] Feature flags:
+DynamicFeatureFlag(StaticFeatureFlag(feature=Constants, enabled=false))
+DynamicTargetedFeatureFlag(StaticFeatureFlag(feature=EnhancedDryRun, enabled=true), LocalHostTargetedFeatureFlag(enabled=true, fleet=FleetTargetedFeatureFlag(feature=EnhancedDryRun, percentage=100)), StaticFeatureFlag(feature=EnhancedDryRun, enabled=true), RegionAllowlistFeatureFlag(feature=EnhancedDryRun, regions=[us-east-1, us-east-2, us-west-1, us-west-2, ca-central-1, ca-west-1, sa-east-1, eu-north-1, eu-west-1, eu-west-2, eu-west-3, eu-central-1, eu-central-2, eu-south-1, eu-south-2, ap-east-1, ap-south-1, ap-south-2, ap-northeast-1, ap-northeast-2, ap-northeast-3, ap-southeast-1, ap-southeast-2, ap-southeast-3, ap-southeast-4, me-south-1, me-central-1, af-south-1, il-central-1]))
+[01:47:52 PM] INFO: [CfnServer] Setting up LSP handlers...
+[01:47:53 PM] INFO: [GuardService] Loading rules from 1 rule packs: cis-aws-benchmark-level-1
+[01:47:53 PM] INFO: [Init] AWS CloudFormation initialized
+[01:47:53 PM] INFO: [GetPrivateSchemasTask] 0 private schemas retrieved
+[Info  - 13:47:53] Registered for configuration changes
+[Info  - 13:47:53] Registered for workspace changes
+[01:47:53 PM] INFO: [SettingsManager] Settings updated: {profile: {profile: 'rodosafra'}}
+[01:47:53 PM] INFO: [SettingsManager] Settings updated: {
+	diagnostics: {
+		cfnLint: {includeChecks: {'0': 'I'}},
+		cfnGuard: {
+			enabledRulePacks: {'0': 'wa-Security-Pillar'},
+			rulesFile: ''
+		}
+	},
+	editor: {tabSize: 4}
+}
+[01:47:53 PM] INFO: [RuleConfiguration] Rule pack configuration updated
+[01:47:53 PM] INFO: [GuardService] Loading rules from 1 rule packs: wa-Security-Pillar
+[01:47:53 PM] INFO: [PyodideWorkerManager] Loading worker from: /home/henrique/.cache/aws/toolkits/language-servers/cloudformation-languageserver/1.2.0/cloudformation-languageserver-1.2.0-linux-x64-node22/pyodide-worker.js
+[01:47:53 PM] INFO: [GetPrivateSchemasTask] 0 private schemas retrieved
+[01:47:53 PM] INFO: [GetPrivateSchemasTask] 0 private schemas retrieved
+AWS CloudFormation shutting down...

@@ -1,0 +1,1 @@
+{"git.autoRepositoryDetection":"openEditors","git.detectSubmodules":false,"workbench.editorAssociations":{"{git,gitlens,conflictResolution,vscode-local-history}:/**/*.tc.json":"default","{git,gitlens,conflictResolution,vscode-local-history}:/**/*.{asl.json,asl.yaml,asl.yml}":"default"},"python.languageServer":"None","python.analysis.typeCheckingMode":"off"}

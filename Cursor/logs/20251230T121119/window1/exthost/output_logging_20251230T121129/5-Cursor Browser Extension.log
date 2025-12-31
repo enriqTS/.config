@@ -1,0 +1,10 @@
+[2025-12-30T15:11:32.831Z] [INFO] [general] Activating Cursor Browser Extension MCP Provider
+[2025-12-30T15:11:32.831Z] [INFO] [general] Initializing Playwright Browser Tools
+[2025-12-30T15:11:32.864Z] [INFO] [general] Using configuration: {"connectionType":"default"}
+[2025-12-30T15:11:32.864Z] [INFO] [general] Using workspace storage directory: /home/henrique/.config/Cursor/User/workspaceStorage/5b44e7b4a0fe7f86f938cc478a352804/anysphere.cursor-browser-extension/browser-session
+[2025-12-30T15:11:32.865Z] [INFO] [general] Playwright Browser Tools initialized successfully
+[2025-12-30T15:11:32.865Z] [INFO] [general] Cursor Browser Extension MCP Provider initialized successfully
+[2025-12-30T15:11:32.865Z] [INFO] [general] Cursor Browser Extension MCP Provider registered successfully
+[2025-12-30T15:11:33.254Z] [INFO] [general] Listing available browser tools
+[2025-12-30T15:20:04.413Z] [INFO] [general] Deactivating Cursor Browser Extension MCP Provider
+[2025-12-30T15:20:04.452Z] [INFO] [general] Playwright MCP Provider disposed

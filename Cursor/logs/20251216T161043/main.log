@@ -1,0 +1,11 @@
+2025-12-16 16:10:44.031 [info] [CursorProclistService] Native module loaded successfully
+2025-12-16 16:10:44.067 [info] updateURL https://api2.cursor.sh/updates/api/update/linux-x64/cursor/2.1.50/ab794c19fedb1627b03a00ad16493031d91610ffd32bf0d51dbedd5a5feab6b8/stable
+2025-12-16 16:10:44.067 [info] update#setState idle
+2025-12-16 16:10:47.309 [warning] [BrowserViewMainService] Cannot execute JavaScript: browser view not created for window 1
+2025-12-16 16:10:48.404 [info] [CursorProclistService] Config enabled feature (subsample every 10s)
+2025-12-16 16:11:14.069 [info] update#setState checking for updates
+2025-12-16 16:11:14.217 [info] update#setState available for download
+2025-12-16 16:14:59.951 [warning] [BrowserViewMainService] Cannot flush storage data: browser view not created for window 1
+2025-12-16 16:14:59.962 [warning] [BrowserViewMainService] Cannot set visibility: browser view not created for window 1
+2025-12-16 16:14:59.976 [info] Extension host with pid 23418 exited with code: 0, signal: unknown.
+2025-12-16 16:15:00.046 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 23391]: crashed with code 15 and reason 'killed'

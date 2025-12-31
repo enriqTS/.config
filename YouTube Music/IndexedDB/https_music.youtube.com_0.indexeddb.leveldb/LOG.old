@@ -1,0 +1,21 @@
+2025/12/30-07:57:39.263 1147 Reusing MANIFEST /home/henrique/.config/YouTube Music/IndexedDB/https_music.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/12/30-07:57:39.263 1147 Recovering log #26
+2025/12/30-07:57:39.268 1147 Reusing old log /home/henrique/.config/YouTube Music/IndexedDB/https_music.youtube.com_0.indexeddb.leveldb/000026.log 
+2025/12/30-11:11:02.954 1130 Level-0 table #31: started
+2025/12/30-11:11:02.977 1130 Level-0 table #31: 2416641 bytes OK
+2025/12/30-11:11:02.988 1130 Delete type=0 #26
+2025/12/30-11:27:58.339 1130 Compacting 1@1 + 1@2 files
+2025/12/30-11:27:58.357 1130 Generated table #32@1: 837 keys, 29736 bytes
+2025/12/30-11:27:58.358 1130 Compacted 1@1 + 1@2 files => 29736 bytes
+2025/12/30-11:27:58.369 1130 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/12/30-11:27:58.369 1130 Delete type=2 #28
+2025/12/30-11:27:58.369 1130 Delete type=2 #31
+2025/12/30-19:29:00.155 1143 Level-0 table #34: started
+2025/12/30-19:29:00.177 1143 Level-0 table #34: 2701753 bytes OK
+2025/12/30-19:29:00.188 1143 Delete type=0 #30
+2025/12/30-20:47:40.562 1130 Compacting 1@1 + 1@2 files
+2025/12/30-20:47:40.581 1130 Generated table #35@1: 1206 keys, 45510 bytes
+2025/12/30-20:47:40.581 1130 Compacted 1@1 + 1@2 files => 45510 bytes
+2025/12/30-20:47:40.592 1130 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/12/30-20:47:40.592 1130 Delete type=2 #32
+2025/12/30-20:47:40.592 1130 Delete type=2 #34
