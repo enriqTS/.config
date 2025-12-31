@@ -1,0 +1,2 @@
+# .config
+Linux dot files
