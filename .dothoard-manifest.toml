@@ -16,3 +16,7 @@ ignore = []
 [[sources]]
 path = ".config/nvim"
 ignore = []
+
+[[sources]]
+path = ".config/fish"
+ignore = []
