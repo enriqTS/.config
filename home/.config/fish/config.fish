@@ -31,3 +31,8 @@ if status is-interactive
         alias ssh 'kitten ssh'
     end
 end
+
+# Added by LM Studio CLI (lms)
+set -gx PATH $PATH /home/henrique/.lmstudio/bin
+# End of LM Studio CLI section
+

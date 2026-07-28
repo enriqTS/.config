@@ -15,3 +15,8 @@ if [[ "$TERM" == "xterm-kitty" ]]; then
 fi
 
 unsetopt CORRECT_ALL
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/home/henrique/.lmstudio/bin"
+# End of LM Studio CLI section
+
