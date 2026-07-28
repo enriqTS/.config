@@ -20,3 +20,7 @@ ignore = []
 [[sources]]
 path = ".config/fish"
 ignore = []
+
+[[sources]]
+path = ".config/kitty"
+ignore = []
