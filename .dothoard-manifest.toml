@@ -24,3 +24,7 @@ ignore = []
 [[sources]]
 path = ".config/kitty"
 ignore = []
+
+[[sources]]
+path = ".config/quickshell"
+ignore = []
