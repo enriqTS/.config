@@ -1,0 +1,7 @@
+format = "dothoard-manifest"
+version = 2
+namespace = "desktop"
+
+[[sources]]
+path = ".config/fish"
+ignore = []
