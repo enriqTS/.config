@@ -1,10 +1,44 @@
 -- MONITOR CONFIG
 hl.monitor({
-    output = "eDP-1",
+    output = "DP-5", -- Ultrawide, left
     mode = "preferred",
-    position = "auto",
+    position = "0x0",
+    scale = 1
+})
+hl.monitor({
+    output = "HDMI-A-1", -- Main
+    mode = "preferred",
+    position = "2560x0",
+    scale = 1
+})
+hl.monitor({
+    output = "eDP-1", -- Internal, not in use
+    mode = "preferred",
+    position = "4480x0",
     scale = 1.333333333
 })
+-- Workspaces 1-10 locked to main monitor
+hl.workspace_rule({ workspace = "1", monitor = "HDMI-A-1", default = true })
+hl.workspace_rule({ workspace = "2", monitor = "HDMI-A-1" })
+hl.workspace_rule({ workspace = "3", monitor = "HDMI-A-1" })
+hl.workspace_rule({ workspace = "4", monitor = "HDMI-A-1" })
+hl.workspace_rule({ workspace = "5", monitor = "HDMI-A-1" })
+hl.workspace_rule({ workspace = "6", monitor = "HDMI-A-1" })
+hl.workspace_rule({ workspace = "7", monitor = "HDMI-A-1" })
+hl.workspace_rule({ workspace = "8", monitor = "HDMI-A-1" })
+hl.workspace_rule({ workspace = "9", monitor = "HDMI-A-1" })
+hl.workspace_rule({ workspace = "10", monitor = "HDMI-A-1" })
+-- Workspaces 11-20 locked to ultrawide
+hl.workspace_rule({ workspace = "11", monitor = "DP-5" })
+hl.workspace_rule({ workspace = "12", monitor = "DP-5" })
+hl.workspace_rule({ workspace = "13", monitor = "DP-5" })
+hl.workspace_rule({ workspace = "14", monitor = "DP-5" })
+hl.workspace_rule({ workspace = "15", monitor = "DP-5" })
+hl.workspace_rule({ workspace = "16", monitor = "DP-5" })
+hl.workspace_rule({ workspace = "17", monitor = "DP-5" })
+hl.workspace_rule({ workspace = "18", monitor = "DP-5" })
+hl.workspace_rule({ workspace = "19", monitor = "DP-5" })
+hl.workspace_rule({ workspace = "20", monitor = "DP-5" })
 
 hl.gesture({
     fingers = 3,
