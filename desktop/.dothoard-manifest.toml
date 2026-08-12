@@ -5,3 +5,7 @@ namespace = "desktop"
 [[sources]]
 path = ".config/fish"
 ignore = []
+
+[[sources]]
+path = ".config/hypr"
+ignore = []
