@@ -1,0 +1,31 @@
+format = "dothoard-manifest"
+version = 2
+namespace = "notebook"
+
+[[sources]]
+path = ".bashrc"
+ignore = []
+
+[[sources]]
+path = ".zshrc"
+ignore = []
+
+[[sources]]
+path = ".config/hypr"
+ignore = []
+
+[[sources]]
+path = ".config/nvim"
+ignore = []
+
+[[sources]]
+path = ".config/fish"
+ignore = []
+
+[[sources]]
+path = ".config/kitty"
+ignore = []
+
+[[sources]]
+path = ".config/quickshell"
+ignore = []
