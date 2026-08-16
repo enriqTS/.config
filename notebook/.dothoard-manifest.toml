@@ -29,3 +29,11 @@ ignore = []
 [[sources]]
 path = ".config/quickshell"
 ignore = []
+
+[[sources]]
+path = ".config/noctalia"
+ignore = []
+
+[[sources]]
+path = ".config/fastfetch"
+ignore = []
