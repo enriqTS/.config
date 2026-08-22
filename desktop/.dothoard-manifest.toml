@@ -9,3 +9,27 @@ ignore = []
 [[sources]]
 path = ".config/hypr"
 ignore = []
+
+[[sources]]
+path = ".config/nvim"
+ignore = []
+
+[[sources]]
+path = ".config/fastfetch"
+ignore = []
+
+[[sources]]
+path = ".config/kitty"
+ignore = []
+
+[[sources]]
+path = ".config/noctalia"
+ignore = []
+
+[[sources]]
+path = ".config/opencode"
+ignore = []
+
+[[sources]]
+path = ".config/autostart"
+ignore = []

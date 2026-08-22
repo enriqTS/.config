@@ -1,0 +1,34 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "provider": {
+    "ollama": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "Ollama",
+      "options": {
+        "baseURL": "http://localhost:11434/v1"
+      },
+      "models": {
+        "qwen3.8": {
+          "name": "Qwen 3.8 (27B) - coding",
+          "reasoning": true,
+          "tool_call": true,
+          "limit": { "context": 65536, "output": 8192 },
+          "options": { "reasoningEffort": "medium" }
+        },
+        "gemma4:e2b": {
+          "name": "Gemma 4 E2B (fast)",
+          "reasoning": false,
+          "tool_call": true,
+          "limit": { "context": 65536, "output": 8192 }
+        },
+        "lfm2.5": {
+          "name": "LFM 2.5 8B (fast)",
+          "reasoning": true,
+          "tool_call": true,
+          "limit": { "context": 65536, "output": 8192 },
+          "options": { "reasoningEffort": "medium" }
+        }
+      }
+    }
+  }
+}
