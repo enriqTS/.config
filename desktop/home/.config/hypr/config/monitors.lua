@@ -8,15 +8,15 @@
 -- })
 
 hl.monitor({
-    output    = MONITOR1,
-    mode      = "1920x1080@144",
-    position  = "0x0",
-    scale     = "auto",
+	output = MONITOR1,
+	mode = "1920x1080@144",
+	position = "0x0",
+	scale = "auto",
 })
 
 hl.monitor({
-    output    = MONITOR2,
-    mode      = "2560x1080@75",
-    position  = "-2560x0",
-    scale     = "auto",
+	output = MONITOR2,
+	mode = "2560x1080@75",
+	position = "-2560x0",
+	scale = "auto",
 })
