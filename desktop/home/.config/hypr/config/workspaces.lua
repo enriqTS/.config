@@ -2,7 +2,7 @@
 -- Add your workspace rules here. Increment the workspace number as you go. Do not have duplicate workspaces.
 hl.workspace_rule({ workspace = "name:gaming", monitor = PRIMARY_MONITOR })
 
--- Main monitor (DP-3): workspaces 1-10
+-- Main monitor (DP-2): workspaces 1-10
 hl.workspace_rule({ workspace = "1", monitor = MONITOR1, default = true, persistent = true })
 hl.workspace_rule({ workspace = "2", monitor = MONITOR1, default = true, persistent = true })
 hl.workspace_rule({ workspace = "3", monitor = MONITOR1, default = true, persistent = true })
@@ -14,7 +14,7 @@ hl.workspace_rule({ workspace = "8", monitor = MONITOR1, default = true, persist
 hl.workspace_rule({ workspace = "9", monitor = MONITOR1, default = true, persistent = true })
 hl.workspace_rule({ workspace = "10", monitor = MONITOR1, default = true, persistent = true })
 
--- Secondary ultrawide (DP-2): workspaces 11-20
+-- Secondary ultrawide (DP-3): workspaces 11-20
 hl.workspace_rule({ workspace = "11", monitor = MONITOR2, default = true, persistent = true })
 hl.workspace_rule({ workspace = "12", monitor = MONITOR2, default = true, persistent = true })
 hl.workspace_rule({ workspace = "13", monitor = MONITOR2, default = true, persistent = true })

@@ -7,8 +7,8 @@ EDITOR       = "code"
 CALCULATOR   = "gnome-calculator"
 
 -- Monitors
-MONITOR1 = "DP-3" -- main (1920x1080@144)
-MONITOR2 = "DP-2" -- secondary ultrawide (2560x1080@75, left)
+MONITOR1 = "DP-2" -- main (1920x1080@144)
+MONITOR2 = "DP-3" -- secondary ultrawide (2560x1080@75, left)
 MONITOR3 = ""
 PRIMARY_MONITOR = MONITOR1
 
