@@ -1,6 +1,6 @@
 -- Hyprland default apps
 
-TERMINAL     = "env GTK_IM_MODULE=gtk-im-context-simple ghostty"
+TERMINAL     = "ghostty"
 FILE_MANAGER = "dolphin"
 BROWSER      = "zen-browser"
 EDITOR       = "code"
